@@ -1,7 +1,7 @@
 # My_studing
 task_offloading
 
-## P2TS 代码复现（最小可运行版）
+## P2TS 代码复现(最小可运行版)
 
 根据仓库中的论文 `P2TS_A_Preemptive_Approach_for_Priority-Aware_Task_Scheduling_in_Computing_Power_Networks.pdf`，
 已在 `p2ts.py` 中复现执行层核心机制（P2M）的关键逻辑：
@@ -14,6 +14,6 @@ task_offloading
 ### 运行测试
 
 ```bash
-cd /home/runner/work/My_studing/My_studing
+# 在仓库根目录执行
 python -m unittest -v
 ```
