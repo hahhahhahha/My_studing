@@ -32,6 +32,7 @@ class RunningTask:
     task_id: str
     remaining_compute_delay: float  # D_rem^comp
     left_delay: float  # D_left
+    priority_score: float = 0.0  # priority at the time the task was scheduled
 
 
 @dataclass
@@ -100,10 +101,20 @@ def preemptive_evaluation(
     cq_tasks_desc_priority: Sequence[QueueTask],
     pz_task: Optional[RunningTask],
     sz_task: Optional[RunningTask] = None,
+    *,
+    current_slot: int = 0,
+    weights: Optional[PriorityWeights] = None,
 ) -> PreemptionResult:
     """
     Reproduces Algorithm 1 decision flow in Section IV-B for one CPN node.
     Input CQ must already be ordered from highest to lowest priority.
+
+    ``current_slot`` and ``weights`` are used to identify *uncertain tasks*:
+    only CQ tasks whose execution priority is strictly greater than the target
+    task's ``priority_score`` qualify (Algorithm 1, lines 4 and 23).  When
+    ``weights`` is ``None`` every CQ task is treated as an uncertain task,
+    preserving backward-compatible behaviour for callers that do not yet track
+    per-task priority scores.
     """
     regular_ids = [t.task_id for t in cq_tasks_desc_priority]
     if pz_task is None or not cq_tasks_desc_priority:
@@ -111,13 +122,30 @@ def preemptive_evaluation(
 
     preemptive_ids: List[str] = []
 
+    # --- Identify uncertain tasks (Algorithm 1, lines 4 / 23) ---
+    # CQ tasks with priority strictly higher than the target task are the only
+    # candidates that may preempt the target.  Tasks that do NOT qualify are
+    # kept as regular tasks and are never inserted into preemptive_ids.
+    if weights is not None:
+        target_priority = pz_task.priority_score if sz_task is None else sz_task.priority_score
+        uncertain_tasks = [
+            t for t in cq_tasks_desc_priority
+            if execution_priority(t, current_slot, weights) > target_priority
+        ]
+    else:
+        uncertain_tasks = list(cq_tasks_desc_priority)
+
+    # Tasks that are not uncertain remain regular regardless of the outcome.
+    uncertain_ids = {t.task_id for t in uncertain_tasks}
+    always_regular = [t.task_id for t in cq_tasks_desc_priority if t.task_id not in uncertain_ids]
+
     if sz_task is None:
         # Situation A: target is task -2 in PZ.
-        for i, uncertain in enumerate(cq_tasks_desc_priority, start=1):
+        for i, uncertain in enumerate(uncertain_tasks, start=1):
             if _upsilon_a(
-                uncertain.left_delay, i, pz_task.remaining_compute_delay, cq_tasks_desc_priority
+                uncertain.left_delay, i, pz_task.remaining_compute_delay, uncertain_tasks
             ) >= 0:
-                regular_from_here = [t.task_id for t in cq_tasks_desc_priority[i - 1 :]]
+                regular_from_here = [t.task_id for t in uncertain_tasks[i - 1 :]] + always_regular
                 return PreemptionResult(
                     preemptive_ids,
                     regular_from_here,
@@ -127,7 +155,7 @@ def preemptive_evaluation(
                 )
 
             if _upsilon_a(
-                pz_task.left_delay, i, pz_task.remaining_compute_delay, cq_tasks_desc_priority
+                pz_task.left_delay, i, pz_task.remaining_compute_delay, uncertain_tasks
             ) >= 0:
                 preemptive_ids.append(uncertain.task_id)
             else:
@@ -140,18 +168,18 @@ def preemptive_evaluation(
                     "A",
                 )
 
-        return PreemptionResult(preemptive_ids, [], False, pz_task.task_id, "A")
+        return PreemptionResult(preemptive_ids, always_regular, False, pz_task.task_id, "A")
 
     # Situation B: target is task -1 in SZ, task -2 in PZ is not preempted.
-    for i, uncertain in enumerate(cq_tasks_desc_priority, start=1):
+    for i, uncertain in enumerate(uncertain_tasks, start=1):
         if _upsilon_b(
             uncertain.left_delay,
             i,
             pz_task.remaining_compute_delay,
             sz_task.remaining_compute_delay,
-            cq_tasks_desc_priority,
+            uncertain_tasks,
         ) >= 0:
-            regular_from_here = [t.task_id for t in cq_tasks_desc_priority[i - 1 :]]
+            regular_from_here = [t.task_id for t in uncertain_tasks[i - 1 :]] + always_regular
             return PreemptionResult(
                 preemptive_ids,
                 regular_from_here,
@@ -165,7 +193,7 @@ def preemptive_evaluation(
             i,
             pz_task.remaining_compute_delay,
             sz_task.remaining_compute_delay,
-            cq_tasks_desc_priority,
+            uncertain_tasks,
         ) >= 0:
             preemptive_ids.append(uncertain.task_id)
         else:
@@ -177,7 +205,7 @@ def preemptive_evaluation(
                 "B",
             )
 
-    return PreemptionResult(preemptive_ids, [], False, sz_task.task_id, "B")
+    return PreemptionResult(preemptive_ids, always_regular, False, sz_task.task_id, "B")
 
 
 def execution_order_after_evaluation(
