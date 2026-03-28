@@ -11,6 +11,16 @@ from p2ts import (
     reorder_cq_by_priority,
 )
 
+try:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    MATPLOTLIB_AVAILABLE = True
+except Exception:
+    MATPLOTLIB_AVAILABLE = False
+
 # Shared weights used across most tests.
 _W = PriorityWeights(0.25, 0.25, 0.25, 0.25)
 
@@ -131,6 +141,28 @@ class P2TSTests(unittest.TestCase):
                 situation="none",
             ),
         )
+
+    @unittest.skipUnless(MATPLOTLIB_AVAILABLE, "matplotlib is required for visualization test")
+    def test_visualize_priority_curve(self) -> None:
+        task = QueueTask(
+            task_id="viz",
+            task_type_score=0.6,
+            tolerable_delay=10.0,
+            compute_delay=2.0,
+            arrival_slot=0,
+            left_delay=10.0,
+        )
+        slots = list(range(0, 6))
+        priorities = [execution_priority(task, current_slot=s, weights=_W) for s in slots]
+        print("priority over slots:", list(zip(slots, priorities)))
+
+        fig, ax = plt.subplots()
+        ax.plot(slots, priorities, marker="o")
+        ax.set_title("P2TS execution priority over slots")
+        ax.set_xlabel("current_slot")
+        ax.set_ylabel("priority")
+        plt.close(fig)
+        self.assertEqual(len(priorities), 6)
 
 
 if __name__ == "__main__":

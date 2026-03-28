@@ -2,9 +2,30 @@ import unittest
 
 import numpy as np
 
-from p2td3 import P2TD3Agent, ReplayBuffer
+try:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    MATPLOTLIB_AVAILABLE = True
+except Exception:
+    MATPLOTLIB_AVAILABLE = False
+
+try:
+    from p2td3 import P2TD3Agent, ReplayBuffer
+
+    TORCH_AVAILABLE = True
+except ModuleNotFoundError as exc:
+    if "torch" in str(exc):
+        TORCH_AVAILABLE = False
+        P2TD3Agent = None
+        ReplayBuffer = None
+    else:
+        raise
 
 
+@unittest.skipUnless(TORCH_AVAILABLE, "torch is required for p2td3 tests")
 class P2TD3Tests(unittest.TestCase):
     def test_replay_buffer_add_and_sample(self) -> None:
         buf = ReplayBuffer(capacity=16)
@@ -48,6 +69,26 @@ class P2TD3Tests(unittest.TestCase):
         self.assertIn("critic1_loss", stats)
         self.assertIn("critic2_loss", stats)
         self.assertIn("actor_loss", stats)
+
+    @unittest.skipUnless(MATPLOTLIB_AVAILABLE, "matplotlib is required for visualization test")
+    def test_visualize_action_distribution(self) -> None:
+        np.random.seed(0)
+        agent = P2TD3Agent(state_dim=3, action_dim=2, hidden_dim=32)
+        states = [np.random.randn(3).astype(np.float32) for _ in range(10)]
+        action0_values = []
+        for s in states:
+            action = agent.select_action(s)
+            action0_values.append(float(action[0]))
+
+        print("action[0] trajectory:", action0_values)
+
+        fig, ax = plt.subplots()
+        ax.plot(range(1, len(action0_values) + 1), action0_values, marker="o")
+        ax.set_title("P2TD3 action[0] trajectory")
+        ax.set_xlabel("Sample number")
+        ax.set_ylabel("action[0]")
+        plt.close(fig)
+        self.assertEqual(len(action0_values), 10)
 
 
 if __name__ == "__main__":
