@@ -29,8 +29,16 @@ class NodeState:
     sz: Optional[RunningTask]
 
 
+@dataclass
+class TransferItem:
+    task: QueueTask
+    src_node: int
+    dst_node: int
+    remaining_size: float
+
+
 class P2MEnvironment:
-    """A lightweight Gym-like wrapper around P2M-style scheduling logic."""
+    """A Gym-like wrapper around P2M scheduling with transfer-queue modeling."""
 
     def __init__(
         self,
@@ -39,6 +47,8 @@ class P2MEnvironment:
         priority_weights: PriorityWeights,
         reward_weights: RewardWeights,
         arrivals_by_slot: Optional[Sequence[Sequence[QueueTask]]] = None,
+        arrivals_source_by_slot: Optional[Sequence[Sequence[int]]] = None,
+        transfer_size_by_task: Optional[Dict[str, float]] = None,
     ) -> None:
         if num_nodes <= 0:
             raise ValueError("num_nodes must be positive")
@@ -52,14 +62,23 @@ class P2MEnvironment:
         self.priority_weights = priority_weights
         self.reward_weights = reward_weights
         self.arrivals_by_slot = [list(slot) for slot in (arrivals_by_slot or [])]
+        self.arrivals_source_by_slot = [list(slot) for slot in (arrivals_source_by_slot or [])]
+        self.transfer_size_by_task = dict(transfer_size_by_task or {})
 
         self.current_slot = 0
         self.nodes: List[NodeState] = []
+        self.link_queues: Dict[Tuple[int, int], List[TransferItem]] = {}
         self._task_meta: Dict[str, QueueTask] = {}
 
     def reset(self) -> Tuple[Dict[str, object], Dict[str, object]]:
         self.current_slot = 0
         self.nodes = [NodeState(aq=[], cq=[], pz=None, sz=None) for _ in range(self.num_nodes)]
+        self.link_queues = {
+            (src, dst): []
+            for src in range(self.num_nodes)
+            for dst in range(self.num_nodes)
+            if src != dst
+        }
         self._task_meta = {}
         return self._build_state(), {}
 
@@ -69,12 +88,26 @@ class P2MEnvironment:
 
         incoming = self.arrivals_by_slot[self.current_slot] if self.current_slot < len(self.arrivals_by_slot) else []
         assignments = self._decode_action(action, len(incoming))
+        source_nodes = self._resolve_source_nodes(self.current_slot, len(incoming))
 
-        for task, node_idx in zip(incoming, assignments):
+        for task, source_node, target_node in zip(incoming, source_nodes, assignments):
             task.arrival_slot = self.current_slot
             task.left_delay = task.tolerable_delay
             self._task_meta[task.task_id] = task
-            self.nodes[node_idx].aq.append(task)
+            if source_node == target_node:
+                self.nodes[target_node].aq.append(task)
+            else:
+                transfer_size = self.transfer_size_by_task.get(task.task_id, 1.0)
+                if transfer_size <= 0:
+                    raise ValueError("transfer size must be positive")
+                self.link_queues[(source_node, target_node)].append(
+                    TransferItem(
+                        task=task,
+                        src_node=source_node,
+                        dst_node=target_node,
+                        remaining_size=float(transfer_size),
+                    )
+                )
 
         completed_ids: List[str] = []
         dropped_ids: List[str] = []
@@ -83,6 +116,9 @@ class P2MEnvironment:
             comp, drop = self._advance_node(node)
             completed_ids.extend(comp)
             dropped_ids.extend(drop)
+
+        transferred_ids, transfer_dropped = self._advance_transfers()
+        dropped_ids.extend(transfer_dropped)
 
         success_rate = self._success_rate(completed_ids, dropped_ids)
         avg_delay = self._average_delay(completed_ids)
@@ -103,17 +139,17 @@ class P2MEnvironment:
             "W": load_variance,
             "completed_task_ids": completed_ids,
             "dropped_task_ids": dropped_ids,
+            "transferred_task_ids": transferred_ids,
         }
         return self._build_state(), reward, done, info
 
     def _decode_action(self, action: Sequence[object], n_tasks: int) -> List[int]:
         if n_tasks == 0:
             return []
-        if len(action) != n_tasks:
-            raise ValueError("action length must match number of incoming AQ tasks")
 
+        normalized_actions = self._normalize_batch(action, n_tasks, default=0)
         assignments: List[int] = []
-        for a in action:
+        for a in normalized_actions:
             if isinstance(a, int):
                 node_idx = a
             else:
@@ -126,6 +162,35 @@ class P2MEnvironment:
                 raise ValueError("assigned node index out of range")
             assignments.append(node_idx)
         return assignments
+
+    def _normalize_batch(self, values: Sequence[object], n_tasks: int, default: object) -> List[object]:
+        if n_tasks == 0:
+            return []
+        if not values:
+            return [default for _ in range(n_tasks)]
+        if len(values) == n_tasks:
+            return list(values)
+        if len(values) == 1:
+            return [values[0] for _ in range(n_tasks)]
+        if len(values) < n_tasks:
+            return [values[i % len(values)] for i in range(n_tasks)]
+        return list(values[:n_tasks])
+
+    def _resolve_source_nodes(self, slot: int, n_tasks: int) -> List[int]:
+        if n_tasks == 0:
+            return []
+
+        if slot < len(self.arrivals_source_by_slot):
+            provided = self.arrivals_source_by_slot[slot]
+            normalized = self._normalize_batch(provided, n_tasks, default=0)
+            source_nodes = [int(x) for x in normalized]
+        else:
+            source_nodes = [(slot + i) % self.num_nodes for i in range(n_tasks)]
+
+        for n in source_nodes:
+            if n < 0 or n >= self.num_nodes:
+                raise ValueError("source node index out of range")
+        return source_nodes
 
     def _advance_node(self, node: NodeState) -> Tuple[List[str], List[str]]:
         completed_ids: List[str] = []
@@ -208,6 +273,42 @@ class P2MEnvironment:
 
         return completed_ids, dropped_ids
 
+    def _advance_transfers(self) -> Tuple[List[str], List[str]]:
+        transferred_ids: List[str] = []
+        dropped_ids: List[str] = []
+
+        for (src, dst), queue in self.link_queues.items():
+            if not queue:
+                continue
+
+            for item in queue:
+                item.task.left_delay -= 1.0
+
+            alive_queue: List[TransferItem] = []
+            for item in queue:
+                if item.task.left_delay < 0:
+                    dropped_ids.append(item.task.task_id)
+                else:
+                    alive_queue.append(item)
+            queue[:] = alive_queue
+
+            bandwidth = float(self.bandwidth_matrix[src][dst])
+            if bandwidth <= 0:
+                continue
+
+            while queue and bandwidth > 0:
+                head = queue[0]
+                sent = min(head.remaining_size, bandwidth)
+                head.remaining_size -= sent
+                bandwidth -= sent
+
+                if head.remaining_size <= 1e-12:
+                    delivered = queue.pop(0)
+                    self.nodes[dst].aq.append(delivered.task)
+                    transferred_ids.append(delivered.task.task_id)
+
+        return transferred_ids, dropped_ids
+
     @staticmethod
     def _pop_cq_task(cq: List[QueueTask], task_id: str) -> Optional[QueueTask]:
         for i, t in enumerate(cq):
@@ -224,7 +325,7 @@ class P2MEnvironment:
     def _average_delay(self, completed_ids: Sequence[str]) -> float:
         if not completed_ids:
             return 0.0
-        completion_slot = self.current_slot + 1  # step() completes one slot of execution before accounting delay
+        completion_slot = self.current_slot + 1  # current slot index starts at 0, so end-of-slot completion time is (current_slot + 1)
         delays: List[float] = []
         for tid in completed_ids:
             meta = self._task_meta.get(tid)
@@ -241,9 +342,23 @@ class P2MEnvironment:
         return float(pvariance(loads)) if loads else 0.0
 
     def _system_empty(self) -> bool:
-        return all(not node.aq and not node.cq and node.pz is None and node.sz is None for node in self.nodes)
+        nodes_empty = all(not node.aq and not node.cq and node.pz is None and node.sz is None for node in self.nodes)
+        links_empty = all(not q for q in self.link_queues.values())
+        return nodes_empty and links_empty
 
     def _build_state(self) -> Dict[str, object]:
+        link_state = []
+        for (src, dst), queue in self.link_queues.items():
+            link_state.append(
+                {
+                    "src": src,
+                    "dst": dst,
+                    "bandwidth": float(self.bandwidth_matrix[src][dst]),
+                    "queue_task_ids": [item.task.task_id for item in queue],
+                    "queue_remaining_sizes": [item.remaining_size for item in queue],
+                }
+            )
+
         return {
             "time_slot": self.current_slot,
             "bandwidth": [list(row) for row in self.bandwidth_matrix],
@@ -256,4 +371,5 @@ class P2MEnvironment:
                 }
                 for node in self.nodes
             ],
+            "links": link_state,
         }
