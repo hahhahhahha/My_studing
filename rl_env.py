@@ -335,10 +335,12 @@ class P2MEnvironment:
         return sum(delays) / len(delays) if delays else 0.0
 
     def _load_variance(self) -> float:
-        loads = [
-            len(node.aq) + len(node.cq) + (1 if node.pz is not None else 0) + (1 if node.sz is not None else 0)
-            for node in self.nodes
-        ]
+        loads = []
+        for node in self.nodes:
+            cq_load = sum(t.compute_delay for t in node.cq)
+            pz_load = node.pz.remaining_compute_delay if node.pz is not None else 0.0
+            sz_load = node.sz.remaining_compute_delay if node.sz is not None else 0.0
+            loads.append(float(cq_load + pz_load + sz_load))
         return float(pvariance(loads)) if loads else 0.0
 
     def _system_empty(self) -> bool:

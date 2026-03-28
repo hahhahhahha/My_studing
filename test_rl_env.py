@@ -1,4 +1,5 @@
 import unittest
+from statistics import pvariance
 
 from p2ts import PriorityWeights, QueueTask
 from rl_env import P2MEnvironment, RewardWeights
@@ -114,6 +115,26 @@ class RLEnvironmentTests(unittest.TestCase):
 
         node1_ids = self._node_task_ids(state["nodes"][1])
         self.assertTrue(any(tid in node1_ids for tid in ["t1", "t2", "t3"]))
+
+    def test_load_variance_uses_remaining_compute_workload_not_task_count(self) -> None:
+        heavy = QueueTask("heavy", 0.6, 20.0, 5.0, 0, 20.0)
+        env = P2MEnvironment(
+            num_nodes=2,
+            bandwidth_matrix=[[1.0, 1.0], [1.0, 1.0]],
+            priority_weights=PriorityWeights(0.4, 0.2, 0.2, 0.2),
+            reward_weights=RewardWeights(0.0, 0.0, 1.0),
+            arrivals_by_slot=[[heavy]],
+            arrivals_source_by_slot=[[0]],
+        )
+        env.reset()
+        _, _, _, info1 = env.step([0])
+
+        # After one slot:
+        # node0 runs the only task, remaining compute workload = 4.0
+        # node1 has no workload = 0.0
+        # W should be variance of workloads, not variance of task counts.
+        expected_w = pvariance([4.0, 0.0])
+        self.assertAlmostEqual(info1["W"], expected_w)
 
 
 if __name__ == "__main__":
