@@ -224,12 +224,13 @@ class P2MEnvironment:
     def _average_delay(self, completed_ids: Sequence[str]) -> float:
         if not completed_ids:
             return 0.0
+        completion_slot = self.current_slot + 1  # step() completes one slot of execution before accounting delay
         delays: List[float] = []
         for tid in completed_ids:
             meta = self._task_meta.get(tid)
             if meta is None:
                 continue
-            delays.append(float(self.current_slot + 1 - meta.arrival_slot))
+            delays.append(float(completion_slot - meta.arrival_slot))
         return sum(delays) / len(delays) if delays else 0.0
 
     def _load_variance(self) -> float:

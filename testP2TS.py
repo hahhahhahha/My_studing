@@ -93,10 +93,10 @@ class P2TSTests(unittest.TestCase):
         # q_low:  priority ≈ 0.1, equal to the target's score → excluded from
         #         uncertain-task evaluation and must stay as a regular task.
         q_high = QueueTask("q_high", 0.9, 10.0, 1.0, 0, 2.0)
-        q_low  = QueueTask("q_low",  0.1, 10.0, 5.0, 0, 2.0)
+        q_low = QueueTask("q_low", 0.1, 10.0, 5.0, 0, 2.0)
 
         p_high = execution_priority(q_high, current_slot=0, weights=_W)  # ≈ 0.5
-        p_low  = execution_priority(q_low,  current_slot=0, weights=_W)  # ≈ 0.1
+        p_low = execution_priority(q_low, current_slot=0, weights=_W)  # ≈ 0.1
         self.assertGreater(p_high, p_low)
 
         # Target (PZ) priority_score equals q_low's priority, so only q_high
