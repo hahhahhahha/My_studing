@@ -4,6 +4,16 @@ from statistics import pvariance
 from p2ts import PriorityWeights, QueueTask
 from rl_env import P2MEnvironment, RewardWeights
 
+try:
+    import matplotlib
+
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+
+    MATPLOTLIB_AVAILABLE = True
+except Exception:
+    MATPLOTLIB_AVAILABLE = False
+
 
 class RLEnvironmentTests(unittest.TestCase):
     @staticmethod
@@ -135,6 +145,39 @@ class RLEnvironmentTests(unittest.TestCase):
         # W should be variance of workloads, not variance of task counts.
         expected_w = pvariance([4.0, 0.0])
         self.assertAlmostEqual(info1["W"], expected_w)
+
+    @unittest.skipUnless(MATPLOTLIB_AVAILABLE, "matplotlib is required for visualization test")
+    def test_visualize_w_over_slots(self) -> None:
+        heavy = QueueTask("heavy", 0.6, 20.0, 5.0, 0, 20.0)
+        env = P2MEnvironment(
+            num_nodes=2,
+            bandwidth_matrix=[[1.0, 1.0], [1.0, 1.0]],
+            priority_weights=PriorityWeights(0.4, 0.2, 0.2, 0.2),
+            reward_weights=RewardWeights(0.0, 0.0, 1.0),
+            arrivals_by_slot=[[heavy]],
+            arrivals_source_by_slot=[[0]],
+        )
+        env.reset()
+        w_values = []
+        slots = []
+        done = False
+        slot = 0
+        while not done:
+            _, _, done, info = env.step([0] if slot == 0 else [])
+            slots.append(slot + 1)
+            w_values.append(info["W"])
+            slot += 1
+
+        print("W over slots:", list(zip(slots, w_values)))
+
+        fig, ax = plt.subplots()
+        ax.plot(slots, w_values, marker="o")
+        ax.set_title("Load Variance W over Slots")
+        ax.set_xlabel("Slot")
+        ax.set_ylabel("W")
+        plt.close(fig)
+
+        self.assertGreaterEqual(len(w_values), 1)
 
 
 if __name__ == "__main__":
