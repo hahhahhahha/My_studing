@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-12T16:04:49.5553134+08:00",
+  "scope": "Author AST-only additive scale-reduction check; not independent verdict, plan preparation, resource readiness or actual model smoke",
+  "AST_parse": true,
+  "visual_changed_function_ASTs_vs_original": ["source_lock", "worker"],
+  "visual_bootstrap_and_SMOKE_SETTINGS_assignments_also_changed": true,
+  "visual_decisions_per_arm": 8,
+  "visual_users": 30,
+  "visual_fixed_drain_seconds": 30,
+  "reward_train_slots_per_arm": 32,
+  "reward_validation_slots_per_arm": 8,
+  "new_source_files_sha256": {
+    "visual_model_smoke_small.py": "5c8028fbde9a2b7b706ef1acc8b12f3f46d8da5eb24256cfd2f32884418c2d9d",
+    "reward_smoke_small.py": "353b3f95f433185e64b4dd4edf633ed91682ac50e8d46a8de8a21142016de0d3",
+    "README_SMALL_SMOKE_中文.md": "0817961b23f84a6e8056fd77b62f3a460b535e5c2fc06d5c31f5dcd41f1eb484",
+    "USER_REQUEST.json": "577575609ff2939258aeacc5b8efbc0931a799c5b5c05b1fc044d0c54e576415"
+  },
+  "preserved_byte_anchors_verified": {
+    "original_visual_model_smoke.py": "1fe79512edac9023cce2dcffee063aba5891f14c34f12c2a0518a82e8bf31059",
+    "043949_RESULT.json": "9fc61040fca578c2308bb841c59a834bcc81c9d8a58970fd0b2168893ee4d963",
+    "043949_SMOKE_CANDIDATE_PLAN.json": "4871dc429bb7d2bdb96f22aaae2beccbeaa6921325aaaedce302f356c9014baa",
+    "reward_followup_v2.py": "8090e9de0271156a4ee7d14558630b4f9c4329e5dac98b036cafd63271fba63f",
+    "reward_followup.py": "b3351e64ac522664d2cfed3f796560be36e0066311ce25504385ac8a4c853917"
+  },
+  "Torch_imported_by_author_static_check": false,
+  "actual_model_or_optimizer_or_roundtrip_or_formal_calls": 0,
+  "new_plan_or_smoke_preparation_executed": false,
+  "independent_review_status": "PENDING_new_scope",
+  "Chrome_seen_in_latest_UI_or_native_process_list": false,
+  "Chrome_closed_by_agent": false,
+  "GPU_occupancy_only_snapshot_MiB": 1212,
+  "original_GPU_gate_passed": false,
+  "other_application_normal_exit_authority": "pending user selection",
+  "no_other_app_kills_or_driver_resets_or_global_installs": true
+}

@@ -1,0 +1,19 @@
+{
+  "dataset": "KAIST",
+  "distribution": "poisson_bursty",
+  "role": "train",
+  "seed": 1,
+  "n_steps": 32,
+  "n_trace_slots": 1516,
+  "split_start": 0,
+  "split_length": 897,
+  "guard": 10,
+  "n_users": 30,
+  "n_edges": 35,
+  "max_requests": 7,
+  "poisson_lambda": 3.5,
+  "burst_prob": 0.1,
+  "burst_multiplier": 2.0,
+  "schedule_id": "KAIST_poisson_bursty_train_s1_81206bb67e683bb9",
+  "content_sha256": "3e05a1bf94fcb884bcc7fdae65eb998bb5f2d0634832e6f9bd367999d9ad583e"
+}

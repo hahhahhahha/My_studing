@@ -1,0 +1,11 @@
+# 作者另一次字节哈希复核：不是独立Type-A审计
+
+在自检后用PowerShell逐项读取RESULT.json中的389份保护文件及3份新增文件，以Get-FileHash重新计算SHA256，零不符。这里只读取原始文件字节；未解析测试计时、导入Torch、创建模型或运行策略。计数输出首次用了PowerShell属性集合的`.Count`，显示为逐属性的1列表；随后用集合数组总计纠正显示为389／3，没有修改检查报告。
+
+RESULT.json SHA256：`a50abf2342c950172e6fd1737063190a0569ef945ce3a979e56893821d59bd74`。
+
+EXPLICIT_ARTIFICIAL_120_DESCRIPTOR_CONTRACT.json SHA256：`5ed5b3e11b47955b9374cae64d472d46f95998641f27774b75b7f253cbad2e3e`。
+
+原1000张保留图片元数据身份SHA256：`d3a541a89dd4c225d87c0004d2af59c68aad32871701318771d4963b98af04c3`。
+
+本检查是元数据身份与人工合同描述保护，不是实际120个测试、策略／训练结果、实际日程生成、协议冻结或独立复审PASS。原源审查FAIL及GPU／网络／pilot阻断仍保留。更新交接状态前的四份mutable文件位于MUTABLE_STATUS_BEFORE，原证据不覆盖。

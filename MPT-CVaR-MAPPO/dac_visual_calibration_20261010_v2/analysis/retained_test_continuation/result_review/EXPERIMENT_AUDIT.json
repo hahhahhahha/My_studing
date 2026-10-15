@@ -1,0 +1,560 @@
+{
+  "date": "2026-10-10",
+  "reviewed_at_local": "2026-10-10T23:31:34+08:00",
+  "auditor": "Fresh independent Type-A reviewer",
+  "review_type": "Type-A independent same-family agent review",
+  "cross_family_type_b_certification": false,
+  "overall_verdict": "WARN",
+  "record_integrity_status": "PASS",
+  "frozen_six_metric_acceptance": "PASS",
+  "confirmation_six_metric_acceptance": "PASS",
+  "new_measurement_rows": 23200,
+  "measurement_and_frozen_numeric_workflow_complete": true,
+  "final_state_changed": false,
+  "blocking_findings": [],
+  "primary_path_base": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261010_v2",
+  "checks": {
+    "A_target_provenance": {
+      "status": "PASS",
+      "details": "Actual recorded perf_counter_ns service measurements, not model-generated ground truth. Independently rebuilt 20,000 original V1 calibration rows into the exact frozen 10,000 paired image-session records. Reconstructed all 1,000 test neighbor sets using only input covariates; no test timing used in model fit.",
+      "evidence": [
+        "scripts/measure_block.py:46",
+        "scripts/measure_block.py:64",
+        "scripts/runner.py:194",
+        "scripts/runner.py:106",
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:123"
+      ]
+    },
+    "B_score_normalization": {
+      "status": "PASS",
+      "details": "All raw milliseconds retained. Relative-error denominator is measured statistic; no prediction-statistic or reference-drift normalization. Six original mean/P95/P99 tolerances remain 10%/15%/20%. Quantile implementation caveat W1 does not change acceptance.",
+      "evidence": [
+        "scripts/runner.py:411",
+        "scripts/runner.py:428",
+        "protocol/PLAN.json:24622",
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:151"
+      ]
+    },
+    "C_result_existence": {
+      "status": "WARN",
+      "details": "23,200 rows and 170 jobs verified from originals; full CSV matches every raw field and order; PDF vector bars/12 labels and visual PNG agree with independently rebuilt metrics. Test/validation results and all 500-draw CI endpoints agree. RUN_STATUS remains stale and test prose has inherited confirmation-weighting wording.",
+      "evidence": [
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:13",
+        "analysis/retained_test_continuation/result_review/SUPPLEMENTAL_CHECKS.json:36",
+        "RUN_STATUS_中文.md:3",
+        "RUN_STATUS_中文.md:19",
+        "analysis/V2_保留测试结果_中文.md:15"
+      ]
+    },
+    "D_actually_called": {
+      "status": "PASS",
+      "details": "Frozen isolated driver calls sequential measurement children then original evaluate(True), with matching 50 job logs, completed-state counts, and statistics stdout. Imported no original module and executed no original runner/probe/statistics/export for this audit. No dead-code result fabrication found in the executed path.",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:333",
+        "scripts/run_retained_test_isolated.py:195",
+        "scripts/run_retained_test_isolated.py:340",
+        "analysis/retained_test_continuation/isolated_test_statistics_stdout.log:1",
+        "protocol/RETAINED_TEST_STATE.json:5"
+      ]
+    },
+    "E_scope": {
+      "status": "WARN",
+      "details": "One machine, one date, two CPU resource profiles; 1,000 distinct test images measured in five repeated sessions. Twelve of 40 test size-class cells are singletons. Seven test images have only 16 available calibration neighbors. Aggregate acceptance and observed-distribution CIs do not establish conditional-cell accuracy, robust long tails, queue/deployment generalization or QLA/vision benefit.",
+      "evidence": [
+        "README_中文.md:36",
+        "README_RETAINED_TEST_中文.md:11",
+        "scripts/runner.py:431",
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:129",
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:274"
+      ]
+    },
+    "F_evaluation_classification": {
+      "status": "PASS",
+      "type": "real_measured_runtime",
+      "subtype": "single-machine repeated CPU-profile empirical service-distribution calibration",
+      "dataset_provided_service_time_ground_truth": false,
+      "synthetic_proxy": false,
+      "simulation_only": false,
+      "details": "The skill's vision-ground-truth taxonomy is not directly applicable. References are measured runtime records, not class-label GT or synthetic predictions. The frozen ResNet-18 is executed but not trained or evaluated for recognition accuracy.",
+      "evidence": [
+        "scripts/measure_block.py:47",
+        "scripts/measure_block.py:55",
+        "scripts/runner.py:420",
+        "analysis/TEST_REPORT.json:230"
+      ]
+    }
+  },
+  "numeric_test": {
+    "CPU-1T": {
+      "measured_rows": 5000,
+      "predicted_mixture_components": 99860,
+      "predicted_ms": {
+        "mean": 28.258225160250007,
+        "p95": 33.9894,
+        "p99": 40.6954
+      },
+      "measured_ms": {
+        "mean": 30.92822799999999,
+        "p95": 35.8829,
+        "p99": 45.1566
+      },
+      "gates": {
+        "mean": {
+          "relative_error": 0.08632899497992527,
+          "tolerance": 0.1,
+          "passed": true
+        },
+        "p95": {
+          "relative_error": 0.05276886762218204,
+          "tolerance": 0.15,
+          "passed": true
+        },
+        "p99": {
+          "relative_error": 0.09879397474566283,
+          "tolerance": 0.2,
+          "passed": true
+        }
+      },
+      "measured_distribution_95ci_ms": {
+        "mean": [
+          29.995592403999993,
+          31.796249717499993
+        ],
+        "p95": [
+          35.2080025,
+          36.468920000000004
+        ],
+        "p99": [
+          43.3202,
+          50.74590749999999
+        ]
+      },
+      "CI_independently_recomputed": true,
+      "observed_max_ms": 126.9163,
+      "exact_uniform_measured_ms": {
+        "mean": 30.928228000000004,
+        "p95": 35.8825,
+        "p99": 45.086
+      },
+      "exact_rational_predicted_quantiles_ms": {
+        "p95": 33.9894,
+        "p99": 40.6954
+      },
+      "exact_empirical_alternative_gates": {
+        "p95": true,
+        "p99": true
+      }
+    },
+    "CPU-4T": {
+      "measured_rows": 5000,
+      "predicted_mixture_components": 99860,
+      "predicted_ms": {
+        "mean": 12.212557619750008,
+        "p95": 15.8071,
+        "p99": 29.0673
+      },
+      "measured_ms": {
+        "mean": 13.052322739999996,
+        "p95": 16.4708,
+        "p99": 28.8099
+      },
+      "gates": {
+        "mean": {
+          "relative_error": 0.06433836620331593,
+          "tolerance": 0.1,
+          "passed": true
+        },
+        "p95": {
+          "relative_error": 0.040295553342885614,
+          "tolerance": 0.15,
+          "passed": true
+        },
+        "p99": {
+          "relative_error": 0.00893442879010342,
+          "tolerance": 0.2,
+          "passed": true
+        }
+      },
+      "measured_distribution_95ci_ms": {
+        "mean": [
+          12.743080264499998,
+          13.365613404499996
+        ],
+        "p95": [
+          15.577340000000001,
+          17.630207499999997
+        ],
+        "p99": [
+          27.09397,
+          34.356155
+        ]
+      },
+      "CI_independently_recomputed": true,
+      "observed_max_ms": 85.1798,
+      "exact_uniform_measured_ms": {
+        "mean": 13.052322740000001,
+        "p95": 16.4625,
+        "p99": 28.7193
+      },
+      "exact_rational_predicted_quantiles_ms": {
+        "p95": 15.8071,
+        "p99": 29.0673
+      },
+      "exact_empirical_alternative_gates": {
+        "p95": true,
+        "p99": true
+      }
+    }
+  },
+  "confirmation_metrics": {
+    "CPU-1T": {
+      "measured_rows": 6000,
+      "predicted_mixture_components": 199500,
+      "predicted_ms": {
+        "mean": 28.226599516114415,
+        "p95": 33.8728,
+        "p99": 40.1974
+      },
+      "measured_ms": {
+        "mean": 30.905040939991505,
+        "p95": 35.9973,
+        "p99": 45.6524
+      },
+      "gates": {
+        "mean": {
+          "relative_error": 0.0866668136462862,
+          "tolerance": 0.1,
+          "passed": true
+        },
+        "p95": {
+          "relative_error": 0.059018315262533705,
+          "tolerance": 0.15,
+          "passed": true
+        },
+        "p99": {
+          "relative_error": 0.1194898844310485,
+          "tolerance": 0.2,
+          "passed": true
+        }
+      },
+      "measured_distribution_95ci_ms": {
+        "mean": [
+          30.409430053855672,
+          31.34210025419546
+        ],
+        "p95": [
+          35.352365,
+          36.6661
+        ],
+        "p99": [
+          42.5625,
+          49.4594
+        ]
+      },
+      "CI_independently_recomputed": true,
+      "observed_max_ms": 166.133
+    },
+    "CPU-4T": {
+      "measured_rows": 6000,
+      "predicted_mixture_components": 199500,
+      "predicted_ms": {
+        "mean": 12.208073599524392,
+        "p95": 15.9146,
+        "p99": 28.5398
+      },
+      "measured_ms": {
+        "mean": 13.199516785182016,
+        "p95": 18.5304,
+        "p99": 31.6225
+      },
+      "gates": {
+        "mean": {
+          "relative_error": 0.07511208188853051,
+          "tolerance": 0.1,
+          "passed": true
+        },
+        "p95": {
+          "relative_error": 0.14116263005655572,
+          "tolerance": 0.15,
+          "passed": true
+        },
+        "p99": {
+          "relative_error": 0.09748438611747962,
+          "tolerance": 0.2,
+          "passed": true
+        }
+      },
+      "measured_distribution_95ci_ms": {
+        "mean": [
+          12.615649473870368,
+          14.125963382732134
+        ],
+        "p95": [
+          15.958085,
+          22.26862
+        ],
+        "p99": [
+          26.4345,
+          36.849
+        ]
+      },
+      "CI_independently_recomputed": true,
+      "observed_max_ms": 147.4893
+    }
+  },
+  "evidence_summary": {
+    "fingerprints": {
+      "v2_sources": 3,
+      "v2_artifacts": 7,
+      "protected_v1": 262,
+      "protected_confirmation": 558,
+      "JPEG_files": 5000,
+      "plan_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+      "model_sha256": "fc5a5311c6f61572480987ccb485724b3a3eeb78a028b3ffc7885d495edc295e"
+    },
+    "records": {
+      "counts": {
+        "reference": 1200,
+        "validation": 12000,
+        "test": 10000
+      },
+      "blocks": 170,
+      "paired_inputs_sessions": 11600,
+      "max_stage_sum_error_ms": 2.842170943040401e-14,
+      "complete_csv_exact_match": true,
+      "versions": {
+        "python": "3.13.5",
+        "numpy": "2.1.3",
+        "torch": "2.11.0+cu128",
+        "torchvision": "0.26.0+cu128",
+        "Pillow": "11.1.0",
+        "psutil": "5.9.0"
+      },
+      "affinities": {
+        "CPU-1T": [
+          0
+        ],
+        "CPU-4T": [
+          0,
+          2,
+          4,
+          6
+        ]
+      },
+      "warmup_per_block": 200,
+      "first_new_block_start": "2026-10-10T17:14:03.096875+08:00",
+      "last_new_block_end": "2026-10-10T20:46:41.196297+08:00"
+    },
+    "test_sessions": [
+      {
+        "session": 1,
+        "start": "2026-10-10T19:44:19.280865+08:00",
+        "spacing_seconds": null,
+        "first_block_start": "2026-10-10T19:44:22.025611+08:00",
+        "last_block_end": "2026-10-10T19:46:20.606428+08:00",
+        "idle": [
+          {
+            "at": "2026-10-10T19:44:18.911072+08:00",
+            "mean": 20.075,
+            "selected_max": 43.9,
+            "available_memory_bytes": 5835313152
+          }
+        ]
+      },
+      {
+        "session": 2,
+        "start": "2026-10-10T19:59:24.642306+08:00",
+        "spacing_seconds": 905.361441,
+        "first_block_start": "2026-10-10T19:59:27.252852+08:00",
+        "last_block_end": "2026-10-10T20:01:23.458738+08:00",
+        "idle": [
+          {
+            "at": "2026-10-10T19:59:24.288152+08:00",
+            "mean": 5.83125,
+            "selected_max": 6.2,
+            "available_memory_bytes": 5948420096
+          }
+        ]
+      },
+      {
+        "session": 3,
+        "start": "2026-10-10T20:14:30.015798+08:00",
+        "spacing_seconds": 905.373492,
+        "first_block_start": "2026-10-10T20:14:32.521849+08:00",
+        "last_block_end": "2026-10-10T20:16:25.715261+08:00",
+        "idle": [
+          {
+            "at": "2026-10-10T20:14:29.649005+08:00",
+            "mean": 6.39375,
+            "selected_max": 17.4,
+            "available_memory_bytes": 6051819520
+          }
+        ]
+      },
+      {
+        "session": 4,
+        "start": "2026-10-10T20:29:35.383291+08:00",
+        "spacing_seconds": 905.367493,
+        "first_block_start": "2026-10-10T20:29:37.991352+08:00",
+        "last_block_end": "2026-10-10T20:31:32.952875+08:00",
+        "idle": [
+          {
+            "at": "2026-10-10T20:29:35.022344+08:00",
+            "mean": 14.125,
+            "selected_max": 29,
+            "available_memory_bytes": 4970565632
+          }
+        ]
+      },
+      {
+        "session": 5,
+        "start": "2026-10-10T20:44:40.747341+08:00",
+        "spacing_seconds": 905.36405,
+        "first_block_start": "2026-10-10T20:44:43.390436+08:00",
+        "last_block_end": "2026-10-10T20:46:41.196297+08:00",
+        "idle": [
+          {
+            "at": "2026-10-10T20:44:40.390123+08:00",
+            "mean": 9.1,
+            "selected_max": 30,
+            "available_memory_bytes": 6687969280
+          }
+        ]
+      }
+    ],
+    "model_rebuild": {
+      "calibration_rows": 20000,
+      "paired_rows": 10000,
+      "paired_stage_values_exact": true,
+      "test_label_in_fit": false
+    },
+    "neighbors": {
+      "test": {
+        "inputs": 1000,
+        "unsupported": 0,
+        "neighbor_count_histogram": {
+          "16": 7,
+          "20": 993
+        },
+        "max_nearest_distance": 0.9359072509020063,
+        "canonical_sha256": "e3f3f31f569850b87f918d9dbb14ae4587b63bd8fbb94953be8d3bba2348ec58"
+      },
+      "validation": {
+        "inputs": 2000,
+        "unsupported": 0,
+        "neighbor_count_histogram": {
+          "16": 25,
+          "20": 1975
+        },
+        "max_nearest_distance": 1.5317076309729833,
+        "canonical_sha256": "a23d82edd161575d7e2a161cc3df92685f46ef44df58a8af6f5f9035890632f5"
+      }
+    },
+    "full_export_exact_raw_match": true,
+    "pdf_vector_bars_match": true,
+    "PNG_visually_inspected": true,
+    "CI_endpoints_independently_recomputed": true,
+    "bootstrap_replicates": 500,
+    "bootstrap_scope": "500 observed-distribution crossed image-within-size-class / whole-session draws, independently recomputed; not prediction/model error CI; 5 test and 3 confirmation sessions, same machine/day."
+  },
+  "warnings": [
+    {
+      "id": "W1",
+      "severity": "estimator_fidelity",
+      "detail": "Frozen floating weighted-CDF test P95/P99 choose order ranks 4751/4951, versus exact uniform empirical ranks 4750/4950 specified by V1. Differences: CPU-1T 0.0004/0.0706 ms; CPU-4T 0.0083/0.0906 ms. Original frozen estimator remains primary; exact-rank diagnostic also passes all gates. Predicted rational-weight quantiles match frozen values. Never silently replace estimator or rewrite frozen reports.",
+      "evidence": [
+        "scripts/runner.py:391",
+        "../dac_visual_calibration_20261009/protocol/SERVICE_DISTRIBUTION_VALIDATION_RULE.json:9",
+        "analysis/retained_test_continuation/result_review/SUPPLEMENTAL_CHECKS.json:2"
+      ]
+    },
+    {
+      "id": "W2",
+      "severity": "stale_documentation",
+      "detail": "RUN_STATUS_中文.md lines 3/5 describe running/waiting and line 19 says test not executed; actual completed 10,000 test rows and pending-audit state exist. Test result line 15 reuses confirmation target-weighting wording; test uses equal images and equal sessions. Update only user-authorized status/addendum, without overwriting frozen evidence.",
+      "evidence": [
+        "RUN_STATUS_中文.md:3",
+        "RUN_STATUS_中文.md:5",
+        "RUN_STATUS_中文.md:19",
+        "analysis/V2_保留测试结果_中文.md:15"
+      ]
+    },
+    {
+      "id": "W3",
+      "severity": "uncertainty_scope",
+      "detail": "500-draw interval endpoints independently reproduced for test and confirmation. These are measured-distribution crossed image-within-size-class/whole-session intervals, not model/error or model-selection-adjusted CIs. Five test/three confirmation same-day sessions and singleton cells limit inferential generality.",
+      "evidence": [
+        "scripts/runner.py:431",
+        "analysis/TEST_REPORT.json:116",
+        "analysis/retained_test_continuation/result_review/INDEPENDENT_RECOMPUTE.json:274"
+      ]
+    },
+    {
+      "id": "W4",
+      "severity": "measurement_attestation",
+      "detail": "Source, metadata, hashes and logs are mutually consistent; this is not independent OS/process attestation. No raw timer counter traces, continuous frequency or temperature telemetry. Idle gates certify pre-session observations, not continuous absence of contention. Warmup/thread/interop/version settings are verified through frozen source plus metadata, not remeasured.",
+      "evidence": [
+        "scripts/measure_block.py:20",
+        "scripts/measure_block.py:65",
+        "scripts/measure_block.py:89",
+        "scripts/runner.py:479"
+      ]
+    },
+    {
+      "id": "W5",
+      "severity": "review_independence",
+      "detail": "Fresh independent Type-A agent audit; not cross-family Type-B certification. No executor interpretation was supplied; no author module imported or original analysis routine invoked.",
+      "evidence": [
+        "analysis/retained_test_continuation/result_review/REVIEW_TRACE.md:1"
+      ]
+    },
+    {
+      "id": "W6",
+      "severity": "image_metadata_scope",
+      "detail": "5,000 actual JPEG SHA256 values and payload lengths were checked against frozen role manifests; decoded dimensions/dHash were not independently regenerated in this audit. No new upstream download verified the official-pretrained attribution.",
+      "evidence": [
+        "analysis/retained_test_continuation/result_review/independent_recompute.py:77"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "23,200 V2 service records are present, internally consistent, protected evidence unchanged, and export is exact.",
+      "impact": "supported"
+    },
+    {
+      "id": "C2",
+      "claim": "The retained test satisfies all six original point-estimate thresholds with the frozen weighted-CDF implementation.",
+      "impact": "supported"
+    },
+    {
+      "id": "C3",
+      "claim": "500-draw reported measured-distribution CI endpoints are numerically reproducible.",
+      "impact": "supported_with_scope_qualifier"
+    },
+    {
+      "id": "C4",
+      "claim": "The calibration is universally accurate per input, size-class cell, hardware, or workload.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C5",
+      "claim": "Vision quality, queue execution, real deployment, simulator validity, or QLA benefit has been proven.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C6",
+      "claim": "Cross-family review or globally repaired runtime environment is certified.",
+      "impact": "unsupported"
+    }
+  ],
+  "source_artifacts": {
+    "recomputation": "INDEPENDENT_RECOMPUTE.json",
+    "code": "independent_recompute.py",
+    "supplemental": "SUPPLEMENTAL_CHECKS.json",
+    "supplemental_code": "supplemental_checks.py",
+    "trace": "REVIEW_TRACE.md"
+  },
+  "unchanged_evidence_confirmed": true
+}

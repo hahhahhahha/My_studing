@@ -1,0 +1,149 @@
+{
+  "at": "2026-10-11T08:13:13.301818+08:00",
+  "passed": true,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch_imported": false
+  },
+  "synthetic_interface_fixture": {
+    "synthetic_users": 30,
+    "synthetic_steps": 3,
+    "synthetic_action_dimensions": 4,
+    "time_user_GAE_shape": [
+      3,
+      30
+    ],
+    "flattened_samples_after_GAE": 90,
+    "source_tuple_layouts_checked": true,
+    "copied_pre_action_data": true,
+    "capacity_order_critic_hash_and_terminal_guards": true,
+    "one_shot_prepared_batch_guard": true,
+    "model_act_value_update_called": false,
+    "artificial_logp_and_values": true
+  },
+  "static_historical_class_methods": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": {
+      "SharedGaussianActor": [
+        "__init__",
+        "distribution",
+        "portfolio"
+      ],
+      "FlatPriceBiasGaussianActor": [
+        "__init__",
+        "distribution",
+        "portfolio"
+      ],
+      "AgeGatedGaussianActor": [
+        "__init__",
+        "distribution",
+        "portfolio"
+      ],
+      "ResidualGaussianActor": [
+        "__init__",
+        "distribution",
+        "portfolio"
+      ],
+      "EdgeWisePriceGaussianActor": [
+        "__init__",
+        "distribution",
+        "portfolio"
+      ],
+      "AgentCentralizedCritic": [
+        "__init__",
+        "forward"
+      ],
+      "MAPPOUpdateStats": [],
+      "MAPPOPolicy": [
+        "__init__",
+        "act",
+        "value",
+        "save_checkpoint",
+        "load_checkpoint",
+        "update",
+        "_compute_gae"
+      ]
+    },
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": {
+      "MAPPOSystemConfig": [
+        "actor_obs_dim",
+        "critic_obs_dim"
+      ],
+      "ServerScoreConfig": [],
+      "MAPPOConfig": [],
+      "MAPPOExperimentConfig": []
+    },
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": {
+      "DSRReward": [
+        "__init__",
+        "reset",
+        "__call__"
+      ],
+      "MVReward": [
+        "__init__",
+        "reset",
+        "__call__"
+      ],
+      "SharedGaussianPPO": [
+        "__init__",
+        "distribution",
+        "act"
+      ],
+      "PPOItem": [],
+      "PPOBuffer": [
+        "__init__",
+        "add_batch",
+        "clear",
+        "__len__",
+        "tensors"
+      ],
+      "ReplayBuffer": [
+        "__init__",
+        "add",
+        "sample",
+        "__len__"
+      ],
+      "DeterministicActor": [
+        "__init__",
+        "forward"
+      ],
+      "CentralCritic": [
+        "__init__",
+        "forward"
+      ]
+    }
+  },
+  "historical_source_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": "08481b36d74964f8118f341f0d665ddec13ba986993c0d45ab5b5e4311fa25e4"
+  },
+  "candidate_optimizer_settings": {
+    "learning_rate": 0.001,
+    "epochs": 4,
+    "batch_size": 128,
+    "clip_epsilon": 0.2,
+    "entropy_coefficient": 0.01,
+    "value_coefficient": 0.5,
+    "max_gradient_norm": 0.5
+  },
+  "implementation_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_learning_buffer.py": "5ae126529ea8a0155e103009a1b20d01dad721cfcf369834e5fde78e096fc1e4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_LEARNING_CONTROLLER_中文.md": "6a4da88dc30ab5bdb8910d7348064162512dc69ed5fc70f497204adf9433d932",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_learning_buffer.py": "3d59245236b3de2d79f266e09a0eba7e6ec9cb936e30cb81afe7bc1467454607",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_neural_controller.py": "32e63174feb66fd160dba52968d84f51a14f5e981fd7ddaa0ac9898994f72848",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_learned_bindings.py": "9fb8399b73547ad8e525a543f7ce1f4aa1941e84da8d1c8b23a871bba2019416",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_temporal_gae.py": "53aaf0a77eb55437fef3e408e09c4ff4df7bba7e4ab0acf1daeb7f0208c4e46d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_terminal_accounting.py": "b4eed88c53966f1b2f887a6e02f3a508093a9e90716834f799907eea43fefc03"
+  },
+  "actual_model_controller_constructed": false,
+  "actual_actor_or_critic_forward": false,
+  "actual_optimizer_update": false,
+  "episode_length_frozen": false,
+  "full_training_collector_connected": false,
+  "formal_protocol_frozen": false,
+  "independent_complete_entry_review": false,
+  "policy_training_cells": 0,
+  "formal_policy_test_cells": 0,
+  "scope": "Static real-source bindings and explicitly artificial NumPy action/buffer fixtures only, not neural model smoke, update, rollout, training or performance"
+}

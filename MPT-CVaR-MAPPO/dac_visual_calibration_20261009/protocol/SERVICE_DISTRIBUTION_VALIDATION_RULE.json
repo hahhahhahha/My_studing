@@ -1,0 +1,18 @@
+{
+  "schema": "empirical_service_distribution_rule_v1",
+  "created_before_validation_measurement": true,
+  "created_local_date": "2026-10-10",
+  "model": "paired empirical calibration request table, retain session and image identities",
+  "fitting_role": "calibration",
+  "validation_role": "validation",
+  "test_used_for_fit_or_acceptance": false,
+  "quantile_definition": "ascending order statistic at ceil(p*n), one-based",
+  "metrics": {
+    "mean": {"maximum_absolute_relative_error": 0.10},
+    "P95": {"maximum_absolute_relative_error": 0.15},
+    "P99": {"maximum_absolute_relative_error": 0.20}
+  },
+  "acceptance_rule": "all three metrics for both CPU profiles must meet their frozen tolerances",
+  "scope": "service-distribution calibration only; does not certify queue execution, policy performance, network simulation, or deployment",
+  "on_failure": "archive errors and stop before test; do not tune thresholds or use test measurements to choose a model"
+}

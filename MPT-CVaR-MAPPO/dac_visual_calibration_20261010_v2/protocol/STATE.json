@@ -1,0 +1,10 @@
+{
+  "status": "auditing_confirmation",
+  "pid": 60852,
+  "completed_blocks": 120,
+  "completed_rows": 13200,
+  "kind": "confirmation",
+  "session": 3,
+  "session_started_at": "2026-10-10T17:44:10.653705+08:00",
+  "last_block": "reference_s3_b10_CPU-1T"
+}

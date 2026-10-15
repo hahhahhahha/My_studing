@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-10T18:34:34.4265306+08:00",
+  "scope": "postprocessing export only; no statistics or measurement rerun",
+  "first_export_error": "RuntimeError: Could not determine home directory at matplotlib config lookup",
+  "outputs_created_by_failed_attempt": false,
+  "repair": "Set MPLCONFIGDIR only in the export process to BASE/.runtime_cache/matplotlib before importing Matplotlib",
+  "analysis_execution_source_sha256": "3a78680328857c51ae879a62bd022ac4d907fb01821e5358d5f6f26d3cc6190e",
+  "current_entry_sha256": "c813d59e0defc5aaf4fe2de9cdee882900d4c4f37dbbd823e435469cf9c40623",
+  "preserved_source": "analysis/recovery_20261010/analyze_confirmation_isolated_analysis_run_source.py",
+  "frozen_runner_changed": false,
+  "frozen_statistics_changed": false,
+  "raw_measurements_changed": false,
+  "numerical_analysis_rerun": false,
+  "global_environment_changed": false,
+  "duplicate_openmp_override_used": false,
+  "successful_export_rows": 13200,
+  "retained_test_rows": 0
+}

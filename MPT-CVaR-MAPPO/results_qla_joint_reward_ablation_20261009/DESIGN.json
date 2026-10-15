@@ -1,0 +1,500 @@
+{
+  "study": "Demand-aware shared reward independent ablation",
+  "variants": [
+    "Full",
+    "NoJointDemandReward"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "nominal_delays": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "new_training_conditions": 25,
+  "Full_test_only_replays": 25,
+  "train_steps": 10000,
+  "validation_steps": 1000,
+  "test_steps": 1000,
+  "checkpoint_rule": "final checkpoint; freeze all 25 before held-out test",
+  "reward_intervention": "uniform mean normalized queue penalty with idle gate; H*C omitted only in reward",
+  "unchanged": "actor, QT, bias, H/C state update, shared reward, latency, migration, PPO, critic, bootstrap, schedules",
+  "reward_scale": "q coefficient 1, q bounds [0,1], V .5, migration .05, same max/tanh; no fitted rescale",
+  "source_lock": {
+    "source_sha256": "028c265e80d6b2f868a3e62179bb0cfd93c4ee78c581d76e6ef9bfca2872c4d9",
+    "repro_source_sha256": "b7df6ba8f49f72711bb9d3879c1fcde3fffb4d785a1d81678ed4a61a8c1a2fe5",
+    "repair_worker_sha256": "4992925825afb20c9176e9d6742bc039ae296c650fa14526217c9bd8e65c4d02",
+    "repair_helper_sha256": "b42b3ebbb881f3586b5c76f058daeac4f8c4a97351554a7cb3131770e4371357",
+    "runner_sha256": "7022349105cae59caffd6e9fd04aa12fc6abf6a775675cfcb32fc48af3c2b4a4",
+    "intervention_core_sha256": "5a4d6584cbca59c5e247176b10d4391cbed2281a569da9d045926a342ca1b8a5",
+    "intervention_worker_sha256": "dc5df7f043144f481ec14d6342a4145e7884475982566eec67eb7210ee87b630",
+    "tests_sha256": "43f8dd4c510f3eedc3490934ab908fea41dbc56cec2def1e5f5a68d49278d79c"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch": "2.11.0+cu128",
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4060 Ti"
+  },
+  "Full_references": [
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 0,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "2782b4b977a2ed33d10028c0b28f45400343d134fd874794eb75b6684c13d906",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_0\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "bddc208d95dc3ff90da8de916fc5579c17b1576f32948037a9d26c4a73c7108c",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+      "historical_metrics": {
+        "average_latency": 0.8931812581139635,
+        "cvar99": 3.2418442443509474,
+        "queue_oscillation": 0.6129861160005879,
+        "portfolio_migration_rate": 0.0160737795719084
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 1,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "5bb3b56e05a86a61d7c2ca63d78f9a7ad7460a556ebfab68905c32abeefa0dde",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_1\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "86f72d3442afdbe6f5d0c35f4961ffc65079e402c504b1f9c0351415a5c97b20",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+      "historical_metrics": {
+        "average_latency": 0.8961552013272542,
+        "cvar99": 3.3330630165200126,
+        "queue_oscillation": 0.6195276386526171,
+        "portfolio_migration_rate": 0.011325459701248684
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 2,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "9a4d1e1fe83ba4cb31cd480a49142043d135e9c9b9fa907d05eeeb6e607d644a",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_2\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "c94b12e34ec37f6f8fd38e2f2c19967811a0413d9371b886583c5939d962a89b",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+      "historical_metrics": {
+        "average_latency": 0.8999982569965442,
+        "cvar99": 3.3607015846455637,
+        "queue_oscillation": 0.6231558996847013,
+        "portfolio_migration_rate": 0.015994064478638086
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 4,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "3444f039eb7359d37000ef0045ccd3efb859bb51ff1564b0c814e40d50213044",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "edf8d2ad3bd0dab8c1ef09fa986cdc5ed96c2c40a94f2eb57971c277f6dc5c20",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+      "historical_metrics": {
+        "average_latency": 0.9050851557450689,
+        "cvar99": 3.4151639832910075,
+        "queue_oscillation": 0.6325916536278228,
+        "portfolio_migration_rate": 0.023416193568805425
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 8,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "0288ac3718188ae9d83afe139b3494ef984357909b40a536c847f18b5e496637",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_8\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "de416dc24098517b17fc7c7b01fda309965835c7e3c3a066fd91e1ab48db10a2",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+      "historical_metrics": {
+        "average_latency": 0.9071547608592098,
+        "cvar99": 3.416253722625962,
+        "queue_oscillation": 0.6352296035215578,
+        "portfolio_migration_rate": 0.016193827233449497
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 0,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "9fcde34c49873ee0cbecc65efe9b9e7865952854c6073c4424ec63e934a3f3cc",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_0\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "ab40261c910cfc4535526ba1d137eae47078b41d65666f03dc69a8c36829cca7",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+      "historical_metrics": {
+        "average_latency": 0.8769628271481443,
+        "cvar99": 2.9425258089880084,
+        "queue_oscillation": 0.5814632732187108,
+        "portfolio_migration_rate": 0.030062022583057603
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 1,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "24ea71336ef5806acb0b298d9bc4054eea1cd9bc69117a6e09c7ec8cd5b29eef",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_1\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "a0f47fbd82855a17f1b6c9c23de559f8c8ce7e8993aaf83f3dcfbf3bac767465",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+      "historical_metrics": {
+        "average_latency": 0.900831542266977,
+        "cvar99": 3.143189697710419,
+        "queue_oscillation": 0.6091971767597435,
+        "portfolio_migration_rate": 0.02127042110681089
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 2,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "0c8a213ab79e7aae95ddbecb3743e426722b07110db90a406d930fbaad8a949d",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_2\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "49f11bacfaa199fdeb6ecf64e00ffe1f6a181f074f0e70492504f3452c562294",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+      "historical_metrics": {
+        "average_latency": 0.9182523365684592,
+        "cvar99": 3.359690083083015,
+        "queue_oscillation": 0.6332768619748027,
+        "portfolio_migration_rate": 0.01959029935307109
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 4,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "f2f3e280ce54b99003b726c312338b37325b698ea2d87e4786c8ded1ab35ea0d",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "ddbb77e0885266268b15ae928c67eb0ed693cb38b6b5461fd2b8329b0d9c9154",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+      "historical_metrics": {
+        "average_latency": 0.9126530364527826,
+        "cvar99": 3.2987455688718055,
+        "queue_oscillation": 0.6250558656064222,
+        "portfolio_migration_rate": 0.01894560477254587
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 8,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "70411a73f78d058ebf055bbe02e1813c85d72744179125351c2f24b358a1395b",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_8\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "2a36f09994d9d6ea2e76c7260dd9e98c022d9f0885758fd4a6b03034811f40e2",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+      "historical_metrics": {
+        "average_latency": 0.9313614054703159,
+        "cvar99": 3.492726033783939,
+        "queue_oscillation": 0.6514982492457516,
+        "portfolio_migration_rate": 0.033659261537747724
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 0,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "ee59be0319fc9338c84bfcc3645c3b350205b0e0adda6d8034607306498f3848",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_0\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "062a07a6709a52cfc341f10396313f9bff0298132fe9ef73d24a17ef2bce1201",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd",
+      "historical_metrics": {
+        "average_latency": 0.8739284321803208,
+        "cvar99": 3.0321293834450493,
+        "queue_oscillation": 0.5840831424044205,
+        "portfolio_migration_rate": 0.02809090157128261
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 1,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "d09da42ad148449bd168c824a0b49e0216aa6a16a825c6093cf0e83e8f845b9b",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_1\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "bf843e986126a6d019b1881f4398adf1165c7af7c2bd58e221074ece75dabcc9",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd",
+      "historical_metrics": {
+        "average_latency": 0.9459047799989502,
+        "cvar99": 3.8612820239667083,
+        "queue_oscillation": 0.6857343776815679,
+        "portfolio_migration_rate": 0.01809337903308245
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 2,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "ca264ec31fc97f8577ac7ed6d70e912bf6eef8d1a52671c7b40bfa2b779ea789",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_2\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "2ff66174a3772ab124850a3c5003f7f0f3ebb37eeec2a3e1b8d345955f60217a",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd",
+      "historical_metrics": {
+        "average_latency": 0.9039356459228852,
+        "cvar99": 3.3324861494476266,
+        "queue_oscillation": 0.6237654705646365,
+        "portfolio_migration_rate": 0.016068543791760447
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 4,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "9d98bcbc7c1e2deea1114bbfa729335242c25dc3c41c0fc46247793d50584f9d",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "f260f28b7155d64b431624ac7a5c5de038a3b4cfd623cb4944f21db997674b35",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd",
+      "historical_metrics": {
+        "average_latency": 0.9096394252566213,
+        "cvar99": 3.4255174792387213,
+        "queue_oscillation": 0.6330644768952899,
+        "portfolio_migration_rate": 0.02415043258754834
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 8,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "7870ea342f4d09e6d3a7394caeb160173e15d9829d0b9782ec8263a52c9bb4bc",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_8\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "8f8e7822d6f4c0c5a0a3f74f3f7c5aeb5f7ab522e3296a2a56a0ad157d44fe03",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd",
+      "historical_metrics": {
+        "average_latency": 0.916052294755172,
+        "cvar99": 3.540208179859898,
+        "queue_oscillation": 0.6417883337516234,
+        "portfolio_migration_rate": 0.015580320085655922
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 0,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "377764e15aaa8e01bd28339dc15c03ccd30bc2ee246de699b1174ad5b94ff8f0",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_0\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "06e12f582f34c61da82060b9d6f0f234f0a1c22ea043f1f31cd693623ae03f68",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08",
+      "test_schedule_sha256": "2d53d6004e406e410e6670eda4adc72780dbd532144206756c80ae3d9b3361f4",
+      "historical_metrics": {
+        "average_latency": 0.9037838263390476,
+        "cvar99": 3.2407150557842574,
+        "queue_oscillation": 0.618146598554229,
+        "portfolio_migration_rate": 0.010427031675829096
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 1,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "962579b936dac9a58d05812d8615a1d094f15be7bd6c6abe0b6f0edebc498ea4",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_1\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "1bf41a6771199491be104c4a46ea75c7a73555009546a4a9da2581643d65403e",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08",
+      "test_schedule_sha256": "2d53d6004e406e410e6670eda4adc72780dbd532144206756c80ae3d9b3361f4",
+      "historical_metrics": {
+        "average_latency": 0.8876632819452401,
+        "cvar99": 3.0800841562255328,
+        "queue_oscillation": 0.5980632884199663,
+        "portfolio_migration_rate": 0.02892649160737444
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 2,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "81ac4e040628990c5a61fe926ad46cfbef7566e9f0e61f66fdb126adfa6655dc",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_2\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "858379e8e149b34de23cf4e241eaba011b2a0e1bde562f5fc54ea8e65be2ad80",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08",
+      "test_schedule_sha256": "2d53d6004e406e410e6670eda4adc72780dbd532144206756c80ae3d9b3361f4",
+      "historical_metrics": {
+        "average_latency": 0.8950908603740164,
+        "cvar99": 3.1329785397315306,
+        "queue_oscillation": 0.6075196070367836,
+        "portfolio_migration_rate": 0.022529269965820935
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 4,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "3f41864dad078197fd94b0fb73067cdcf915b8094b24d2511ce6a40f8f96c897",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "6189df1e2970146333497ef7b704f1fc1db9190d43cc3e6e253171cd27a6e2a2",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08",
+      "test_schedule_sha256": "2d53d6004e406e410e6670eda4adc72780dbd532144206756c80ae3d9b3361f4",
+      "historical_metrics": {
+        "average_latency": 0.9166844546071178,
+        "cvar99": 3.3772563407369263,
+        "queue_oscillation": 0.6350362585199978,
+        "portfolio_migration_rate": 0.025172672542177973
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 8,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "190f2c3d1eff988e0a7e65a9f95511175a5c68d873e2a5dce7b7361d59d3af12",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_4\\delay_8\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "5637f875003e44e4fc6ca35c308e3f8bc89146bad611aeebfa07d5a07f0def86",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08",
+      "test_schedule_sha256": "2d53d6004e406e410e6670eda4adc72780dbd532144206756c80ae3d9b3361f4",
+      "historical_metrics": {
+        "average_latency": 0.9200368538115229,
+        "cvar99": 3.532571063146634,
+        "queue_oscillation": 0.6428571620368186,
+        "portfolio_migration_rate": 0.015179597222627522
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 0,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "eb7bfccf6324283fc0785b93c67dcc1b434c6b38b460ec4e0bdc695bceb631dd",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_0\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "b07288783bbb83b31d281093daf878242c0c38a6d3874ab7052e8d856cb30cec",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+      "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+      "historical_metrics": {
+        "average_latency": 0.8693561807208833,
+        "cvar99": 2.9837473874548106,
+        "queue_oscillation": 0.583684904497829,
+        "portfolio_migration_rate": 0.015114115488128615
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 1,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "e5ce38351f664208760fa1ed9a833a8b838e9a1bd7738418ae3a96cb19978a46",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_1\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "24bd85940179961f823eed49f0cde2dd2e27f98c99fe629f37c5450ba531b49f",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+      "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+      "historical_metrics": {
+        "average_latency": 0.8809104769261037,
+        "cvar99": 3.1598815045846145,
+        "queue_oscillation": 0.6003981408512135,
+        "portfolio_migration_rate": 0.015991473212480185
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 2,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "c3412102890399c1a2d02d1709dea5f1546a8807fd3e341fe2ae89830be4285d",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_2\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "3d066b0d84523ddebd54dc4aefc7432e8424dd7d13f31b0ea1e25c4d2e87ca5b",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+      "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+      "historical_metrics": {
+        "average_latency": 0.8784466445529263,
+        "cvar99": 3.1081121008399477,
+        "queue_oscillation": 0.5977056280911605,
+        "portfolio_migration_rate": 0.015596623377370144
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 4,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "7bc3c1032bc44fc7fe16b2264f1695def1a900aeb9c2ff7ac6726efcd4617eff",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "063c68f56641b9ab93c7e27b9536f2f453028918eb8ca352881d95444282c6ec",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+      "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+      "historical_metrics": {
+        "average_latency": 0.8791683622566304,
+        "cvar99": 3.1268479698156404,
+        "queue_oscillation": 0.597151991529037,
+        "portfolio_migration_rate": 0.018106704633185377
+      }
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 8,
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "4feafe9a91429cbdca84a0cf464746d8bce7f4c873786d4f149a888644963c0d",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_bothfix_20260930\\validation\\Full\\seed_5\\delay_8\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "e16212136f80f75dabf10386878225a07c9f26e1d015214beddd406da4e645a9",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+      "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+      "historical_metrics": {
+        "average_latency": 0.8832919819728319,
+        "cvar99": 3.130555917873327,
+        "queue_oscillation": 0.6013606466494981,
+        "portfolio_migration_rate": 0.019214269143418648
+      }
+    }
+  ],
+  "analysis": "paired seed-block exact bootstrap over complete five-delay profiles; all results retained"
+}

@@ -1,0 +1,766 @@
+{
+  "sources": {
+    "M1_rr_s1_attempt_01": {
+      "run_m1_prep.py": {
+        "sha256": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_prep.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_prep.py"
+        ]
+      },
+      "systemlab\\__init__.py": {
+        "sha256": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__init__.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__init__.py"
+        ]
+      },
+      "systemlab\\__main__.py": {
+        "sha256": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__main__.py"
+        ]
+      },
+      "systemlab\\analysis.py": {
+        "sha256": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\analysis.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\analysis.py"
+        ]
+      },
+      "systemlab\\client.py": {
+        "sha256": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\client.py"
+        ]
+      },
+      "systemlab\\common.py": {
+        "sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\legacy_source\\systemlab\\common.py"
+        ]
+      },
+      "systemlab\\data.py": {
+        "sha256": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\data.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\data.py"
+        ]
+      },
+      "systemlab\\edge.py": {
+        "sha256": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\edge.py"
+        ]
+      },
+      "systemlab\\feedback.py": {
+        "sha256": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\feedback.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py"
+        ]
+      },
+      "systemlab\\launcher.py": {
+        "sha256": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\launcher.py"
+        ]
+      },
+      "systemlab\\policy.py": {
+        "sha256": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\policy.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\policy.py"
+        ]
+      },
+      "tests\\test_core.py": {
+        "sha256": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tests\\test_core.py"
+        ]
+      },
+      "tools\\build_manifest.py": {
+        "sha256": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\build_manifest.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\build_manifest.py"
+        ]
+      },
+      "tools\\check_actor_transfer.py": {
+        "sha256": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\check_actor_transfer.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\check_actor_transfer.py"
+        ]
+      },
+      "tools\\configure_pilot.py": {
+        "sha256": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\configure_pilot.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\configure_pilot.py"
+        ]
+      },
+      "tools\\interaction.py": {
+        "sha256": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\interaction.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\interaction.py"
+        ]
+      },
+      "tools\\make_grid.py": {
+        "sha256": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\make_grid.py"
+        ]
+      },
+      "tools\\stop_owned_attempt.py": {
+        "sha256": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\stop_owned_attempt.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\stop_owned_attempt.py"
+        ]
+      },
+      "tools\\verify_unit.py": {
+        "sha256": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\verify_unit.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\verify_unit.py"
+        ]
+      }
+    },
+    "M1_stress_s1_attempt_01": {
+      "run_m1_calibrate.py": {
+        "sha256": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_calibrate.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_calibrate.py"
+        ]
+      },
+      "run_m1_prep.py": {
+        "sha256": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_prep.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_prep.py"
+        ]
+      },
+      "run_m1_stress.py": {
+        "sha256": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_stress.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_stress.py"
+        ]
+      },
+      "systemlab\\__init__.py": {
+        "sha256": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__init__.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__init__.py"
+        ]
+      },
+      "systemlab\\__main__.py": {
+        "sha256": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__main__.py"
+        ]
+      },
+      "systemlab\\analysis.py": {
+        "sha256": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\analysis.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\analysis.py"
+        ]
+      },
+      "systemlab\\client.py": {
+        "sha256": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\client.py"
+        ]
+      },
+      "systemlab\\common.py": {
+        "sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\legacy_source\\systemlab\\common.py"
+        ]
+      },
+      "systemlab\\data.py": {
+        "sha256": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\data.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\data.py"
+        ]
+      },
+      "systemlab\\edge.py": {
+        "sha256": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\edge.py"
+        ]
+      },
+      "systemlab\\feedback.py": {
+        "sha256": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\feedback.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py"
+        ]
+      },
+      "systemlab\\launcher.py": {
+        "sha256": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\launcher.py"
+        ]
+      },
+      "systemlab\\policy.py": {
+        "sha256": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\policy.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\policy.py"
+        ]
+      },
+      "tests\\test_core.py": {
+        "sha256": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tests\\test_core.py"
+        ]
+      },
+      "tools\\build_manifest.py": {
+        "sha256": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\build_manifest.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\build_manifest.py"
+        ]
+      },
+      "tools\\check_actor_transfer.py": {
+        "sha256": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\check_actor_transfer.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\check_actor_transfer.py"
+        ]
+      },
+      "tools\\configure_pilot.py": {
+        "sha256": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\configure_pilot.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\configure_pilot.py"
+        ]
+      },
+      "tools\\interaction.py": {
+        "sha256": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\interaction.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\interaction.py"
+        ]
+      },
+      "tools\\make_grid.py": {
+        "sha256": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\make_grid.py"
+        ]
+      },
+      "tools\\stop_owned_attempt.py": {
+        "sha256": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\stop_owned_attempt.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\stop_owned_attempt.py"
+        ]
+      },
+      "tools\\verify_unit.py": {
+        "sha256": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf",
+        "resolved_paths": [
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\verify_unit.py",
+          "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\verify_unit.py"
+        ]
+      }
+    }
+  },
+  "common_sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+  "all_non_source_receipt_text_identical": true,
+  "common_diff": [
+    "--- ",
+    "+++ ",
+    "@@ -92,9 +92,19 @@",
+    " ",
+    " ",
+    " def source_receipt():",
+    "+    \"\"\"Executable system source only: package modules plus the delivered tools.",
+    "+",
+    "+    Ad-hoc drivers are not online service modules. Scientifically material",
+    "+    registration/orchestration generators must additionally be pinned in the",
+    "+    v2 test registry and checked before launch/at completion. Excluding a",
+    "+    driver here never exempts its generated matrix/schedules from admission.",
+    "+    \"\"\"",
+    "     root = Path(__file__).resolve().parent.parent",
+    "-    return {str(path.relative_to(root)): sha(path) for path in sorted(root.rglob('*.py'))",
+    "-            if '__pycache__' not in path.parts}",
+    "+    tracked = [path for path in sorted((root / 'systemlab').rglob('*.py'))",
+    "+               if '__pycache__' not in path.parts]",
+    "+    tracked += [path for path in sorted((root / 'tools').rglob('*.py'))",
+    "+                if '__pycache__' not in path.parts]",
+    "+    return {str(path.relative_to(root)): sha(path) for path in tracked}",
+    " ",
+    " ",
+    " def local_windows_runtime():"
+  ],
+  "before_current_source_diffs": {
+    "drive_scripts\\run_e1_prep.py": [
+      "--- ",
+      "+++ ",
+      "@@ -1,65 +1,51 @@",
+      "-import json, subprocess, sys, hashlib",
+      "+\"\"\"Fresh E1 schedule/registry preparation; explicit versioned inputs, no launch.\"\"\"",
+      "+import argparse",
+      "+import subprocess",
+      "+import sys",
+      " from pathlib import Path",
+      " ",
+      "-repo = Path(\"X:/Yi-one/workspace/MPT-CVaR-MAPPO\")",
+      "-lab = repo / \"qla_system_prototype_20261013\"",
+      "-py = repo / \"dac2027_followup_experiments_20261010/environment/qla_np226/Scripts/python.exe\"",
+      "+lab=Path(__file__).resolve().parents[1]",
+      "+sys.path.insert(0,str(lab))",
+      "+from systemlab.common import read",
+      "+from systemlab.admission import check_protocol,register_test_registry",
+      " ",
+      "-splits = repo / \"dac_visual_calibration_20261009/protocol/IMAGE_SPLITS.json\"",
+      "-image_root = repo / \"dac_visual_calibration_20261009/data/extracted\"",
+      " ",
+      "-def sha(p):",
+      "-    h = hashlib.sha256()",
+      "-    with open(p, \"rb\") as f:",
+      "-        for c in iter(lambda: f.read(1024*1024), b\"\"):",
+      "-            h.update(c)",
+      "-    return h.hexdigest()",
+      "+def main():",
+      "+    p=argparse.ArgumentParser()",
+      "+    p.add_argument('--config',required=True)",
+      "+    p.add_argument('--grid',required=True)",
+      "+    p.add_argument('--validation-registration',required=True)",
+      "+    p.add_argument('--manifest',required=True)",
+      "+    p.add_argument('--actor-bundle',required=True)",
+      "+    p.add_argument('--schedule-output-dir',required=True)",
+      "+    p.add_argument('--registry-output',required=True)",
+      "+    a=p.parse_args()",
+      "+    config,grid,registration=map(read,(a.config,a.grid,a.validation_registration))",
+      "+    check_protocol(config)",
+      "+    if grid['block']!='E1':",
+      "+        raise ValueError('This driver prepares only the preregistered E1 matrix')",
+      "+    if registration['users']!=config['users'] or registration['fixed_drain_s']!=config['fixed_drain_s']:",
+      "+        raise ValueError('Validation-selected users/drain mismatch')",
+      "+    destination=Path(a.schedule_output_dir).resolve()",
+      "+    destination.mkdir(parents=True,exist_ok=False)",
+      "+    common={}",
+      "+    for cell in grid['cells']:",
+      "+        key=cell['common_schedule_key']",
+      "+        values=(cell['seed'],cell['aggregate_rate_per_s'])",
+      "+        if key in common and common[key]!=values:",
+      "+            raise ValueError('Conflicting common matrix key')",
+      "+        common[key]=values",
+      "+    schedules=[]",
+      "+    for index,(key,(seed,rate)) in enumerate(sorted(common.items())):",
+      "+        path=destination/f'common_{index+1:02d}_s{seed}.json'",
+      "+        subprocess.run([sys.executable,'-m','systemlab','schedule','--manifest',str(Path(a.manifest).resolve()),",
+      "+            '--role','test','--users',str(registration['users']),'--duration',str(registration['horizon_s']),",
+      "+            '--rate',repr(rate),'--seed',str(seed),'--output',str(path)],cwd=lab,check=True)",
+      "+        schedules.append(path)",
+      "+    register_test_registry(a.config,a.grid,a.validation_registration,a.manifest,schedules,a.registry_output,",
+      "+                           generators=[Path(__file__).resolve()],actor_bundles={'qla':a.actor_bundle})",
+      "+    print('E1 schedules and v2 registry prepared; no experiment started:',a.registry_output)",
+      " ",
+      "-steps = [",
+      "-    [\"-m\", \"systemlab\", \"images\", \"--split-file\", str(splits), \"--image-root\", str(image_root),",
+      "-     \"--role\", \"test\", \"--limit\", \"1000\", \"--output\", \"data/test_images.json\"],",
+      "-]",
+      "-for step in steps:",
+      "-    print(\"RUN:\", \" \".join(step), flush=True)",
+      "-    r = subprocess.run([str(py), *step], cwd=lab)",
+      "-    if r.returncode != 0:",
+      "-        sys.exit(r.returncode)",
+      " ",
+      "-grid = json.load(open(lab / \"protocol/E1_grid.json\"))",
+      "-capacity = grid[\"reference_capacity_per_s\"]",
+      "-horizon = 120  # frozen H from protocol/validation_registration_v1.json (same window rule)",
+      "-",
+      "-# One common schedule per (rho, seed); rate read from the grid's capacity definition.",
+      "-manifest = \"data/test_images.json\"",
+      "-schedule_rows = []",
+      "-for rho in (0.6, 0.9):",
+      "-    for seed in (1, 2, 3):",
+      "-        rate = rho * capacity",
+      "-        out = f\"data/E1_rho{int(rho*100):02d}_s{seed}.json\"",
+      "-        r = subprocess.run([str(py), \"-m\", \"systemlab\", \"schedule\",",
+      "-            \"--manifest\", manifest, \"--role\", \"test\", \"--users\", \"16\",",
+      "-            \"--duration\", str(horizon), \"--rate\", f\"{rate:.6f}\", \"--seed\", str(seed),",
+      "-            \"--output\", out], cwd=lab)",
+      "-        if r.returncode != 0:",
+      "-            sys.exit(r.returncode)",
+      "-        sched = json.load(open(lab / out))",
+      "-        schedule_rows.append(dict(file=out, common_schedule_key=f\"{rho}_{seed}\",",
+      "-            rho=rho, seed=seed, aggregate_rate_per_s=rate, duration_s=sched[\"duration_s\"],",
+      "-            tasks=len(sched[\"tasks\"]), schedule_sha256=sha(lab / out)))",
+      "-",
+      "-manifest_sha = sha(lab / manifest)",
+      "-registry = dict(schema=\"systemlab-test-registry-v1\",",
+      "-    grid=dict(path=\"protocol/E1_grid.json\", sha256=sha(lab / \"protocol/E1_grid.json\"),",
+      "-              config_sha256=grid[\"config_sha256\"], feature_scales_sha256=grid[\"feature_scales_sha256\"],",
+      "-              reference_capacity_per_s=capacity),",
+      "-    horizon_s=horizon, fixed_drain_s=30, users=16,",
+      "-    test_manifest=dict(path=manifest, sha256=manifest_sha, role=\"test\"),",
+      "-    common_schedules=schedule_rows,",
+      "-    note=\"One common schedule per (rho,seed); the same file is shared by all three methods in that cell. \"",
+      "-         \"Rates are rho*reference_capacity_per_s from the frozen grid; H is the frozen 120s window.\")",
+      "-out = lab / \"protocol/E1_test_registry.json\"",
+      "-out.open(\"x\").write(json.dumps(registry, indent=2, ensure_ascii=False) + \"\\n\")",
+      "-for row in schedule_rows:",
+      "-    print(f\"{row['file']}: rate={row['aggregate_rate_per_s']:.3f}/s tasks={row['tasks']} sha={row['schedule_sha256'][:12]}\")",
+      "-print(\"test manifest:\", len(json.load(open(lab/manifest))[\"images\"]), \"images; registry written to protocol/E1_test_registry.json\")",
+      "-print(\"ALL_STEPS_OK\")",
+      "+if __name__=='__main__':",
+      "+    main()"
+    ],
+    "drive_scripts\\run_m2_prep.py": [
+      "--- ",
+      "+++ ",
+      "@@ -1,4 +1,4 @@",
+      "-import json, random, subprocess, sys",
+      "+import json, math, random, subprocess, sys",
+      " from pathlib import Path",
+      " ",
+      " repo = Path(\"X:/Yi-one/workspace/MPT-CVaR-MAPPO\")",
+      "@@ -8,25 +8,26 @@",
+      " ckpt = repo / \"results_qla_formal_bothfix_20260930/validation/Full/seed_1/delay_4/KAIST/30u/poisson_bursty/checkpoint_LCC-MAPPO.pt\"",
+      " source = repo / \"results_qla_training_repair_pilot_20260930/source_snapshot\"",
+      " ",
+      "-scales = json.load(open(lab / \"protocol/calibration_scales_v1.json\"))",
+      "+scales = json.load(open(lab / \"protocol/calibration_scales_v1.json\",encoding='utf-8'))",
+      "+config = json.load(open(lab / \"protocol/validation_config_v1.json\",encoding='utf-8'))",
+      " c_ref = sum(1.0 / v for v in scales[\"calibration_service_s_by_edge\"].values())",
+      " rate = round(0.6 * c_ref)          # 105 req/s pre-registered from calibration capacity only",
+      "-horizon = 120                       # ceil_to_minute(max(120, 10000/(0.6*C_ref))) = 120",
+      "+horizon = 60 * math.ceil(max(120.,10000/(0.6*c_ref))/60)",
+      " order = [\"qla\", \"score_softmax\", \"stale_shortest\"]",
+      " random.Random().shuffle(order)      # order randomized before any validation run",
+      " ",
+      " registration = dict(",
+      "     schema=\"systemlab-validation-preregistration-v1\",",
+      "     c_ref_per_s=c_ref, validation_rate_per_s=rate, horizon_s=horizon,",
+      "-    fixed_drain_s=30, users=16, schedule_seed=101, role=\"validation\",",
+      "+    fixed_drain_s=config['fixed_drain_s'], users=config['users'], schedule_seed=101, role=\"validation\",",
+      "     method_execution_order=order,",
+      "-    rate_rule=\"0.6*C_ref from protocol/calibration_scales_v1.json (calibration only; test untouched)\",",
+      "+    rate_rule=\"round(0.6*C_ref) from protocol/calibration_scales_v1.json (calibration only; test untouched)\",",
+      "     window_rule=\"ceil_to_minute(max(120,10000/(0.6*C_ref)))\",",
+      "     capacity_evidence=[\"runs/M1_rr_s1_attempt_01/analysis.json\", \"runs/M1_stress_s1_attempt_01/analysis.json\"],",
+      "     stress_note=\"90%C_ref pilot saturated: 3164/18916 queue_rejected, max_waiting=32, no client backpressure\",",
+      " )",
+      " out = lab / \"protocol/validation_registration_v1.json\"",
+      "-out.open(\"x\").write(json.dumps(registration, indent=2, ensure_ascii=False) + \"\\n\")",
+      "+out.open(\"x\",encoding='utf-8').write(json.dumps(registration, indent=2, ensure_ascii=False) + \"\\n\")",
+      " print(\"pre-registered order:\", order, \"rate:\", rate, \"C_ref:\", round(c_ref, 2))",
+      " ",
+      " steps = [",
+      "@@ -36,7 +37,7 @@",
+      "     [\"tools/check_actor_transfer.py\", \"--config\", \"protocol/validation_config_v1.json\",",
+      "      \"--bundle\", \"protocol/validation_actor_v1.json\", \"--output\", \"protocol/validation_actor_forward_v1.json\"],",
+      "     [\"-m\", \"systemlab\", \"schedule\", \"--manifest\", \"data/validation_images.json\",",
+      "-     \"--role\", \"validation\", \"--users\", \"16\", \"--duration\", \"120\", \"--rate\", str(rate),",
+      "+     \"--role\", \"validation\", \"--users\", str(config['users']), \"--duration\", str(horizon), \"--rate\", str(rate),",
+      "      \"--seed\", \"101\", \"--output\", \"data/validation_s101.json\"],",
+      " ]",
+      " for step in steps:"
+    ],
+    "systemlab\\client.py": [
+      "--- ",
+      "+++ ",
+      "@@ -12,37 +12,17 @@",
+      " from .common import Journal, encoded, read, request_json, sha, source_receipt, write_new",
+      " from .feedback import FeedbackCache",
+      " from .policy import Router, sampled_index",
+      "-",
+      "-",
+      "-def replay(config, schedule_path, manifest_path, method, output, bundle=None, entry_review=None):",
+      "+from .admission import validate_test_admission",
+      "+",
+      "+",
+      "+def replay(config, schedule_path, manifest_path, method, output, bundle=None, entry_review=None, test_registry=None, cell_id=None):",
+      "+    admission = validate_test_admission(config,schedule_path,manifest_path,method,entry_review,test_registry,cell_id,bundle)",
+      "     output = Path(output)",
+      "     output.mkdir(parents=True, exist_ok=False)",
+      "     schedule, manifest = read(schedule_path), read(manifest_path)",
+      "     if (schedule['schema'] != 'systemlab-schedule-v1' or schedule['users'] != config['users'] or",
+      "             schedule['image_manifest_sha256'] != sha(manifest_path) or schedule['role'] != manifest['role']):",
+      "         raise ValueError('Schedule/image/user binding mismatch')",
+      "-    if schedule['role']=='test' and config['feature_scales']['status']!='frozen_after_calibration_validation':",
+      "-        raise ValueError('Register calibration/validation-selected scales before test execution')",
+      "-    if schedule['role']=='test':",
+      "-        if sha(config['frozen_protocol_path'])!=config['frozen_protocol_sha256']:",
+      "-            raise ValueError('Frozen protocol changed')",
+      "-        protocol=read(config['frozen_protocol_path'])",
+      "-        plain={k:v for k,v in config.items() if k not in ('frozen_protocol_path','frozen_protocol_sha256')}",
+      "-        if encoded(plain)!=encoded(protocol['formal_config']) or protocol['source_sha256']!=source_receipt():",
+      "-            raise ValueError('Test configuration/source differs from registered protocol; register an additive condition')",
+      "-        for path,fingerprint in protocol['validation_artifacts_sha256'].items():",
+      "-            if sha(path)!=fingerprint:",
+      "-                raise ValueError('Validation artifacts changed')",
+      "-        if entry_review is None:",
+      "-            raise ValueError('A fresh independent entry review is required for test execution')",
+      "-        review=read(entry_review)",
+      "-        if (review.get('schema')!='systemlab-independent-entry-v1' or review.get('status') not in ('PASS','WARN') or",
+      "-                review.get('blockers')!=[] or review.get('scope')!='complete_system_entry' or",
+      "-                review.get('protocol_sha256')!=config['frozen_protocol_sha256'] or",
+      "-                review.get('source_sha256')!=source_receipt() or",
+      "-                not review.get('reviewer_identity') or not review.get('complete_report') or",
+      "-                sha(review['report_path'])!=review['report_sha256']):",
+      "-            raise ValueError('Incomplete/stale/blocked independent entry review')",
+      "     task_ids = [x['task_id'] for x in schedule['tasks']]",
+      "     if len(task_ids) != len(set(task_ids)):",
+      "         raise ValueError('Duplicate schedule task ids')",
+      "@@ -106,7 +86,7 @@",
+      "     write_new(output / 'INPUTS.json', dict(schedule_sha256=initial_schedule_sha, manifest_sha256=initial_manifest_sha,",
+      "         config=config, method=method, policy_receipt=router.receipt, source_sha256=source_receipt(),",
+      "         role=schedule['role'], schedule_seed=schedule['seed'], controller_session=health['session'],",
+      "-        entry_review_sha256=sha(entry_review) if entry_review else None))",
+      "+        entry_review_sha256=sha(entry_review) if entry_review else None,test_admission=admission))",
+      "     begin, begin_epoch = time.perf_counter(), time.time_ns()",
+      "     cutoff = begin + schedule['duration_s'] + config['fixed_drain_s']",
+      "     cutoff_epoch = begin_epoch + int((schedule['duration_s'] + config['fixed_drain_s']) * 1e9)",
+      "@@ -185,6 +165,17 @@",
+      "     except Exception as caught:",
+      "         error = repr(caught)",
+      "     finally:",
+      "+        stop.set()",
+      "+        thread.join(1)",
+      "+        receiver.close()",
+      "+        write_new(output / 'CUTOFF.json', dict(begin_epoch_ns=begin_epoch, cutoff_epoch_ns=cutoff_epoch,",
+      "+            scheduled_tasks=len(schedule['tasks']), error=error, fixed_drain_s=config['fixed_drain_s'],",
+      "+            protocol_horizon_s=schedule['duration_s']))",
+      "+        # Await bounded HTTP calls for provenance; late data never improves the cutoff metrics.",
+      "+        pool.shutdown(wait=True)",
+      "+        # Only after every in-flight request has joined, finalize tasks that never",
+      "+        # received a formal outcome. This is the single place an 'unfinished' status",
+      "+        # is written, so each task has exactly one cutoff outcome (no double-write).",
+      "         with outcome_lock:",
+      "             for task in schedule['tasks']:",
+      "                 if task['task_id'] not in outcomes:",
+      "@@ -193,17 +184,11 @@",
+      "                                  planned_release_s=task['arrival_s'])",
+      "                     outcomes[task['task_id']] = value",
+      "                     task_log.put('task_outcome', **value)",
+      "-        stop.set()",
+      "-        thread.join(1)",
+      "-        receiver.close()",
+      "-        write_new(output / 'CUTOFF.json', dict(begin_epoch_ns=begin_epoch, cutoff_epoch_ns=cutoff_epoch,",
+      "-            scheduled_tasks=len(schedule['tasks']), error=error, fixed_drain_s=config['fixed_drain_s'],",
+      "-            protocol_horizon_s=schedule['duration_s']))",
+      "-        # Await bounded HTTP calls for provenance; late data never improves the cutoff metrics.",
+      "-        pool.shutdown(wait=True)",
+      "         frozen_receipt=None",
+      "         try:",
+      "             frozen_receipt=router.verify_frozen()",
+      "+            if admission != validate_test_admission(config,schedule_path,manifest_path,method,entry_review,test_registry,cell_id,bundle):",
+      "+                raise RuntimeError('Test admission binding changed during execution')",
+      "             if (initial_sources!=source_receipt() or sha(schedule_path)!=initial_schedule_sha or",
+      "                     sha(manifest_path)!=initial_manifest_sha):",
+      "                 raise RuntimeError('Execution source/schedule/manifest changed during this run')"
+    ],
+    "systemlab\\common.py": [
+      "--- ",
+      "+++ ",
+      "@@ -94,9 +94,10 @@",
+      " def source_receipt():",
+      "     \"\"\"Executable system source only: package modules plus the delivered tools.",
+      " ",
+      "-    Ad-hoc driver scripts (e.g. drive_scripts/) are deliberately excluded so",
+      "-    that one-off orchestration helpers cannot invalidate a frozen protocol or",
+      "-    an already-issued entry review.",
+      "+    Ad-hoc drivers are not online service modules. Scientifically material",
+      "+    registration/orchestration generators must additionally be pinned in the",
+      "+    v2 test registry and checked before launch/at completion. Excluding a",
+      "+    driver here never exempts its generated matrix/schedules from admission.",
+      "     \"\"\"",
+      "     root = Path(__file__).resolve().parent.parent",
+      "     tracked = [path for path in sorted((root / 'systemlab').rglob('*.py'))"
+    ],
+    "systemlab\\edge.py": [
+      "--- ",
+      "+++ ",
+      "@@ -127,15 +127,17 @@",
+      "                     user_id=task.user_id, queue_s=start - task.admitted_mono,",
+      "                     server_service_s=service, body_read_s=task.body_read_s,",
+      "                     compute_start_epoch_ns=start_epoch, compute_end_epoch_ns=time.time_ns(), **result)",
+      "-                with self.lock:",
+      "-                    self.completed += 1",
+      "-                    self.service_ema_s = .9 * self.service_ema_s + .1 * service",
+      "             except Exception as error:",
+      "                 task.result = dict(status='inference_error', server_id=self.id, task_id=task.task_id,",
+      "                                    error=repr(error))",
+      "-                with self.lock:",
+      "+            # Completion counters and removal of in-service mass are one",
+      "+            # transition. A telemetry snapshot must never see both copies.",
+      "+            with self.lock:",
+      "+                if task.result['status'] == 'completed':",
+      "+                    self.completed += 1",
+      "+                    self.service_ema_s = .9 * self.service_ema_s + .1 * service",
+      "+                else:",
+      "                     self.failed += 1",
+      "-            with self.lock:",
+      "                 self.active = None",
+      "                 self.journal.put('execution_result', **task.result)",
+      "                 task.done.set()"
+    ],
+    "systemlab\\launcher.py": [
+      "--- ",
+      "+++ ",
+      "@@ -9,6 +9,7 @@",
+      " ",
+      " from .client import replay",
+      " from .common import read, request_json, sha, write_new",
+      "+from .admission import validate_test_admission",
+      " ",
+      " ",
+      " def _wait_runtime_pid(pid, timeout_s):",
+      "@@ -19,23 +20,12 @@",
+      "     identifies itself in RUNTIME.json and /health; those runtime PIDs are the",
+      "     authoritative liveness signal. Returns True if the PID exited in time.",
+      "     \"\"\"",
+      "-    if pid is None:",
+      "+    if not isinstance(pid, int) or isinstance(pid, bool) or not 0 < pid <= 0xffffffff:",
+      "         return False  # unknown runtime PID: flag for manual inspection, never assume exit",
+      "     if timeout_s <= 0:",
+      "         return False",
+      "     if os.name == 'nt':",
+      "-        import ctypes",
+      "-        synchronize = 0x00100000",
+      "-        kernel32 = ctypes.windll.kernel32",
+      "-        handle = kernel32.OpenProcess(synchronize, False, int(pid))",
+      "-        if not handle:",
+      "-            # Process no longer exists (or was never started); treat as exited.",
+      "-            return True",
+      "-        try:",
+      "-            result = kernel32.WaitForSingleObject(handle, int(timeout_s * 1000))",
+      "-            return result == 0  # WAIT_OBJECT_0",
+      "-        finally:",
+      "-            kernel32.CloseHandle(handle)",
+      "+        return _wait_windows_runtime_pid(pid, timeout_s)",
+      "     deadline = time.monotonic() + timeout_s",
+      "     while time.monotonic() < deadline:",
+      "         try:",
+      "@@ -48,6 +38,36 @@",
+      "     return False",
+      " ",
+      " ",
+      "+def _windows_process_api():",
+      "+    import ctypes",
+      "+    from ctypes import wintypes",
+      "+    api = ctypes.WinDLL('kernel32', use_last_error=True)",
+      "+    api.OpenProcess.argtypes = [wintypes.DWORD, wintypes.BOOL, wintypes.DWORD]",
+      "+    api.OpenProcess.restype = wintypes.HANDLE",
+      "+    api.WaitForSingleObject.argtypes = [wintypes.HANDLE, wintypes.DWORD]",
+      "+    api.WaitForSingleObject.restype = wintypes.DWORD",
+      "+    api.CloseHandle.argtypes = [wintypes.HANDLE]",
+      "+    api.CloseHandle.restype = wintypes.BOOL",
+      "+    return api, ctypes.get_last_error",
+      "+",
+      "+",
+      "+def _wait_windows_runtime_pid(pid, timeout_s, api=None, get_last_error=None):",
+      "+    \"\"\"Fail closed on access denial, WAIT_FAILED and unknown Win32 errors.\"\"\"",
+      "+    if api is None:",
+      "+        api, get_last_error = _windows_process_api()",
+      "+    handle = api.OpenProcess(0x00100000, False, pid)  # SYNCHRONIZE",
+      "+    if not handle:",
+      "+        # For a validated nonzero DWORD PID, ERROR_INVALID_PARAMETER is the",
+      "+        # documented nonexistent-process case. Access-denied/unknown is NOT exit.",
+      "+        return get_last_error() == 87",
+      "+    try:",
+      "+        result = api.WaitForSingleObject(handle, min(0xfffffffe, max(0, int(timeout_s * 1000))))",
+      "+        exited = result == 0  # WAIT_OBJECT_0; timeout and WAIT_FAILED both reject",
+      "+    finally:",
+      "+        closed = bool(api.CloseHandle(handle))",
+      "+    return exited and closed",
+      "+",
+      "+",
+      " def _wait_shim(process, timeout_s):",
+      "     \"\"\"Best-effort wait on the launcher shim handle; never fails the run.\"\"\"",
+      "     try:",
+      "@@ -57,8 +77,9 @@",
+      "     return process.poll()",
+      " ",
+      " ",
+      "-def local_run(config_path, config, schedule, manifest, method, output, bundle=None, entry_review=None):",
+      "+def local_run(config_path, config, schedule, manifest, method, output, bundle=None, entry_review=None, test_registry=None, cell_id=None):",
+      "     \"\"\"Start only this attempt's processes; graceful authenticated shutdown.\"\"\"",
+      "+    validate_test_admission(config,schedule,manifest,method,entry_review,test_registry,cell_id,bundle)",
+      "     output = Path(output).resolve()",
+      "     output.mkdir(parents=True, exist_ok=False)",
+      "     processes, streams = [], []",
+      "@@ -91,7 +112,7 @@",
+      "         write_new(output / 'PROCESSES.json', dict(config_sha256=sha(config_path),",
+      "             children=[dict(pid=p.pid, command=p.args, runtime_pid=read(path)['pid'])",
+      "                       for url, p, path in owned_services], owned_by_launcher_pid=os.getpid()))",
+      "-        replay(config, schedule, manifest, method, output / 'client', bundle, entry_review)",
+      "+        replay(config, schedule, manifest, method, output / 'client', bundle, entry_review,test_registry,cell_id)",
+      "     except Exception as error:",
+      "         write_new(output / 'LAUNCH_FAILURE.json', dict(error=repr(error), automatic_retry=False,",
+      "                                                        child_pids=[p.pid for p in processes]))"
+    ],
+    "systemlab\\__main__.py": [
+      "--- ",
+      "+++ ",
+      "@@ -56,6 +56,8 @@",
+      "             command.add_argument('--method',choices=['round_robin','score_softmax','stale_shortest','qla','qla_no_bias_probe','frozen_noql'],required=True)",
+      "             command.add_argument('--actor-bundle')",
+      "             command.add_argument('--entry-review',help='Required for test-role runs; complete independent entry JSON')",
+      "+            command.add_argument('--test-registry',help='Required v2 pinned matrix/schedule registration for test')",
+      "+            command.add_argument('--cell-id',help='Exact preregistered matrix cell ID')",
+      "     actor=commands.add_parser('register-actor')",
+      "     actor.add_argument('--checkpoint',required=True)",
+      "     actor.add_argument('--source-root',required=True)",
+      "@@ -128,10 +130,10 @@",
+      "             serve_controller(cfg,args.output)",
+      "         elif args.command=='run':",
+      "             from .client import replay",
+      "-            replay(cfg,args.schedule,args.manifest,args.method,args.output,args.actor_bundle,args.entry_review)",
+      "+            replay(cfg,args.schedule,args.manifest,args.method,args.output,args.actor_bundle,args.entry_review,args.test_registry,args.cell_id)",
+      "         else:",
+      "             from .launcher import local_run",
+      "-            local_run(args.config,cfg,args.schedule,args.manifest,args.method,args.output,args.actor_bundle,args.entry_review)",
+      "+            local_run(args.config,cfg,args.schedule,args.manifest,args.method,args.output,args.actor_bundle,args.entry_review,args.test_registry,args.cell_id)",
+      "     elif args.command=='register-actor':",
+      "         from .policy import register_actor",
+      "         register_actor(args.checkpoint,args.source_root,args.output,args.edges,args.feature_scales,"
+    ],
+    "tests\\test_core.py": [
+      "--- ",
+      "+++ ",
+      "@@ -119,14 +119,16 @@",
+      "         import subprocess, sys",
+      "         from systemlab.launcher import _wait_runtime_pid",
+      "         child = subprocess.Popen([sys.executable, '-c',",
+      "-            'import os,sys,time;print(os.getpid());sys.stdout.flush();time.sleep(2)'],",
+      "+            'import os,sys,time;print(os.getpid());sys.stdout.flush();time.sleep(.5)'],",
+      "             stdout=subprocess.PIPE)",
+      "         runtime_pid = int(child.stdout.readline().decode().strip())",
+      "         self.assertNotEqual(runtime_pid, 0)",
+      "-        self.assertFalse(_wait_runtime_pid(runtime_pid, .2))  # still running",
+      "-        child.terminate()",
+      "+        self.assertFalse(_wait_runtime_pid(runtime_pid, .05))  # still running",
+      "+        # Let this test-owned interpreter exit naturally. Do not terminate the",
+      "+        # venv shim and accidentally leave its real child alive.",
+      "         child.wait(timeout=5)",
+      "         self.assertTrue(_wait_runtime_pid(runtime_pid, 2.))",
+      "+        child.stdout.close()",
+      "         self.assertFalse(_wait_runtime_pid(None, 2.))  # unknown PID is never assumed exited",
+      "         self.assertTrue(_wait_runtime_pid(runtime_pid + 10_000_000, .2))  # gone PID",
+      " "
+    ],
+    "tools\\make_grid.py": [
+      "--- ",
+      "+++ ",
+      "@@ -36,6 +36,7 @@",
+      "     write_new(args.output,dict(schema='systemlab-grid-v1',block=args.block,cells=cells,",
+      "         nominal_capacity_definition='sum inverse mean concurrent-pilot service; report achieved load separately',",
+      "         reference_capacity_per_s=capacity,config_sha256=sha(args.config),feature_scales_sha256=sha(args.feature_scales),",
+      "+        feature_scales_path=str(Path(args.feature_scales).resolve()),",
+      "         execution_order='preregistered_seeded_shuffle',started=False))",
+      " ",
+      " "
+    ]
+  }
+}

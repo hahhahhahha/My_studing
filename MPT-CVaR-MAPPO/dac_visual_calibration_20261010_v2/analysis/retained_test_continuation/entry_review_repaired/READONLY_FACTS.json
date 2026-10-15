@@ -1,0 +1,926 @@
+{
+  "at": "2026-10-10T19:40:48.809568+08:00",
+  "reviewer_method": "Stdlib read-only SHA256, JSON identity and AST/source checks; no experiment imports",
+  "hashes": {
+    "protocol/PLAN.json": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+    "protocol/RETAINED_TEST_CONTINUATION.json": "2b72d9fb8ca33cd67d5f09cd88b329aa6d285b20525d91566cb791cca306a7ae",
+    "protocol/RETAINED_TEST_CONTINUATION_PRE_ENTRY_REVIEW.json": "06babb5dd485eda38ad41aabff65ce4c4d428d68c0bb76b76beecb46ce056a7a",
+    "protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json": "31f185aa69840e1f54011de3de90a55d84b666fef4857dcdad23520873438783",
+    "scripts/run_retained_test_isolated.py": "52414bcb385a43a96a9d833103b85b5a71be685f7337d540ee8379058ecdb86e",
+    "README_RETAINED_TEST_中文.md": "5162a4ffcdfe2d70f7f1026afdf7c939bc57df52de732d8fc46676ece8b41ad5",
+    "scripts/runner.py": "3bacf4b83db0c06d40595666a746f8beef1d8eb99b5a111212572194cd625b88",
+    "scripts/measure_block.py": "1f03807456bb2d71a9f7e2e4540f9e2af112342ed932ae4df960e181a3f05244",
+    "scripts/v2_common.py": "831e4783aca614e3e9b78117fc39ef4136f89e0148dc866049a1d8693f275915",
+    "analysis/VALIDATION_REPORT.json": "3827883cb3e74020890c54b0324ce667e76085e21e9331c0fbe3d001f077a181",
+    "analysis/recovery_20261010/reviewer/AUDIT_REPORT.json": "46d8f31bc753fcfac77961346f4a6761baf88152a0c034c2a0b8fba43cf6f79d",
+    "analysis/retained_test_continuation/run_retained_test_isolated_pre_review.py": "1e60e73a23d228efa81a5729aedf345dd69f3d03f41bc7c068762bbb9e83ccab",
+    "analysis/retained_test_continuation/README_RETAINED_TEST_PRE_REVIEW_中文.md": "085a5ba100ed78001ffa3defa3140d12fb00edd1c58da4fc6dc91f90fd137e88"
+  },
+  "binding_traversal": {
+    "source": {
+      "count": 3,
+      "mismatches": [],
+      "actual_map_canonical_sha256": "213fd78b3391841fb69636561771c744fc9d24e3c4ee00cd3d4730e01b569733"
+    },
+    "artifact": {
+      "count": 7,
+      "mismatches": [],
+      "actual_map_canonical_sha256": "8e25d8f51250e4f4343592168797fa7e0ea4cf6cf33e703f269f756a64bca6df"
+    },
+    "old_readonly": {
+      "count": 262,
+      "mismatches": [],
+      "actual_map_canonical_sha256": "4c893091cfa74af8e37bdb55af15be8f882aa959fc3e84b5dba2a463b6fe2a1e"
+    },
+    "protected": {
+      "count": 558,
+      "mismatches": [],
+      "actual_map_canonical_sha256": "a078a51d623b9f0439d1bca741cb05919d4b2616a0459cf2efe4baec2e775d34"
+    }
+  },
+  "freeze_bindings": {
+    "plan": true,
+    "source": true,
+    "readme": true,
+    "validation": true,
+    "confirmation_review": true
+  },
+  "archive": {
+    "failed_review_passed": false,
+    "initial_report_json_equal": true,
+    "historical_continuation_bound": true,
+    "historical_source_bound": true,
+    "historical_readme_bound": true,
+    "archived_freeze_source_bound": true,
+    "archived_freeze_readme_bound": true,
+    "repair_prior_continuation_bound": true,
+    "repair_failed_review_bound": true,
+    "repair": {
+      "previous_continuation_sha256": "06babb5dd485eda38ad41aabff65ce4c4d428d68c0bb76b76beecb46ce056a7a",
+      "failed_review_sha256": "31f185aa69840e1f54011de3de90a55d84b666fef4857dcdad23520873438783",
+      "reason": "Restrict date guard to measurement; require accepted test report before complete export",
+      "original_experimental_plan_changed": false,
+      "test_rows_before_repair": 0
+    },
+    "old_protected_count": 554,
+    "current_protected_count": 558,
+    "all_old_protected_bindings_preserved": true,
+    "added_protected_paths": [
+      "analysis/retained_test_continuation/README_RETAINED_TEST_PRE_REVIEW_中文.md",
+      "analysis/retained_test_continuation/run_retained_test_isolated_pre_review.py",
+      "protocol/RETAINED_TEST_CONTINUATION_PRE_ENTRY_REVIEW.json",
+      "protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json"
+    ]
+  },
+  "test_pool": {
+    "exact_original_entries": true,
+    "entries": 1000,
+    "unique_images": 1000,
+    "validation_test_overlap": 0,
+    "reference_test_overlap": 0,
+    "v1_calibration_test_overlap": 0,
+    "actual_jpeg_hashes_checked": 1000,
+    "actual_jpeg_hash_mismatches": []
+  },
+  "schedule": {
+    "exact_plan_sessions": true,
+    "sessions": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "total_jobs": 50,
+    "total_rows": 10000,
+    "details": [
+      {
+        "session": 1,
+        "jobs": 10,
+        "rows": 2000,
+        "sizes": [
+          200
+        ],
+        "block_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "every_pair_exactly_same_images": true,
+        "roles_valid": true,
+        "profiles": {
+          "CPU-1T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          },
+          "CPU-4T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "session": 2,
+        "jobs": 10,
+        "rows": 2000,
+        "sizes": [
+          200
+        ],
+        "block_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "every_pair_exactly_same_images": true,
+        "roles_valid": true,
+        "profiles": {
+          "CPU-1T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          },
+          "CPU-4T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "session": 3,
+        "jobs": 10,
+        "rows": 2000,
+        "sizes": [
+          200
+        ],
+        "block_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "every_pair_exactly_same_images": true,
+        "roles_valid": true,
+        "profiles": {
+          "CPU-1T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          },
+          "CPU-4T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "session": 4,
+        "jobs": 10,
+        "rows": 2000,
+        "sizes": [
+          200
+        ],
+        "block_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "every_pair_exactly_same_images": true,
+        "roles_valid": true,
+        "profiles": {
+          "CPU-1T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          },
+          "CPU-4T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          }
+        }
+      },
+      {
+        "session": 5,
+        "jobs": 10,
+        "rows": 2000,
+        "sizes": [
+          200
+        ],
+        "block_ids": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "every_pair_exactly_same_images": true,
+        "roles_valid": true,
+        "profiles": {
+          "CPU-1T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          },
+          "CPU-4T": {
+            "rows": 1000,
+            "unique_images": 1000,
+            "exact_test_set": true,
+            "multiplicities": [
+              1
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "frozen_settings": {
+    "frozen_at": "2026-10-10T17:03:14.492874+08:00",
+    "spacing_seconds": 900,
+    "maximum_idle_wait_seconds": 3600,
+    "machine_idle_percent": 35,
+    "selected_core_idle_percent": 60,
+    "minimum_memory_bytes": 2147483648,
+    "warmup": 200,
+    "thresholds": {
+      "mean": 0.1,
+      "p95": 0.15,
+      "p99": 0.2
+    },
+    "bootstrap_replicates": 500,
+    "confirmation_rows": 13200,
+    "retained_test_rows": 10000,
+    "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "environment_canonical_id": "f3609a91",
+  "acceptance_prerequisites": {
+    "accepted": true,
+    "criteria_count": 6,
+    "criteria_checks": [
+      {
+        "profile": "CPU-1T",
+        "metric": "mean",
+        "error": 0.0866668136462862,
+        "tolerance": 0.1,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      },
+      {
+        "profile": "CPU-1T",
+        "metric": "p95",
+        "error": 0.059018315262533705,
+        "tolerance": 0.15,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      },
+      {
+        "profile": "CPU-1T",
+        "metric": "p99",
+        "error": 0.1194898844310485,
+        "tolerance": 0.2,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      },
+      {
+        "profile": "CPU-4T",
+        "metric": "mean",
+        "error": 0.07511208188853051,
+        "tolerance": 0.1,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      },
+      {
+        "profile": "CPU-4T",
+        "metric": "p95",
+        "error": 0.14116263005655572,
+        "tolerance": 0.15,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      },
+      {
+        "profile": "CPU-4T",
+        "metric": "p99",
+        "error": 0.09748438611747962,
+        "tolerance": 0.2,
+        "numeric_recalculation_matches": true,
+        "frozen_tolerance_matches": true,
+        "numeric_pass": true,
+        "recorded_pass": true
+      }
+    ],
+    "unsupported_inputs": [],
+    "report_plan_binding": true,
+    "report_model_binding": true,
+    "record_integrity_status": "PASS",
+    "frozen_six_metric_acceptance": "PASS"
+  },
+  "existing_test_evidence": [],
+  "source_line_ranges": {
+    "now": [
+      32,
+      33
+    ],
+    "safe_runtime": [
+      36,
+      40
+    ],
+    "prerequisites": [
+      43,
+      62
+    ],
+    "measurement_day": [
+      65,
+      67
+    ],
+    "assert_unstarted": [
+      70,
+      80
+    ],
+    "prepare": [
+      83,
+      129
+    ],
+    "frozen_guard": [
+      132,
+      157
+    ],
+    "check": [
+      160,
+      169
+    ],
+    "resources": [
+      172,
+      183
+    ],
+    "child": [
+      186,
+      192
+    ],
+    "statistics_worker": [
+      195,
+      205
+    ],
+    "measured_protocol_guard": [
+      208,
+      228
+    ],
+    "audit_all": [
+      231,
+      242
+    ],
+    "export_worker": [
+      245,
+      286
+    ],
+    "run": [
+      289,
+      351
+    ]
+  },
+  "current_date_guard_callers": [
+    "prepare",
+    "check",
+    "run"
+  ],
+  "subsequent_processing_calls": {
+    "frozen_guard": [
+      {
+        "call": "prerequisites",
+        "line": 133
+      },
+      {
+        "call": "read",
+        "line": 134
+      },
+      {
+        "call": "freeze['protected_sha256'].items",
+        "line": 137
+      },
+      {
+        "call": "read",
+        "line": 143
+      },
+      {
+        "call": "RuntimeError",
+        "line": 136
+      },
+      {
+        "call": "RuntimeError",
+        "line": 142
+      },
+      {
+        "call": "RuntimeError",
+        "line": 145
+      },
+      {
+        "call": "RuntimeError",
+        "line": 149
+      },
+      {
+        "call": "any",
+        "line": 155
+      },
+      {
+        "call": "sha",
+        "line": 135
+      },
+      {
+        "call": "sha",
+        "line": 135
+      },
+      {
+        "call": "sha",
+        "line": 138
+      },
+      {
+        "call": "RuntimeError",
+        "line": 139
+      },
+      {
+        "call": "list",
+        "line": 141
+      },
+      {
+        "call": "len",
+        "line": 144
+      },
+      {
+        "call": "len",
+        "line": 148
+      },
+      {
+        "call": "sum",
+        "line": 148
+      },
+      {
+        "call": "RuntimeError",
+        "line": 156
+      },
+      {
+        "call": "range",
+        "line": 141
+      },
+      {
+        "call": "read",
+        "line": 144
+      },
+      {
+        "call": "RuntimeError",
+        "line": 154
+      },
+      {
+        "call": "len",
+        "line": 148
+      },
+      {
+        "call": "len",
+        "line": 153
+      },
+      {
+        "call": "set",
+        "line": 153
+      }
+    ],
+    "statistics_worker": [
+      {
+        "call": "safe_runtime",
+        "line": 196
+      },
+      {
+        "call": "frozen_guard",
+        "line": 197
+      },
+      {
+        "call": "audit",
+        "line": 199
+      },
+      {
+        "call": "measured_protocol_guard",
+        "line": 200
+      },
+      {
+        "call": "save",
+        "line": 201
+      },
+      {
+        "call": "evaluate",
+        "line": 202
+      },
+      {
+        "call": "safe_runtime",
+        "line": 203
+      },
+      {
+        "call": "frozen_guard",
+        "line": 204
+      },
+      {
+        "call": "print",
+        "line": 205
+      },
+      {
+        "call": "json.dumps",
+        "line": 205
+      }
+    ],
+    "measured_protocol_guard": [
+      {
+        "call": "frozen_guard",
+        "line": 209
+      },
+      {
+        "call": "datetime.fromisoformat(plan['frozen_at']).date",
+        "line": 210
+      },
+      {
+        "call": "any",
+        "line": 211
+      },
+      {
+        "call": "range",
+        "line": 214
+      },
+      {
+        "call": "RuntimeError",
+        "line": 212
+      },
+      {
+        "call": "read",
+        "line": 215
+      },
+      {
+        "call": "datetime.fromisoformat",
+        "line": 216
+      },
+      {
+        "call": "(BASE / 'measurements/test').glob",
+        "line": 225
+      },
+      {
+        "call": "datetime.fromisoformat",
+        "line": 210
+      },
+      {
+        "call": "RuntimeError",
+        "line": 218
+      },
+      {
+        "call": "RuntimeError",
+        "line": 220
+      },
+      {
+        "call": "datetime.fromisoformat",
+        "line": 222
+      },
+      {
+        "call": "RuntimeError",
+        "line": 224
+      },
+      {
+        "call": "read",
+        "line": 226
+      },
+      {
+        "call": "any",
+        "line": 227
+      },
+      {
+        "call": "datetime.fromisoformat(r['measurement_timestamp']).date",
+        "line": 211
+      },
+      {
+        "call": "start.date",
+        "line": 217
+      },
+      {
+        "call": "(start - previous).total_seconds",
+        "line": 219
+      },
+      {
+        "call": "min",
+        "line": 223
+      },
+      {
+        "call": "RuntimeError",
+        "line": 228
+      },
+      {
+        "call": "int",
+        "line": 222
+      },
+      {
+        "call": "datetime.fromisoformat",
+        "line": 211
+      },
+      {
+        "call": "datetime.fromisoformat(meta[k]['wall_clock']).date",
+        "line": 227
+      },
+      {
+        "call": "datetime.fromisoformat",
+        "line": 227
+      }
+    ],
+    "audit_all": [
+      {
+        "call": "frozen_guard",
+        "line": 232
+      },
+      {
+        "call": "audit",
+        "line": 234
+      },
+      {
+        "call": "audit",
+        "line": 235
+      },
+      {
+        "call": "measured_protocol_guard",
+        "line": 236
+      },
+      {
+        "call": "read",
+        "line": 237
+      },
+      {
+        "call": "print",
+        "line": 242
+      },
+      {
+        "call": "RuntimeError",
+        "line": 239
+      },
+      {
+        "call": "RuntimeError",
+        "line": 241
+      },
+      {
+        "call": "len",
+        "line": 240
+      },
+      {
+        "call": "len",
+        "line": 240
+      },
+      {
+        "call": "json.dumps",
+        "line": 242
+      },
+      {
+        "call": "dict",
+        "line": 242
+      }
+    ],
+    "export_worker": [
+      {
+        "call": "safe_runtime",
+        "line": 246
+      },
+      {
+        "call": "audit_all",
+        "line": 247
+      },
+      {
+        "call": "read",
+        "line": 248
+      },
+      {
+        "call": "audit",
+        "line": 255
+      },
+      {
+        "call": "audit",
+        "line": 255
+      },
+      {
+        "call": "any",
+        "line": 258
+      },
+      {
+        "call": "csv_write",
+        "line": 260
+      },
+      {
+        "call": "config.mkdir",
+        "line": 262
+      },
+      {
+        "call": "os.environ.setdefault",
+        "line": 262
+      },
+      {
+        "call": "matplotlib.use",
+        "line": 264
+      },
+      {
+        "call": "plt.subplots",
+        "line": 267
+      },
+      {
+        "call": "enumerate",
+        "line": 268
+      },
+      {
+        "call": "axes[0, 0].legend",
+        "line": 281
+      },
+      {
+        "call": "fig.suptitle",
+        "line": 282
+      },
+      {
+        "call": "fig.tight_layout",
+        "line": 283
+      },
+      {
+        "call": "fig.savefig",
+        "line": 283
+      },
+      {
+        "call": "fig.savefig",
+        "line": 283
+      },
+      {
+        "call": "plt.close",
+        "line": 283
+      },
+      {
+        "call": "save",
+        "line": 284
+      },
+      {
+        "call": "frozen_guard",
+        "line": 286
+      },
+      {
+        "call": "safe_runtime",
+        "line": 286
+      },
+      {
+        "call": "RuntimeError",
+        "line": 253
+      },
+      {
+        "call": "FileExistsError",
+        "line": 259
+      },
+      {
+        "call": "str",
+        "line": 262
+      },
+      {
+        "call": "read",
+        "line": 269
+      },
+      {
+        "call": "zip",
+        "line": 270
+      },
+      {
+        "call": "dict",
+        "line": 284
+      },
+      {
+        "call": "test_report.get",
+        "line": 249
+      },
+      {
+        "call": "len",
+        "line": 249
+      },
+      {
+        "call": "all",
+        "line": 250
+      },
+      {
+        "call": "sha",
+        "line": 252
+      },
+      {
+        "call": "p.exists",
+        "line": 258
+      },
+      {
+        "call": "np.arange",
+        "line": 271
+      },
+      {
+        "call": "ax.bar",
+        "line": 273
+      },
+      {
+        "call": "ax.bar",
+        "line": 274
+      },
+      {
+        "call": "enumerate",
+        "line": 275
+      },
+      {
+        "call": "ax.set_xticks",
+        "line": 277
+      },
+      {
+        "call": "ax.set_ylabel",
+        "line": 277
+      },
+      {
+        "call": "ax.set_title",
+        "line": 278
+      },
+      {
+        "call": "ax.spines[['top', 'right']].set_visible",
+        "line": 279
+      },
+      {
+        "call": "ax.grid",
+        "line": 279
+      },
+      {
+        "call": "ax.set_axisbelow",
+        "line": 279
+      },
+      {
+        "call": "ax.set_ylim",
+        "line": 280
+      },
+      {
+        "call": "ax.text",
+        "line": 276
+      },
+      {
+        "call": "now",
+        "line": 284
+      },
+      {
+        "call": "p.relative_to(BASE).as_posix",
+        "line": 285
+      },
+      {
+        "call": "sha",
+        "line": 285
+      },
+      {
+        "call": "role.upper",
+        "line": 269
+      },
+      {
+        "call": "ax.get_ylim",
+        "line": 280
+      },
+      {
+        "call": "p.relative_to",
+        "line": 285
+      }
+    ]
+  },
+  "source_revision_diff": "--- archived_entry_source\n+++ current_entry_source\n@@ -59,10 +59,12 @@\n         for name, expected in plan[key].items():\n             if sha(root / name) != expected:\n                 raise RuntimeError('Original frozen fingerprint changed: ' + name)\n-    original_date = datetime.fromisoformat(plan['frozen_at']).date()\n-    if datetime.now().astimezone().date() != original_date:\n-        raise RuntimeError('Same-day protocol cannot be silently moved to another day')\n     return plan\n+\n+\n+def measurement_day(plan):\n+    if datetime.now().astimezone().date() != datetime.fromisoformat(plan['frozen_at']).date():\n+        raise RuntimeError('Same-day measurement cannot be silently moved to another day')\n \n \n def assert_unstarted():\n@@ -73,15 +75,25 @@\n     paths += list((BASE / 'protocol/jobs').glob('test_*.json'))\n     paths += list((BASE / 'logs').glob('test_*.log'))\n     paths += list((BASE / 'protocol').glob('idle_retained_test_*.json'))\n+    paths += list((BASE / 'protocol').glob('retained_test_session_*.json'))\n     if any(p.exists() for p in paths):\n         raise FileExistsError('Retained test already started or has evidence; no restart')\n \n \n-def prepare():\n+def prepare(repaired=False):\n     plan = prerequisites()\n+    measurement_day(plan)\n     assert_unstarted()\n-    if FREEZE.exists():\n+    if FREEZE.exists() and not repaired:\n         raise FileExistsError('Continuation freeze already exists; no resealing')\n+    previous = None\n+    if repaired:\n+        old_review = read(ENTRY)\n+        if old_review.get('passed') is not False or old_review['continuation_sha256'] != sha(FREEZE):\n+            raise RuntimeError('Entry revision requires a fingerprint-bound failed independent review')\n+        previous = sha(FREEZE)\n+        save(BASE / 'protocol/RETAINED_TEST_CONTINUATION_PRE_ENTRY_REVIEW.json', read(FREEZE), exclusive=True)\n+        save(BASE / 'protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json', old_review, exclusive=True)\n     # Recover the archived guard without calling the confirmation-only snapshot.\n     protected = dict(read(BASE / 'analysis/recovery_20261010/AFTER_ANALYSIS_SNAPSHOT.json')['protected_files'])\n     for folder in ['measurements/validation', 'measurements/reference', 'analysis/recovery_20261010']:\n@@ -95,6 +107,12 @@\n                  'analysis/V2_运行时中断归档_中文.md', 'protocol/STATE.json', 'protocol/RUN_STARTED.json',\n                  'logs/runner_stdout.log', 'logs/runner_stderr.log']:\n         protected[name] = sha(BASE / name)\n+    if repaired:\n+        for name in ['protocol/RETAINED_TEST_CONTINUATION_PRE_ENTRY_REVIEW.json',\n+                     'protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json',\n+                     'analysis/retained_test_continuation/run_retained_test_isolated_pre_review.py',\n+                     'analysis/retained_test_continuation/README_RETAINED_TEST_PRE_REVIEW_中文.md']:\n+            protected[name] = sha(BASE / name)\n     value = dict(created_at=now(), original_plan_sha256=PLAN_SHA,\n                  validation_report_sha256=VALIDATION_SHA, confirmation_review_sha256=REVIEW_SHA,\n                  entry_source_sha256=sha(__file__), readme_sha256=sha(README), protected_sha256=protected,\n@@ -102,7 +120,12 @@\n                  expected_test_rows=10000, expected_total_new_rows=23200,\n                  authorization='User: 现在是不是可以开始保留测试 和完整实验了; continue original service measurement only',\n                  scope='No vision/QLA training, simulator work or paper edits; no refitting or gate changes')\n-    save(FREEZE, value, exclusive=True)\n+    if repaired:\n+        value['prelaunch_entry_repair'] = dict(previous_continuation_sha256=previous,\n+            failed_review_sha256=sha(BASE / 'protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json'),\n+            reason='Restrict date guard to measurement; require accepted test report before complete export',\n+            original_experimental_plan_changed=False, test_rows_before_repair=0)\n+    save(FREEZE, value, exclusive=not repaired)\n     print('CONTINUATION_FROZEN ' + sha(FREEZE), flush=True)\n \n \n@@ -135,7 +158,8 @@\n \n \n def check():\n-    frozen_guard()\n+    plan, _ = frozen_guard()\n+    measurement_day(plan)\n     assert_unstarted()\n     from runner import audit\n     info, _ = audit(False)\n@@ -172,12 +196,36 @@\n     safe_runtime()\n     frozen_guard()\n     from runner import audit, evaluate\n-    info, _ = audit(True)\n+    info, rows = audit(True)\n+    measured_protocol_guard(rows)\n     save(OUTPUT / 'STRICT_TEST_AUDIT.json', info, exclusive=True)\n     result = evaluate(True)\n     safe_runtime()\n     frozen_guard()\n     print('TEST_STATISTICS_COMPLETE ' + json.dumps(result['criteria']), flush=True)\n+\n+\n+def measured_protocol_guard(rows):\n+    plan, _ = frozen_guard()\n+    expected_day = datetime.fromisoformat(plan['frozen_at']).date()\n+    if any(datetime.fromisoformat(r['measurement_timestamp']).date() != expected_day for r in rows):\n+        raise RuntimeError('Measured test timestamps violate the same-day protocol')\n+    previous = None\n+    for session in range(1, 6):\n+        event = read(BASE / f'protocol/retained_test_session_{session}.json')\n+        start = datetime.fromisoformat(event['started_at'])\n+        if start.date() != expected_day or event['session'] != session:\n+            raise RuntimeError('Test session start violates frozen date/identity')\n+        if previous is not None and (start - previous).total_seconds() < plan['spacing_seconds']:\n+            raise RuntimeError('Test session start spacing violated')\n+        previous = start\n+        stamps = [datetime.fromisoformat(r['measurement_timestamp']) for r in rows if int(r['session_id']) == session]\n+        if not stamps or min(stamps) < start:\n+            raise RuntimeError('Test row precedes its recorded session start')\n+        for p in (BASE / 'measurements/test').glob(f'test_s{session}_*.json'):\n+            meta = read(p)\n+            if any(datetime.fromisoformat(meta[k]['wall_clock']).date() != expected_day for k in ['sensor_before', 'sensor_after']):\n+                raise RuntimeError('Measured test block crosses the protocol day')\n \n \n def audit_all():\n@@ -185,6 +233,7 @@\n     from runner import audit\n     confirmation, c_rows = audit(False)\n     test, t_rows = audit(True)\n+    measured_protocol_guard(t_rows)\n     report = read(BASE / 'analysis/TEST_REPORT.json')\n     if report['integrity'] != test or report['plan_sha256'] != PLAN_SHA:\n         raise RuntimeError('Test report does not match actual records/plan')\n@@ -196,6 +245,12 @@\n def export_worker():\n     safe_runtime()\n     audit_all()\n+    test_report = read(BASE / 'analysis/TEST_REPORT.json')\n+    if (test_report.get('accepted') is not True or len(test_report['criteria']) != 6\n+        or not all(x['passed'] is True for x in test_report['criteria'])\n+        or test_report['unsupported_inputs']\n+        or test_report['model_sha256'] != sha(BASE / 'model/CONDITIONAL_MODEL.json')):\n+        raise RuntimeError('Refuse success-like complete export for an unaccepted test')\n     from runner import audit\n     _, c_rows = audit(False); _, t_rows = audit(True)\n     targets = [BASE / 'analysis/v2_complete_service_requests.csv',\n@@ -233,6 +288,7 @@\n \n def run():\n     plan, freeze = frozen_guard()\n+    measurement_day(plan)\n     # External launch redirects already opened these two logs; every other evidence\n     # path must still be absent. A one-shot lock prevents any concurrent relaunch.\n     for p in [LOCK, STATE, BASE / 'analysis/TEST_REPORT.json']:\n@@ -259,10 +315,15 @@\n                     time.sleep(min(30, plan['spacing_seconds'] - (time.monotonic() - last_start)))\n             idle_gate(item)\n             frozen_guard()\n+            measurement_day(plan)\n             last_start = time.monotonic()\n-            state.update(status='measuring', session_started_at=now()); save(STATE, state)\n+            started_at = now()\n+            save(BASE / f\"protocol/retained_test_session_{item['session']}.json\",\n+                 dict(session=item['session'], started_at=started_at, continuation_sha256=sha(FREEZE)), exclusive=True)\n+            state.update(status='measuring', session_started_at=started_at); save(STATE, state)\n             for job in item['jobs']:\n                 prerequisites()\n+                measurement_day(plan)\n                 job_path = BASE / 'protocol/jobs' / (stem(job) + '.json')\n                 save(job_path, job, exclusive=True)\n                 for suffix in ['.csv', '.json']:\n@@ -292,7 +353,7 @@\n \n if __name__ == '__main__':\n     parser = argparse.ArgumentParser()\n-    parser.add_argument('action', choices=['prepare', 'resources', 'check', 'run', 'statistics-worker', 'audit-all', 'export-worker'])\n+    parser.add_argument('action', choices=['prepare', 'prepare-repaired-entry', 'resources', 'check', 'run', 'statistics-worker', 'audit-all', 'export-worker'])\n     action = parser.parse_args().action\n-    {'prepare': prepare, 'resources': resources, 'check': check, 'run': run,\n+    {'prepare': prepare, 'prepare-repaired-entry': lambda: prepare(repaired=True), 'resources': resources, 'check': check, 'run': run,\n      'statistics-worker': statistics_worker, 'audit-all': audit_all, 'export-worker': export_worker}[action]()\n",
+  "readme_revision_diff": "--- archived_readme\n+++ current_readme\n@@ -26,11 +26,15 @@\n \n ## 唯一正式启动与状态\n \n-仅在独立入口报告 `protocol/RETAINED_TEST_ENTRY_REVIEW.json` 通过后，启动 `run` 一次。使用隐藏 Windows 进程，输出分别保存至新 `logs/retained_test_stdout.log` 与 `logs/retained_test_stderr.log`。唯一锁为 `protocol/RETAINED_TEST_RUN_STARTED.json`，新状态为 `protocol/RETAINED_TEST_STATE.json`。这些都与原故障状态分离。运行不提供 resume、重测或重新封存；异常或进程消失需保留现场并停止。同日协议不允许静默跨日。\n+仅在独立入口报告 `protocol/RETAINED_TEST_ENTRY_REVIEW.json` 通过后，启动 `run` 一次。使用隐藏 Windows 进程，输出分别保存至新 `logs/retained_test_stdout.log` 与 `logs/retained_test_stderr.log`。唯一锁为 `protocol/RETAINED_TEST_RUN_STARTED.json`，新状态为 `protocol/RETAINED_TEST_STATE.json`。这些都与原故障状态分离。运行不提供 resume、重测或重新封存；异常或进程消失需保留现场并停止。同日约束只限定测量，不拦截以后日期的统计与只读审计。\n+\n+若独立入口审查在零测试记录、正式启动前发现驱动缺陷，可使用 `prepare-repaired-entry` 一次：它要求绑定当前指纹的失败审查，先归档原续接指纹与失败报告，再记录新入口指纹。此动作不能改变原实验 PLAN、会话、样本、模型或门槛；正式运行锁或任何测试证据出现后即拒绝。修复后必须重新取得独立入口审查，不能复用旧报告。\n+\n+五个会话的实际开始时间分别写入独占的 `protocol/retained_test_session_1.json` 至 `_5.json`；后续统计/审计检查已记录的测量日期、块起止日期、会话间隔与行时间，不因审计自身日期变化而拒绝。\n \n 完成时原始测试在 `measurements/test/`，验收在 `analysis/TEST_REPORT.json` 与 `analysis/V2_保留测试结果_中文.md`。即便测量与点估计门槛通过，状态仍为 `complete_pending_independent_audit`，需从原始行独立重算后才能报告完整验收。\n \n-完整导出使用新名字 `analysis/v2_complete_service_requests.csv`、`figures/fig_visual_service_v2_complete.png/.pdf`，原确认图和 13,200 行 CSV 不覆盖。若数值验收失败，不生成带成功含义的完整输出，可另外生成如实的失败比较图。\n+完整导出使用新名字 `analysis/v2_complete_service_requests.csv`、`figures/fig_visual_service_v2_complete.png/.pdf`，原确认图和 13,200 行 CSV 不覆盖。导出命令也单独检查测试报告 accepted、六项门槛与支持条件。若数值验收失败，不生成带成功含义的完整输出，可另外生成如实的失败比较图。\n \n 完成后只读核查：\n \n"
+}

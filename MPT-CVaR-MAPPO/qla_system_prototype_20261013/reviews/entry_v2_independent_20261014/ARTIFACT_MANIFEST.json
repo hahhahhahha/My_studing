@@ -1,0 +1,394 @@
+{
+  "schema": "independent-review-artifact-manifest-v1",
+  "root": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014",
+  "excludes_self": true,
+  "validation": {
+    "schema": "systemlab-independent-entry-v1",
+    "scope": "complete_system_entry",
+    "status": "FAIL",
+    "complete_report": true,
+    "blocker_ids": [
+      "B1",
+      "B2"
+    ],
+    "report_sha_matches": true,
+    "protocol_sha_matches": true,
+    "registry_sha_matches": true,
+    "source_diff": [],
+    "source_count": 19,
+    "tests_finished": true,
+    "active_owned_services": []
+  },
+  "artifacts": [
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\FIXTURE_PRE_EXECUTION_ERROR.md",
+      "bytes": 661,
+      "sha256": "03f03870b6be862d1c4015e727d3051109789df72af19c5b8cf492b32cc58e94"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\REVIEW_PROMPT.md",
+      "bytes": 6122,
+      "sha256": "92bb917e1ca626baca17d428960991b781cbc5b3d1d520478306606647e9a633"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\REVIEW_REQUEST.md",
+      "bytes": 7746,
+      "sha256": "adf05aefc4e9c7759d33ebdcdd66a362e086e0e509a800e2b4e74809490ed8e9"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\REVIEW_RESPONSE.md",
+      "bytes": 33029,
+      "sha256": "7d364cef79507a8aa660ad41a4ce57dc8a73a8bdd0f7f028ef85556b3161e6af"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\REVIEW_RESULT.json",
+      "bytes": 17837,
+      "sha256": "dfc5b15bde86b28a4fbdc00972f8fa8e41c2e48368bb71aa2d764d57d4ecd471"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\.aris\\TRACE_INDEX.json",
+      "bytes": 2266,
+      "sha256": "6edaa48e3750f0adb86122389ce431d89ad5bba45f6eb779bf905b7e824452f3"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\audit_completion.py",
+      "bytes": 7841,
+      "sha256": "f983c235653ff56eec75f2dd4f3521f9f411b12aaa73837d4338083e627e9d9e"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\audit_evidence.py",
+      "bytes": 18356,
+      "sha256": "15ca4a522feeca6baf9af92378225f5a72cc305b59f0d5980e3fc225caa55eec"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\BINDINGS.json",
+      "bytes": 32893,
+      "sha256": "f05f6cbca1ae15bb35127a487572da162d87afdcb7c4c11bd6175c93602ffd52"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\cutoff_race_fixture.py",
+      "bytes": 4672,
+      "sha256": "bcaeedc24e91e7093e33a3b9f316ed0aa7adceeb3b15dd044f18cf0e65c5dc66"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\DEPENDENCIES_AND_ACTOR.json",
+      "bytes": 5644,
+      "sha256": "5d0510eeb585a5752764806f6773e6898af31a7f59262d49c1efb5e8abcc4c72"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\DEPENDENCY_BINARY_SAMPLE.json",
+      "bytes": 3836,
+      "sha256": "de7165dd94bcbd9a0f99cc3dee18b7f6e5b7229bbb10a616d01b492ffa8ef6a0"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\EXPERIMENT_AUDIT.json",
+      "bytes": 15448,
+      "sha256": "63002fce5b3d2e3239763ed123e01f7304f5859642f436d4c7232a34d45d5e4e"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\EXPERIMENT_AUDIT.md",
+      "bytes": 4247,
+      "sha256": "db695ffc39864f71b4b4c39602f47cb65273231c383c8516258f76932affcf1a"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FEEDBACK_DIAGNOSTICS.json",
+      "bytes": 14508,
+      "sha256": "041ae124d2ecb8506e576575ba44cdb1350ce185d2737217219c71da31db99fb"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FINAL_SOURCE_AND_RECEIPTS.json",
+      "bytes": 6961,
+      "sha256": "895d4cfbe3d87e47dba3b4ecfe196e8ed38bb6d2ba9bf938b84cee9ad0553908"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\COMPLETE.json",
+      "bytes": 497,
+      "sha256": "56060729ecd8e1e23a075fb29479d5872cf921875e243ffcbb1cc23eaa08e65c"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\CUTOFF.json",
+      "bytes": 153,
+      "sha256": "03d6ede5350cae409fef0db797e7dd51bc1298d14ef23622043c1cb695da7b4d"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\decisions.jsonl",
+      "bytes": 3354,
+      "sha256": "7eecaddc0ab881b500b62305bfa39a775fa792d93c16608dd8a78d7f1ccbef09"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\feedback_receive.jsonl",
+      "bytes": 20644,
+      "sha256": "b0fd44ee6da03a2123fb20d908a053240e296b1911659aeec176a47c58e5b4d3"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\INPUTS.json",
+      "bytes": 17521,
+      "sha256": "e0ddd9812a8a858ddfc7984abfb258efb76f854a796cc5911bb6a9bed4c3959f"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\late_responses.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\tasks.jsonl",
+      "bytes": 3670,
+      "sha256": "f2e62514e782a2062d4522adcf5106a943d377612fdf5324f1d91d9790254142"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\controller.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\controller.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\controller\\feedback_send.jsonl",
+      "bytes": 129532,
+      "sha256": "f82e15e28637b7bca9cd77922673b6eaf91049068999cc2231a714f6d09d4c2c"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\controller\\RUNTIME.json",
+      "bytes": 2071,
+      "sha256": "28eff8597843ab3892e99cec5241487e68295f8f84b9142dfbbb58c3f0840e09"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge0.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge0.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge1.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge1.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge2.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge2.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge3.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edge3.stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge0\\edge.jsonl",
+      "bytes": 1218,
+      "sha256": "d26ecc2a459711bff1bcfd9b0e1257dbe66f654e3540f48f896049bc274c233f"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge0\\RUNTIME.json",
+      "bytes": 2457,
+      "sha256": "766e41aa623b4bc66f4f60796992fcb04fe0c28ad82721b66727c62e97eb5952"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge1\\edge.jsonl",
+      "bytes": 1216,
+      "sha256": "bbe710fd5196c84584266fd9799bd799f59dab978d79eab3ff394e1d356a8ff3"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge1\\RUNTIME.json",
+      "bytes": 2457,
+      "sha256": "9b1550345031595b87ed39f890b2ca6343f36056d3c388a2c3ce4a95dd60a8b8"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge2\\edge.jsonl",
+      "bytes": 1215,
+      "sha256": "2da9af24b11f78fe7b270712092d3938f25eea836b2aba3b8f97a711c28ab1fc"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge2\\RUNTIME.json",
+      "bytes": 2457,
+      "sha256": "033b5063e323b0e3ce6ac599fd4cb4dfda6b8ad650ca095933372a6cebf7c845"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge3\\edge.jsonl",
+      "bytes": 1219,
+      "sha256": "899a1ee452c7af4d68b42d8ed7ad5c64dff045b6fe2381026a6d6b033d94633a"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\edges\\edge3\\RUNTIME.json",
+      "bytes": 2457,
+      "sha256": "2ea8067bd145e0a382c8f9eb6266462bc3598364ac3f1c7cb64ecd59657cb3a2"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\PROCESS_END.json",
+      "bytes": 1411,
+      "sha256": "328616b470d2b89862e43eeecee216b40bfc80ee217fe6b837b503d713ff2d3c"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\PROCESSES.json",
+      "bytes": 2573,
+      "sha256": "963482f24d89d9d371faa071a4830e1a41ee57c4802319d8aebba7002be7a5b2"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FUNCTIONAL_ANALYSIS.json",
+      "bytes": 2533,
+      "sha256": "d1fa170f38f9ba5de42be2f734dcdce663436c107e119f0a18252228eece1ce4"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FUNCTIONAL_VERIFICATION.json",
+      "bytes": 22080,
+      "sha256": "fc41f81bae347a093ff7a9c00dccfcea2f75212f2200e70fdfd4970982d0eb12"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\IMAGES.json",
+      "bytes": 930720,
+      "sha256": "6cddb59a52e80df3816da7c0b3feb8eea3586a61a4913a5f4a4606d723c69cab"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\INTERFERENCE_RECOMPUTATION.json",
+      "bytes": 86683,
+      "sha256": "3bb6b51ca1e284fc5dc62fae008a1214c01ef152c8cfdb6be6d3fee355340f77"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\LEGACY_SOURCE_RESOLUTION.json",
+      "bytes": 32848,
+      "sha256": "cbb2b6306477bfce7c10fdff71958f13a25ca77a350335bae284ec74929798b4"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\POST_EXECUTION_RECEIPT.json",
+      "bytes": 5661,
+      "sha256": "e8f602f899fc4e7a5332f0a8a4c7066f5e9c2346b8da12b9945f35630864390c"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\PRE_EXECUTION_RECEIPT.json",
+      "bytes": 54043,
+      "sha256": "83055e1629d3f175e8509af5ec27b8900f41a47eddd840b8e30f68e81d766e68"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\RAW_RUN_RECOMPUTATION.json",
+      "bytes": 43616,
+      "sha256": "afe6834159335d1bc03c8a91be6439bd81e079d3fa8188b7e65de341ef7f11d8"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\READ_INVENTORY.json",
+      "bytes": 122860,
+      "sha256": "97cc078ffe3c3a6a65c5f183993f58b9d1e32fe33427ed812e9942b9ead8ded0"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_REQUEST.md",
+      "bytes": 7746,
+      "sha256": "adf05aefc4e9c7759d33ebdcdd66a362e086e0e509a800e2b4e74809490ed8e9"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_RESPONSE.md",
+      "bytes": 33029,
+      "sha256": "7d364cef79507a8aa660ad41a4ce57dc8a73a8bdd0f7f028ef85556b3161e6af"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_RESULT.json",
+      "bytes": 17837,
+      "sha256": "dfc5b15bde86b28a4fbdc00972f8fa8e41c2e48368bb71aa2d764d57d4ecd471"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\SCHEDULES.json",
+      "bytes": 4543,
+      "sha256": "b01ce5ce0769f0cd1434613b72aa91a8479f3e180e27b8640aa9e75ceb48db37"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_01\\FIXTURE_FAILURE.md",
+      "bytes": 301,
+      "sha256": "2e7fb03b557a8be17dec5453f59b04f669aac809e7a5faa64cf124566654b4c0"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_01\\manifest.json",
+      "bytes": 356,
+      "sha256": "ea9af2fc5ec3153adf9dca3e5085af51e2c05d62d245764eb808df56ee2da536"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_01\\NOT_A_JPEG_fixture.bin",
+      "bytes": 22,
+      "sha256": "6d9ac15d6c5e4c6787b993c04986ec4e5fabe7db7788a9d3ed62cdbc967760bf"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_01\\schedule.json",
+      "bytes": 306,
+      "sha256": "6c8f1a293217d90758493bc83329fe1d13939a9147bc52f2b7a630701973ae26"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\COMPLETE.json",
+      "bytes": 320,
+      "sha256": "83f52272f4e41f7bf271695743637e38b6086d83dab2edddb464a032e40f040a"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\CUTOFF.json",
+      "bytes": 157,
+      "sha256": "0a12e4976fcbd956ebb10797f779602624e50ab26630e5ee52f9717d341d10ea"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\decisions.jsonl",
+      "bytes": 380,
+      "sha256": "48491aa4197f6709f6f7ccffb8b55498dc755e512c63f28ae3f389cc59adbff7"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\feedback_receive.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\INPUTS.json",
+      "bytes": 2463,
+      "sha256": "eb026658a9102f63112b002bb1c59afdff8ab0043b71ffe8dbd362a73a4b9cbd"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\late_responses.jsonl",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\client\\tasks.jsonl",
+      "bytes": 827,
+      "sha256": "d9b8cf0f3fc54260470eb9213cc7600791cd057556079cca6f478608a2697206"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\manifest.json",
+      "bytes": 356,
+      "sha256": "5cf993fe5570cc1d78b12ea197ad3c5d6b87eafef4f0bb9fec9d3ce5cb088608"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\NOT_A_JPEG_fixture.bin",
+      "bytes": 22,
+      "sha256": "6d9ac15d6c5e4c6787b993c04986ec4e5fabe7db7788a9d3ed62cdbc967760bf"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\RESULT.json",
+      "bytes": 2746,
+      "sha256": "6ce89784002ee9383d4dd071e5d16fd09c59f0c354f5b3d07108ddb105b5cb71"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\schedule.json",
+      "bytes": 306,
+      "sha256": "883de79b3458e739ee53f78915a4977223116dd1c8be2a0f86a4a2a21a00f13f"
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\UNIT_RESULT.json",
+      "bytes": 4586,
+      "sha256": "8e5b1846be595c79958c32c86b6dcb76b7ffd1cb23e60d72239d27eb998c82f3"
+    }
+  ]
+}

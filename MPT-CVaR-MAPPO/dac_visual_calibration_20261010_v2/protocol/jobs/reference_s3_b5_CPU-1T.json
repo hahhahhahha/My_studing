@@ -1,0 +1,28 @@
+{
+  "role": "reference",
+  "session": 3,
+  "block": 5,
+  "profile": "CPU-1T",
+  "image_ids": [
+    "imagenette2/train/n03425413/n03425413_12714.JPEG",
+    "imagenette2/train/n01440764/n01440764_11987.JPEG",
+    "imagenette2/train/n03000684/n03000684_2106.JPEG",
+    "imagenette2/train/n02102040/n02102040_1317.JPEG",
+    "imagenette2/train/n03000684/n03000684_2494.JPEG",
+    "imagenette2/train/n03888257/n03888257_56857.JPEG",
+    "imagenette2/train/n03000684/n03000684_2319.JPEG",
+    "imagenette2/train/n02979186/n02979186_26879.JPEG",
+    "imagenette2/train/n02979186/n02979186_15824.JPEG",
+    "imagenette2/train/n03417042/n03417042_12936.JPEG",
+    "imagenette2/train/n03425413/n03425413_14957.JPEG",
+    "imagenette2/train/n03888257/n03888257_8498.JPEG",
+    "imagenette2/train/n02979186/ILSVRC2012_val_00024874.JPEG",
+    "imagenette2/train/n03445777/n03445777_5766.JPEG",
+    "imagenette2/train/n03028079/n03028079_14885.JPEG",
+    "imagenette2/train/n03417042/n03417042_366.JPEG",
+    "imagenette2/train/n03000684/n03000684_18783.JPEG",
+    "imagenette2/train/n03445777/n03445777_4188.JPEG",
+    "imagenette2/train/n02102040/n02102040_867.JPEG",
+    "imagenette2/train/n02102040/n02102040_3199.JPEG"
+  ]
+}

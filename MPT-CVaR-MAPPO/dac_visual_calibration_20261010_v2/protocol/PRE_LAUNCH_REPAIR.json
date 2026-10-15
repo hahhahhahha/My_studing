@@ -1,0 +1,8 @@
+{
+  "at": "2026-10-10T17:09:06.304110+08:00",
+  "reason": "Independent preflight found V1 validation raw files were not traversed by check; bind all V1 raw files and failure runtime evidence.",
+  "before_sha256": "ce84baeb4d5b7f2d5c8b62876a11295b08ffc636c08f7646256fd0073105d352",
+  "after_sha256": "89f0f20fbad52e2c4b772bf5cf88d3491cd89d379bba69cc808ce365b3839ba2",
+  "measurements_started": false,
+  "split_or_model_or_threshold_changed": false
+}

@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-12T04:08:51+08:00",
+  "agent": "/root/visual_smoke_repair_rereview_v2",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "review_type": "Type-A",
+  "scope": "visual_smoke_source_repair_after_preserved_FAIL",
+  "observed_readonly_quota": {"ordinaryUsageAllowed": true, "primary_usedPercent": 1, "secondary_usedPercent": 46, "manual_reset_or_credit_purchase": false},
+  "last_quota_interruption_reset_time_local": "2026-10-12T03:39:01+08:00",
+  "unchanged_requested_revision_report_directory_absent_before_resume": true,
+  "source_revision_bounded_resume_count": 1,
+  "duplicate_agent_created": false,
+  "exact_current_sources_preserved_during_interruption": true,
+  "current_source_entries_rehashed": 203,
+  "original_protected_entries_rehashed": 232,
+  "preserved_continuity_entries_rehashed": 548,
+  "observed_byte_mismatches": 0,
+  "request_trace": ".aris/traces/experiment-audit/2026-10-11_visual_source_repair_rereview_v2/REVISION_2_RESUME_20261012_0409_VERBATIM.md",
+  "status": "same_independent_revision_rereview_resumed_PENDING_not_PASS",
+  "actual_runtime_models_smoke_training_or_test_executed": false,
+  "runtime_full_pilot_formal_launch_authorized": false,
+  "Type_B_certification": false
+}

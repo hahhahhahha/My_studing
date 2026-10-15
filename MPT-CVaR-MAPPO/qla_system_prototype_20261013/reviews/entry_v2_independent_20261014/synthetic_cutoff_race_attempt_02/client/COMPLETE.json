@@ -1,0 +1,1 @@
+{"actual_outcomes":1,"error":null,"frozen_actor_verification":{"actor_executed":false,"synthetic_fixture":true},"inference_only":true,"method":"score_softmax","optimizer_calls":0,"protocol_complete":true,"schedule_sha256":"883de79b3458e739ee53f78915a4977223116dd1c8be2a0f86a4a2a21a00f13f","source_continuity_pass":true}

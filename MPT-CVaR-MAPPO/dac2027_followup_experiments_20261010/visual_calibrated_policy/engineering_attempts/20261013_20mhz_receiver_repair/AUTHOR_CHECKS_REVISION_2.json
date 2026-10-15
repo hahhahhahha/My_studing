@@ -1,0 +1,28 @@
+{
+  "actual_model_or_optimizer_or_cuda_calls": 0,
+  "actual_pilot_started": false,
+  "actual_receipt_positive_cases": 1,
+  "actual_smoke_plan_generated": false,
+  "actual_smoke_started": false,
+  "adversarial_receipt_cases_rejected": 12,
+  "current_source_inventory": {
+    "protected_count": 210,
+    "protected_inventory_sha256": "29945dbe9ca758058b6f255f993c8f7e084705d33ce87258fd8ba8d8c45abbb5",
+    "source_count": 209,
+    "source_inventory_sha256": "5661d250203daa4902dcc0c3e52dc49e2617541fdfd3afe619c587fc0590da79"
+  },
+  "current_source_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_pilot_preparation.py": "5c6bfa1e89f508fa61843f8d62d80a27a8a1cd88cf1b90139760360a8fe489fe",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\reward_input_integrity.py": "3d92695b38a4b4576f3976c4796525f7384714bca299ff134b4bd4369a1fb37f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\visual_model_smoke_small.py": "3f67de57302ed19e22fd70bb6a189b698bde40652fdd9166fa1a25a2a23e327b"
+  },
+  "formal_cells_started": 0,
+  "no_scientific_or_resource_policy_changes": true,
+  "note": "All receipts and path-change cases in this file are artificial fixtures, never experiment evidence.",
+  "prior_review_failures_preserved": true,
+  "protected_binding_positive_and_negative_cases": 3,
+  "review_directory_positive_and_negative_cases": 3,
+  "schema": "visual-20mhz-receiver-repair-author-check-v1",
+  "smoke_plan_boundary_source_assertions": 8,
+  "status": "AUTHOR_FIXTURES_PASS"
+}

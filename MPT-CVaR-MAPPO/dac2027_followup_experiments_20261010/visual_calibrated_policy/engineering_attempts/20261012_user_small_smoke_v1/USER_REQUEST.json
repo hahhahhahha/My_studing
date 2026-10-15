@@ -1,0 +1,16 @@
+{
+  "user_instruction_verbatim": "允许正常退出全部 Chrome 窗口并启动实验，冒烟测试缩小规模，以免浪费太多时间",
+  "scope": "Normal Chrome exit and separately versioned smaller functional smoke; not permission to terminate other apps, reset drivers, override original GPU gate, or alter formal experimental budgets",
+  "visual_decisions_per_arm_before": 16,
+  "visual_decisions_per_arm_selected": 8,
+  "visual_users_unchanged": 30,
+  "visual_methods_unchanged": ["QLA-MAPPO", "PPO-MV-A"],
+  "reward_training_slots_per_arm_before": 72,
+  "reward_training_slots_per_arm_selected": 32,
+  "reward_validation_slots_per_arm_before": 32,
+  "reward_validation_slots_per_arm_selected": 8,
+  "reward_arms_unchanged": ["Full", "NoJointDemandReward"],
+  "original_gpu_gate": "memory.used <500MiB",
+  "formal_budgets_and_scientific_conditions_changed": false,
+  "actual_execution_or_independent_review_complete": false
+}

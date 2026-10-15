@@ -1,0 +1,140 @@
+{
+  "runtime_executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+  "checkpoint_sha256": "3444f039eb7359d37000ef0045ccd3efb859bb51ff1564b0c814e40d50213044",
+  "payload_scalar_metadata": {
+    "log_portfolio_entropy_coef": 3.202695369720459,
+    "n_edges": 35,
+    "actor_obs_dim": 112,
+    "include_feedback_age": true,
+    "feedback_age_gate": false,
+    "residual_actor": false,
+    "residual_actor_prior_conditioned": false,
+    "edgewise_price_actor": true,
+    "flat_price_bias_actor": false,
+    "lcc_price_observation": true,
+    "lcc_price_scale_observation": true,
+    "lcc_edgewise_price_actor": true,
+    "lcc_flat_price_bias_actor": false,
+    "lcc_price_logit_bias": 0.5,
+    "lcc_price_components": "QT",
+    "lcc_local_critic": false,
+    "target_portfolio_entropy": 0.99
+  },
+  "actor_state_shapes": {
+    "user_net.0.weight": [
+      128,
+      7
+    ],
+    "user_net.0.bias": [
+      128
+    ],
+    "user_net.2.weight": [
+      128,
+      128
+    ],
+    "user_net.2.bias": [
+      128
+    ],
+    "edge_net.0.weight": [
+      128,
+      5
+    ],
+    "edge_net.0.bias": [
+      128
+    ],
+    "edge_net.2.weight": [
+      128,
+      128
+    ],
+    "edge_net.2.bias": [
+      128
+    ],
+    "score_net.0.weight": [
+      128,
+      256
+    ],
+    "score_net.0.bias": [
+      128
+    ],
+    "score_net.2.weight": [
+      2,
+      128
+    ],
+    "score_net.2.bias": [
+      2
+    ]
+  },
+  "decisions_recomputed": 10759,
+  "portfolio_max_error": 5.960464477539063e-08,
+  "frozen": {
+    "actor_executed": true,
+    "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+    "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+    "parameters_unchanged": true
+  },
+  "imported_historical_modules": {
+    "repro_risk_averse_edge": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\repro_risk_averse_edge\\__init__.py",
+    "repro_risk_averse_edge.config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\repro_risk_averse_edge\\config.py",
+    "mappo_gp_sf_dsr.config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py",
+    "mappo_gp_sf_dsr": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\__init__.py",
+    "mappo_gp_sf_dsr.buffer": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\buffer.py",
+    "mappo_gp_sf_dsr.models": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py"
+  },
+  "imported_module_sha256": {
+    "repro_risk_averse_edge": "68a5870eaa1b68013df6d57db05a9908b967db30dea5cf87d3cd2143bba369c1",
+    "repro_risk_averse_edge.config": "70a4fb1db4257e08c92dc2dfcc55842aa6e6e9719cbb637a88cbcacb07f619c5",
+    "mappo_gp_sf_dsr.config": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+    "mappo_gp_sf_dsr": "ec44ae151a0ff2283e742aeeb2c068afcd9f6b8759d951f8add9a51050942579",
+    "mappo_gp_sf_dsr.buffer": "1a9c54083e065dcf1e3bd3a1f6051759d68aab7990db3268f4b5b4ee0ce63dd3",
+    "mappo_gp_sf_dsr.models": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85"
+  },
+  "dependencies": {
+    "numpy": {
+      "version": "2.2.6",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy-2.2.6.dist-info",
+      "metadata_sha256": {
+        "METADATA": "229f3544b02805e0f6a12030e155d8a45fd3a4100b3291574175e6a76f20e1e1",
+        "RECORD": "60e7b024a236819e8ac4ae33ea1c37bb168cfc31caaf6eb5b10edacdfdb13d60",
+        "WHEEL": "b2eabc011af16e223b88b1f70602bef36bb3c50fb81e6fa6f30d35a02a24aed0"
+      }
+    },
+    "torch": {
+      "version": "2.11.0+cu128",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch-2.11.0+cu128.dist-info",
+      "metadata_sha256": {
+        "METADATA": "bb53a1e8e258707e738e108afaf1041304fa085a3775206876232345257e00b7",
+        "RECORD": "4cbc6bb73b74a7114021ae5b2b02637a5484ae44c060029e07efea8fce644a0a",
+        "WHEEL": "618df084de73688a73c560b1307190b70a080835c4b06021f9b2804da0f6863e"
+      }
+    },
+    "torchvision": {
+      "version": "0.26.0+cu128",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision-0.26.0+cu128.dist-info",
+      "metadata_sha256": {
+        "METADATA": "9abd9abebd20846a21389cc665fd4189f78f02fd50497b7b58923334306dac82",
+        "RECORD": "25c1d36091c368781f19db6e5c46fb3965fbd8ffbad3b77383a049b69f288f47",
+        "WHEEL": "618df084de73688a73c560b1307190b70a080835c4b06021f9b2804da0f6863e"
+      }
+    },
+    "Pillow": {
+      "version": "11.1.0",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\pillow-11.1.0.dist-info",
+      "metadata_sha256": {
+        "METADATA": "193ccdb7122ec303ec7fa81cf5ad915ba83ef48f6c5edaa2b7bae0fe85eae992",
+        "RECORD": "63487290ea2f985ef3f834ec900732c8def4d35ec7d40144e47055c3d980b8be",
+        "WHEEL": "e9b5d3902965ad62d83d6de008f91e440f75378eb4e20f61a8d850a995ac5334"
+      }
+    },
+    "pytest": {
+      "version": "8.3.4",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\pytest-8.3.4.dist-info",
+      "metadata_sha256": {
+        "METADATA": "d247bcafebf5fab872ce768a4f7f631d8693aecce94f6827da2b6f8952ca3760",
+        "RECORD": "1e9b65778f6a67179a8c54636b3ed47cc9200c9d2de75d6c987ac7abc95943a3",
+        "WHEEL": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef"
+      }
+    }
+  },
+  "no_optimizer": true,
+  "scope": "read-only offline inference correctness, not performance"
+}

@@ -1,0 +1,44 @@
+{
+  "status": "candidate_not_pilot_frozen_not_weight_selection",
+  "rule": {
+    "strategy": "final_checkpoint_after_common_budget_no_outcome_ranking",
+    "methods": [
+      "QLA-MAPPO",
+      "PPO-MV-A"
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "common_budget": {
+      "episode_decisions": [
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000,
+        1000
+      ],
+      "users": 30,
+      "decision_seconds": 0.05,
+      "fixed_drain_seconds": 30.0
+    },
+    "checkpoint_episode_index": 10,
+    "validation_role": "validation",
+    "validation_for_completeness_not_performance_filter": true,
+    "test_used_for_selection": false,
+    "negative_validation_outcomes_retained": true,
+    "all_ten_registered_before_test_entry": true
+  },
+  "rule_semantic_sha256": "260f15e0fe0294604c7d928a39d3119861c430bb16be3b6b548448acddc52900",
+  "actual_checkpoint_selection_done": false,
+  "actual_validation_evaluations": 0,
+  "test_launch_authorized": false
+}

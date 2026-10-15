@@ -1,0 +1,2122 @@
+{
+  "study": "Frozen R6 policies on independent Azure days and Alibaba release",
+  "created": "2026-10-09T23:51:53.915860",
+  "train_steps": 0,
+  "test_steps": 1000,
+  "checkpoint_training_nominal_delay": 4,
+  "checkpoint_rule": "pre-existing frozen last checkpoints; no new selection",
+  "methods": [
+    "QLA-MAPPO",
+    "PPO-MV-A",
+    "JSEQ-A"
+  ],
+  "mobility_datasets": [
+    "KAIST",
+    "NCSU",
+    "NewYork"
+  ],
+  "training_seeds": [
+    1,
+    2,
+    3
+  ],
+  "test_nominal_delays": [
+    0,
+    4,
+    8
+  ],
+  "windows": [
+    [
+      "W1",
+      11,
+      0
+    ],
+    [
+      "W2",
+      12,
+      220
+    ],
+    [
+      "W3",
+      13,
+      440
+    ]
+  ],
+  "cells": [
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 0,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W1"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W2"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "nominal_delay": 8,
+      "window": "W1"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "nominal_delay": 0,
+      "window": "W3"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "nominal_delay": 4,
+      "window": "W2"
+    },
+    {
+      "method": "JSEQ-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "nominal_delay": 8,
+      "window": "W3"
+    }
+  ],
+  "expected_cells": 243,
+  "checkpoints": [
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "d836d425a7a446b04c1a48976c9d726dc9351ec39385b9bcb3c20cb5dd198af9",
+      "train_schedule_sha256": "5a58d60f464f33bae4d5232fb51efd39edbac3eca8f301503d34bf724b046bbf",
+      "validation_schedule_sha256": "715613d4c7cb89a13b1ff06aa6ad8b0f72812e88eee651e133e4d9217a8350b0",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "7fc4e80e329419a34727348c2c3ace3284969f67c5ff039cf26947691f371369"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "da122d7d93761339117417cfeef9e99b65ea0c08d2bea66259f53482e04edf99",
+      "train_schedule_sha256": "d12f693f9178cb52c9219975b351afadcd7bbd9ace1ae35ea4e96b23b57c3bf6",
+      "validation_schedule_sha256": "1748a2349c3d6af01f43e4a1f7c165cb7d1f90f6786a91057370d1e3a5a0bdf3",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "e97082eec6f8ac0c542e303e544098bd84ab048d88ddd44d546066219779022e"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "KAIST",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "abae71233fc66686c5bcecef43a726224153bf70f8a14be494bf045ca4f83882",
+      "train_schedule_sha256": "d01ae1438ed446365d5b5b6b82c7743dead8854e4fc3ce4c1a96c4c667ae859a",
+      "validation_schedule_sha256": "44a5705ca9ed1ceb0f145ebd00c70925515b248f10d2335c8cf3f9e79f3151a4",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\KAIST\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "69caeb1289834f5fb9abade1f53cac4e968dbe1e600fe1610dd12e22b1ba8fed"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_1\\delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_1\\delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "2eb519b1a34d0fdc94814e15e7ebc7300cb7ebd3f4f387adc19de8faf9af9ae8",
+      "train_schedule_sha256": "5774bf6ae2edc9c1ca1d70858f42ca1072b386b4fbcdbbbed38a077f97934116",
+      "validation_schedule_sha256": "24df5d72b18c9b0101c3f0f71c8a117cb279221efec7ebcdbab9815a055aedb7",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_1\\delay_4\\NCSU\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "5a347e62e2fd442f9cba05db8956c65c57d379a2c82d878ebd10c1e3e3867e8f"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_2\\delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_2\\delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "8852528cb78cf4d64bc28b399e1f7a9f9ad7afadba53c42b89b4376d71d1988b",
+      "train_schedule_sha256": "8c29ac48026f7695c2a488323a13633723dec9c5c8e65d93e65f11ce2bf1b67c",
+      "validation_schedule_sha256": "4ad38d993c7bbe3d5058e66a6a9493709b4e5721ee2f4e224c6c7e6a0f9f8caa",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_2\\delay_4\\NCSU\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "c07cbf645a7767db08b7a364842de47f34c84f75a102c94d41a11b903c433abe"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NCSU",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_3\\delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_3\\delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "13f36be187851be912bcbf14c9701891ccec8b5bda1337cfa4e3253b4ad98f53",
+      "train_schedule_sha256": "a1840e476411c211fd0e4eafb592e5fd0ffc62145c449c28abab06a5bdef8a37",
+      "validation_schedule_sha256": "ed44a4e7f800b48e45258ee34e5502c05812f8b6c389ba212b24c7654a87c018",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NCSU\\seed_3\\delay_4\\NCSU\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "b4dc05c792558514a21f67843ed917ffb9cd615048c09655c6e9e5fd962f1598"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_1\\delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_1\\delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "65dfbbbf21d9d7629089ad065b27f54af7a8394eae5da626ec5deeaf4ba596ec",
+      "train_schedule_sha256": "003c0dab097f6b32e2a00d54943990a218c434078105916cb8b68de2f4caa734",
+      "validation_schedule_sha256": "aabb836f9eaaab5e26f1f58b4d4afb06b979636579ea256f175102267ef79684",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_1\\delay_4\\NewYork\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "e6b80db7a99b7f28869ac81d8f4db9c0f3901c58744df3462c8f4b83a8303ee7"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_2\\delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_2\\delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "6e6a74634e7a18f3bf07b594749664fda078616257d833802f5b987dc4a81207",
+      "train_schedule_sha256": "1dcda1ba7debf8d48a9b94cd4653510199364d25567ad9245f3c4c6cd745f724",
+      "validation_schedule_sha256": "23a95755c147918f4f2222a547a8dca0b7afe6b95c4474a944fdda0f2d4c5690",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_2\\delay_4\\NewYork\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "bee5beb9e62407e539a14f7fb901727b77d955852d9fe2b0a67746d2f6b08783"
+    },
+    {
+      "method": "QLA-MAPPO",
+      "dataset": "NewYork",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_3\\delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_3\\delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "b5735ff0498a82c43a43500efccfca9d3944fa8cf23af3d16349970ece61f84f",
+      "train_schedule_sha256": "384e04026e06370264d87468dbf7fec4dc5700024dfb8a9695426e14136ccc54",
+      "validation_schedule_sha256": "4e9795bf02efb5c0142b5268092d0129cb9116e9accf9b54b5253407fc1cf1ad",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\QLA-MAPPO\\NewYork\\seed_3\\delay_4\\NewYork\\30u\\poisson_bursty\\config_LCC-MAPPO.json",
+      "config_sha256": "5c348942d2ac2139abb476abb011d7a5849ae8398c665af000802e51464fd8cf"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "732ee7e40855dc4168885873b1d64a9dfbed5dcfb3221a3250a9d80d3cd17db6",
+      "train_schedule_sha256": "5a58d60f464f33bae4d5232fb51efd39edbac3eca8f301503d34bf724b046bbf",
+      "validation_schedule_sha256": "715613d4c7cb89a13b1ff06aa6ad8b0f72812e88eee651e133e4d9217a8350b0",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "4cd17de5f4c1e58856bd718e7eff1af71135b85394a045ca62277138dcb25498"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "5ae8f23661a23ad967f194ffb700a701c8a4072429728e623dc4290f2fef7486",
+      "train_schedule_sha256": "d12f693f9178cb52c9219975b351afadcd7bbd9ace1ae35ea4e96b23b57c3bf6",
+      "validation_schedule_sha256": "1748a2349c3d6af01f43e4a1f7c165cb7d1f90f6786a91057370d1e3a5a0bdf3",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "c8dcd372e56ff71d1af6e55afed33888ceecbc77739ecc4abfc736e606c6221b"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "KAIST",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "a2ae3154139bf7674a0c00af6053321974be5dc2d717645642390cf248f03fe6",
+      "train_schedule_sha256": "d01ae1438ed446365d5b5b6b82c7743dead8854e4fc3ce4c1a96c4c667ae859a",
+      "validation_schedule_sha256": "44a5705ca9ed1ceb0f145ebd00c70925515b248f10d2335c8cf3f9e79f3151a4",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\KAIST\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "d7f606808cdf430255be0906b3a7eae622f91d15c20374e4bf81d75963744157"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "f619a81f7cdb217ed2af7224419f5ca5aaaf5abb94ccbb46220bbb56b805f141",
+      "train_schedule_sha256": "5774bf6ae2edc9c1ca1d70858f42ca1072b386b4fbcdbbbed38a077f97934116",
+      "validation_schedule_sha256": "24df5d72b18c9b0101c3f0f71c8a117cb279221efec7ebcdbab9815a055aedb7",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "b6e2a1b7a06c5a0e53f85e3dadee472ed26a8a4e45ad84943805f22f7be1614c"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "4cfbc1222bf5cb901b28a909a86793582e093528e8652faee92a77e9687b03fc",
+      "train_schedule_sha256": "8c29ac48026f7695c2a488323a13633723dec9c5c8e65d93e65f11ce2bf1b67c",
+      "validation_schedule_sha256": "4ad38d993c7bbe3d5058e66a6a9493709b4e5721ee2f4e224c6c7e6a0f9f8caa",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "d6cbfac6fa0b97f950b158f711f59db156cf1e7b82eb2575dc72c1223693b688"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NCSU",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "65b283b17a28464652733c7a5e62697b75509a6967b9c5b683943cdb9a12b3ac",
+      "train_schedule_sha256": "a1840e476411c211fd0e4eafb592e5fd0ffc62145c449c28abab06a5bdef8a37",
+      "validation_schedule_sha256": "ed44a4e7f800b48e45258ee34e5502c05812f8b6c389ba212b24c7654a87c018",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NCSU\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NCSU\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "96bf4739310f5efce22156ffbb82a903d3429bce4f5a28175622d8379c8b2c2c"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 1,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "8fdd2aa10a34ccd0878ca3b80c73fac3ce25216adc484d1a356c2eb870e87736",
+      "train_schedule_sha256": "003c0dab097f6b32e2a00d54943990a218c434078105916cb8b68de2f4caa734",
+      "validation_schedule_sha256": "aabb836f9eaaab5e26f1f58b4d4afb06b979636579ea256f175102267ef79684",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "fb97389b7d856feb5ea90f43d15a1ba2d73c00f45eee9f8a3393ae9a1712e41e"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 2,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "231cb6dee125c766866777511efd5ac194e017c41cb13f82c87f7e43654a7d34",
+      "train_schedule_sha256": "1dcda1ba7debf8d48a9b94cd4653510199364d25567ad9245f3c4c6cd745f724",
+      "validation_schedule_sha256": "23a95755c147918f4f2222a547a8dca0b7afe6b95c4474a944fdda0f2d4c5690",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "a88c298114f4870a49c7fa4f8ac3cabc9f64ba4afc2626dc18459b288a725776"
+    },
+    {
+      "method": "PPO-MV-A",
+      "dataset": "NewYork",
+      "seed": 3,
+      "age": 4,
+      "validation_leaf": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "baf5dea784d4e02dd02be287e403118b1172b954c402a097787da0dd9b4651ea",
+      "train_schedule_sha256": "384e04026e06370264d87468dbf7fec4dc5700024dfb8a9695426e14136ccc54",
+      "validation_schedule_sha256": "4e9795bf02efb5c0142b5268092d0129cb9116e9accf9b54b5253407fc1cf1ad",
+      "config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_trace_bothfix_20261001_v5\\validation\\cells\\PPO-MV-A\\NewYork\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\NewYork\\30u\\poisson_bursty\\config_Towards-PPO-MV.json",
+      "config_sha256": "dee5106edbcad3f917e822d90e67f2f061ca2933039bb6904da6e127af81461d"
+    }
+  ],
+  "execution_source_sha256": {
+    "mappo_gp_sf_dsr\\__init__.py": "ec44ae151a0ff2283e742aeeb2c068afcd9f6b8759d951f8add9a51050942579",
+    "mappo_gp_sf_dsr\\analyze_convergence_stability_ablation.py": "30c4a31fc3551a157fda9bba6b6774db3ade2453cc1dd46cb39784f07111ab7f",
+    "mappo_gp_sf_dsr\\analyze_delayed_information_baselines.py": "919f78524033fd01ef12f822cb4606173624497268d329d9fdd98d8e7e62664d",
+    "mappo_gp_sf_dsr\\analyze_facr_residual_policy.py": "b794c4cff9583d00c100299d11e2cd9bbc7d29834b961958ff080b5caafa35bb",
+    "mappo_gp_sf_dsr\\analyze_margin_z_directed.py": "f166b6c393a6243a2fafb75df262bd5d7fcee45511d0f864d585bccde6ba01b5",
+    "mappo_gp_sf_dsr\\audit_directed_margin_z.py": "8fc11db7b44e67812f64f871d1c9d2895903b2a8b38fee9e53497816b16af390",
+    "mappo_gp_sf_dsr\\audit_margin_paired_directed.py": "c84a617cd6d2867c42fe066448f8d42d50c82adb89e7f2cf2dab16245ae899c1",
+    "mappo_gp_sf_dsr\\audit_priceedge_p0_evidence.py": "27682375bd95c33334f14c68033ec79840bae6605378ff347250f2ae513d9c40",
+    "mappo_gp_sf_dsr\\audit_qla_experiment_progress.py": "b2b38a1febf81bdfbea0b0be1e52e659ad37a0488127871d30cdc3696194eb9f",
+    "mappo_gp_sf_dsr\\baseline_gae.py": "e3ee92d6a1235ad92a2fc69017845247a3d600d87cd656051a67280a7fb7c29e",
+    "mappo_gp_sf_dsr\\buffer.py": "1a9c54083e065dcf1e3bd3a1f6051759d68aab7990db3268f4b5b4ee0ce63dd3",
+    "mappo_gp_sf_dsr\\build_qla_v7_readable_docx.py": "c6313033af09b8826c233e7870d67b754158d84741549e3beefe25146f8cf300",
+    "mappo_gp_sf_dsr\\build_qla_v8_split_docx.py": "7fa04be1d2d09a88c4f980a47506d2e2a379f71977f86e8b0235e61d9c69254c",
+    "mappo_gp_sf_dsr\\calibrate_environment.py": "af77616222481f1dada067fe5034c84efb165130814cd5f116d75fe4a3eb6367",
+    "mappo_gp_sf_dsr\\canonical_protocol.py": "7c3bc4bf82d17ca17309f0b8cb2be23dbb0c7f4faa1cf1ce1c864c76d27b77c2",
+    "mappo_gp_sf_dsr\\check_alignment.py": "f5a039dec3adc2b8dd7887462cefbb05064d696f6eddc36507e20473e6489586",
+    "mappo_gp_sf_dsr\\compact_facr_docx_from_v7_figsplit.py": "33f0b590fc5cbf1694d9a5bc038eafd9eb8894c47f909606b29a6383504e7422",
+    "mappo_gp_sf_dsr\\compare_methods.py": "ec196252b3f0ec7c14f64fd08da4bd6e520dddead6f34048bf0208d73ffec505",
+    "mappo_gp_sf_dsr\\compare_stress_policies.py": "636a58b51a093dab97a3d2ad2b09e76358e8ec3d91c9ab216bc238d354cb4757",
+    "mappo_gp_sf_dsr\\compare_summaries.py": "b2e203ce1f24c3bb54f75c74c380e166d35a07239bea5f8023f62a2464babaab",
+    "mappo_gp_sf_dsr\\config.py": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+    "mappo_gp_sf_dsr\\data_splits.py": "e7efdd4ad855198cb5b4832845aa59fa95836969c6602cfab05b36f6b3cbc248",
+    "mappo_gp_sf_dsr\\delayed_information_baselines.py": "2449530e289b2eb8aa8352b9fe4683ed65bcde3b19f311747e37c91fbecb10b6",
+    "mappo_gp_sf_dsr\\env.py": "c20f89b0770d009acec63eb014c0276221654a3b7115b641bd32da6674e74fdc",
+    "mappo_gp_sf_dsr\\evaluate.py": "440c0d76edfda3430244ab89f1804c6dce958b16f0dfbee0fa98a0fd4e09783a",
+    "mappo_gp_sf_dsr\\feedback_buffer.py": "51a97d1b76aae94719c38cef3dead12d53e167e34357eb68050b484bfb9cdae2",
+    "mappo_gp_sf_dsr\\fill_missing_evidence.py": "3b4bd15c7fad59246a71046e065a328dd028212f2f29ac4810f018f3278f2e6a",
+    "mappo_gp_sf_dsr\\fill_priceedge_v4_missing_evidence.py": "3ce4a87aafc1ef56bef37f3d2591e4d3dfdac288c27564a43ee7a8202b8b8663",
+    "mappo_gp_sf_dsr\\finalize_qla_simplified_results.py": "9a603e29146792fa36c7f959cde1be6304ab5b969e227d634383091edd075381",
+    "mappo_gp_sf_dsr\\fix_v8_compact_formula_paragraphs.py": "c127de2704491ae1796d5305eded4335a40bda347ddc3045f68ba8beec636395",
+    "mappo_gp_sf_dsr\\flat_feedback_age_mechanism.py": "00f637e1f133720d3d3f74316e8b40bb0f18fe599ea1a87be030a76ee39b47cc",
+    "mappo_gp_sf_dsr\\m2ppo_paper.py": "d2e3ddf271a259c6122f42d8f5635f5ed134cdaf30024fae999b03e72e987a82",
+    "mappo_gp_sf_dsr\\make_final_main_outputs.py": "73df75c802737e71f167181250b14289c88385dfcb5eb36d716a0cb0658ed2a1",
+    "mappo_gp_sf_dsr\\make_intro_split_figures.py": "ac4e3431809e0acd7343cbb333b416bbb6cb36b09933ccf4005fb07bfa1aecea",
+    "mappo_gp_sf_dsr\\make_literature_positioning_figure.py": "76a1a1c924481230bc65eff671a00bc9d079e4a72778e5a325e23a5abdf76b62",
+    "mappo_gp_sf_dsr\\make_paper_ready_outputs.py": "f77fccfe1472d96f6e5ec1af1653ec81bc1c1fa379ccb773c5c6db98d3de0ece",
+    "mappo_gp_sf_dsr\\make_priceedge_factorial_figures.py": "e541cd70b3bbe820b89c80dec85c2de228ad515ce779dfea7a315f16d74412e5",
+    "mappo_gp_sf_dsr\\make_priceedge_qtbias_paper_outputs.py": "bc1b042643cd27b609e2d2457eb47014805da39fbad39ce5cc5d46d280b880e3",
+    "mappo_gp_sf_dsr\\make_priceedge_v4_evidence_figures.py": "cbd6ea98563c0be1d7815e295a96a1fcea7c2119b2eabab2003150f219bf7d6e",
+    "mappo_gp_sf_dsr\\mcm_fdrl.py": "260e64915cbffcbfc68ce1749cdf5f8d8be6cc46f8cca9d8850da07325ccf50b",
+    "mappo_gp_sf_dsr\\mcm_fdrl_paper.py": "f8156dd26f6b66a164102bd5d499587d0e5532e79f412e6a6db68b1b524c5cbb",
+    "mappo_gp_sf_dsr\\metrics.py": "1f4ebb3fd05ec3f07760baa6c442e663bb6e637aeea31a3d4ab6f738450432a1",
+    "mappo_gp_sf_dsr\\models.py": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85",
+    "mappo_gp_sf_dsr\\paper_policy_baselines.py": "8dcfd919888fd805073667fbf9a547c7cd279036ee5dde8d9fa425321f6416e8",
+    "mappo_gp_sf_dsr\\plot_agegate_vs_scoresoftmax.py": "9a1f2cdf694fb24c0953d2823f2cd1c04f30662b78ae447a7f6b574a91af724d",
+    "mappo_gp_sf_dsr\\plot_baseline_training_convergence.py": "bcc2a8de2f6059e84385e76576afd0de8772f6e48e7915264b3edd0024715756",
+    "mappo_gp_sf_dsr\\plot_calibration_story.py": "3078d513eba3e2aaf34fef0a0b1097783bebe5a1fde10de4e1317fc2d592e041",
+    "mappo_gp_sf_dsr\\plot_crossenv_4x4_panel.py": "ea94de1ee011bd0e36fc49fefb42aabd7144f1b8b101fbc35e5d3d8b971cd0af",
+    "mappo_gp_sf_dsr\\plot_paper_baselines_vs_v4agegate.py": "644c42008675b380cb475466bb667f104be5b9c2784f1c913a2bceb6aa4ced01",
+    "mappo_gp_sf_dsr\\plot_qla_asynchrony_4cond.py": "3aae35419e954572389d37c76ef296af9d9ca4bbb10819796af2cc02a385c06e",
+    "mappo_gp_sf_dsr\\plot_robustness_nature.py": "8d99a269881b21e2b89da0f5ac230e7209712da345f07b938a13b9e7810a35c6",
+    "mappo_gp_sf_dsr\\plot_v4agegate_ablation_summary.py": "d28ab9efd9f5b5a26fc97d8f285e5b57d4d15de399ac866c9c5044d3e71cc974",
+    "mappo_gp_sf_dsr\\plot_v4agegate_training_stability.py": "558015066fabe597db1fa9fb00ba06ad68e31ba978ca7c9c3e32478f64cafc50",
+    "mappo_gp_sf_dsr\\plot_v4agegate_tuning_detailed.py": "b3e10d60b9c1e7e5e4140d3609e12ee0d3a31f24ed616fa9990c29414d752f2b",
+    "mappo_gp_sf_dsr\\plots.py": "c8491d2b2d5aa02dd67c610d050ae2d396ade0db80ca3cbc88b4f7553a7ec7fe",
+    "mappo_gp_sf_dsr\\qla_ablation_crossenv_analysis.py": "bb6fc886a805de1d82c7360f7e6c7da416b1218333989fbe256c11a0933d73c2",
+    "mappo_gp_sf_dsr\\qla_n40_paired_bootstrap.py": "f72e4548e286badaca6a709e5be0f30770c3d349067518665d45e72bf954acf8",
+    "mappo_gp_sf_dsr\\qla_paper_figures.py": "04c2fe2f2a8af841f4ff2be2891a5174f26568f546f3ddb141b653014e9ed11c",
+    "mappo_gp_sf_dsr\\qla_post_simplified_figures.py": "4c51e246b78c20c74de8ff0558024d4271b31d5403ebe7f1875c7a7e2c3cdae8",
+    "mappo_gp_sf_dsr\\recent_mec_baselines.py": "54edd04366f27d6ae4098521f185677fe3a5d1292d3fce7c674b016344321ec1",
+    "mappo_gp_sf_dsr\\rewards.py": "f786cca5c985395a272ca91a3ab97ed6e240229e9f68544d3dee160d5778b3d4",
+    "mappo_gp_sf_dsr\\run_convergence_stability_ablation.py": "4f087edea0736759e4d4219ffce70121872c19222fb0adf93cc6429cbe47d639",
+    "mappo_gp_sf_dsr\\run_delayed_information_baseline_grid.py": "d6352d212cbcd90d7bfd225cef3197d630ca41ca8b8e6ff7ab4b8b03a54baa5c",
+    "mappo_gp_sf_dsr\\run_facr_ablation.py": "e6715b46a4c409adef8207caf21fa0bc571320af0a4f789e0b001ec0629551ae",
+    "mappo_gp_sf_dsr\\run_facr_prior_only_ablation.py": "859041f95ec4ed56812e46b1641b34ad306c994cb5576c03c41c958247b6341d",
+    "mappo_gp_sf_dsr\\run_facr_real_trace_robustness.py": "649b180644897d36acae9ac0312c90794ba18a11a9cf9efa6cd8c30ace67dc54",
+    "mappo_gp_sf_dsr\\run_facr_residual_compare.py": "50dae350e791cfe680e1ac8294f04483f91495b35df3c2c56467dc19c64f6610",
+    "mappo_gp_sf_dsr\\run_facr_residual_fixed_checkpoint_eval.py": "5c627228ab251ad26000f148bda501c025a69b39b5422199d35513a1c3276b64",
+    "mappo_gp_sf_dsr\\run_fixed_checkpoint_robustness.py": "bfa3460bdca302f9b23f955e613132999e1ba138c6ba31aaf1b6e7c43c375df6",
+    "mappo_gp_sf_dsr\\run_lcc_mappo_study.py": "a67b35c0c3eed8f42c21e9ecda170d45e57310f5cf60815151ff3dcdfffd0c52",
+    "mappo_gp_sf_dsr\\run_lyapunov_local_stale_tuning.py": "9eaf59eea594a4b752af517a2066e9f3f5d5eed05d3547932d6381fa5418765c",
+    "mappo_gp_sf_dsr\\run_margin_z_directed.py": "5ed87bd537a94d8cc7bba09f29538a6c868e204f7d363d8093277b0b2556d537",
+    "mappo_gp_sf_dsr\\run_multiseed_paper_comparison.py": "c7b3a1dc7ee85a52aa6f7e524d68e45a6c1fd5472073e4fe604a1ec1c404d301",
+    "mappo_gp_sf_dsr\\run_n40_baselines.py": "2d5300ba2b11974cd247378609979961da26c2f54be86e90afabb1a8537b04c1",
+    "mappo_gp_sf_dsr\\run_paper_structure_baselines.py": "f62d8b3139869713b58c17050719c472153bc89dfc3d624dd049a5ebad9ffa38",
+    "mappo_gp_sf_dsr\\run_phase_diagram.py": "bb320c9333ede20b2e1020f10191618a9d285ebabaa86d954f575036d30a7357",
+    "mappo_gp_sf_dsr\\run_priceedge_problem_mechanism_evidence.py": "c2b1e95fb16eb8b4880ac3ef21be147ac0d22519f6aee42d26647cf472970294",
+    "mappo_gp_sf_dsr\\run_priceedge_qt_fixed_checkpoint_robustness.py": "1c87cf987c5b78ed5a3f120974c2a4b34aa1aa978d788273e8b52dcecfd1d0f4",
+    "mappo_gp_sf_dsr\\run_priceedge_qtbias_factorial.py": "8a7902a5fdf35db5234ac7568c0b37dcf1e2f2df3e7b24be65b140d35dec9868",
+    "mappo_gp_sf_dsr\\run_priceedge_testtime_interventions.py": "5d14eb6293832cfc8829c8af69c71e1dc77dfc52823c89526f497aa39177376e",
+    "mappo_gp_sf_dsr\\run_qla_canonical_suite.py": "e1163462884c18aa1bc14cbb07997fb03a194b10b46ce1f747af9d507efa450c",
+    "mappo_gp_sf_dsr\\run_qla_heterogeneous_age_evidence.py": "bb1014a663177063edd912c5e304fbce3acf56491ef33e84aa6ed7e98daca5de",
+    "mappo_gp_sf_dsr\\run_qla_lcc_v_sweep.py": "80ee91e2a97e6bd92aa7a1a6ec884e9ab6ad484965e9015826c1feddce330461",
+    "mappo_gp_sf_dsr\\run_qla_signal_composition_ablation.py": "8119fc911898ddeeb06ea610916bd3684f4858069be9a1ef60154a91df812db4",
+    "mappo_gp_sf_dsr\\run_qla_simplified_rerun.py": "b63fdd99ce7ebfb575bbdaf34f0b4c9b1954083567e7db30646d4ee55bc48e4f",
+    "mappo_gp_sf_dsr\\run_qla_wait_action_mi.py": "6df9a0ee3ca8035ad126b20dcc3f3ed0046287a6ae26bb682d0c3df9587a1ef3",
+    "mappo_gp_sf_dsr\\run_recent_mec_baseline_comparison.py": "26b7e719b2f2eb4abf63e27146f68d6c57ff4f178e02d0b9b112cd6b6de45ccf",
+    "mappo_gp_sf_dsr\\run_scale_learned_policy_study.py": "1804569871e1399dd3b44ad75ade292e3f0ad211be76691d6638ee2470da56da",
+    "mappo_gp_sf_dsr\\run_tuned_v4_robustness.py": "8f35ca140687a7de4c5f904c3d60d283964977c1f969d4e01b4fae5f9bc78024",
+    "mappo_gp_sf_dsr\\run_uniform_portfolio_eval.py": "cad8e18c355d05c664a7c8db31008becf4bef101fd75e7d4171070499de4b0b8",
+    "mappo_gp_sf_dsr\\run_v4_lyapprior_best_completion.py": "16b2bd0120a49f70b9ba22dca217932e214f031afbb795fd61effd70129e76f8",
+    "mappo_gp_sf_dsr\\run_v4_lyapprior_staged_parameter_study.py": "c075d0952e1401d4c4f013b2d4d055e98a6a553c60412565ee143eaedd87d2df",
+    "mappo_gp_sf_dsr\\run_v4agegate_constrained_latency_tuning.py": "6e55fdc98cea33df8e0c18c0659567cf15f5dbf8386cc6868acd02bb515b5fe5",
+    "mappo_gp_sf_dsr\\run_v4agegate_coordinate_tuning.py": "ae8048634a5481446fb700d1960b9bc32137f3192799d6eac5729fda44641418",
+    "mappo_gp_sf_dsr\\run_v4agegate_factorial_tuning.py": "d6bb557aa817e412c299ee2ef2a5c15d2bafa0b8ccd0c1db104b84047544a686",
+    "mappo_gp_sf_dsr\\run_v4agegate_tuned_multiseed_compare.py": "928c2dc3786f3cf1882747da4e9d172e5eaaf15d26ba29aa74aaecff5b37ccdb",
+    "mappo_gp_sf_dsr\\run_v4agegate_tuning_stage1.py": "7114e72a1d2477977f23d1c7a5eca1309a4636ecb776c67ebd7a3e05e46dada9",
+    "mappo_gp_sf_dsr\\summarize_completed_multiseed_paper_comparison.py": "5543d286beea238ce40520e228210e753e8609d484d6f80903c96914538ecc15",
+    "mappo_gp_sf_dsr\\summarize_multiseed_paper_comparison.py": "4664b383e67d68a321d71a3aaa7f5b36977bbc93819d7a6f7079be489300f5e5",
+    "mappo_gp_sf_dsr\\summarize_recent_mec_baselines.py": "8490aa4d5108eb8e37570a2eaf8e5029d4f0a1b5af42656e06a50e5b79bfc4a8",
+    "mappo_gp_sf_dsr\\train.py": "a6487286efe80269781634cf477fbc740e0886caa8e0286377e9c4783771e25d",
+    "mappo_gp_sf_dsr\\train_m2ppo_clip01.py": "448fd990161f2b2c9e436c2ea1c91530207059e23b1e7f212e6342db12551ad0",
+    "mappo_gp_sf_dsr\\update_docx_intro_figsplit.py": "d7ddc55fe77bd5f22c41bad2834effc2f295344ad5f99f4b4ae37bf19c31c6dd",
+    "mappo_gp_sf_dsr\\update_docx_missing_evidence_v9.py": "61e166b6f51a6b626fbe8e5bd9b0d397cb24cee816e2cf811d983a2efda252eb",
+    "mappo_gp_sf_dsr\\write_priceedge_qtbias_v3_draft.py": "858fa1ceed8cb2cb77d4ca6dca52e9fd558fddd49eb0d705ec8e1f99fcff7d51",
+    "paper_doc_tools\\run_cross_method_sync_diagnostic.py": "02f296974ba86ade101f488ddb049bed432314ce7eed160d81667bbbaf42f96a",
+    "paper_doc_tools\\run_real_trace_external_formal.py": "9f4a17cee62b10b1d053ae1f203aa08e1f97602bd66aace22b14344f71e89fba",
+    "repro_risk_averse_edge\\__init__.py": "68a5870eaa1b68013df6d57db05a9908b967db30dea5cf87d3cd2143bba369c1",
+    "repro_risk_averse_edge\\agents.py": "1cda97c7969afdd1db9f07c94d2dbe14d5a51f59432f70a905103c76dd3873d4",
+    "repro_risk_averse_edge\\audit_against_paper.py": "fc6c2ad9c6a9c7f67edade752664f9f29d763f0caeff8a7c4a33976360d6f347",
+    "repro_risk_averse_edge\\config.py": "70a4fb1db4257e08c92dc2dfcc55842aa6e6e9719cbb637a88cbcacb07f619c5",
+    "repro_risk_averse_edge\\data.py": "6256e434d424523d8a520b8a3c5130d9da3e82ec82887ccc77e504c4bdb909e6",
+    "repro_risk_averse_edge\\env.py": "f856e796412b5fbfdeac041f1da8138dd4ee1621e4d6f2e5de3a38970608d15d",
+    "repro_risk_averse_edge\\metrics.py": "8d9d0c3c73675469265bef34b3c3ded43f36d300921df55fafdfbf84d3ccd044",
+    "repro_risk_averse_edge\\rewards.py": "650dff5aede7d8d2d217d2810ece0e70db7fc92e6cc56ed9c2147ce56e22069d",
+    "repro_risk_averse_edge\\run_experiments.py": "2ff8d1c6f406b31b35340417ca0f32b0ace8b5b2ac657894f0eaab2cc072e732"
+  },
+  "runner_sha256": "20f829899e3c3732db8a8eba5f1b7591ae9ad5486f63891cdfb6d57cfb5cad8b",
+  "data_code_sha256": "85a98e1b9cdb9d9a2cf103e6619904d3e76d23a7c67081239367d6313029c5fa",
+  "worker_sha256": "bdab6f2177cf235eedc0bce8ba38faf39fe3c080be1d0dbcd15481c71e13e712",
+  "source_registry_sha256": "5cb53b455d8273815967dec462b3617b5fb13a98edaa26b8ad009aba040e8c94",
+  "required_alibaba_file": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\alibaba2017\\server_usage.csv",
+  "scope": "external trace-shaped stress test; schema mapping changes from legacy R6, not a time-only causal contrast",
+  "jseq_temperature": 0.25,
+  "primary_metrics": [
+    "average_latency",
+    "cvar99"
+  ],
+  "secondary_metrics": [
+    "queue_oscillation",
+    "portfolio_migration_rate",
+    "max_realized_share_p99",
+    "mean_queue_jump_service_slots",
+    "p_drop",
+    "unfinished_tasks"
+  ]
+}

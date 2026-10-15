@@ -1,0 +1,6 @@
+{
+  "error": "AssertionError()",
+  "partial_evidence_preserved": true,
+  "actual_model_or_pilot_calls": 0,
+  "attempted_actual_test_timing_CSV_opens": []
+}

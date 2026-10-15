@@ -1,0 +1,1497 @@
+{
+  "M1_rr_s1_attempt_01": {
+    "status_counts": {
+      "completed": 599
+    },
+    "offered": 599,
+    "unique_outcomes": true,
+    "expected_outcomes": 599,
+    "completed_metrics": {
+      "mean_latency_s": 0.0653347278405813,
+      "p95_latency_s": 0.09798138351989687,
+      "p99_latency_s": 0.1145067120245806,
+      "cvar99_s": 0.11751501361290947
+    },
+    "tail_mass": 5.99,
+    "maximum_metric_recompute_error": 1.3877787807814457e-17,
+    "edges": {
+      "edge0": {
+        "admitted": 138,
+        "executed": 138,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.029580500724293506,
+        "final_snapshot": {
+          "admitted": 138,
+          "busy": false,
+          "capacity": 32,
+          "completed": 138,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 138,
+          "rejected": 0,
+          "server_id": "edge0",
+          "service_estimate_s": 0.02825723229595574,
+          "source_epoch_ns": 1791900680346477600,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge1": {
+        "admitted": 158,
+        "executed": 158,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.029819451901719824,
+        "final_snapshot": {
+          "admitted": 158,
+          "busy": false,
+          "capacity": 32,
+          "completed": 158,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 158,
+          "rejected": 0,
+          "server_id": "edge1",
+          "service_estimate_s": 0.029087227038766983,
+          "source_epoch_ns": 1791900680347974000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge2": {
+        "admitted": 154,
+        "executed": 154,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.018556706474295685,
+        "final_snapshot": {
+          "admitted": 154,
+          "busy": false,
+          "capacity": 32,
+          "completed": 154,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 154,
+          "rejected": 0,
+          "server_id": "edge2",
+          "service_estimate_s": 0.01721317426139926,
+          "source_epoch_ns": 1791900680348824000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge3": {
+        "admitted": 149,
+        "executed": 149,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.018462012754753232,
+        "final_snapshot": {
+          "admitted": 149,
+          "busy": false,
+          "capacity": 32,
+          "completed": 149,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 149,
+          "rejected": 0,
+          "server_id": "edge3",
+          "service_estimate_s": 0.017068556902124922,
+          "source_epoch_ns": 1791900680349933000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 599,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "round_robin",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "11952": 0,
+        "42464": 0,
+        "47100": 0,
+        "5648": 0,
+        "56716": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 3664
+          },
+          "runtime_exited": true,
+          "runtime_pid": 3664,
+          "shim_exit_code": 0,
+          "shim_pid": 11952,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 13772
+          },
+          "runtime_exited": true,
+          "runtime_pid": 13772,
+          "shim_exit_code": 0,
+          "shim_pid": 42464,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 47548
+          },
+          "runtime_exited": true,
+          "runtime_pid": 47548,
+          "shim_exit_code": 0,
+          "shim_pid": 47100,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 78296
+          },
+          "runtime_exited": true,
+          "runtime_pid": 78296,
+          "shim_exit_code": 0,
+          "shim_pid": 5648,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 62940
+          },
+          "runtime_exited": true,
+          "runtime_pid": 62940,
+          "shim_exit_code": 0,
+          "shim_pid": 56716,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "initial_source_matches_current": false,
+    "schedule_sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+    "late_responses": 0,
+    "decision_count": 582,
+    "max_release_to_send_s": 0.05064020142107584,
+    "p99_release_to_send_s": 0.05021523296127041,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 4092,
+      "feedback_sent": 3600,
+      "budget_deferred": 133,
+      "monitor_error": 8,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 3424
+    }
+  },
+  "M1_stress_s1_attempt_01": {
+    "status_counts": {
+      "completed": 15752,
+      "queue_rejected": 3164
+    },
+    "offered": 18916,
+    "unique_outcomes": true,
+    "expected_outcomes": 18916,
+    "completed_metrics": {
+      "mean_latency_s": 0.6728089150506523,
+      "p95_latency_s": 1.3465319676566843,
+      "p99_latency_s": 1.3871137991052664,
+      "cvar99_s": 1.407643302320635
+    },
+    "tail_mass": 157.52,
+    "maximum_metric_recompute_error": 0.0,
+    "edges": {
+      "edge0": {
+        "admitted": 3156,
+        "executed": 3156,
+        "rejected": 1654,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03824864204904225,
+        "final_snapshot": {
+          "admitted": 3156,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3156,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 4810,
+          "rejected": 1654,
+          "server_id": "edge0",
+          "service_estimate_s": 0.036971999920355374,
+          "source_epoch_ns": 1791900940521570700,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge1": {
+        "admitted": 3156,
+        "executed": 3156,
+        "rejected": 1451,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03825619791010843,
+        "final_snapshot": {
+          "admitted": 3156,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3156,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 4607,
+          "rejected": 1451,
+          "server_id": "edge1",
+          "service_estimate_s": 0.03754810607871803,
+          "source_epoch_ns": 1791900940522751200,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge2": {
+        "admitted": 4726,
+        "executed": 4726,
+        "rejected": 54,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.024243134445969174,
+        "final_snapshot": {
+          "admitted": 4726,
+          "busy": false,
+          "capacity": 32,
+          "completed": 4726,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 4780,
+          "rejected": 54,
+          "server_id": "edge2",
+          "service_estimate_s": 0.023101990122594653,
+          "source_epoch_ns": 1791900940523910600,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      },
+      "edge3": {
+        "admitted": 4714,
+        "executed": 4714,
+        "rejected": 5,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.024234473570107728,
+        "final_snapshot": {
+          "admitted": 4714,
+          "busy": false,
+          "capacity": 32,
+          "completed": 4714,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 4719,
+          "rejected": 5,
+          "server_id": "edge3",
+          "service_estimate_s": 0.02546742855303254,
+          "source_epoch_ns": 1791900940524958200,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": false
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 18916,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "round_robin",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "26508": 0,
+        "36724": 0,
+        "68312": 0,
+        "74224": 0,
+        "79096": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 62460
+          },
+          "runtime_exited": true,
+          "runtime_pid": 62460,
+          "shim_exit_code": 0,
+          "shim_pid": 74224,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 20936
+          },
+          "runtime_exited": true,
+          "runtime_pid": 20936,
+          "shim_exit_code": 0,
+          "shim_pid": 79096,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 66904
+          },
+          "runtime_exited": true,
+          "runtime_pid": 66904,
+          "shim_exit_code": 0,
+          "shim_pid": 68312,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 67212
+          },
+          "runtime_exited": true,
+          "runtime_pid": 67212,
+          "shim_exit_code": 0,
+          "shim_pid": 26508,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 33984
+          },
+          "runtime_exited": true,
+          "runtime_pid": 33984,
+          "shim_exit_code": 0,
+          "shim_pid": 36724,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "initial_source_matches_current": false,
+    "schedule_sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+    "late_responses": 0,
+    "decision_count": 14955,
+    "max_release_to_send_s": 0.12150922755338911,
+    "p99_release_to_send_s": 0.0516892503739605,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 9972,
+      "feedback_sent": 8240,
+      "budget_deferred": 456,
+      "monitor_error": 8,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 8080
+    }
+  },
+  "M2c_qla_s101_attempt_01": {
+    "status_counts": {
+      "completed": 12565
+    },
+    "offered": 12565,
+    "unique_outcomes": true,
+    "expected_outcomes": 12565,
+    "completed_metrics": {
+      "mean_latency_s": 0.14519436875985006,
+      "p95_latency_s": 0.33701602840700023,
+      "p99_latency_s": 0.43685664127132334,
+      "cvar99_s": 0.4864660398621918
+    },
+    "tail_mass": 125.65,
+    "maximum_metric_recompute_error": 5.551115123125783e-17,
+    "edges": {
+      "edge0": {
+        "admitted": 2813,
+        "executed": 2813,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.0387113292931145,
+        "final_snapshot": {
+          "admitted": 2813,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2813,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2813,
+          "rejected": 0,
+          "server_id": "edge0",
+          "service_estimate_s": 0.038086647148563656,
+          "source_epoch_ns": 1791908907632639000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge1": {
+        "admitted": 2813,
+        "executed": 2813,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03838963505257102,
+        "final_snapshot": {
+          "admitted": 2813,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2813,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2813,
+          "rejected": 0,
+          "server_id": "edge1",
+          "service_estimate_s": 0.03840015955140778,
+          "source_epoch_ns": 1791908907633530900,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge2": {
+        "admitted": 3469,
+        "executed": 3469,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.0252101239859043,
+        "final_snapshot": {
+          "admitted": 3469,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3469,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 3469,
+          "rejected": 0,
+          "server_id": "edge2",
+          "service_estimate_s": 0.02585030927924688,
+          "source_epoch_ns": 1791908907635714800,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge3": {
+        "admitted": 3470,
+        "executed": 3470,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.025511794756649744,
+        "final_snapshot": {
+          "admitted": 3470,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3470,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 3470,
+          "rejected": 0,
+          "server_id": "edge3",
+          "service_estimate_s": 0.025541368210144938,
+          "source_epoch_ns": 1791908907636839000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": true,
+        "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "parameters_unchanged": true
+      },
+      "inference_only": true,
+      "method": "qla",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "13728": 0,
+        "60572": 0,
+        "63576": 0,
+        "79848": 0,
+        "9956": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 63148
+          },
+          "runtime_exited": true,
+          "runtime_pid": 63148,
+          "shim_exit_code": 0,
+          "shim_pid": 13728,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 18760
+          },
+          "runtime_exited": true,
+          "runtime_pid": 18760,
+          "shim_exit_code": 0,
+          "shim_pid": 9956,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 60332
+          },
+          "runtime_exited": true,
+          "runtime_pid": 60332,
+          "shim_exit_code": 0,
+          "shim_pid": 79848,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 34868
+          },
+          "runtime_exited": true,
+          "runtime_pid": 34868,
+          "shim_exit_code": 0,
+          "shim_pid": 63576,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 45160
+          },
+          "runtime_exited": true,
+          "runtime_pid": 45160,
+          "shim_exit_code": 0,
+          "shim_pid": 60572,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "initial_source_matches_current": true,
+    "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "late_responses": 0,
+    "decision_count": 10759,
+    "max_release_to_send_s": 0.06043849276758806,
+    "p99_release_to_send_s": 0.05342165254956076,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 9992,
+      "feedback_sent": 8368,
+      "budget_deferred": 427,
+      "monitor_error": 8,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 8160
+    }
+  },
+  "M2c_score_softmax_s101_attempt_01": {
+    "status_counts": {
+      "completed": 12565
+    },
+    "offered": 12565,
+    "unique_outcomes": true,
+    "expected_outcomes": 12565,
+    "completed_metrics": {
+      "mean_latency_s": 0.18232881613560575,
+      "p95_latency_s": 0.44986344033519454,
+      "p99_latency_s": 0.682514687834633,
+      "cvar99_s": 0.8404820931517881
+    },
+    "tail_mass": 125.65,
+    "maximum_metric_recompute_error": 1.1102230246251565e-16,
+    "edges": {
+      "edge0": {
+        "admitted": 2498,
+        "executed": 2498,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03823343206566495,
+        "final_snapshot": {
+          "admitted": 2498,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2498,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2498,
+          "rejected": 0,
+          "server_id": "edge0",
+          "service_estimate_s": 0.03866673925999676,
+          "source_epoch_ns": 1791909068814314900,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge1": {
+        "admitted": 2544,
+        "executed": 2544,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.038387441311823055,
+        "final_snapshot": {
+          "admitted": 2544,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2544,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2544,
+          "rejected": 0,
+          "server_id": "edge1",
+          "service_estimate_s": 0.036852912372995233,
+          "source_epoch_ns": 1791909068814740600,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge2": {
+        "admitted": 3745,
+        "executed": 3745,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.024840606115721118,
+        "final_snapshot": {
+          "admitted": 3745,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3745,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 3745,
+          "rejected": 0,
+          "server_id": "edge2",
+          "service_estimate_s": 0.024308293643535133,
+          "source_epoch_ns": 1791909068816821900,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge3": {
+        "admitted": 3778,
+        "executed": 3778,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.024738529828205003,
+        "final_snapshot": {
+          "admitted": 3778,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3778,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 3778,
+          "rejected": 0,
+          "server_id": "edge3",
+          "service_estimate_s": 0.023408246191658422,
+          "source_epoch_ns": 1791909068817932700,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "score_softmax",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "13728": 0,
+        "49312": 0,
+        "52408": 0,
+        "73760": 0,
+        "78312": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 42404
+          },
+          "runtime_exited": true,
+          "runtime_pid": 42404,
+          "shim_exit_code": 0,
+          "shim_pid": 73760,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 13884
+          },
+          "runtime_exited": true,
+          "runtime_pid": 13884,
+          "shim_exit_code": 0,
+          "shim_pid": 13728,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 38768
+          },
+          "runtime_exited": true,
+          "runtime_pid": 38768,
+          "shim_exit_code": 0,
+          "shim_pid": 52408,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 39160
+          },
+          "runtime_exited": true,
+          "runtime_pid": 39160,
+          "shim_exit_code": 0,
+          "shim_pid": 78312,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 39624
+          },
+          "runtime_exited": true,
+          "runtime_pid": 39624,
+          "shim_exit_code": 0,
+          "shim_pid": 49312,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "initial_source_matches_current": true,
+    "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "late_responses": 0,
+    "decision_count": 10759,
+    "max_release_to_send_s": 0.054345938795847815,
+    "p99_release_to_send_s": 0.050900380820809374,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 9868,
+      "feedback_sent": 8288,
+      "budget_deferred": 410,
+      "monitor_error": 8,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 8208
+    }
+  },
+  "M2c_stale_shortest_s101_attempt_01": {
+    "status_counts": {
+      "completed": 12374,
+      "queue_rejected": 191
+    },
+    "offered": 12565,
+    "unique_outcomes": true,
+    "expected_outcomes": 12565,
+    "completed_metrics": {
+      "mean_latency_s": 0.4164565001349667,
+      "p95_latency_s": 0.9578296099339618,
+      "p99_latency_s": 1.3161525343629001,
+      "cvar99_s": 1.4969345565801409
+    },
+    "tail_mass": 123.74,
+    "maximum_metric_recompute_error": 0.0,
+    "edges": {
+      "edge0": {
+        "admitted": 2431,
+        "executed": 2431,
+        "rejected": 63,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03841251229795699,
+        "final_snapshot": {
+          "admitted": 2431,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2431,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2494,
+          "rejected": 63,
+          "server_id": "edge0",
+          "service_estimate_s": 0.03411502464600444,
+          "source_epoch_ns": 1791909229580344900,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge1": {
+        "admitted": 2305,
+        "executed": 2305,
+        "rejected": 69,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03774548268941617,
+        "final_snapshot": {
+          "admitted": 2305,
+          "busy": false,
+          "capacity": 32,
+          "completed": 2305,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 2374,
+          "rejected": 69,
+          "server_id": "edge1",
+          "service_estimate_s": 0.03678816013434487,
+          "source_epoch_ns": 1791909229581561800,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge2": {
+        "admitted": 3642,
+        "executed": 3642,
+        "rejected": 36,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.025052494013680475,
+        "final_snapshot": {
+          "admitted": 3642,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3642,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 3678,
+          "rejected": 36,
+          "server_id": "edge2",
+          "service_estimate_s": 0.02504971143593453,
+          "source_epoch_ns": 1791909229583378400,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge3": {
+        "admitted": 3996,
+        "executed": 3996,
+        "rejected": 23,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.024589024223883666,
+        "final_snapshot": {
+          "admitted": 3996,
+          "busy": false,
+          "capacity": 32,
+          "completed": 3996,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 4019,
+          "rejected": 23,
+          "server_id": "edge3",
+          "service_estimate_s": 0.024531860342909204,
+          "source_epoch_ns": 1791909229584608000,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "stale_shortest",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "31388": 0,
+        "50548": 0,
+        "50988": 0,
+        "60588": 0,
+        "78860": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 55424
+          },
+          "runtime_exited": true,
+          "runtime_pid": 55424,
+          "shim_exit_code": 0,
+          "shim_pid": 50988,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 59344
+          },
+          "runtime_exited": true,
+          "runtime_pid": 59344,
+          "shim_exit_code": 0,
+          "shim_pid": 60588,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 34320
+          },
+          "runtime_exited": true,
+          "runtime_pid": 34320,
+          "shim_exit_code": 0,
+          "shim_pid": 50548,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 77208
+          },
+          "runtime_exited": true,
+          "runtime_pid": 77208,
+          "shim_exit_code": 0,
+          "shim_pid": 78860,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 57980
+          },
+          "runtime_exited": true,
+          "runtime_pid": 57980,
+          "shim_exit_code": 0,
+          "shim_pid": 31388,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "initial_source_matches_current": true,
+    "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "late_responses": 0,
+    "decision_count": 10759,
+    "max_release_to_send_s": 0.05421588417279999,
+    "p99_release_to_send_s": 0.05096633844397473,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 9690,
+      "feedback_sent": 8304,
+      "budget_deferred": 361,
+      "monitor_error": 14,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 8224
+    }
+  },
+  "functional_4edge_attempt_02": {
+    "status_counts": {
+      "completed": 4
+    },
+    "offered": 4,
+    "unique_outcomes": true,
+    "expected_outcomes": 4,
+    "completed_metrics": {
+      "mean_latency_s": 0.08670435950153858,
+      "p95_latency_s": 0.09428239141317785,
+      "p99_latency_s": 0.09508080052279992,
+      "cvar99_s": 0.09528040280020544
+    },
+    "tail_mass": 0.04,
+    "maximum_metric_recompute_error": null,
+    "edges": {
+      "edge0": {
+        "admitted": 1,
+        "executed": 1,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.03932190011255443,
+        "final_snapshot": {
+          "admitted": 1,
+          "busy": false,
+          "capacity": 32,
+          "completed": 1,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 1,
+          "rejected": 0,
+          "server_id": "edge0",
+          "service_estimate_s": 0.031832190011255444,
+          "source_epoch_ns": 1791907032239623600,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge1": {
+        "admitted": 1,
+        "executed": 1,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.037095600040629506,
+        "final_snapshot": {
+          "admitted": 1,
+          "busy": false,
+          "capacity": 32,
+          "completed": 1,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 1,
+          "rejected": 0,
+          "server_id": "edge1",
+          "service_estimate_s": 0.03160956000406295,
+          "source_epoch_ns": 1791907032240895800,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge2": {
+        "admitted": 1,
+        "executed": 1,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.026189199881628156,
+        "final_snapshot": {
+          "admitted": 1,
+          "busy": false,
+          "capacity": 32,
+          "completed": 1,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 1,
+          "rejected": 0,
+          "server_id": "edge2",
+          "service_estimate_s": 0.02061891998816282,
+          "source_epoch_ns": 1791907032241278300,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      },
+      "edge3": {
+        "admitted": 1,
+        "executed": 1,
+        "rejected": 0,
+        "fifo_order_pass": true,
+        "worker_nonoverlap": true,
+        "mean_service_s": 0.025617299834266305,
+        "final_snapshot": {
+          "admitted": 1,
+          "busy": false,
+          "capacity": 32,
+          "completed": 1,
+          "inference_errors": 0,
+          "predicted_wait_s": 0.0,
+          "received": 1,
+          "rejected": 0,
+          "server_id": "edge3",
+          "service_estimate_s": 0.020561729983426633,
+          "source_epoch_ns": 1791907032241575500,
+          "waiting_count": 0
+        },
+        "runtime_source_matches_current": true
+      }
+    },
+    "errors": {},
+    "max_feature_error": 0.0,
+    "max_baseline_portfolio_error": 0.0,
+    "complete": {
+      "actual_outcomes": 4,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": true,
+        "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "parameters_unchanged": true
+      },
+      "inference_only": true,
+      "method": "qla",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "cfd36059dac35fb9bfab546c382c62d2282b1c87c88216d1b3f4be4005599022",
+      "source_continuity_pass": true
+    },
+    "process_end": {
+      "exit_codes": {
+        "35076": 0,
+        "50400": 0,
+        "66092": 0,
+        "76308": 0,
+        "77904": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 38692
+          },
+          "runtime_exited": true,
+          "runtime_pid": 38692,
+          "shim_exit_code": 0,
+          "shim_pid": 66092,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8400"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 34320
+          },
+          "runtime_exited": true,
+          "runtime_pid": 34320,
+          "shim_exit_code": 0,
+          "shim_pid": 50400,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8404"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 74312
+          },
+          "runtime_exited": true,
+          "runtime_pid": 74312,
+          "shim_exit_code": 0,
+          "shim_pid": 77904,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8403"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 54972
+          },
+          "runtime_exited": true,
+          "runtime_pid": 54972,
+          "shim_exit_code": 0,
+          "shim_pid": 35076,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8402"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 19060
+          },
+          "runtime_exited": true,
+          "runtime_pid": 19060,
+          "shim_exit_code": 0,
+          "shim_pid": 76308,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8401"
+        }
+      ]
+    },
+    "initial_source_matches_current": true,
+    "schedule_sha256": "cfd36059dac35fb9bfab546c382c62d2282b1c87c88216d1b3f4be4005599022",
+    "late_responses": 0,
+    "decision_count": 4,
+    "max_release_to_send_s": 0.04851776704177113,
+    "p99_release_to_send_s": 0.04819012884129931,
+    "feedback_event_kinds": {
+      "monitor_snapshot": 212,
+      "feedback_sent": 224,
+      "monitor_error": 8,
+      "stopped": 1
+    },
+    "receiver_event_kinds": {
+      "feedback_received": 96
+    }
+  }
+}

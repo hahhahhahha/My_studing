@@ -1,0 +1,22 @@
+{
+  "schema": "systemlab-validation-preregistration-v1",
+  "c_ref_per_s": 175.39535899135956,
+  "validation_rate_per_s": 105,
+  "horizon_s": 120,
+  "fixed_drain_s": 30,
+  "users": 16,
+  "schedule_seed": 101,
+  "role": "validation",
+  "method_execution_order": [
+    "qla",
+    "score_softmax",
+    "stale_shortest"
+  ],
+  "rate_rule": "0.6*C_ref from protocol/calibration_scales_v1.json (calibration only; test untouched)",
+  "window_rule": "ceil_to_minute(max(120,10000/(0.6*C_ref)))",
+  "capacity_evidence": [
+    "runs/M1_rr_s1_attempt_01/analysis.json",
+    "runs/M1_stress_s1_attempt_01/analysis.json"
+  ],
+  "stress_note": "90%C_ref pilot saturated: 3164/18916 queue_rejected, max_waiting=32, no client backpressure"
+}

@@ -1,0 +1,396 @@
+{
+  "study": "R2 repaired adapted PPO-MV/DSR and MFC-DI baselines",
+  "created": "2026-10-01T13:38:06.730355",
+  "code_lock": {
+    "package_source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+    "runner_sha256": "3c8bc508f1bc7ab847139194dccf3ea78040c9282cb100e49eb42b2ffd3031d9",
+    "tests_sha256": "78069915991789b9de8d2279a75a45c69d91f74e1d1f17b7f94da782da43ccb8"
+  },
+  "conditions": [
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 8
+    }
+  ],
+  "trainings": 75,
+  "train_steps": 10000,
+  "validation_steps": 1000,
+  "test_steps": 1000,
+  "repair": "per-user GAE and continuing-rollout bootstrap for PPO-MV/DSR; continuing-rollout bootstrap for MFC-DI",
+  "checkpoint_rule": "final 10000-step checkpoint; freeze all validation checkpoints before any formal test",
+  "selection_rule": "no model selection based on validation or test performance",
+  "mfc_device": "cpu, matching historical canonical configuration",
+  "ppo_device": "cuda, matching historical canonical configuration",
+  "schedule_root": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_canonical_v1\\shared_schedules"
+}

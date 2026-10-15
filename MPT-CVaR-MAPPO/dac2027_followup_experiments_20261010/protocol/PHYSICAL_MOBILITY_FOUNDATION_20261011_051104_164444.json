@@ -1,0 +1,74 @@
+{
+  "at": "2026-10-11T05:11:04.164053+08:00",
+  "passed": true,
+  "real_users": 30,
+  "raw_sample_period_seconds": 10.0,
+  "policy_grid_fixture_seconds": 0.05,
+  "common_start_seconds": 0.0,
+  "common_end_seconds": 15150.0,
+  "engineering_window_seconds": [
+    0.0,
+    500.0
+  ],
+  "engineering_only_server_seed": 123,
+  "engineering_server_positions": [
+    [
+      -902.4219383588713,
+      -2688.8966626493734
+    ],
+    [
+      413.2927793484041,
+      -2602.467661413529
+    ],
+    [
+      2244.6442391001174,
+      -2895.48560862018
+    ],
+    [
+      891.4144290627933,
+      -1656.600927372967
+    ]
+  ],
+  "max_interpolation_error_meters": 1.1368683772161603e-13,
+  "max_displacement_scale_error_meters": 1.8074083896202353e-13,
+  "source_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_001.txt": "1915945b3babc9ec04b778747c76a48959b9198de7e2f4f7048e6575015783f9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_002.txt": "7cceeeb500a311452ec1de378b4293153b26881260f48029ac84f74fcbe4dbc0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_003.txt": "1300fef8e31e998c0df880d58c74f99b463a592fa096dbbc116037b6b738460f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_004.txt": "24ec4af2e15adfd087766a3a96ad28637e191fea8ec274a5dd0c4aee1fb94479",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_005.txt": "f04cc81b928ae72fb36093107b1fb70860e5f7612242ab398e27e234f7525871",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_006.txt": "d6e7d6d6af208f49bf78d7371518698618b409a9950178b535a0f03b3c939065",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_007.txt": "ecdd5eeb6be54477fcd64614a9b90ac24d883af83b2fb72b843b29cb2d6a765b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_008.txt": "57aedcbfc51238f71e760f06fd8016e6614477403fc1ffc7e9640a73fd275fb0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_009.txt": "a6f59d8d78f6225e81d955d63b3e1dec8df7a11dee2a9462b31b359de4fd9c6a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_010.txt": "08f63bf5cf21b310a076ba0259d9e1387c71d6c3343801f5826f5fca54d2b464",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_011.txt": "a2226ef5450a2c3e2ad7bb19d310de8ba8c07a8d04f776cb9f15575288756dfe",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_012.txt": "4be5f6f53e2051ac9a7806abacb1298ab27ca39ca94c4126fe24a066b4ef20ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_013.txt": "7cddbc5a257aefb13ddef75bcd260be738f5f58903b6867ec77a0dc9ef21428c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_014.txt": "e3d7d9187a7556aa63e9f950c4f6a42441d0c68a0f73c255112facf20e2cdb87",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_015.txt": "e27fedc670ff72a654aef3cecd6930f9adcc5b4e0a4aa3a52dd1e9a563395ca9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_016.txt": "b8c73d4baff853cc767ac2273b0299f17837c30a6017c1f5d2f04add4e27f645",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_017.txt": "551525d7b89fc4849914ba589402633ba6dd7a47bd4fd524ea5f041c5e3da9ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_018.txt": "c9a72056208c02829564b580a7f09ba442adbad3e319326d0b513a4d010498c2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_019.txt": "ef0d9dc77317566d2d3aec4354e90cca21d059c62718cf4266ae7eb0e242110d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_020.txt": "eed0ebe2d96737ef3cc02b4cf4de48602ce5153a460e9d121ed0a2d95a09b3c4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_021.txt": "6783eb26620a859f842023ce7362bfc749a55ab08199c6105750474776a90617",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_022.txt": "89af9d22a5b4b67eb035c3c7f691d849b9f331768099c809e58fcf60ee42f272",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_023.txt": "1d5b82e16743e9880fc9e39016df44db79bc974d92a8995f924d6142986fbf6e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_024.txt": "216a015b1b7d8a68bc77f6eb19fcb37ce260cb983e8c70d3b7bea0e08d31a08f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_025.txt": "68536b632ce59622c827d30adc9c6e9dc6e0d7e61fa47243469357387a5bad3e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_026.txt": "89e341f0486545a2fb2d02f14ebd73eeb3073648785b78cb60af7c29a529f7c9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_027.txt": "aa8df2ae336157719f5966b54ba0821c807eac9b079abeb74ff3a6804e124e80",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_028.txt": "edebe821c88fd19c457c13861023fb4b8131595ad711c75d011a3e5e9a97d503",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_029.txt": "2e1de5e01f7e7b9f5258a77928c830339c2c8a9bd8e9a0dcfc869565baad2619",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_030.txt": "31f4025feaa79d32c2082d905cda6bc29ce33f59d3fcc56e9d68c8977be9e239"
+  },
+  "implementation_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_physical_mobility.py": "41b3f2655d572cb28e187991e61e3ae27f87c01eae547bf227a55101e53f74ae",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\physical_mobility.py": "7b187f792cd3306a699a2116e692e388882f7955fe6f46a810b64b9d022a80ab",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_MOBILITY_中文.md": "35b321bc093cb1de1dbdfe7b9dfb92c675b6aae5a1d66fa3ddb6adc573dc7a9f"
+  },
+  "final_trace_split_frozen": false,
+  "formal_policy_cells": 0,
+  "scope": "Physical-time engineering adapter fixtures only; no policy, test selection or deployment result"
+}

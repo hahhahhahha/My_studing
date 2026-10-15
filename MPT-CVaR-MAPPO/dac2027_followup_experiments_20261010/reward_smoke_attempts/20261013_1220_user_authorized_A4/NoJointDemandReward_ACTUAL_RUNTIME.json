@@ -1,0 +1,14 @@
+{
+  "python_executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "numpy_distribution_folder": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy",
+  "numpy_module_file": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\__init__.py",
+  "torch_module_file": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "cpu_threads": 1,
+  "interop_threads": 1,
+  "runtime_is_actual_worker": true,
+  "model_started": false
+}

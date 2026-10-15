@@ -1,0 +1,7 @@
+{
+  "error": "RuntimeError('Full failed; preserve partial evidence, no retry/merge')",
+  "automatic_resume": false,
+  "partial_evidence_preserved": true,
+  "actual_smoke_complete": false,
+  "formal_training_started": false
+}

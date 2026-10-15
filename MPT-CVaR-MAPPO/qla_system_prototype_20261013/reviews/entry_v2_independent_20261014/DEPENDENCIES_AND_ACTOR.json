@@ -1,0 +1,75 @@
+{
+  "packages": {
+    "numpy": {
+      "version": "2.2.6",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\__init__.py",
+      "module_sha256": "ad238e76e8c6fbd56a19e6c894864cf466bd2ed76004cac89e78c019fa625607",
+      "distribution_root": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages",
+      "metadata_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy-2.2.6.dist-info",
+      "METADATA_sha256": "229f3544b02805e0f6a12030e155d8a45fd3a4100b3291574175e6a76f20e1e1",
+      "RECORD_sha256": "60e7b024a236819e8ac4ae33ea1c37bb168cfc31caaf6eb5b10edacdfdb13d60"
+    },
+    "torch": {
+      "version": "2.11.0+cu128",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+      "module_sha256": "9805fe98af34a65b1ab758c7909cc7b9906f40777257e513968545b19e319aa1",
+      "distribution_root": "X:\\anaconda\\ANACONDA\\Lib\\site-packages",
+      "metadata_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch-2.11.0+cu128.dist-info",
+      "METADATA_sha256": "bb53a1e8e258707e738e108afaf1041304fa085a3775206876232345257e00b7",
+      "RECORD_sha256": "4cbc6bb73b74a7114021ae5b2b02637a5484ae44c060029e07efea8fce644a0a"
+    },
+    "torchvision": {
+      "version": "0.26.0+cu128",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+      "module_sha256": "d98be1bb51d14749dc9718d27d42cd4250203e6276d0e90ab6021aac807a4735",
+      "distribution_root": "X:\\anaconda\\ANACONDA\\Lib\\site-packages",
+      "metadata_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision-0.26.0+cu128.dist-info",
+      "METADATA_sha256": "9abd9abebd20846a21389cc665fd4189f78f02fd50497b7b58923334306dac82",
+      "RECORD_sha256": "25c1d36091c368781f19db6e5c46fb3965fbd8ffbad3b77383a049b69f288f47"
+    },
+    "Pillow": {
+      "version": "11.1.0",
+      "path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\__init__.py",
+      "module_sha256": "7c95303c6848f3f99c07c8cd583fa1530ecc88c2725a0a955ff9c5b73223d59b",
+      "distribution_root": "X:\\anaconda\\ANACONDA\\Lib\\site-packages",
+      "metadata_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\pillow-11.1.0.dist-info",
+      "METADATA_sha256": "193ccdb7122ec303ec7fa81cf5ad915ba83ef48f6c5edaa2b7bae0fe85eae992",
+      "RECORD_sha256": "63487290ea2f985ef3f834ec900732c8def4d35ec7d40144e47055c3d980b8be"
+    }
+  },
+  "sys_executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+  "base_prefix": "X:\\anaconda\\ANACONDA",
+  "prefix": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226",
+  "sys_path": [
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014",
+    "X:\\anaconda\\ANACONDA\\python313.zip",
+    "X:\\anaconda\\ANACONDA\\DLLs",
+    "X:\\anaconda\\ANACONDA\\Lib",
+    "X:\\anaconda\\ANACONDA",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\win32",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\win32\\lib",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\Pythonwin"
+  ],
+  "pyvenv": "home = X:\\anaconda\\ANACONDA\ninclude-system-site-packages = true\nversion = 3.13.5\nexecutable = X:\\anaconda\\ANACONDA\\python.exe\ncommand = X:\\anaconda\\ANACONDA\\python.exe -m venv --system-site-packages --without-scm-ignore-files X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\n",
+  "qla_recomputed_decisions": 10759,
+  "qla_max_portfolio_error_batched_fp32": 5.960464477539063e-08,
+  "actor_verification": {
+    "actor_executed": true,
+    "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+    "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+    "parameters_unchanged": true
+  },
+  "loaded_historical_modules": {
+    "repro_risk_averse_edge": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\repro_risk_averse_edge\\__init__.py",
+    "repro_risk_averse_edge.config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\repro_risk_averse_edge\\config.py",
+    "mappo_gp_sf_dsr.config": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py",
+    "mappo_gp_sf_dsr": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\__init__.py",
+    "mappo_gp_sf_dsr.buffer": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\buffer.py",
+    "mappo_gp_sf_dsr.models": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py"
+  }
+}

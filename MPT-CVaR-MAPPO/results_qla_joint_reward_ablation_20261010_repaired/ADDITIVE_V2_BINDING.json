@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-10T23:45:11.796193+08:00",
+  "files": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\reward_followup_v2.py": "8090e9de0271156a4ee7d14558630b4f9c4329e5dac98b036cafd63271fba63f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_REWARD_EXECUTION_V2_中文.md": "897589e1289263a3e307fa953a44fd7925d866bb6bd3e69c385b6e03915f5795"
+  },
+  "original_binding_sha256": "6aeddbc363876fbb03021be01050a1e9490e6eae3ea3d69c9c7f9edd93322ebf",
+  "reason": "Add exclusive smoke/formal starts before execution; no partial-cell automatic reuse",
+  "formal_or_smoke_started": false,
+  "old_binding_or_design_modified": false
+}

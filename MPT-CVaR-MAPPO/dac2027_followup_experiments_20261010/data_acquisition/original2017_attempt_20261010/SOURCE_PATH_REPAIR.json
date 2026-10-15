@@ -1,0 +1,13 @@
+{
+  "at": "2026-10-10T23:33:04.571222+08:00",
+  "wrapper_sha256": "6e93db99b8cafd61af5352dda61d56efc4b8a7958b473552e7868d0e05d9ea74",
+  "acquisition_source_sha256": "440cc363657c342f910b767e60a3efee71610bf2c4d44b84ed2b75fa5cb56cd3",
+  "historical_failure_sha256": "61a06ea32e8343016e99999727bd201f655376e4d65774155b3a177602c43164",
+  "probe_sha256": "ef20e32c8fc4952abae566fea5c2a93da8b7e91851253e257deca43e3abe9bd3",
+  "url": "https://clusterdata.oss-cn-beijing.aliyuncs.com/trace_201708.tgz",
+  "approved_HEAD_bytes": 243323702,
+  "expected_sha256": "02c1fbc412fccc03b748c05ec18fc30fd93c0bc383eea47ac21146c4aa2235df",
+  "checksum_gate_changed": false,
+  "dataset_release_changed": false,
+  "prior_failed_archive_preserved": true
+}

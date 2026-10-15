@@ -1,0 +1,384 @@
+{
+  "audit_type": "Type-A independent agent; not cross-family certification",
+  "failures": [],
+  "fingerprint_checks": {
+    "v2_sources": 3,
+    "v2_artifacts": 7,
+    "protected_v1": 262,
+    "protected_confirmation": 558,
+    "JPEG_files": 5000,
+    "plan_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+    "model_sha256": "fc5a5311c6f61572480987ccb485724b3a3eeb78a028b3ffc7885d495edc295e"
+  },
+  "records": {
+    "counts": {
+      "reference": 1200,
+      "validation": 12000,
+      "test": 10000
+    },
+    "blocks": 170,
+    "paired_inputs_sessions": 11600,
+    "max_stage_sum_error_ms": 2.842170943040401e-14,
+    "complete_csv_exact_match": true,
+    "versions": {
+      "python": "3.13.5",
+      "numpy": "2.1.3",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "Pillow": "11.1.0",
+      "psutil": "5.9.0"
+    },
+    "affinities": {
+      "CPU-1T": [
+        0
+      ],
+      "CPU-4T": [
+        0,
+        2,
+        4,
+        6
+      ]
+    },
+    "warmup_per_block": 200,
+    "first_new_block_start": "2026-10-10T17:14:03.096875+08:00",
+    "last_new_block_end": "2026-10-10T20:46:41.196297+08:00"
+  },
+  "test_sessions": [
+    {
+      "session": 1,
+      "start": "2026-10-10T19:44:19.280865+08:00",
+      "spacing_seconds": null,
+      "first_block_start": "2026-10-10T19:44:22.025611+08:00",
+      "last_block_end": "2026-10-10T19:46:20.606428+08:00",
+      "idle": [
+        {
+          "at": "2026-10-10T19:44:18.911072+08:00",
+          "mean": 20.075,
+          "selected_max": 43.9,
+          "available_memory_bytes": 5835313152
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "start": "2026-10-10T19:59:24.642306+08:00",
+      "spacing_seconds": 905.361441,
+      "first_block_start": "2026-10-10T19:59:27.252852+08:00",
+      "last_block_end": "2026-10-10T20:01:23.458738+08:00",
+      "idle": [
+        {
+          "at": "2026-10-10T19:59:24.288152+08:00",
+          "mean": 5.83125,
+          "selected_max": 6.2,
+          "available_memory_bytes": 5948420096
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "start": "2026-10-10T20:14:30.015798+08:00",
+      "spacing_seconds": 905.373492,
+      "first_block_start": "2026-10-10T20:14:32.521849+08:00",
+      "last_block_end": "2026-10-10T20:16:25.715261+08:00",
+      "idle": [
+        {
+          "at": "2026-10-10T20:14:29.649005+08:00",
+          "mean": 6.39375,
+          "selected_max": 17.4,
+          "available_memory_bytes": 6051819520
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "start": "2026-10-10T20:29:35.383291+08:00",
+      "spacing_seconds": 905.367493,
+      "first_block_start": "2026-10-10T20:29:37.991352+08:00",
+      "last_block_end": "2026-10-10T20:31:32.952875+08:00",
+      "idle": [
+        {
+          "at": "2026-10-10T20:29:35.022344+08:00",
+          "mean": 14.125,
+          "selected_max": 29,
+          "available_memory_bytes": 4970565632
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "start": "2026-10-10T20:44:40.747341+08:00",
+      "spacing_seconds": 905.36405,
+      "first_block_start": "2026-10-10T20:44:43.390436+08:00",
+      "last_block_end": "2026-10-10T20:46:41.196297+08:00",
+      "idle": [
+        {
+          "at": "2026-10-10T20:44:40.390123+08:00",
+          "mean": 9.1,
+          "selected_max": 30,
+          "available_memory_bytes": 6687969280
+        }
+      ]
+    }
+  ],
+  "model_rebuild": {
+    "calibration_rows": 20000,
+    "paired_rows": 10000,
+    "paired_stage_values_exact": true,
+    "test_label_in_fit": false
+  },
+  "neighbors": {
+    "test": {
+      "inputs": 1000,
+      "unsupported": 0,
+      "neighbor_count_histogram": {
+        "16": 7,
+        "20": 993
+      },
+      "max_nearest_distance": 0.9359072509020063,
+      "canonical_sha256": "e3f3f31f569850b87f918d9dbb14ae4587b63bd8fbb94953be8d3bba2348ec58"
+    },
+    "validation": {
+      "inputs": 2000,
+      "unsupported": 0,
+      "neighbor_count_histogram": {
+        "16": 25,
+        "20": 1975
+      },
+      "max_nearest_distance": 1.5317076309729833,
+      "canonical_sha256": "a23d82edd161575d7e2a161cc3df92685f46ef44df58a8af6f5f9035890632f5"
+    }
+  },
+  "statistics": {
+    "test": {
+      "CPU-1T": {
+        "measured_rows": 5000,
+        "predicted_mixture_components": 99860,
+        "predicted_ms": {
+          "mean": 28.258225160250007,
+          "p95": 33.9894,
+          "p99": 40.6954
+        },
+        "measured_ms": {
+          "mean": 30.92822799999999,
+          "p95": 35.8829,
+          "p99": 45.1566
+        },
+        "gates": {
+          "mean": {
+            "relative_error": 0.08632899497992527,
+            "tolerance": 0.1,
+            "passed": true
+          },
+          "p95": {
+            "relative_error": 0.05276886762218204,
+            "tolerance": 0.15,
+            "passed": true
+          },
+          "p99": {
+            "relative_error": 0.09879397474566283,
+            "tolerance": 0.2,
+            "passed": true
+          }
+        },
+        "measured_distribution_95ci_ms": {
+          "mean": [
+            29.995592403999993,
+            31.796249717499993
+          ],
+          "p95": [
+            35.2080025,
+            36.468920000000004
+          ],
+          "p99": [
+            43.3202,
+            50.74590749999999
+          ]
+        },
+        "CI_independently_recomputed": true,
+        "observed_max_ms": 126.9163,
+        "exact_uniform_measured_ms": {
+          "mean": 30.928228000000004,
+          "p95": 35.8825,
+          "p99": 45.086
+        },
+        "exact_rational_predicted_quantiles_ms": {
+          "p95": 33.9894,
+          "p99": 40.6954
+        },
+        "exact_empirical_alternative_gates": {
+          "p95": true,
+          "p99": true
+        }
+      },
+      "CPU-4T": {
+        "measured_rows": 5000,
+        "predicted_mixture_components": 99860,
+        "predicted_ms": {
+          "mean": 12.212557619750008,
+          "p95": 15.8071,
+          "p99": 29.0673
+        },
+        "measured_ms": {
+          "mean": 13.052322739999996,
+          "p95": 16.4708,
+          "p99": 28.8099
+        },
+        "gates": {
+          "mean": {
+            "relative_error": 0.06433836620331593,
+            "tolerance": 0.1,
+            "passed": true
+          },
+          "p95": {
+            "relative_error": 0.040295553342885614,
+            "tolerance": 0.15,
+            "passed": true
+          },
+          "p99": {
+            "relative_error": 0.00893442879010342,
+            "tolerance": 0.2,
+            "passed": true
+          }
+        },
+        "measured_distribution_95ci_ms": {
+          "mean": [
+            12.743080264499998,
+            13.365613404499996
+          ],
+          "p95": [
+            15.577340000000001,
+            17.630207499999997
+          ],
+          "p99": [
+            27.09397,
+            34.356155
+          ]
+        },
+        "CI_independently_recomputed": true,
+        "observed_max_ms": 85.1798,
+        "exact_uniform_measured_ms": {
+          "mean": 13.052322740000001,
+          "p95": 16.4625,
+          "p99": 28.7193
+        },
+        "exact_rational_predicted_quantiles_ms": {
+          "p95": 15.8071,
+          "p99": 29.0673
+        },
+        "exact_empirical_alternative_gates": {
+          "p95": true,
+          "p99": true
+        }
+      }
+    },
+    "test_size_class_cells": {
+      "cells": 40,
+      "minimum_images": 1,
+      "singleton_cells": 12
+    },
+    "validation": {
+      "CPU-1T": {
+        "measured_rows": 6000,
+        "predicted_mixture_components": 199500,
+        "predicted_ms": {
+          "mean": 28.226599516114415,
+          "p95": 33.8728,
+          "p99": 40.1974
+        },
+        "measured_ms": {
+          "mean": 30.905040939991505,
+          "p95": 35.9973,
+          "p99": 45.6524
+        },
+        "gates": {
+          "mean": {
+            "relative_error": 0.0866668136462862,
+            "tolerance": 0.1,
+            "passed": true
+          },
+          "p95": {
+            "relative_error": 0.059018315262533705,
+            "tolerance": 0.15,
+            "passed": true
+          },
+          "p99": {
+            "relative_error": 0.1194898844310485,
+            "tolerance": 0.2,
+            "passed": true
+          }
+        },
+        "measured_distribution_95ci_ms": {
+          "mean": [
+            30.409430053855672,
+            31.34210025419546
+          ],
+          "p95": [
+            35.352365,
+            36.6661
+          ],
+          "p99": [
+            42.5625,
+            49.4594
+          ]
+        },
+        "CI_independently_recomputed": true,
+        "observed_max_ms": 166.133
+      },
+      "CPU-4T": {
+        "measured_rows": 6000,
+        "predicted_mixture_components": 199500,
+        "predicted_ms": {
+          "mean": 12.208073599524392,
+          "p95": 15.9146,
+          "p99": 28.5398
+        },
+        "measured_ms": {
+          "mean": 13.199516785182016,
+          "p95": 18.5304,
+          "p99": 31.6225
+        },
+        "gates": {
+          "mean": {
+            "relative_error": 0.07511208188853051,
+            "tolerance": 0.1,
+            "passed": true
+          },
+          "p95": {
+            "relative_error": 0.14116263005655572,
+            "tolerance": 0.15,
+            "passed": true
+          },
+          "p99": {
+            "relative_error": 0.09748438611747962,
+            "tolerance": 0.2,
+            "passed": true
+          }
+        },
+        "measured_distribution_95ci_ms": {
+          "mean": [
+            12.615649473870368,
+            14.125963382732134
+          ],
+          "p95": [
+            15.958085,
+            22.26862
+          ],
+          "p99": [
+            26.4345,
+            36.849
+          ]
+        },
+        "CI_independently_recomputed": true,
+        "observed_max_ms": 147.4893
+      }
+    },
+    "validation_size_class_cells": {
+      "cells": 49,
+      "minimum_images": 1,
+      "singleton_cells": 9
+    }
+  },
+  "bootstrap_scope": "500 observed-distribution crossed image-within-size-class / whole-session draws, independently recomputed; not prediction/model error CI; 5 test and 3 confirmation sessions, same machine/day.",
+  "originals_unchanged_after_recompute": true,
+  "passed_computational_checks": true
+}

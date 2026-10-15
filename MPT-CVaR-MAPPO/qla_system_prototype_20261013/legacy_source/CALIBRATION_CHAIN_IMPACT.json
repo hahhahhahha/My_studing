@@ -1,0 +1,34 @@
+{
+  "schema": "legacy-source-calibration-chain-impact-v1",
+  "legacy_sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+  "current_sha256": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+  "unit_comparison": {
+    "Journal": "identical",
+    "encoded": "identical",
+    "local_windows_runtime": "identical",
+    "quantile": "identical",
+    "read": "identical",
+    "request_json": "identical",
+    "runtime": "identical",
+    "sha": "identical",
+    "source_receipt": "DIFFERS",
+    "tail_mean": "identical",
+    "write_new": "identical"
+  },
+  "only_in_legacy": [],
+  "only_in_current": [],
+  "calibration_chain_units": [
+    "Journal",
+    "request_json",
+    "sha",
+    "runtime",
+    "quantile",
+    "tail_mean",
+    "local_windows_runtime",
+    "read",
+    "write_new",
+    "encoded"
+  ],
+  "calibration_chain_byte_identical": true,
+  "conclusion": "Every function/class used by the M1 calibration numeric chain (Journal logging, request_json, sha, runtime, quantile, tail_mean, local_windows_runtime, read/write/encoded) is byte-identical between the recovered v0 common.py and the current common.py. The only difference is the source_receipt function scope, which has no effect on the measured service-time / scale-fitting numbers."
+}

@@ -1,0 +1,21 @@
+{
+  "error": "ValueError('Future/mismatched completion cannot enter MV reward')",
+  "committed_state": {
+    "mu_seconds": 1.5,
+    "count": 0,
+    "mean": 0.0,
+    "m2": 0.0,
+    "previous_ratio": null
+  },
+  "partial_state": {
+    "mu_seconds": 1.5,
+    "count": 0,
+    "mean": 0.0,
+    "m2": 0.0,
+    "previous_ratio": null
+  },
+  "started_episode_keys": [
+    "explicit-invalid-receipt-fixture"
+  ],
+  "automatic_retry_allowed": false
+}

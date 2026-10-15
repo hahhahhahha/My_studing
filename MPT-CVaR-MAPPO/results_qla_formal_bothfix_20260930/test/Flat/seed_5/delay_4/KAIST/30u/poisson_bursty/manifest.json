@@ -1,0 +1,17 @@
+{
+  "method": "LCC-MAPPO",
+  "seed": 5,
+  "device": "cuda",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "source_sha256": "028c265e80d6b2f868a3e62179bb0cfd93c4ee78c581d76e6ef9bfca2872c4d9",
+  "config_sha256": "033ea869e18b1c71ffd4eb9454d3ab0eeaf3a061b7e4ee2248cf090f3c217fdc",
+  "checkpoint_sha256": "9872c27c61e200fa7c10efe0cf168d7d01bdfc5505b11c486cb34bb43a159628",
+  "train_split_id": "KAIST_poisson_bursty_train_s5_2870064ec1ed4494",
+  "train_schedule_sha256": "ac428820173ef02261257a04a478e7cb39684b38d382fbd4ffd44f3c91cf21fb",
+  "test_split_id": "KAIST_poisson_bursty_test_s10005_ae44b106f3505e6e",
+  "test_schedule_sha256": "e47edccd81313ccb936a686094d2dd9311b025ddfe8200332029455e065fa825",
+  "finite_buffer_protocol": true,
+  "latency_is_uncapped": true
+}

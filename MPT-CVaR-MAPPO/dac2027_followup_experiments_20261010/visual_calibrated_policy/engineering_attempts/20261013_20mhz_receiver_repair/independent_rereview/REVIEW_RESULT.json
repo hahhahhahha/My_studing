@@ -1,0 +1,119 @@
+{
+  "schema": "visual-20mhz-small-smoke-limited-source-rereview-v1",
+  "review_type": "Type-A",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "xhigh",
+  "review_date": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "status": "FAIL",
+  "complete": true,
+  "scope": "Read-only limited review of current 20 MHz adapter, actual 8x30 small-smoke producer and pilot receiver; not execution, performance, pilot completion or formal authority",
+  "blockers": [
+    {
+      "id": "B1_ACTUAL_SMALL_SMOKE_STALE_PROTECTED_MAP",
+      "priority": 1,
+      "file": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_s4/visual_model_smoke_small.py",
+      "line": 55,
+      "detail": "The actual 20 MHz small-smoke entry retains the old 232-entry protected map. Current feature, upload-link and coordinator source hashes differ from that map. Both check and runtime plan validation fail. The adapter self-check calls the separate updated ordinary-smoke implementation, so it does not cover this failure."
+    },
+    {
+      "id": "B2_BUDGET_IS_NOT_COMPLETED_RECEIPT",
+      "priority": 1,
+      "file": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_pilot_preparation.py",
+      "line": 297,
+      "detail": "Receiver checks ledger.accounting, which is generated from the declared budget, not actual committed collection. Actual counts, completed phase, unique committed episode, update commitment and failure state are not validated. Shared missing schedule/input-condition hashes may also satisfy the equality-only checks."
+    },
+    {
+      "id": "B3_SMOKE_PLAN_NOT_IN_PERSISTENT_BOUNDARY",
+      "priority": 1,
+      "file": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_pilot_preparation.py",
+      "line": 388,
+      "detail": "The smoke plan is read and byte-checked during construction but its path and SHA are omitted from self._inputs. verify_boundary neither rehashes nor rereads that plan, so later deletion or modification is not detected by this boundary."
+    }
+  ],
+  "checks": {
+    "network_direction_file_sha_and_schema": "PASS_SOURCE",
+    "exact_20mhz_link_into_features_and_actual_small_smoke_environment": "PASS_SOURCE",
+    "matched_input_and_actor_shape": "PASS_SOURCE",
+    "training_validation_test_link_consistency": "PASS_SOURCE",
+    "resource_policy_not_relaxed": "PASS_SOURCE_NOT_LIVE_VERIFIED",
+    "current_complete_source_inventory": "PASS_IDENTITY_203_PLUS_6",
+    "ordinary_protected_input_map": "PASS_IDENTITY_210",
+    "actual_small_smoke_protected_input_map": "FAIL",
+    "exact_actual_8x30_receipt_validation": "FAIL",
+    "smoke_plan_persistent_boundary": "FAIL",
+    "saved_adapter_checks": "LIMITED_AUTHOR_CHECK_NOT_RUNTIME_PROOF",
+    "old_2mhz_smoke": "PRESERVED_OLD_IDENTITY_ONLY"
+  },
+  "warnings": [
+    "The existing hard-coded S4 independent-command review binds the old small-smoke source and cannot clear the current source.",
+    "The downstream retained metadata generation gate still expects a 203-entry source map, unlike the new 209-entry preparation.",
+    "The adapter check output omits source hashes for the preparation receiver, ordinary protected-bindings implementation and actual small-smoke entry that are material to its claims.",
+    "The baseline source-lock membership guard checks count 203, not an independently pinned exact path set.",
+    "REPAIR_SCOPE contains an incorrect old visual_protocol_assembly.py SHA; the old upload-link bytes are preserved under the explicitly named A4 baseline snapshot rather than the same-name snapshot."
+  ],
+  "verification": {
+    "direct_source_and_artifact_reads": true,
+    "sha256_rehashes": true,
+    "read_only_source_diffs": true,
+    "project_code_executed": false,
+    "check_script_executed": false,
+    "torch_imported_by_reviewer": false,
+    "gpu_probed_by_reviewer": false,
+    "model_or_optimizer_calls": 0,
+    "candidate_plan_generated": false,
+    "smoke_started": false,
+    "pilot_started": false,
+    "formal_cells_started": 0,
+    "files_written_or_modified": false,
+    "local_direction_record_treated_as_authority": false
+  },
+  "source_inventory": {
+    "baseline_count": 203,
+    "additive_count": 6,
+    "total_count": 209,
+    "sha256": "b22e30dfeae5e8974f8ed1a2539e90b6da5242895932ed86f5815886e13ce363",
+    "algorithm": "SHA256 of UTF8 concatenation of ordinal-sorted exact Windows absolute path, NUL, lowercase file SHA256, LF",
+    "all_209_files_semantically_reviewed": false,
+    "semantic_review_scope": "Relevant changed entry points and necessary call dependencies"
+  },
+  "ordinary_protected_inventory": {
+    "count": 210,
+    "sha256": "29945dbe9ca758058b6f255f993c8f7e084705d33ce87258fd8ba8d8c45abbb5",
+    "algorithm": "SHA256 of UTF8 concatenation of ordinal-sorted exact Windows absolute path, NUL, lowercase file SHA256, LF",
+    "byte_mismatches": []
+  },
+  "reviewed_sources_sha256": {
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_model_smoke.py": "2a83809e63e88062f1c7428439ccfff994240ce8f4debd8094a131e70d151372",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_pilot_preparation.py": "ae934106b9ae438874b7e4dfdd28a46c3d6c1d79950802336a7ac55fbf2576e2",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_method_features.py": "440c41b771e311bc2b1f0e8d03e944408940711d2f45c229407125faa8602b91",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_protocol_assembly.py": "e11c275a7c5799f556981901c0d08be3bd20578b5c7d75bb3bdb4c76eda698b8",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_upload_link.py": "f9f75f9a1f6dd5340d0872b2555039b546df31c09748bc607b25f44388c549d5",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_training_coordinator.py": "e2d792431bb7d518b7f2879c186449bfff11615999fe5f1cc45f5ceaac7436f6",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/retained_test_evaluator.py": "828fb14fd64313717c09a95aea5cf4e264b275651b682db6441542c3a071a2b6",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_training_transactions.py": "5f8b19f28b9757194bb88e142bb1db639bc4067c01ae9c36475de27e016832b6",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/retained_test_schedule_generation.py": "1b86031c786734d02d6bb4aa010600a5250969a055be0efed4a4bc2920ce214d",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_environment_adapter.py": "66efc2c045f2894b7d2a800c3e269ad61718b4b73cb22c148a8a711b30603723",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_receipt_environment.py": "ae933775ca365e0301eef1a14ad8f118d59adc2b43bef0af3c8f5e94be998036",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/visual_learned_bindings.py": "9fb8399b73547ad8e525a543f7ce1f4aa1941e84da8d1c8b23a871bba2019416",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/scripts/windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_s4/visual_model_smoke_small.py": "cc2b14cafde350511322f6111b0fdaf442bf1d40d0554a94df76909448b26bdd",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_s4/reward_input_integrity.py": "1f774d8322a72b8fdb82fb3f5c2a49353e22d4fb8f45cf5864ec872926837cf3",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261013_visual_20mhz_adapter/check_high_bandwidth_adapter.py": "02c8247e4c26b4057208b22c5e7056c2286005df02b93eb1b9b1680db237f6b5"
+  },
+  "reviewed_artifacts_sha256": {
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/protocol/human_direction/20261013_visual_network_choice.json": "b0635013bd3d07dc330847c03baca313612813c836dbca174f266c050e270b32",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/protocol/QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261013_visual_20mhz_adapter/REPAIR_SCOPE.json": "650cc4037115ba1aaaf16c9abbba12842bec195693a9ab3b55d86c3976f67c02",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261013_visual_20mhz_adapter/ADAPTER_CHECKS.json": "f2900dbdfee3876666a6b881166222934067ad88e4eb33373ef627b7d8b5ee0d",
+    "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_s4/independent_command_rereview/REVIEW_RESULT.json": "ee513ee56800194dece4a80cd9fb450f836f6985b01fcaaed85bf4f2f0d323b6"
+  },
+  "authority": {
+    "source_only": true,
+    "smoke_execution_authorized_by_this_report": false,
+    "pilot_execution_authorized": false,
+    "formal_training_or_test_launch_authorized": false,
+    "performance_claim_supported": false
+  }
+}

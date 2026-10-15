@@ -1,0 +1,18 @@
+{
+  "changed_protected_rejected": true,
+  "changed_resource_pin_rejected": true,
+  "changed_source_rejected": true,
+  "exact_209_210_plus_separate_own_map_passed": true,
+  "legacy_reward_default_path_unchanged": true,
+  "missing_independent_own_resource_map_rejected": true,
+  "old_500_resource_policy_rejected": true,
+  "own_resource_spec_members": 1,
+  "own_source_and_resource_pin_count": 9,
+  "own_source_members": 8,
+  "protected_map_count": 210,
+  "schema": "visual-20mhz-complete-review-gate-fixture-check-v1",
+  "source_map_count": 209,
+  "status": "PASS",
+  "synthetic_only": true,
+  "torch_cuda_model_or_experiment_calls": 0
+}

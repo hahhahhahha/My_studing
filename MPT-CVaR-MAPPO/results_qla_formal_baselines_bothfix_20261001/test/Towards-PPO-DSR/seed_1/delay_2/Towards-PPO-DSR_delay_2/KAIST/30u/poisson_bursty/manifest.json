@@ -1,0 +1,16 @@
+{
+  "method": "Towards-PPO-DSR",
+  "seed": 1,
+  "python": "3.13.5",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "finite_buffer_protocol": true,
+  "latency_is_uncapped": true,
+  "checkpoint_rule": "final_requested_training_budget_no_test_early_stopping",
+  "test_split_id": "KAIST_poisson_bursty_test_s10001_a497e72b76f7f1c4",
+  "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+  "evaluation_split_role": "test",
+  "evaluation_split_id": "KAIST_poisson_bursty_test_s10001_a497e72b76f7f1c4",
+  "evaluation_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b",
+  "config_sha256": "756b43489176f17943118dc2fddaef3a6a28c0708295f304a09b9b171cb05ce3",
+  "checkpoint_sha256": "9835e69e7cc76974124f3d2c0d0b7a6ecfeacc9f6a90d3b84ece58d1a9b41445"
+}

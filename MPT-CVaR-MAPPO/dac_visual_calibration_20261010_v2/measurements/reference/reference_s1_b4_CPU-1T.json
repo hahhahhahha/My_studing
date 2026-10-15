@@ -1,0 +1,58 @@
+{
+  "job": {
+    "role": "reference",
+    "session": 1,
+    "block": 4,
+    "profile": "CPU-1T",
+    "image_ids": [
+      "imagenette2/train/n02979186/n02979186_15824.JPEG",
+      "imagenette2/train/n03000684/n03000684_12893.JPEG",
+      "imagenette2/train/n02979186/n02979186_5556.JPEG",
+      "imagenette2/train/n03445777/n03445777_5766.JPEG",
+      "imagenette2/train/n01440764/n01440764_4906.JPEG",
+      "imagenette2/train/n03028079/n03028079_9623.JPEG",
+      "imagenette2/train/n03394916/n03394916_37355.JPEG",
+      "imagenette2/train/n03425413/n03425413_15158.JPEG",
+      "imagenette2/train/n03394916/n03394916_29284.JPEG",
+      "imagenette2/train/n03028079/n03028079_30204.JPEG",
+      "imagenette2/train/n03028079/n03028079_29449.JPEG",
+      "imagenette2/train/n03425413/n03425413_27543.JPEG",
+      "imagenette2/train/n03445777/n03445777_16189.JPEG",
+      "imagenette2/train/n03000684/n03000684_649.JPEG",
+      "imagenette2/train/n02102040/n02102040_6436.JPEG",
+      "imagenette2/train/n01440764/n01440764_12129.JPEG",
+      "imagenette2/train/n02102040/ILSVRC2012_val_00021016.JPEG",
+      "imagenette2/train/n03417042/n03417042_7668.JPEG",
+      "imagenette2/train/n02102040/n02102040_3649.JPEG",
+      "imagenette2/train/n03417042/n03417042_15198.JPEG"
+    ]
+  },
+  "job_sha256": "bd20c6993eab8e27a9e4bd0f0849c75e8d88a7d64e271d355825bbc040673370",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "Pillow": "11.1.0",
+    "psutil": "5.9.0"
+  },
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "affinity": [
+    0
+  ],
+  "warmup_requests": 200,
+  "requests": 20,
+  "errors": 0,
+  "sensor_before": {
+    "cpu_percent": 15.7,
+    "available_memory_bytes": 6033268736,
+    "wall_clock": "2026-10-10T17:16:38.960769+08:00"
+  },
+  "sensor_after": {
+    "cpu_percent": 16.2,
+    "wall_clock": "2026-10-10T17:16:45.440319+08:00"
+  },
+  "timing_boundary": "decode+RGB+preprocess+FP32 inference+argmax+dict; no disk/network/queue/controller",
+  "temperature": "not available",
+  "frequency": "not continuously sampled"
+}

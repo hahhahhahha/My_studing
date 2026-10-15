@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-10",
+  "auditor": "gpt-6-astra xhigh",
+  "review_type": "Type-A independent second GPT-family reviewer",
+  "cross_family_type_b_certification": false,
+  "gpt_5_5_used": false,
+  "overall_verdict": "WARN",
+  "record_integrity_status": "PASS",
+  "frozen_six_metric_acceptance": "PASS",
+  "record_reuse_for_confirmation_postprocessing_justified": true,
+  "retained_test_authorized": false,
+  "full_experiment_complete": false,
+  "checks": {
+    "A_target_provenance": {"status": "PASS", "details": "Actual perf_counter_ns service measurements, not prediction-generated targets; model reconstructed from original V1 calibration rows.", "evidence": ["scripts/measure_block.py:46", "scripts/measure_block.py:64", "scripts/runner.py:194"]},
+    "B_score_normalization": {"status": "PASS", "details": "Raw milliseconds retained; target population weights derive from inventory cells; relative-error denominator is observed statistic.", "evidence": ["scripts/runner.py:67", "scripts/runner.py:391", "scripts/runner.py:427"]},
+    "C_result_existence": {"status": "PASS", "details": "13200 confirmation/reference rows, 120 blocks, 240 raw files, 120 jobs/logs; independent row checks and archived hashes agree. New report, CSV, combined exact-row copy and figure labels verified. No retained-test result.", "evidence": ["logs/runner_stdout.log:124", "analysis/recovery_20261010/reviewer/INDEPENDENT_RECOMPUTATION.json:4", "analysis/recovery_20261010/EXPORT.json:13"]},
+    "D_actually_called": {"status": "PASS", "details": "Original evaluate(False) was interrupted before report; recovery calls frozen audit(False)/evaluate(False), with emitted values and saved report matching independent recomputation. summarize_v2 was not the actual export path.", "evidence": ["scripts/runner.py:507", "logs/runner_stderr.log:1", "analysis/recovery_20261010/analyze_confirmation_isolated_analysis_run_source.py:115", "analysis/recovery_20261010/isolated_statistics_stdout.log:2"]},
+    "E_scope": {"status": "WARN", "details": "One machine, one day, two CPU configurations, 2000 distinct validation images and three repeated sessions. Target population has 6867 images and 49 nonempty size-class cells; 9 sampled cells are singletons. No local-support gate failures, but no per-cell accuracy or future-distribution guarantee.", "evidence": ["README_中文.md:14", "protocol/POPULATION_PROFILE.json:75", "scripts/runner.py:106", "scripts/runner.py:431"]},
+    "F_evaluation_classification": {"status": "PASS", "type": "real_measured_runtime", "subtype": "empirical service-distribution calibration", "dataset_provided_service_time_ground_truth": false, "synthetic_proxy": false, "simulation_only": false, "evidence": ["scripts/measure_block.py:47", "scripts/runner.py:420", "analysis/V2_确认验证结果_中文.md:14"]}
+  },
+  "independent_computation": {
+    "stdlib_only": true,
+    "runner_imported_or_executed": false,
+    "original_weighted_stats_or_evaluate_reused": false,
+    "calibration_rows": 20000,
+    "validation_rows": 12000,
+    "reference_rows": 1200,
+    "validation_distinct_images": 2000,
+    "reference_distinct_images": 200,
+    "raw_image_hashes_checked": 4000,
+    "quantile": "inf{x: F(x)>=q}, empirical left-CDF inverse, exact rational population weights, no interpolation",
+    "relative_error_denominator": "measured statistic",
+    "max_metric_value_difference_from_recovery_report_ms": 3.552713678800501e-15,
+    "all_six_decisions_match": true,
+    "unsupported_validation_inputs": 0,
+    "max_nearest_neighbor_distance": 1.5317076309729833,
+    "bootstrap_numeric_endpoints_independently_recomputed": false,
+    "bootstrap_source_logic_reviewed": true,
+    "results_path": "INDEPENDENT_RECOMPUTATION.json",
+    "metrics_path": "INDEPENDENT_METRICS.csv",
+    "implementation_path": "independent_audit.py"
+  },
+  "warnings": [
+    {"id": "W1", "severity": "scope", "detail": "Frozen six point estimates pass; this is not a retained-test result, full workflow completion, conditional-cell guarantee, or QLA/vision accuracy evidence."},
+    {"id": "W2", "severity": "runtime_diagnosis", "detail": "All three minimal probes exited 0, including mixed; original OpenMP failure was not reproduced. Isolated postprocessing succeeded, but permanent environment repair and a complete causal diagnosis are unproven."},
+    {"id": "W3", "severity": "sampling_uncertainty", "detail": "Nine singleton cells, only three same-day sessions, and 16 calibration images above 2MP limit long-tail inference; CPU-4T P95 is only 0.883737 percentage points inside the tolerance."},
+    {"id": "W4", "severity": "measurement_telemetry", "detail": "No temperature measurements or continuous frequency sampling; idle gates do not ensure continuously idle conditions; metadata and source are not independent OS attestation."},
+    {"id": "W5", "severity": "review_independence", "detail": "This is Type-A same-family review. Required cross-family Type-B certification was not available and is not claimed."},
+    {"id": "W6", "severity": "audit_limit", "detail": "Original image hashes checked; deduplication reconstruction uses frozen manifest dHash values, without independent pixel-level dHash decoding. Bootstrap endpoint randomness was not independently reproduced."}
+  ],
+  "claims": [
+    {"id": "C1", "claim": "Existing confirmation records satisfy frozen integrity and six point-estimate tolerances", "impact": "supported"},
+    {"id": "C2", "claim": "Records can be reused for confirmation-only postprocessing without remeasurement or refitting", "impact": "supported"},
+    {"id": "C3", "claim": "Runtime root cause completely reproduced and globally fixed", "impact": "unsupported"},
+    {"id": "C4", "claim": "Retained test or full V2 experiment complete", "impact": "unsupported"},
+    {"id": "C5", "claim": "Campus workload generalization, queue validity, classification accuracy, or QLA benefit", "impact": "unsupported"}
+  ],
+  "primary_path_base": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261010_v2",
+  "report_path": "AUDIT_REPORT_中文.md"
+}

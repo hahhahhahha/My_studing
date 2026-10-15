@@ -1,0 +1,19 @@
+{
+  "dataset": "KAIST",
+  "distribution": "poisson_bursty",
+  "role": "validation",
+  "seed": 10001,
+  "n_steps": 8,
+  "n_trace_slots": 1516,
+  "split_start": 907,
+  "split_length": 299,
+  "guard": 10,
+  "n_users": 30,
+  "n_edges": 35,
+  "max_requests": 7,
+  "poisson_lambda": 3.5,
+  "burst_prob": 0.1,
+  "burst_multiplier": 2.0,
+  "schedule_id": "KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95",
+  "content_sha256": "73576fe45b7130b1dbea1458f61c3502269940e0fc049743258954af4c1b34e3"
+}

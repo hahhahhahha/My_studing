@@ -1,0 +1,17 @@
+{
+  "scope": "author non-neural preparation checks only; not independent verdict",
+  "frozen_source_closure_files_verified": 115,
+  "consumed_original_KAIST_trace_files_verified": 30,
+  "historical_Full_checkpoint_and_config_pairs_verified": 25,
+  "new_Python_sources_AST_parsed": 3,
+  "fault_fixture_groups": ["mock raw byte change rejected", "mock raw membership change rejected", "mock repro package change rejected", "source fault before dynamic import", "synthetic orphan schedule rejected", "synthetic extra schedule rejected", "synthetic schedule byte change rejected"],
+  "all_seven_groups_passed": true,
+  "faults_applied_to_real_inputs": false,
+  "schedule_preparation_executed": false,
+  "new_plans_prepared": false,
+  "Torch_imported_in_author_checks": false,
+  "actual_models_or_optimizers_executed": 0,
+  "independent_new_scope_review": "PENDING /root/user_small_smoke_v2_integrity",
+  "old_source_failures_bindings_design_raw_and_results_modified": false,
+  "formal_or_scientific_or_numerical_settings_changed": false
+}

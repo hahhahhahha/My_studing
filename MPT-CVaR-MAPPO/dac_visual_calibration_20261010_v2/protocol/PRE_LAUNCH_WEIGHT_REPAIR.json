@@ -1,0 +1,9 @@
+{
+  "at": "2026-10-10T17:11:03.386632+08:00",
+  "reason": "Independent audit required exact size-class inverse inclusion weights and matching crossed bootstrap strata before timing.",
+  "before_sha256": "89f0f20fbad52e2c4b772bf5cf88d3491cd89d379bba69cc808ce365b3839ba2",
+  "after_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+  "measurements_started": false,
+  "selected_image_ids_changed": false,
+  "model_or_threshold_changed": false
+}

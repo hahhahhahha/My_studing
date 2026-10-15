@@ -1,0 +1,152 @@
+{
+  "data\\calibration_rr_s1.json": {
+    "sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+    "tasks": 599,
+    "role": "calibration",
+    "seed": 1,
+    "rate": 20.0,
+    "horizon": 30.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\calibration_stress_s1.json": {
+    "sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+    "tasks": 18916,
+    "role": "calibration",
+    "seed": 1,
+    "rate": 158.0,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho60_s1.json": {
+    "sha256": "3e718ec6f9ddbe327bd20ad775c11b56b0d43bae7a4a9ebfa538ed1b86393bca",
+    "tasks": 12629,
+    "role": "test",
+    "seed": 1,
+    "rate": 105.237215,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho60_s2.json": {
+    "sha256": "cd8100081ab14613d1a5a7ac55b617b98954ea9e348e227e7fb33a935d070cdb",
+    "tasks": 12749,
+    "role": "test",
+    "seed": 2,
+    "rate": 105.237215,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho60_s3.json": {
+    "sha256": "5b43c4ec262683b081b4f93a628dca48cf9eb7b5bdbcbf3148f2a7f26120e965",
+    "tasks": 12567,
+    "role": "test",
+    "seed": 3,
+    "rate": 105.237215,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho90_s1.json": {
+    "sha256": "6d7b098d1bc8bb7e4dd85fdfd67fc8739c43d2dfdc4d80247828b045cd7517f9",
+    "tasks": 18896,
+    "role": "test",
+    "seed": 1,
+    "rate": 157.855823,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho90_s2.json": {
+    "sha256": "d857d8e267492dde84f349b4b23599b3adc609491d2af85c58f0e4156273e1a7",
+    "tasks": 18940,
+    "role": "test",
+    "seed": 2,
+    "rate": 157.855823,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_rho90_s3.json": {
+    "sha256": "e89fcff81db234b9e68ee33354ee6c22b711d64a7eff07908885cf3fa6a7e630",
+    "tasks": 18898,
+    "role": "test",
+    "seed": 3,
+    "rate": 157.855823,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\validation_s101.json": {
+    "sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "tasks": 12565,
+    "role": "validation",
+    "seed": 101,
+    "rate": 105.0,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_01_s1.json": {
+    "sha256": "8f09c0c2fa21c8b86718a402fd5e4c7de2efd9e7ab12d2541cd16187e4fae0c9",
+    "tasks": 12629,
+    "role": "test",
+    "seed": 1,
+    "rate": 105.23721539481573,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_02_s2.json": {
+    "sha256": "56ddc44bf8197ca31563db66cd556bc77b16e5f91dca02d072bcedd4a95b5186",
+    "tasks": 12749,
+    "role": "test",
+    "seed": 2,
+    "rate": 105.23721539481573,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_03_s3.json": {
+    "sha256": "b66e9996d4b78d4a8432a4645c1d0193176989eda79fe427dbef47af3a575528",
+    "tasks": 12567,
+    "role": "test",
+    "seed": 3,
+    "rate": 105.23721539481573,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_04_s1.json": {
+    "sha256": "65bf45be310add8449ba0cbd4b9c07b63f0d9854fcc3c08e4dd3ba126c57af7c",
+    "tasks": 18896,
+    "role": "test",
+    "seed": 1,
+    "rate": 157.8558230922236,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_05_s2.json": {
+    "sha256": "449d0e6082a47a73ff50de6e46b942496decbea0fda31f9ffb271b9717058fa8",
+    "tasks": 18940,
+    "role": "test",
+    "seed": 2,
+    "rate": 157.8558230922236,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  },
+  "data\\E1_common_v2\\common_06_s3.json": {
+    "sha256": "65de243d09c033ea7ca48f527f65ae1fd14accb42f30d4f311f60b2bb217c566",
+    "tasks": 18898,
+    "role": "test",
+    "seed": 3,
+    "rate": 157.8558230922236,
+    "horizon": 120.0,
+    "poisson_arrivals_reproduced": true,
+    "unique_ids": true
+  }
+}

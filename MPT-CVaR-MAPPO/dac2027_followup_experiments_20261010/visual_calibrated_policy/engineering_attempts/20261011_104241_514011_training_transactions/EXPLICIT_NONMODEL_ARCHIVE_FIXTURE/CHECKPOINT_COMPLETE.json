@@ -1,0 +1,20 @@
+{
+  "descriptor": {
+    "method": "QLA-MAPPO",
+    "seed": 1,
+    "episode_index": 1,
+    "committed_environment_decisions": 3,
+    "committed_behavior_samples": 90,
+    "paired_design_sha256": "8a49c0aa5a01096af3777cf10b0d634e807311760e97c34e4ce147dd58fe3628",
+    "data_role": "calibration",
+    "episode_token": "explicit-synthetic-token-1",
+    "snapshot_only_no_resume": true
+  },
+  "files_sha256": {
+    "MODEL_STATE.pt": "318f81b46d18e53fb15f7a695b1826ef4d9e5f2a4fabbbfeb38cc6315cc18592",
+    "OPTIMIZER_AND_RNG_STATE.pt": "318f81b46d18e53fb15f7a695b1826ef4d9e5f2a4fabbbfeb38cc6315cc18592",
+    "TRAINING_STATE.json": "167fd106633f6be734466a90bcef42d5b4393c839d47ddb8bde4955bbabab0ec"
+  },
+  "model_payload_written_by_actual_controller": false,
+  "fixture_only_not_real_checkpoint": true
+}

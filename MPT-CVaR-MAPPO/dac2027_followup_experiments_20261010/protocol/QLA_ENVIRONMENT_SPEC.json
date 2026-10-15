@@ -1,0 +1,20 @@
+{
+  "schema": "qla-followup-environment-v2-user-gpu1800",
+  "provider": "local-windows",
+  "base_python": "X:/anaconda/ANACONDA/python.exe",
+  "isolated_environment": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/environment/qla_np226",
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "cpu_threads": 1,
+  "interop_threads": 1,
+  "gpu_occupancy_max_mib_exclusive": 1800,
+  "reuse_readonly_system_site_packages": true,
+  "pip_phases": [["numpy==2.2.6", "--only-binary=:all:", "--no-deps"]],
+  "global_package_or_driver_modification": false,
+  "automatic_cpu_fallback": false,
+  "KMP_DUPLICATE_LIB_OK_permitted": false,
+  "readiness": "version/seeded CUDA witness plus two-arm smoke plus fresh independent agent-follows-doc",
+  "provisioning_before_service_measurement_end": false
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "actual-small-schedule-preparation-failure-v1",
+  "at": "2026-10-12T21:04:28+08:00",
+  "action": "reward_smoke_small.py prepare",
+  "source_review_status_at_invocation": "COMPLETE_WARN_blockers_empty",
+  "error": "FileNotFoundError Win32 path during np.savez_compressed validation schedule",
+  "failed_validation_path_characters": 264,
+  "original_train_manifest_path_characters": 251,
+  "original_train_npz_path_characters": 250,
+  "preserved_train_manifest_sha256": "889151f15f29f5bd27c48e655707251fff196509ec6e048be5f8c1c20d8efb82",
+  "preserved_train_npz_sha256": "2f72332f7e912f577c73bdacdd73f33c33fa0a397d52e85328441224663de432",
+  "partial_schedule_directory_preserved_no_retry": true,
+  "registry_or_reward_plan_created": false,
+  "CUDA_or_model_calls": 0,
+  "system_long_path_registry_changed": false,
+  "next_scoped_repair": "separately bound shorter 20261012_s4 attempt; identical runtime source and scientific settings; source/doc location review before fresh preparation"
+}

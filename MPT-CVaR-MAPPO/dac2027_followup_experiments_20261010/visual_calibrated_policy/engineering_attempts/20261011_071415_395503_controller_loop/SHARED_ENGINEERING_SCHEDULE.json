@@ -1,0 +1,826 @@
+{
+  "role": "validation",
+  "users": 30,
+  "decision_seconds": 0.05,
+  "decisions": 80,
+  "seed": 123,
+  "requests": [
+    {
+      "task_id": "task-00000001",
+      "user": 27,
+      "arrival_seconds": 0.01141536755072381,
+      "image_id": "imagenette2/train/n03425413/n03425413_22197.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.3077744376588981
+    },
+    {
+      "task_id": "task-00000000",
+      "user": 25,
+      "arrival_seconds": 0.027649534176331782,
+      "image_id": "imagenette2/train/n01440764/n01440764_11145.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.08416093516843903
+    },
+    {
+      "task_id": "task-00000003",
+      "user": 0,
+      "arrival_seconds": 0.0666948161895699,
+      "image_id": "imagenette2/train/n03445777/n03445777_838.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.2069186317693057
+    },
+    {
+      "task_id": "task-00000002",
+      "user": 0,
+      "arrival_seconds": 0.06923098631193295,
+      "image_id": "imagenette2/train/n03445777/n03445777_624.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.3827093178227582
+    },
+    {
+      "task_id": "task-00000004",
+      "user": 20,
+      "arrival_seconds": 0.07660497212545953,
+      "image_id": "imagenette2/train/n02979186/n02979186_13513.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.38570212888025346
+    },
+    {
+      "task_id": "task-00000005",
+      "user": 25,
+      "arrival_seconds": 0.08712121045965354,
+      "image_id": "imagenette2/train/n01440764/n01440764_5709.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.783208711669204
+    },
+    {
+      "task_id": "task-00000006",
+      "user": 12,
+      "arrival_seconds": 0.1566721933280052,
+      "image_id": "imagenette2/train/n03394916/n03394916_35725.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.30337798033907226
+    },
+    {
+      "task_id": "task-00000007",
+      "user": 24,
+      "arrival_seconds": 0.2629509680490941,
+      "image_id": "imagenette2/train/n03425413/n03425413_356.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.1979762055029095
+    },
+    {
+      "task_id": "task-00000008",
+      "user": 2,
+      "arrival_seconds": 0.3092161684806368,
+      "image_id": "imagenette2/train/n02979186/n02979186_23514.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.5600042483306651
+    },
+    {
+      "task_id": "task-00000010",
+      "user": 18,
+      "arrival_seconds": 0.4008135042000629,
+      "image_id": "imagenette2/train/n02979186/n02979186_5424.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.9234079891134247
+    },
+    {
+      "task_id": "task-00000009",
+      "user": 3,
+      "arrival_seconds": 0.44903483441863823,
+      "image_id": "imagenette2/train/n03888257/n03888257_5653.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.07840157629596967
+    },
+    {
+      "task_id": "task-00000011",
+      "user": 12,
+      "arrival_seconds": 0.48306179321028325,
+      "image_id": "imagenette2/train/n03888257/n03888257_38373.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.46363068149827424
+    },
+    {
+      "task_id": "task-00000013",
+      "user": 23,
+      "arrival_seconds": 0.48826804590655465,
+      "image_id": "imagenette2/train/n03425413/n03425413_13369.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.11754272824781054
+    },
+    {
+      "task_id": "task-00000012",
+      "user": 19,
+      "arrival_seconds": 0.4912287116727467,
+      "image_id": "imagenette2/train/n03425413/n03425413_17437.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.6320593810504731
+    },
+    {
+      "task_id": "task-00000014",
+      "user": 9,
+      "arrival_seconds": 0.5372801868487771,
+      "image_id": "imagenette2/train/n02102040/n02102040_1837.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.2719507236753119
+    },
+    {
+      "task_id": "task-00000015",
+      "user": 1,
+      "arrival_seconds": 0.6027930669565743,
+      "image_id": "imagenette2/train/n03394916/n03394916_37916.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.26286938670521676
+    },
+    {
+      "task_id": "task-00000018",
+      "user": 28,
+      "arrival_seconds": 0.6100659002088128,
+      "image_id": "imagenette2/train/n01440764/n01440764_11665.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.9498377490454644
+    },
+    {
+      "task_id": "task-00000016",
+      "user": 7,
+      "arrival_seconds": 0.6201293903272812,
+      "image_id": "imagenette2/train/n03000684/n03000684_9013.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.5411226644264383
+    },
+    {
+      "task_id": "task-00000017",
+      "user": 16,
+      "arrival_seconds": 0.629651130539245,
+      "image_id": "imagenette2/train/n02979186/n02979186_14964.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.8061258930560862
+    },
+    {
+      "task_id": "task-00000019",
+      "user": 17,
+      "arrival_seconds": 0.8856627437138884,
+      "image_id": "imagenette2/train/n03394916/n03394916_30309.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.09082879623522422
+    },
+    {
+      "task_id": "task-00000021",
+      "user": 26,
+      "arrival_seconds": 0.9627348697670592,
+      "image_id": "imagenette2/train/n03888257/n03888257_26228.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.9827623182921478
+    },
+    {
+      "task_id": "task-00000020",
+      "user": 25,
+      "arrival_seconds": 0.9782090584067438,
+      "image_id": "imagenette2/train/n03394916/n03394916_5359.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.3845170827820429
+    },
+    {
+      "task_id": "task-00000022",
+      "user": 27,
+      "arrival_seconds": 1.013527535958905,
+      "image_id": "imagenette2/train/n03445777/n03445777_258.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.3698748393639266
+    },
+    {
+      "task_id": "task-00000023",
+      "user": 19,
+      "arrival_seconds": 1.07730665044526,
+      "image_id": "imagenette2/train/n03445777/n03445777_775.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.762398723874838
+    },
+    {
+      "task_id": "task-00000025",
+      "user": 4,
+      "arrival_seconds": 1.104682192825149,
+      "image_id": "imagenette2/train/n01440764/ILSVRC2012_val_00011993.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.8246958476674934
+    },
+    {
+      "task_id": "task-00000026",
+      "user": 5,
+      "arrival_seconds": 1.1193122689254387,
+      "image_id": "imagenette2/train/n03425413/n03425413_2074.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.8057033954345786
+    },
+    {
+      "task_id": "task-00000024",
+      "user": 2,
+      "arrival_seconds": 1.1236132280085376,
+      "image_id": "imagenette2/train/n02979186/n02979186_11516.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.14010798781763
+    },
+    {
+      "task_id": "task-00000028",
+      "user": 19,
+      "arrival_seconds": 1.2099942584935843,
+      "image_id": "imagenette2/train/n03888257/n03888257_13264.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.38332448832062793
+    },
+    {
+      "task_id": "task-00000027",
+      "user": 18,
+      "arrival_seconds": 1.2210839196634824,
+      "image_id": "imagenette2/train/n02102040/n02102040_5096.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.005202845637107267
+    },
+    {
+      "task_id": "task-00000029",
+      "user": 25,
+      "arrival_seconds": 1.2685683808764399,
+      "image_id": "imagenette2/train/n03394916/n03394916_38866.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.66177592928967
+    },
+    {
+      "task_id": "task-00000030",
+      "user": 2,
+      "arrival_seconds": 1.3341153042910245,
+      "image_id": "imagenette2/train/n03888257/n03888257_20704.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.9023363378218834
+    },
+    {
+      "task_id": "task-00000031",
+      "user": 16,
+      "arrival_seconds": 1.3548223443903369,
+      "image_id": "imagenette2/train/n02979186/n02979186_5903.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.9052298604500855
+    },
+    {
+      "task_id": "task-00000033",
+      "user": 23,
+      "arrival_seconds": 1.3975189413941052,
+      "image_id": "imagenette2/train/n03394916/n03394916_43318.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.6173968274624555
+    },
+    {
+      "task_id": "task-00000032",
+      "user": 18,
+      "arrival_seconds": 1.3990648743893528,
+      "image_id": "imagenette2/train/n03445777/n03445777_748.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.6670301581753232
+    },
+    {
+      "task_id": "task-00000034",
+      "user": 3,
+      "arrival_seconds": 1.4690480571939406,
+      "image_id": "imagenette2/train/n03028079/n03028079_18103.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.27058286249183816
+    },
+    {
+      "task_id": "task-00000035",
+      "user": 17,
+      "arrival_seconds": 1.4714824934862192,
+      "image_id": "imagenette2/train/n03888257/ILSVRC2012_val_00009593.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.4888449831239091
+    },
+    {
+      "task_id": "task-00000036",
+      "user": 1,
+      "arrival_seconds": 1.5601653291572921,
+      "image_id": "imagenette2/train/n03417042/n03417042_2778.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.5229451789673611
+    },
+    {
+      "task_id": "task-00000037",
+      "user": 3,
+      "arrival_seconds": 1.660693988159198,
+      "image_id": "imagenette2/train/n03028079/n03028079_67547.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.4740937914696052
+    },
+    {
+      "task_id": "task-00000038",
+      "user": 17,
+      "arrival_seconds": 1.6623585096530387,
+      "image_id": "imagenette2/train/n03425413/n03425413_2257.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.9382999644112161
+    },
+    {
+      "task_id": "task-00000039",
+      "user": 12,
+      "arrival_seconds": 1.7050415356376685,
+      "image_id": "imagenette2/train/n03417042/n03417042_11288.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.929076759884908
+    },
+    {
+      "task_id": "task-00000040",
+      "user": 22,
+      "arrival_seconds": 1.7509764639184082,
+      "image_id": "imagenette2/train/n02979186/n02979186_10798.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.5655621300674403
+    },
+    {
+      "task_id": "task-00000041",
+      "user": 1,
+      "arrival_seconds": 1.8414011816068234,
+      "image_id": "imagenette2/train/n03000684/n03000684_13559.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.8388219012133296
+    },
+    {
+      "task_id": "task-00000042",
+      "user": 1,
+      "arrival_seconds": 1.8532301583891153,
+      "image_id": "imagenette2/train/n01440764/n01440764_5314.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.06602366160927597
+    },
+    {
+      "task_id": "task-00000043",
+      "user": 2,
+      "arrival_seconds": 1.9163749310667744,
+      "image_id": "imagenette2/train/n03425413/n03425413_20806.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.11877348554773404
+    },
+    {
+      "task_id": "task-00000045",
+      "user": 12,
+      "arrival_seconds": 1.9197154167847883,
+      "image_id": "imagenette2/train/n03028079/n03028079_9573.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.04481653391565377
+    },
+    {
+      "task_id": "task-00000044",
+      "user": 3,
+      "arrival_seconds": 1.927358841369627,
+      "image_id": "imagenette2/train/n03888257/ILSVRC2012_val_00016387.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.2946010746899499
+    },
+    {
+      "task_id": "task-00000047",
+      "user": 12,
+      "arrival_seconds": 1.9518556719437743,
+      "image_id": "imagenette2/train/n03425413/ILSVRC2012_val_00018006.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.7791002933473808
+    },
+    {
+      "task_id": "task-00000046",
+      "user": 8,
+      "arrival_seconds": 1.9870520948859536,
+      "image_id": "imagenette2/train/n02979186/n02979186_12839.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.5200532563153105
+    },
+    {
+      "task_id": "task-00000048",
+      "user": 17,
+      "arrival_seconds": 1.9891098445988584,
+      "image_id": "imagenette2/train/n03888257/ILSVRC2012_val_00047778.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.6308914752757481
+    },
+    {
+      "task_id": "task-00000049",
+      "user": 8,
+      "arrival_seconds": 2.009170720175553,
+      "image_id": "imagenette2/train/n02979186/n02979186_21219.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.3317494854737051
+    },
+    {
+      "task_id": "task-00000050",
+      "user": 19,
+      "arrival_seconds": 2.04685548365145,
+      "image_id": "imagenette2/train/n02102040/ILSVRC2012_val_00019414.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.9039048996335981
+    },
+    {
+      "task_id": "task-00000052",
+      "user": 18,
+      "arrival_seconds": 2.0515575831010073,
+      "image_id": "imagenette2/train/n03417042/n03417042_2293.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.6632571722468066
+    },
+    {
+      "task_id": "task-00000051",
+      "user": 6,
+      "arrival_seconds": 2.0920269550547785,
+      "image_id": "imagenette2/train/n03417042/n03417042_4114.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.04446434026567592
+    },
+    {
+      "task_id": "task-00000053",
+      "user": 2,
+      "arrival_seconds": 2.223104024435332,
+      "image_id": "imagenette2/train/n02102040/n02102040_1837.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.04257532316421053
+    },
+    {
+      "task_id": "task-00000055",
+      "user": 29,
+      "arrival_seconds": 2.2789299792632796,
+      "image_id": "imagenette2/train/n03394916/n03394916_33083.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.9740455180833879
+    },
+    {
+      "task_id": "task-00000054",
+      "user": 9,
+      "arrival_seconds": 2.285979415628478,
+      "image_id": "imagenette2/train/n03445777/n03445777_10167.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.33561081122754055
+    },
+    {
+      "task_id": "task-00000056",
+      "user": 26,
+      "arrival_seconds": 2.352385425162644,
+      "image_id": "imagenette2/train/n01440764/n01440764_11566.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.31663847217415575
+    },
+    {
+      "task_id": "task-00000057",
+      "user": 10,
+      "arrival_seconds": 2.407404790445813,
+      "image_id": "imagenette2/train/n03000684/n03000684_10899.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.5688121760531948
+    },
+    {
+      "task_id": "task-00000058",
+      "user": 22,
+      "arrival_seconds": 2.4727622762161467,
+      "image_id": "imagenette2/train/n03028079/n03028079_16388.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.27641671752504604
+    },
+    {
+      "task_id": "task-00000060",
+      "user": 29,
+      "arrival_seconds": 2.5000687211836023,
+      "image_id": "imagenette2/train/n03028079/n03028079_79776.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.03224736060600131
+    },
+    {
+      "task_id": "task-00000059",
+      "user": 13,
+      "arrival_seconds": 2.502582449609462,
+      "image_id": "imagenette2/train/n02979186/n02979186_1205.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.932442821349257
+    },
+    {
+      "task_id": "task-00000063",
+      "user": 17,
+      "arrival_seconds": 2.5530422653485934,
+      "image_id": "imagenette2/train/n02102040/n02102040_626.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.21323862009738337
+    },
+    {
+      "task_id": "task-00000066",
+      "user": 22,
+      "arrival_seconds": 2.5624759264781405,
+      "image_id": "imagenette2/train/n03417042/n03417042_13325.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.7774907757942021
+    },
+    {
+      "task_id": "task-00000065",
+      "user": 21,
+      "arrival_seconds": 2.5752092156668933,
+      "image_id": "imagenette2/train/n03417042/n03417042_27986.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.8491756186742562
+    },
+    {
+      "task_id": "task-00000062",
+      "user": 15,
+      "arrival_seconds": 2.582173806153749,
+      "image_id": "imagenette2/train/n02979186/n02979186_10097.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.08100360563292008
+    },
+    {
+      "task_id": "task-00000061",
+      "user": 8,
+      "arrival_seconds": 2.5869582898385923,
+      "image_id": "imagenette2/train/n03425413/n03425413_2586.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.05300631750898255
+    },
+    {
+      "task_id": "task-00000064",
+      "user": 19,
+      "arrival_seconds": 2.594127958806524,
+      "image_id": "imagenette2/train/n03417042/ILSVRC2012_val_00013958.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.9048010590802453
+    },
+    {
+      "task_id": "task-00000068",
+      "user": 21,
+      "arrival_seconds": 2.6350614743671015,
+      "image_id": "imagenette2/train/n03445777/n03445777_8484.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.8492674983076828
+    },
+    {
+      "task_id": "task-00000067",
+      "user": 13,
+      "arrival_seconds": 2.6490740070440606,
+      "image_id": "imagenette2/train/n03445777/n03445777_8418.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.46345112641173114
+    },
+    {
+      "task_id": "task-00000072",
+      "user": 27,
+      "arrival_seconds": 2.7073546723253155,
+      "image_id": "imagenette2/train/n03000684/n03000684_8368.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.10402307515926135
+    },
+    {
+      "task_id": "task-00000071",
+      "user": 21,
+      "arrival_seconds": 2.723209700862553,
+      "image_id": "imagenette2/train/n03417042/n03417042_7568.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.13314932902072507
+    },
+    {
+      "task_id": "task-00000070",
+      "user": 19,
+      "arrival_seconds": 2.7398189261400714,
+      "image_id": "imagenette2/train/n01440764/n01440764_4565.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.818542959023241
+    },
+    {
+      "task_id": "task-00000069",
+      "user": 4,
+      "arrival_seconds": 2.7492002980169143,
+      "image_id": "imagenette2/train/n03394916/n03394916_32423.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.8998740383917764
+    },
+    {
+      "task_id": "task-00000073",
+      "user": 5,
+      "arrival_seconds": 2.812749621371702,
+      "image_id": "imagenette2/train/n02979186/n02979186_15154.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.6616548070255224
+    },
+    {
+      "task_id": "task-00000074",
+      "user": 25,
+      "arrival_seconds": 2.839987756980959,
+      "image_id": "imagenette2/train/n03888257/n03888257_6395.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.3094678614598233
+    },
+    {
+      "task_id": "task-00000075",
+      "user": 1,
+      "arrival_seconds": 2.8859682589760913,
+      "image_id": "imagenette2/train/n03888257/n03888257_38256.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.17233746391555993
+    },
+    {
+      "task_id": "task-00000076",
+      "user": 27,
+      "arrival_seconds": 2.9118230694858958,
+      "image_id": "imagenette2/train/n03425413/n03425413_15057.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.09276162221731288
+    },
+    {
+      "task_id": "task-00000077",
+      "user": 10,
+      "arrival_seconds": 2.967663080783302,
+      "image_id": "imagenette2/train/n02979186/n02979186_1408.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.35511888379818046
+    },
+    {
+      "task_id": "task-00000078",
+      "user": 18,
+      "arrival_seconds": 3.019546356576983,
+      "image_id": "imagenette2/train/n03000684/ILSVRC2012_val_00000537.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.7178477838473645
+    },
+    {
+      "task_id": "task-00000079",
+      "user": 1,
+      "arrival_seconds": 3.07237022702439,
+      "image_id": "imagenette2/train/n03028079/n03028079_28635.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.07260598024727583
+    },
+    {
+      "task_id": "task-00000080",
+      "user": 12,
+      "arrival_seconds": 3.08378015520838,
+      "image_id": "imagenette2/train/n03445777/n03445777_9325.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.8128497927745203
+    },
+    {
+      "task_id": "task-00000081",
+      "user": 23,
+      "arrival_seconds": 3.08768259253247,
+      "image_id": "imagenette2/train/n03888257/n03888257_43813.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.41245414589650076
+    },
+    {
+      "task_id": "task-00000082",
+      "user": 2,
+      "arrival_seconds": 3.1121218759532923,
+      "image_id": "imagenette2/train/n03417042/n03417042_10517.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.12664205045378052
+    },
+    {
+      "task_id": "task-00000083",
+      "user": 17,
+      "arrival_seconds": 3.1248824519860006,
+      "image_id": "imagenette2/train/n03888257/n03888257_17143.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.13254558718961862
+    },
+    {
+      "task_id": "task-00000084",
+      "user": 20,
+      "arrival_seconds": 3.19414076793178,
+      "image_id": "imagenette2/train/n03394916/n03394916_31157.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.6123210906058177
+    },
+    {
+      "task_id": "task-00000085",
+      "user": 12,
+      "arrival_seconds": 3.276714747386093,
+      "image_id": "imagenette2/train/n03394916/n03394916_37045.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.121452905364963
+    },
+    {
+      "task_id": "task-00000086",
+      "user": 8,
+      "arrival_seconds": 3.464574861216169,
+      "image_id": "imagenette2/train/n03000684/n03000684_8368.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.5832480619789532
+    },
+    {
+      "task_id": "task-00000087",
+      "user": 11,
+      "arrival_seconds": 3.4826197145474564,
+      "image_id": "imagenette2/train/n03445777/n03445777_7687.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.35444090528626415
+    },
+    {
+      "task_id": "task-00000089",
+      "user": 29,
+      "arrival_seconds": 3.546647183790325,
+      "image_id": "imagenette2/train/n03425413/n03425413_13809.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.5160462068099662
+    },
+    {
+      "task_id": "task-00000088",
+      "user": 28,
+      "arrival_seconds": 3.548781690768804,
+      "image_id": "imagenette2/train/n03394916/n03394916_29698.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.42288858762929427
+    },
+    {
+      "task_id": "task-00000093",
+      "user": 16,
+      "arrival_seconds": 3.607263467283896,
+      "image_id": "imagenette2/train/n03417042/n03417042_10654.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.11181176551416283
+    },
+    {
+      "task_id": "task-00000094",
+      "user": 17,
+      "arrival_seconds": 3.6292393809431394,
+      "image_id": "imagenette2/train/n03445777/n03445777_6789.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.3071029745950644
+    },
+    {
+      "task_id": "task-00000090",
+      "user": 1,
+      "arrival_seconds": 3.62954751375103,
+      "image_id": "imagenette2/train/n02102040/n02102040_6335.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.6756154540260597
+    },
+    {
+      "task_id": "task-00000092",
+      "user": 10,
+      "arrival_seconds": 3.6299002764557367,
+      "image_id": "imagenette2/train/n03425413/n03425413_1055.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.31324944945792155
+    },
+    {
+      "task_id": "task-00000091",
+      "user": 3,
+      "arrival_seconds": 3.640304670603091,
+      "image_id": "imagenette2/train/n02102040/n02102040_3608.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.3211755545314189
+    },
+    {
+      "task_id": "task-00000095",
+      "user": 17,
+      "arrival_seconds": 3.789331660978536,
+      "image_id": "imagenette2/train/n03028079/n03028079_13996.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.6185451319591583
+    },
+    {
+      "task_id": "task-00000098",
+      "user": 23,
+      "arrival_seconds": 3.8262383630820316,
+      "image_id": "imagenette2/train/n03028079/n03028079_578.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.8467813280433207
+    },
+    {
+      "task_id": "task-00000096",
+      "user": 20,
+      "arrival_seconds": 3.840160512514435,
+      "image_id": "imagenette2/train/n01440764/n01440764_9875.JPEG",
+      "measured_session": 1,
+      "assignment_uniform": 0.7277012779530144
+    },
+    {
+      "task_id": "task-00000097",
+      "user": 23,
+      "arrival_seconds": 3.8415539242067704,
+      "image_id": "imagenette2/train/n01440764/n01440764_8384.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.8653137896283328
+    },
+    {
+      "task_id": "task-00000099",
+      "user": 26,
+      "arrival_seconds": 3.8738734013192726,
+      "image_id": "imagenette2/train/n02102040/n02102040_1057.JPEG",
+      "measured_session": 2,
+      "assignment_uniform": 0.7126313036660643
+    },
+    {
+      "task_id": "task-00000100",
+      "user": 8,
+      "arrival_seconds": 3.9533795424733245,
+      "image_id": "imagenette2/train/n02979186/n02979186_11656.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.06622701225781735
+    },
+    {
+      "task_id": "task-00000101",
+      "user": 10,
+      "arrival_seconds": 3.9936572253322047,
+      "image_id": "imagenette2/train/n03425413/n03425413_19228.JPEG",
+      "measured_session": 3,
+      "assignment_uniform": 0.42864038600559573
+    }
+  ],
+  "arrival_rule": "Per-user interval Poisson-bursty; unconditional total rate=30.0/s; p=0.1, multiplier=2.0; no request truncation"
+}

@@ -1,0 +1,1 @@
+{"duration_s":0.05,"image_manifest_sha256":"5cf993fe5570cc1d78b12ea197ad3c5d6b87eafef4f0bb9fec9d3ce5cb088608","role":"pilot","schema":"systemlab-schedule-v1","seed":1,"tasks":[{"arrival_s":0.001,"assignment_uniform":0.5,"image_id":"NOT_A_JPEG_fixture.bin","task_id":"fixture_task","user_id":0}],"users":1}

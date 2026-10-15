@@ -1,0 +1,206 @@
+{
+  "normal": {
+    "tasks": {
+      "generated": 5,
+      "accepted": 3,
+      "completed": 2,
+      "dropped": 1,
+      "unfinished": 2,
+      "inflight_upload": 1,
+      "latency_seconds": [
+        2.0,
+        20.0
+      ]
+    },
+    "uncapped_latency_seconds": [
+      2.0,
+      20.0
+    ],
+    "work": [
+      {
+        "offered": 1.0,
+        "inflight": 0.1,
+        "dropped": 0.1,
+        "admitted": 0.8,
+        "executed": 0.6,
+        "admitted_remaining": 0.2
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      }
+    ],
+    "controller_accounting": {
+      "admission_acknowledgments": 3,
+      "settled_completed": 2,
+      "drain_only_completed": 0,
+      "settled_dropped": 1,
+      "drain_only_dropped": 0,
+      "last_action_settlement_seconds": 3.05
+    }
+  },
+  "zero_completed": {
+    "tasks": {
+      "generated": 5,
+      "accepted": 3,
+      "completed": 0,
+      "dropped": 1,
+      "unfinished": 4,
+      "inflight_upload": 1,
+      "latency_seconds": []
+    },
+    "uncapped_latency_seconds": [],
+    "work": [
+      {
+        "offered": 1.0,
+        "inflight": 0.1,
+        "dropped": 0.1,
+        "admitted": 0.8,
+        "executed": 0.6,
+        "admitted_remaining": 0.2
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      }
+    ],
+    "controller_accounting": {
+      "admission_acknowledgments": 3,
+      "settled_completed": 0,
+      "drain_only_completed": 0,
+      "settled_dropped": 1,
+      "drain_only_dropped": 0,
+      "last_action_settlement_seconds": 3.05
+    }
+  },
+  "empty": {
+    "tasks": {
+      "generated": 0,
+      "accepted": 0,
+      "completed": 0,
+      "dropped": 0,
+      "unfinished": 0,
+      "inflight_upload": 0,
+      "latency_seconds": []
+    },
+    "uncapped_latency_seconds": [],
+    "work": [
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      },
+      {
+        "offered": 0.0,
+        "inflight": 0.0,
+        "dropped": 0.0,
+        "admitted": 0.0,
+        "executed": 0.0,
+        "admitted_remaining": 0.0
+      }
+    ],
+    "controller_accounting": {
+      "admission_acknowledgments": 0,
+      "settled_completed": 0,
+      "drain_only_completed": 0,
+      "settled_dropped": 0,
+      "drain_only_dropped": 0,
+      "last_action_settlement_seconds": 3.05
+    }
+  },
+  "summaries": [
+    {
+      "completed_samples": 2,
+      "tail_samples": 1,
+      "mean_seconds": 11.0,
+      "p99_seconds": 20.0,
+      "empirical_worst_approximately_one_percent_mean_seconds": 20.0,
+      "no_completed_samples": false,
+      "drops_and_unfinished_retained": true,
+      "raw_latency_clipping_or_completion_imputation": false,
+      "independent_result_audit_done": false
+    },
+    {
+      "completed_samples": 0,
+      "tail_samples": 0,
+      "mean_seconds": null,
+      "p99_seconds": null,
+      "empirical_worst_approximately_one_percent_mean_seconds": null,
+      "no_completed_samples": true,
+      "drops_and_unfinished_retained": true,
+      "raw_latency_clipping_or_completion_imputation": false,
+      "independent_result_audit_done": false
+    },
+    {
+      "completed_samples": 0,
+      "tail_samples": 0,
+      "mean_seconds": null,
+      "p99_seconds": null,
+      "empirical_worst_approximately_one_percent_mean_seconds": null,
+      "no_completed_samples": true,
+      "drops_and_unfinished_retained": true,
+      "raw_latency_clipping_or_completion_imputation": false,
+      "independent_result_audit_done": false
+    }
+  ],
+  "literal_not_queue_or_policy_outcomes": true
+}

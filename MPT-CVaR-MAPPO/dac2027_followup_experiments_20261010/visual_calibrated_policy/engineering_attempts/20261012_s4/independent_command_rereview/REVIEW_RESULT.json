@@ -1,0 +1,94 @@
+{
+  "schema": "independent-v4-relocation-only-source-review-v1",
+  "review_type": "Type-A",
+  "review_date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "status": "WARN",
+  "blockers": [],
+  "complete": true,
+  "scope": "Bounded D3-to-D4 shorter-attempt-root relocation only; no broad protocol or runtime re-audit",
+  "findings": [
+    {
+      "id": "RUNTIME_BYTES_IDENTICAL",
+      "classification": "PASS_SOURCE",
+      "detail": "All three Python sources and FROZEN_BASELINE.json are byte-for-byte identical to D3's completed B4 review version. D3's nine-source map remains valid; public environment sources/specification unchanged. Same directory depth preserves BASE/repository/raw/frozen-source/script roots while HERE and attempt-local storage/review/plan identity move to D4."
+    },
+    {
+      "id": "PATH_LENGTH_RELOCATION",
+      "classification": "PASS_STATIC_PATH_ARITHMETIC",
+      "detail": "The frozen filename construction gives D4 train NPZ/JSON lengths 218/219 and validation NPZ/JSON 232/233 characters, excluding NUL. All four are below 260; the longest is 234 including NUL. No generation or filesystem-write validation performed. This does not certify arbitrary future downstream output paths."
+    },
+    {
+      "id": "SCIENCE_AND_CONTENT_SEMANTICS_UNCHANGED",
+      "classification": "UNCHANGED_SOURCE_SCOPE",
+      "detail": "Canonical metadata does not contain output root. Runtime/source baseline bytes preserve original raw membership, formula, RNG, seeds, splits and content semantics. No claim of as-yet-uncreated archive byte equality. Reward32train/8validation/30users/35servers, visual8decisions/30users/4servers/full30sdrain, numerical criteria, strict1800 resource gate and all prior scientific/formal restrictions unchanged."
+    },
+    {
+      "id": "OLD_FAILURE_PRESERVED_NEW_IDENTITY_REQUIRED",
+      "classification": "PASS_SOURCE_AND_EVIDENCE",
+      "detail": "D3 has exactly the preserved train NPZ/JSON files with record-matching hashes, no reward plan or registry. D4 had no schedules/registry/reward plan. Sixteen earlier retained evidence hashes still match. Existing schedule-root/registry rejection and exclusive plan/evidence creation remain unchanged. No reseal, partial completion, append, old-report inheritance or retry of old output is authorized by this review. D4 requires its own exact nine-path review and fresh plan binding."
+    },
+    {
+      "id": "WARNINGS_NOT_UPGRADED",
+      "classification": "WARN_RETAINED",
+      "detail": "All warnings in D3/independent_command_rereview and its referenced complete earlier reports remain, including actual runtime/numerical nonverification, shallow small-budget coverage, source/resource/process TOCTOU and evidence limits. Relocation arithmetic is not a successful preparation/smoke or integrated/Type-B/pilot/formal certification."
+    }
+  ],
+  "verification": {
+    "methods": ["direct file and documentation read", "byte-for-byte comparison", "SHA256 rehash", "stdlib AST parse", "pure path arithmetic"],
+    "byte_identical_to_D3": ["visual_model_smoke_small.py", "reward_smoke_small.py", "reward_input_integrity.py", "FROZEN_BASELINE.json"],
+    "three_python_AST_parses_passed": true,
+    "D3_current_nine_source_hashes_match_prior_review": true,
+    "same_BASE_ROOT_and_bootstrap_depth": true,
+    "D3_partial_schedule_files_count": 2,
+    "D3_partial_pair_hashes_match_failure_record": true,
+    "D3_reward_plan_and_registry_absent": true,
+    "D4_schedule_root_plan_registry_absent_before_review": true,
+    "older_retained_evidence_hashes_reverified": 16,
+    "schedule_identity_placeholder_length": 16,
+    "path_lengths_excluding_NUL": [
+      {"role": "train", "seed": 1, "extension": "npz", "D3": 250, "D4": 218},
+      {"role": "train", "seed": 1, "extension": "json", "D3": 251, "D4": 219},
+      {"role": "validation", "seed": 10001, "extension": "npz", "D3": 264, "D4": 232},
+      {"role": "validation", "seed": 10001, "extension": "json", "D3": 265, "D4": 233}
+    ],
+    "actual_failure_reproduced_by_reviewer": false,
+    "source_or_old_artifact_edits": false,
+    "real_schedule_generation": false,
+    "actual_experiment_or_model_import": false,
+    "additional_agent_spawned": false,
+    "quota_interrupted": false
+  },
+  "classifications": {
+    "source_disposition": "WARN_NO_RELOCATION_SCOPE_BLOCKERS",
+    "source_only_review": true,
+    "actual_preparation_success": "NOT_ESTABLISHED",
+    "actual_smoke_executed_by_reviewer": false,
+    "actual_numerical_success": "NOT_ESTABLISHED",
+    "live_gpu_resource_status": "NOT_PROBED",
+    "full_integrated_entry_readiness": "NOT_CERTIFIED",
+    "type_b_certification": false,
+    "independent_runtime_launch_approval": false,
+    "expanded_execution_authority": false,
+    "pilot_authority": false,
+    "formal_authority": false
+  },
+  "preserved_D3_evidence_sha256": {
+    "independent_command_rereview/REVIEW_RESPONSE.md": "e915d3d3a2846c5cd6724165f455b646d40fe0c28bba1f3d2ee50c0a582d10d0",
+    "independent_command_rereview/REVIEW_RESULT.json": "7736d6d06817e0a31a944967b13af265bca3a73271b13b52a9133ed8f23b284d",
+    "FAILED_PREPARATION.json": "f7d21a0d4587c252d1c0e88e7a355d26363cb58e27ba78d27a319c591b7ddcb9",
+    "schedules/KAIST/poisson_bursty/train/KAIST_poisson_bursty_train_s1_81206bb67e683bb9.npz": "2f72332f7e912f577c73bdacdd73f33c33fa0a397d52e85328441224663de432",
+    "schedules/KAIST/poisson_bursty/train/KAIST_poisson_bursty_train_s1_81206bb67e683bb9.json": "889151f15f29f5bd27c48e655707251fff196509ec6e048be5f8c1c20d8efb82"
+  },
+  "reviewed_sources_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\visual_model_smoke_small.py": "ec0a7535d3c74f758bad6c0ba3928cf6f4f88d5ce246e0e85674056fd442e406",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\reward_smoke_small.py": "99f917dfc77ba9d552d1b824e5f04470b9045ae64201aaa964f9be965409be4c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\reward_input_integrity.py": "1f774d8322a72b8fdb82fb3f5c2a49353e22d4fb8f45cf5864ec872926837cf3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\FROZEN_BASELINE.json": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\README_SMALL_SMOKE_中文.md": "fa14beb5e58e60643173cd15d7f57f1dd756d028a4ee25c5e12ce763aadd2c2c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\USER_REQUEST.json": "d3abf88c574c57083c25f74b9adeaac62368a277fec3bb3cdb832e3a4d8acbcd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3"
+  }
+}

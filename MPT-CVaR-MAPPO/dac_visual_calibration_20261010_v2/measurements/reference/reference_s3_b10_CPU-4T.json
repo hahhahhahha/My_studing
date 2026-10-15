@@ -1,0 +1,61 @@
+{
+  "job": {
+    "role": "reference",
+    "session": 3,
+    "block": 10,
+    "profile": "CPU-4T",
+    "image_ids": [
+      "imagenette2/train/n03417042/n03417042_1126.JPEG",
+      "imagenette2/train/n03000684/n03000684_10533.JPEG",
+      "imagenette2/train/n03028079/n03028079_7455.JPEG",
+      "imagenette2/train/n03394916/n03394916_12887.JPEG",
+      "imagenette2/train/n03888257/n03888257_33739.JPEG",
+      "imagenette2/train/n02102040/n02102040_3649.JPEG",
+      "imagenette2/train/n03028079/n03028079_2514.JPEG",
+      "imagenette2/train/n03445777/n03445777_5485.JPEG",
+      "imagenette2/train/n03888257/n03888257_9059.JPEG",
+      "imagenette2/train/n03425413/n03425413_9323.JPEG",
+      "imagenette2/train/n01440764/n01440764_2948.JPEG",
+      "imagenette2/train/n03888257/n03888257_11255.JPEG",
+      "imagenette2/train/n03000684/n03000684_6827.JPEG",
+      "imagenette2/train/n03028079/n03028079_2836.JPEG",
+      "imagenette2/train/n01440764/n01440764_12129.JPEG",
+      "imagenette2/train/n03445777/n03445777_10678.JPEG",
+      "imagenette2/train/n03888257/n03888257_31987.JPEG",
+      "imagenette2/train/n03028079/n03028079_7426.JPEG",
+      "imagenette2/train/n01440764/n01440764_7285.JPEG",
+      "imagenette2/train/n01440764/n01440764_12157.JPEG"
+    ]
+  },
+  "job_sha256": "209c7051db2ad2f1fa4c4c6ba692a2e37a464b902de469806f9f6dadb41b505e",
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "Pillow": "11.1.0",
+    "psutil": "5.9.0"
+  },
+  "weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "affinity": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "warmup_requests": 200,
+  "requests": 20,
+  "errors": 0,
+  "sensor_before": {
+    "cpu_percent": 31.7,
+    "available_memory_bytes": 5564735488,
+    "wall_clock": "2026-10-10T17:50:33.428750+08:00"
+  },
+  "sensor_after": {
+    "cpu_percent": 32.7,
+    "wall_clock": "2026-10-10T17:50:36.716502+08:00"
+  },
+  "timing_boundary": "decode+RGB+preprocess+FP32 inference+argmax+dict; no disk/network/queue/controller",
+  "temperature": "not available",
+  "frequency": "not continuously sampled"
+}

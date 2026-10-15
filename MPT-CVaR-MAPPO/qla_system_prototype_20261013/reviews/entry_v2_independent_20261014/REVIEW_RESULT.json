@@ -1,0 +1,344 @@
+{
+  "schema": "systemlab-independent-entry-v1",
+  "scope": "complete_system_entry",
+  "status": "FAIL",
+  "blockers": [
+    {
+      "id": "B1",
+      "priority": "P1",
+      "category": "cutoff_outcome_correctness",
+      "status": "unresolved",
+      "summary": "响应已在 cutoff 前记录 end，但取 outcome_lock 前被暂停时，finalizer 可先写 unfinished_at_cutoff；响应恢复后再次写 completed，产生同任务两条正式结局，而 COMPLETE.protocol_complete 仍为 true。",
+      "locations": [
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/systemlab/client.py:113",
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/systemlab/client.py:120",
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/systemlab/client.py:168",
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/systemlab/client.py:183"
+      ],
+      "evidence": {
+        "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/synthetic_cutoff_race_attempt_02/RESULT.json",
+        "sha256": "6ce89784002ee9383d4dd071e5d16fd09c59f0c354f5b3d07108ddb105b5cb71"
+      },
+      "observed": {
+        "task_log_rows": 2,
+        "unique_task_ids": 1,
+        "statuses": [
+          "unfinished_at_cutoff",
+          "completed"
+        ],
+        "response_end": 1079199.7676298,
+        "cutoff": 1079199.8538304002,
+        "protocol_complete": true,
+        "analysis_rejected_duplicate": true,
+        "synthetic_io": true,
+        "production_source_modified": false
+      },
+      "clearance": "在固定 horizon/drain 和响应真实 end 时间语义下，原子地决定且每任务仅写一条正式 cutoff outcome；迟到原始响应另存。不得改成拿锁时间或延长 drain 掩盖竞态。补充受控线程交错回归、新 attempt 三方法 validation、新 freeze/formal bundle/registry 及独立复审。",
+      "required_regressions": [
+        "截止前 end 已记录、获取 outcome_lock 前暂停",
+        "真正截止后响应",
+        "server timeout 后仍继续完成",
+        "client transport timeout",
+        "主线程早期异常且已发任务仍完成",
+        "拒绝和正常成功",
+        "每任务唯一次正式结局、迟到另记、守恒及 COMPLETE 与日志一致"
+      ],
+      "historical_results": "已审 M1/M2c 与真实功能输出未发现重复 outcome，原字节保留；不得追认为修复后源码 validation。B1 单独不自动要求重跑 M1，除非校准测量链受影响。"
+    },
+    {
+      "id": "B2",
+      "priority": "P2",
+      "category": "historical_helper_provenance",
+      "status": "unresolved",
+      "summary": "作为当前正式尺度来源的 M1 rr/stress 收据绑定旧 systemlab/common.py，但在已查仓库/BEFORE/对应 Git 历史中未定位到匹配 SHA 的实际文件，历史 helper 字节闭包尚未完整核验。",
+      "locations": [
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/runs/M1_rr_s1_attempt_01/client/INPUTS.json:1",
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/runs/M1_stress_s1_attempt_01/client/INPUTS.json:1",
+        "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/protocol/calibration_scales_v1.json:1"
+      ],
+      "evidence": {
+        "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/LEGACY_SOURCE_RESOLUTION.json",
+        "sha256": "cbb2b6306477bfce7c10fdff71958f13a25ca77a350335bae284ec74929798b4"
+      },
+      "expected_sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+      "current_sha256": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+      "before_sha256": "d72aca9edf50fe8806298a25870db58b2e497ea0ee7b22534c5636bf4fb76ec0",
+      "clearance": "优先提供 expected SHA 的原 common.py 并独立核对差异/校准影响；不得改旧收据或用现文件冒充旧文件。若不可恢复，需要用户/协议所有者授权限定来源接受或新校准与依赖验证，不能自行追加实验。",
+      "limits": "这是明确范围的来源阻断，不是造假判定，不声称穷尽外部备份；其余 M1 receipt 源均已按 SHA 定位，原始统计仍可重算。"
+    }
+  ],
+  "complete_report": true,
+  "reviewer_identity": "gpt-6-astra xhigh / 独立上下文 Type-A / /root/system_entry_v2_independent_review_20261014",
+  "independence_type": "Type-A",
+  "independent_context": true,
+  "cross_family": false,
+  "self_audit": false,
+  "protocol_sha256": "68e0caa92cfcd30e2a70beb21a1b0955061a5cfbc42d902d7bd0981838b970da",
+  "test_registry_sha256": "4e43cfe4cf86eb31d6cc9a0a0329be85033fc60e0625c9640a38a334c546752f",
+  "source_sha256": {
+    "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+    "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+    "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+    "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+    "systemlab\\client.py": "d0be24dffdfa00a4e4b5f236fe5e030211a29455c1a81ad3feeb9504ab33c584",
+    "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+    "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+    "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+    "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+    "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+    "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+    "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+    "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+    "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+    "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+    "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+    "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+    "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+    "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+  },
+  "report_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/REVIEW_RESPONSE.md",
+  "report_sha256": "7d364cef79507a8aa660ad41a4ce57dc8a73a8bdd0f7f028ef85556b3161e6af",
+  "audit_checks": [
+    {
+      "id": "A",
+      "status": "PASS",
+      "summary": "实际 JPEG/ResNet18 CPU forward、真实计时及 HTTP bytes 校验；不将模型输出制造 reference，不声称分类 accuracy。",
+      "evidence": [
+        "systemlab/edge.py:16",
+        "systemlab/edge.py:209",
+        "IMAGES.json",
+        "FUNCTIONAL_VERIFICATION.json"
+      ]
+    },
+    {
+      "id": "B",
+      "status": "WARN",
+      "summary": "全部5个 M1/M2c 原始运行统计重算一致；fractional CVaR 实现正确，受 conditional completed 与重复数限制。",
+      "evidence": [
+        "systemlab/analysis.py:22",
+        "systemlab/common.py:81",
+        "RAW_RUN_RECOMPUTATION.json"
+      ]
+    },
+    {
+      "id": "C",
+      "status": "FAIL",
+      "summary": "当前 source/actor/checkpoint/图片绑定重核通过；B2 历史 M1 helper 原字节缺失。",
+      "evidence": [
+        "BINDINGS.json",
+        "DEPENDENCIES_AND_ACTOR.json",
+        "LEGACY_SOURCE_RESOLUTION.json",
+        "POST_EXECUTION_RECEIPT.json"
+      ],
+      "blockers": [
+        "B2"
+      ]
+    },
+    {
+      "id": "D",
+      "status": "FAIL",
+      "summary": "18项现有单元和三修复回归通过，原日志 FIFO/守恒/唯一性通过；独立受控交错复现 B1。",
+      "evidence": [
+        "UNIT_RESULT.json",
+        "RAW_RUN_RECOMPUTATION.json",
+        "synthetic_cutoff_race_attempt_02/RESULT.json"
+      ],
+      "blockers": [
+        "B1"
+      ]
+    },
+    {
+      "id": "E",
+      "status": "WARN",
+      "summary": "共同日程、assignment_uniform、已送达 cache 和公平输入检查通过；10759次actor决策重放 maxdiff5.96e-8。结构/系统域迁移不提供外推保证。",
+      "evidence": [
+        "DEPENDENCIES_AND_ACTOR.json",
+        "FEEDBACK_DIAGNOSTICS.json",
+        "SCHEDULES.json"
+      ]
+    },
+    {
+      "id": "F",
+      "status": "WARN",
+      "summary": "本地 HTTP/UDP真实，per-recipient 预算正确；监测开销、应用层注入、共享发生器限定范围。",
+      "evidence": [
+        "systemlab/feedback.py:131",
+        "FEEDBACK_DIAGNOSTICS.json",
+        "FUNCTIONAL_VERIFICATION.json"
+      ]
+    },
+    {
+      "id": "G",
+      "status": "PASS",
+      "scope_warnings": true,
+      "summary": "本次自有 Windows runtime/shim 全部正常关闭，句柄错误 fail-closed 测试通过；资源/依赖非完全隔离。",
+      "evidence": [
+        "UNIT_RESULT.json",
+        "FUNCTIONAL_VERIFICATION.json",
+        "functional_4edge_attempt_01/PROCESS_END.json",
+        "POST_EXECUTION_RECEIPT.json"
+      ]
+    },
+    {
+      "id": "H",
+      "status": "WARN",
+      "unsupported_causal_claims": "FAIL",
+      "summary": "36个成功输出描述可重算，失败尝试单独保留；严密配对重叠/逐图CPU/因果/保守估计主张证据不足，不据此全面禁止有限共驻研究。",
+      "evidence": [
+        "INTERFERENCE_RECOMPUTATION.json",
+        "drive_scripts/run_interference_calibration.py:46",
+        "drive_scripts/run_interference_calibration.py:91",
+        "drive_scripts/run_interference_calibration.py:110"
+      ]
+    },
+    {
+      "id": "I",
+      "status": "FAIL",
+      "summary": "实际 frozen/grid/registry/actor/generator/六日程绑定匹配，18格缺review全部拒绝；B1/B2未解决所以正式入口不批准。",
+      "evidence": [
+        "BINDINGS.json",
+        "POST_EXECUTION_RECEIPT.json",
+        "systemlab/admission.py:115"
+      ],
+      "blockers": [
+        "B1",
+        "B2"
+      ]
+    }
+  ],
+  "warnings": [
+    {
+      "id": "W01",
+      "scope": "statistics",
+      "summary": "completed 条件时延必须同时报告失败/拒绝/unfinished；M1 rr 的 CVaR99 仅 5.99 个有效尾样本，4 请求功能仅 0.04；M2c 是 seed101 单次三臂 validation，不是三次独立重复。"
+    },
+    {
+      "id": "W02",
+      "scope": "paired_analysis",
+      "summary": "paired_compare 至少三对 run，但自身 comparison_contract 未包括所有 source/timeout/max_inflight/传播参数，正式比较仍须原 registry/cell/INPUTS 完整核验。"
+    },
+    {
+      "id": "W03",
+      "scope": "actor_transfer",
+      "summary": "35→4 共享结构迁移经过 actor-only 前向核验，但位置置零、特征裁剪/归一化、softmax 候选数及真实系统特征域均变化；没有训练、CVaR 直接优化或普适零样本保证。"
+    },
+    {
+      "id": "W04",
+      "scope": "continuity",
+      "summary": "启动/结束哈希是时点证据，不是持续不可变证明；历史 JPEG/vision 参数/全部环境依赖并无全量终态闭包门禁。"
+    },
+    {
+      "id": "W05",
+      "scope": "dependencies",
+      "summary": "venv include-system-site-packages=true，torch/torchvision/Pillow 来自共享全局目录；已核当前版本及样本二进制，不是 hermetic 环境或全部 native 闭包锁定。"
+    },
+    {
+      "id": "W06",
+      "scope": "network",
+      "summary": "真实 localhost HTTP/UDP 加应用层 delay/loss，不是无线网络、多机物理部署或完整线上通信开销。监测 HTTP 在反馈预算外，UDP/IP 头为估计。"
+    },
+    {
+      "id": "W07",
+      "scope": "feedback_and_generator",
+      "summary": "periodic 200ms 受 token bucket 约束不等于精确5Hz；stale_shortest 主窗6次 monitor 错误，三臂各8次关闭后错误保留；发生器 release→send 迟滞计入主 E2E，已审日志未见 backpressure。"
+    },
+    {
+      "id": "W08",
+      "scope": "resource_scope",
+      "summary": "同一主机线程数不是 CPU quota，affinity/cpuset 不是缓存/内存/功耗完全隔离；当前 frozen_v2 本身没有 affinity，不能借用 pinned 标定身份。"
+    },
+    {
+      "id": "W09",
+      "scope": "interference_design",
+      "summary": "干扰标定无 ready barrier、绝对测量窗/PID及可核全程重叠；PLAN 在运行后写，不能单靠它证明预登记；当前 SMT 拓扑实测不是历史状态证据。"
+    },
+    {
+      "id": "W10",
+      "scope": "interference_inference",
+      "summary": "process_time 是全200图循环汇总而非逐图CPU时间；CPU/墙钟比约不变时两者均可增加约27%。未测缓存/睿频/性能计数器，不能将相关性作为唯一因果或保守相对收益证明。"
+    },
+    {
+      "id": "W11",
+      "scope": "interference_driver",
+      "summary": "worker 异常被捕获后可 exit0、父进程只查 exitcode、输出可覆盖；成功36份与失败12错误+24部分输出已严格分开。该驱动不在 E1 实际执行路径，未来复用须修正并新 attempt。"
+    },
+    {
+      "id": "W12",
+      "scope": "capacity_and_registration",
+      "summary": "C_ref=175.39535899135956/s 是低负载 service 倒数和，不是稳定容量。validation 旧文字 rate_rule 漏写 round；实际105/s与 v2 精确105.23721539481573/s区分保留。"
+    },
+    {
+      "id": "W13",
+      "scope": "review_identity",
+      "summary": "本次为同 GPT 家族独立上下文 Type-A，不是 Type-B 或跨家族认证；哈希门禁不能认证 reviewer 身份或报告质量。"
+    }
+  ],
+  "verified_execution_receipts": [
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/PRE_EXECUTION_RECEIPT.json",
+      "sha256": "83055e1629d3f175e8509af5ec27b8900f41a47eddd840b8e30f68e81d766e68",
+      "kind": "preflight",
+      "summary": "端口/源身份只读检查"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/UNIT_RESULT.json",
+      "sha256": "8e5b1846be595c79958c32c86b6dcb76b7ffd1cb23e60d72239d27eb998c82f3",
+      "kind": "unit_tests",
+      "summary": "18 tests passed；已结束，未在恢复后重跑"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/FUNCTIONAL_VERIFICATION.json",
+      "sha256": "fc41f81bae347a093ff7a9c00dccfcea2f75212f2200e70fdfd4970982d0eb12",
+      "kind": "real_functional",
+      "summary": "一次4edge真实HTTP/UDP/ResNet功能运行，4/4完成，无重试"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/FUNCTIONAL_ANALYSIS.json",
+      "sha256": "d1fa170f38f9ba5de42be2f734dcdce663436c107e119f0a18252228eece1ce4",
+      "kind": "real_functional_analysis",
+      "summary": "分析完成；仅功能，不是正式性能结果"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/functional_4edge_attempt_01/PROCESS_END.json",
+      "sha256": "328616b470d2b89862e43eeecee216b40bfc80ee217fe6b837b503d713ff2d3c",
+      "kind": "shutdown",
+      "summary": "5个已核runtime和shim正常退出，无强杀"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/functional_4edge_attempt_01/client/COMPLETE.json",
+      "sha256": "56060729ecd8e1e23a075fb29479d5872cf921875e243ffcbb1cc23eaa08e65c",
+      "kind": "client_completion",
+      "summary": "4个pilot任务，固定0.4s horizon/1s drain"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/synthetic_cutoff_race_attempt_02/RESULT.json",
+      "sha256": "6ce89784002ee9383d4dd071e5d16fd09c59f0c354f5b3d07108ddb105b5cb71",
+      "kind": "synthetic_concurrency_diagnostic",
+      "summary": "B1受控交错复现，合成I/O，不是正式系统或性能实验"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/POST_EXECUTION_RECEIPT.json",
+      "sha256": "e8f602f899fc4e7a5332f0a8a4c7066f5e9c2346b8da12b9945f35630864390c",
+      "kind": "postflight",
+      "summary": "自有PID均已退出，333文件/3500图像及核定绑定前后未变化"
+    }
+  ],
+  "entry_approved": false,
+  "E1_started": false,
+  "tests_finished": true,
+  "active_owned_services": [],
+  "forced_termination": false,
+  "runtime_pids_verified_exited": [
+    58892,
+    81388,
+    50816,
+    55712,
+    58680
+  ],
+  "limitations": "所有来源结论以完整报告记载的搜索范围及前后快照为限。未持续监控字节或证明历史主机状态。本JSON不提供任何PASS审批或新实验授权。",
+  "request": {
+    "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/REVIEW_REQUEST.md",
+    "sha256": "adf05aefc4e9c7759d33ebdcdd66a362e086e0e509a800e2b4e74809490ed8e9"
+  },
+  "source_and_receipts_file": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v2_independent_20261014/FINAL_SOURCE_AND_RECEIPTS.json"
+}

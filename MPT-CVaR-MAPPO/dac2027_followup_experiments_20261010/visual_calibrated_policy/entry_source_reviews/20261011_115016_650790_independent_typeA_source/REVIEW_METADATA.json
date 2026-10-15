@@ -1,0 +1,32 @@
+{
+  "schema": "independent-prepared-entry-source-review-v1",
+  "date": "2026-10-11",
+  "timezone": "Asia/Shanghai",
+  "review_type": "Type-A",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "xhigh",
+  "scope": "source_prepared_entry_safety_and_evidence_honesty_only",
+  "overall_verdict": "FAIL",
+  "actual_cuda_smoke_certified": false,
+  "formal_readiness_certified": false,
+  "launch_blockers": [
+    "B1_prepared_raw_evidence_not_revalidated_by_run",
+    "B2_raw_json_file_hash_not_semantic_one_shot_identity"
+  ],
+  "checklist": {
+    "1": "PASS",
+    "2": "FAIL",
+    "3": "WARN",
+    "4": "PASS",
+    "5": "FAIL",
+    "6": "PASS"
+  },
+  "readonly_check_exit_code": 0,
+  "fresh_check_directory": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261011_114728_198054_model_smoke_entry",
+  "protected_entries_each_report": 232,
+  "current_source_entries_each_report": 56,
+  "hash_mismatches": [],
+  "actual_model_optimizer_roundtrip_calls": 0,
+  "gpu_probe_performed": false,
+  "source_edits_performed": false
+}

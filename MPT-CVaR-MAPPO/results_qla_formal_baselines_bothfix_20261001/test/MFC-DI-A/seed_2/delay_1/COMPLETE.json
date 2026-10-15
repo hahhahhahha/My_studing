@@ -1,0 +1,10 @@
+{
+  "method": "MFC-DI-A",
+  "seed": 2,
+  "age": 1,
+  "role": "test",
+  "elapsed_s": 7.490117500000451,
+  "output": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\test\\MFC-DI-A\\seed_2\\delay_1\\KAIST\\30u\\poisson_bursty",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "checkpoint_sha256": "ef3cc1d88078b2cf8c578d827e75a3b7d127a10130211a9b0df6f57ba21c52e4"
+}

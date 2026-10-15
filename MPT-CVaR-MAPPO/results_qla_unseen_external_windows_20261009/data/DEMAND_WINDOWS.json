@@ -1,0 +1,56 @@
+[
+  {
+    "window": "W1",
+    "azure_day": 11,
+    "azure_minutes": [
+      0,
+      200
+    ],
+    "alibaba2017_relative_minutes": [
+      0,
+      200
+    ],
+    "lambda_min": 1.4900000000000002,
+    "lambda_mean": 2.243710375840281,
+    "lambda_max": 4.8500000000000005,
+    "fraction_below_calibration": 0.095,
+    "fraction_above_calibration": 0.01,
+    "source_sha256": "0e24d2dab9a6118fffd7e0fe30cc5f6e8ec19d2cc24f14fd282c4c36c7063b80"
+  },
+  {
+    "window": "W2",
+    "azure_day": 12,
+    "azure_minutes": [
+      0,
+      200
+    ],
+    "alibaba2017_relative_minutes": [
+      220,
+      420
+    ],
+    "lambda_min": 1.4900000000000002,
+    "lambda_mean": 1.7461853420697158,
+    "lambda_max": 3.719597072450478,
+    "fraction_below_calibration": 0.655,
+    "fraction_above_calibration": 0.0,
+    "source_sha256": "7e1377e71b580cbc2e38fac1d3f32d4a8bb01cf971d92e32992f4e28447cfb6f"
+  },
+  {
+    "window": "W3",
+    "azure_day": 13,
+    "azure_minutes": [
+      0,
+      200
+    ],
+    "alibaba2017_relative_minutes": [
+      440,
+      640
+    ],
+    "lambda_min": 1.59575124681105,
+    "lambda_mean": 2.852294660621308,
+    "lambda_max": 4.8500000000000005,
+    "fraction_below_calibration": 0.0,
+    "fraction_above_calibration": 0.02,
+    "source_sha256": "395251affeba32baf8e6008e9fe5fd4254019f73fe9fe52235c4e69fe8effc4a"
+  }
+]

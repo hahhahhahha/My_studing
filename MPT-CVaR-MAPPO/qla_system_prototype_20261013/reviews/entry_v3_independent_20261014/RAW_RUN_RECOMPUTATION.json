@@ -1,0 +1,2350 @@
+[
+  {
+    "run": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01",
+    "offered": 599,
+    "status_counts": {
+      "completed": 599
+    },
+    "metrics": {
+      "mean_latency_s": 0.0653347278405813,
+      "p95_latency_s": 0.09798138351989687,
+      "p99_latency_s": 0.1145067120245806,
+      "cvar99_s": 0.11751501361290947,
+      "cvar_tail_effective_tasks": 5.99
+    },
+    "analysis_absolute_deltas": {
+      "mean_latency_s": 0.0,
+      "p95_latency_s": 0.0,
+      "p99_latency_s": 0.0,
+      "cvar99_s": 1.3877787807814457e-17,
+      "cvar_tail_effective_tasks": 0.0
+    },
+    "violations": [],
+    "edges": {
+      "edge0": {
+        "admitted": 138,
+        "completed": 138,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 62940,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.029580500724293506,
+        "stopped": [
+          {
+            "epoch_ns": 1791900680346486700,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 138,
+              "busy": false,
+              "capacity": 32,
+              "completed": 138,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 138,
+              "rejected": 0,
+              "server_id": "edge0",
+              "service_estimate_s": 0.02825723229595574,
+              "source_epoch_ns": 1791900680346477600,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge1": {
+        "admitted": 158,
+        "completed": 158,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 78296,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.029819451901719824,
+        "stopped": [
+          {
+            "epoch_ns": 1791900680347981200,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 158,
+              "busy": false,
+              "capacity": 32,
+              "completed": 158,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 158,
+              "rejected": 0,
+              "server_id": "edge1",
+              "service_estimate_s": 0.029087227038766983,
+              "source_epoch_ns": 1791900680347974000,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge2": {
+        "admitted": 154,
+        "completed": 154,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 47548,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.018556706474295685,
+        "stopped": [
+          {
+            "epoch_ns": 1791900680348831300,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 154,
+              "busy": false,
+              "capacity": 32,
+              "completed": 154,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 154,
+              "rejected": 0,
+              "server_id": "edge2",
+              "service_estimate_s": 0.01721317426139926,
+              "source_epoch_ns": 1791900680348824000,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge3": {
+        "admitted": 149,
+        "completed": 149,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 13772,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.018462012754753232,
+        "stopped": [
+          {
+            "epoch_ns": 1791900680349939900,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 149,
+              "busy": false,
+              "capacity": 32,
+              "completed": 149,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 149,
+              "rejected": 0,
+              "server_id": "edge3",
+              "service_estimate_s": 0.017068556902124922,
+              "source_epoch_ns": 1791900680349933000,
+              "waiting_count": 0
+            }
+          }
+        ]
+      }
+    },
+    "source_receipt": {
+      "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+      "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+      "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+      "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+      "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+      "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+      "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+      "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+      "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+      "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+      "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+      "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+      "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+      "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+      "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+      "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+      "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+      "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+      "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+    },
+    "complete": {
+      "actual_outcomes": 599,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "round_robin",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+      "source_continuity_pass": true
+    },
+    "cutoff": {
+      "begin_epoch_ns": 1791900620248266000,
+      "cutoff_epoch_ns": 1791900680248266000,
+      "error": null,
+      "fixed_drain_s": 30,
+      "protocol_horizon_s": 30.0,
+      "scheduled_tasks": 599
+    },
+    "decisions": 582,
+    "features_max_error": 0.0,
+    "destination_errors": 0,
+    "late_responses": 0,
+    "feedback_received": 3424,
+    "feedback_application_bytes_per_s": 66172.33333333333,
+    "monitor_errors_during_measurement": [],
+    "process_end": {
+      "exit_codes": {
+        "11952": 0,
+        "42464": 0,
+        "47100": 0,
+        "5648": 0,
+        "56716": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 3664
+          },
+          "runtime_exited": true,
+          "runtime_pid": 3664,
+          "shim_exit_code": 0,
+          "shim_pid": 11952,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 13772
+          },
+          "runtime_exited": true,
+          "runtime_pid": 13772,
+          "shim_exit_code": 0,
+          "shim_pid": 42464,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 47548
+          },
+          "runtime_exited": true,
+          "runtime_pid": 47548,
+          "shim_exit_code": 0,
+          "shim_pid": 47100,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 78296
+          },
+          "runtime_exited": true,
+          "runtime_pid": 78296,
+          "shim_exit_code": 0,
+          "shim_pid": 5648,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 62940
+          },
+          "runtime_exited": true,
+          "runtime_pid": 62940,
+          "shim_exit_code": 0,
+          "shim_pid": 56716,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "p99_release_to_send_s": 0.05021523296127041
+  },
+  {
+    "run": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01",
+    "offered": 18916,
+    "status_counts": {
+      "completed": 15752,
+      "queue_rejected": 3164
+    },
+    "metrics": {
+      "mean_latency_s": 0.6728089150506523,
+      "p95_latency_s": 1.3465319676566843,
+      "p99_latency_s": 1.3871137991052664,
+      "cvar99_s": 1.407643302320635,
+      "cvar_tail_effective_tasks": 157.52
+    },
+    "analysis_absolute_deltas": {
+      "mean_latency_s": 0.0,
+      "p95_latency_s": 0.0,
+      "p99_latency_s": 0.0,
+      "cvar99_s": 0.0,
+      "cvar_tail_effective_tasks": 0.0
+    },
+    "violations": [],
+    "edges": {
+      "edge0": {
+        "admitted": 3156,
+        "completed": 3156,
+        "rejected": 1654,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 33984,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_calibrate.py": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "run_m1_stress.py": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03824864204904225,
+        "stopped": [
+          {
+            "epoch_ns": 1791900940521578500,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3156,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3156,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4810,
+              "rejected": 1654,
+              "server_id": "edge0",
+              "service_estimate_s": 0.036971999920355374,
+              "source_epoch_ns": 1791900940521570700,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge1": {
+        "admitted": 3156,
+        "completed": 3156,
+        "rejected": 1451,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 67212,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_calibrate.py": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "run_m1_stress.py": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03825619791010843,
+        "stopped": [
+          {
+            "epoch_ns": 1791900940522759400,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3156,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3156,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4607,
+              "rejected": 1451,
+              "server_id": "edge1",
+              "service_estimate_s": 0.03754810607871803,
+              "source_epoch_ns": 1791900940522751200,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge2": {
+        "admitted": 4726,
+        "completed": 4726,
+        "rejected": 54,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 66904,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_calibrate.py": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "run_m1_stress.py": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.024243134445969174,
+        "stopped": [
+          {
+            "epoch_ns": 1791900940523918600,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 4726,
+              "busy": false,
+              "capacity": 32,
+              "completed": 4726,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4780,
+              "rejected": 54,
+              "server_id": "edge2",
+              "service_estimate_s": 0.023101990122594653,
+              "source_epoch_ns": 1791900940523910600,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge3": {
+        "admitted": 4714,
+        "completed": 4714,
+        "rejected": 5,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 20936,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "run_m1_calibrate.py": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+            "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+            "run_m1_stress.py": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+            "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.024234473570107728,
+        "stopped": [
+          {
+            "epoch_ns": 1791900940524966100,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 4714,
+              "busy": false,
+              "capacity": 32,
+              "completed": 4714,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4719,
+              "rejected": 5,
+              "server_id": "edge3",
+              "service_estimate_s": 0.02546742855303254,
+              "source_epoch_ns": 1791900940524958200,
+              "waiting_count": 0
+            }
+          }
+        ]
+      }
+    },
+    "source_receipt": {
+      "run_m1_calibrate.py": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+      "run_m1_prep.py": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+      "run_m1_stress.py": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+      "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+      "systemlab\\__main__.py": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+      "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+      "systemlab\\client.py": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+      "systemlab\\common.py": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+      "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+      "systemlab\\edge.py": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+      "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+      "systemlab\\launcher.py": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+      "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+      "tests\\test_core.py": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+      "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+      "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+      "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+      "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+      "tools\\make_grid.py": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+      "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+      "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+    },
+    "complete": {
+      "actual_outcomes": 18916,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "round_robin",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+      "source_continuity_pass": true
+    },
+    "cutoff": {
+      "begin_epoch_ns": 1791900790332716500,
+      "cutoff_epoch_ns": 1791900940332716500,
+      "error": null,
+      "fixed_drain_s": 30,
+      "protocol_horizon_s": 120.0,
+      "scheduled_tasks": 18916
+    },
+    "decisions": 14955,
+    "features_max_error": 0.0,
+    "destination_errors": 0,
+    "late_responses": 0,
+    "feedback_received": 8080,
+    "feedback_application_bytes_per_s": 65785.33333333333,
+    "monitor_errors_during_measurement": [],
+    "process_end": {
+      "exit_codes": {
+        "26508": 0,
+        "36724": 0,
+        "68312": 0,
+        "74224": 0,
+        "79096": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 62460
+          },
+          "runtime_exited": true,
+          "runtime_pid": 62460,
+          "shim_exit_code": 0,
+          "shim_pid": 74224,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 20936
+          },
+          "runtime_exited": true,
+          "runtime_pid": 20936,
+          "shim_exit_code": 0,
+          "shim_pid": 79096,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 66904
+          },
+          "runtime_exited": true,
+          "runtime_pid": 66904,
+          "shim_exit_code": 0,
+          "shim_pid": 68312,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 67212
+          },
+          "runtime_exited": true,
+          "runtime_pid": 67212,
+          "shim_exit_code": 0,
+          "shim_pid": 26508,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 33984
+          },
+          "runtime_exited": true,
+          "runtime_pid": 33984,
+          "shim_exit_code": 0,
+          "shim_pid": 36724,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "p99_release_to_send_s": 0.0516892503739605
+  },
+  {
+    "run": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01",
+    "offered": 12565,
+    "status_counts": {
+      "completed": 12565
+    },
+    "metrics": {
+      "mean_latency_s": 0.1523904361096441,
+      "p95_latency_s": 0.3710341599776114,
+      "p99_latency_s": 0.5077635375654689,
+      "cvar99_s": 0.5556152063744426,
+      "cvar_tail_effective_tasks": 125.65
+    },
+    "analysis_absolute_deltas": {
+      "mean_latency_s": 0.0,
+      "p95_latency_s": 0.0,
+      "p99_latency_s": 0.0,
+      "cvar99_s": 0.0,
+      "cvar_tail_effective_tasks": 0.0
+    },
+    "violations": [],
+    "edges": {
+      "edge0": {
+        "admitted": 2810,
+        "completed": 2810,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 60364,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03883549452277093,
+        "stopped": [
+          {
+            "epoch_ns": 1791946025774998600,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2810,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2810,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2810,
+              "rejected": 0,
+              "server_id": "edge0",
+              "service_estimate_s": 0.035090716776918066,
+              "source_epoch_ns": 1791946025774991600,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge1": {
+        "admitted": 2773,
+        "completed": 2773,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 38440,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03880318038228038,
+        "stopped": [
+          {
+            "epoch_ns": 1791946025776446000,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2773,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2773,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2773,
+              "rejected": 0,
+              "server_id": "edge1",
+              "service_estimate_s": 0.037281258042413924,
+              "source_epoch_ns": 1791946025776437900,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge2": {
+        "admitted": 3486,
+        "completed": 3486,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 80880,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.025291173150284698,
+        "stopped": [
+          {
+            "epoch_ns": 1791946025776556100,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3486,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3486,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 3486,
+              "rejected": 0,
+              "server_id": "edge2",
+              "service_estimate_s": 0.025161193668703903,
+              "source_epoch_ns": 1791946025776548700,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge3": {
+        "admitted": 3496,
+        "completed": 3496,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 81464,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.025293228660952044,
+        "stopped": [
+          {
+            "epoch_ns": 1791946025778422200,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3496,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3496,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 3496,
+              "rejected": 0,
+              "server_id": "edge3",
+              "service_estimate_s": 0.024190940137313145,
+              "source_epoch_ns": 1791946025778412500,
+              "waiting_count": 0
+            }
+          }
+        ]
+      }
+    },
+    "source_receipt": {
+      "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+      "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+      "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+      "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+      "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+      "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+      "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+      "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+      "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+      "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+      "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+      "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+      "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+      "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+      "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+      "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+      "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+      "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+      "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+    },
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": true,
+        "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+        "parameters_unchanged": true
+      },
+      "inference_only": true,
+      "method": "qla",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "cutoff": {
+      "begin_epoch_ns": 1791945875485276300,
+      "cutoff_epoch_ns": 1791946025485276300,
+      "error": null,
+      "fixed_drain_s": 30,
+      "protocol_horizon_s": 120.0,
+      "scheduled_tasks": 12565
+    },
+    "decisions": 10759,
+    "features_max_error": 0.0,
+    "destination_errors": 0,
+    "late_responses": 0,
+    "feedback_received": 8160,
+    "feedback_application_bytes_per_s": 65798.51666666666,
+    "monitor_errors_during_measurement": [],
+    "process_end": {
+      "exit_codes": {
+        "25616": 0,
+        "40464": 0,
+        "44744": 0,
+        "54896": 0,
+        "67980": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 38992
+          },
+          "runtime_exited": true,
+          "runtime_pid": 38992,
+          "shim_exit_code": 0,
+          "shim_pid": 67980,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 81464
+          },
+          "runtime_exited": true,
+          "runtime_pid": 81464,
+          "shim_exit_code": 0,
+          "shim_pid": 54896,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 80880
+          },
+          "runtime_exited": true,
+          "runtime_pid": 80880,
+          "shim_exit_code": 0,
+          "shim_pid": 44744,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 38440
+          },
+          "runtime_exited": true,
+          "runtime_pid": 38440,
+          "shim_exit_code": 0,
+          "shim_pid": 25616,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 60364
+          },
+          "runtime_exited": true,
+          "runtime_pid": 60364,
+          "shim_exit_code": 0,
+          "shim_pid": 40464,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "p99_release_to_send_s": 0.05379016299595109
+  },
+  {
+    "run": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01",
+    "offered": 12565,
+    "status_counts": {
+      "completed": 12565
+    },
+    "metrics": {
+      "mean_latency_s": 0.1764325546221117,
+      "p95_latency_s": 0.41757565396205215,
+      "p99_latency_s": 0.6569226517057463,
+      "cvar99_s": 0.7940397510788967,
+      "cvar_tail_effective_tasks": 125.65
+    },
+    "analysis_absolute_deltas": {
+      "mean_latency_s": 0.0,
+      "p95_latency_s": 0.0,
+      "p99_latency_s": 0.0,
+      "cvar99_s": 1.1102230246251565e-16,
+      "cvar_tail_effective_tasks": 0.0
+    },
+    "violations": [],
+    "edges": {
+      "edge0": {
+        "admitted": 2495,
+        "completed": 2495,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 79028,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03795950601758335,
+        "stopped": [
+          {
+            "epoch_ns": 1791946185718643000,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2495,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2495,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2495,
+              "rejected": 0,
+              "server_id": "edge0",
+              "service_estimate_s": 0.037422085259239755,
+              "source_epoch_ns": 1791946185718633200,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge1": {
+        "admitted": 2505,
+        "completed": 2505,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 80692,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.037775947705111994,
+        "stopped": [
+          {
+            "epoch_ns": 1791946185719704200,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2505,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2505,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2505,
+              "rejected": 0,
+              "server_id": "edge1",
+              "service_estimate_s": 0.03724004967479736,
+              "source_epoch_ns": 1791946185719697100,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge2": {
+        "admitted": 3820,
+        "completed": 3820,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 15532,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.02420057950087906,
+        "stopped": [
+          {
+            "epoch_ns": 1791946185721753800,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3820,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3820,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 3820,
+              "rejected": 0,
+              "server_id": "edge2",
+              "service_estimate_s": 0.024666435164984082,
+              "source_epoch_ns": 1791946185721747400,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge3": {
+        "admitted": 3745,
+        "completed": 3745,
+        "rejected": 0,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 58696,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.02480284336460717,
+        "stopped": [
+          {
+            "epoch_ns": 1791946185722589500,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3745,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3745,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 3745,
+              "rejected": 0,
+              "server_id": "edge3",
+              "service_estimate_s": 0.025157905645425246,
+              "source_epoch_ns": 1791946185722581400,
+              "waiting_count": 0
+            }
+          }
+        ]
+      }
+    },
+    "source_receipt": {
+      "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+      "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+      "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+      "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+      "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+      "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+      "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+      "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+      "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+      "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+      "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+      "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+      "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+      "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+      "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+      "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+      "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+      "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+      "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+    },
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "score_softmax",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "cutoff": {
+      "begin_epoch_ns": 1791946035508148100,
+      "cutoff_epoch_ns": 1791946185508148100,
+      "error": null,
+      "fixed_drain_s": 30,
+      "protocol_horizon_s": 120.0,
+      "scheduled_tasks": 12565
+    },
+    "decisions": 10759,
+    "features_max_error": 0.0,
+    "destination_errors": 0,
+    "late_responses": 0,
+    "feedback_received": 8209,
+    "feedback_application_bytes_per_s": 65867.2,
+    "monitor_errors_during_measurement": [],
+    "process_end": {
+      "exit_codes": {
+        "31828": 0,
+        "44092": 0,
+        "51048": 0,
+        "59092": 0,
+        "65708": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 70408
+          },
+          "runtime_exited": true,
+          "runtime_pid": 70408,
+          "shim_exit_code": 0,
+          "shim_pid": 65708,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 58696
+          },
+          "runtime_exited": true,
+          "runtime_pid": 58696,
+          "shim_exit_code": 0,
+          "shim_pid": 51048,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 15532
+          },
+          "runtime_exited": true,
+          "runtime_pid": 15532,
+          "shim_exit_code": 0,
+          "shim_pid": 59092,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 80692
+          },
+          "runtime_exited": true,
+          "runtime_pid": 80692,
+          "shim_exit_code": 0,
+          "shim_pid": 44092,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 79028
+          },
+          "runtime_exited": true,
+          "runtime_pid": 79028,
+          "shim_exit_code": 0,
+          "shim_pid": 31828,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "p99_release_to_send_s": 0.050945831131714386
+  },
+  {
+    "run": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01",
+    "offered": 12565,
+    "status_counts": {
+      "completed": 12317,
+      "queue_rejected": 248
+    },
+    "metrics": {
+      "mean_latency_s": 0.39860570123680367,
+      "p95_latency_s": 0.8938659051691514,
+      "p99_latency_s": 1.2143039757209548,
+      "cvar99_s": 1.3193381902239376,
+      "cvar_tail_effective_tasks": 123.17
+    },
+    "analysis_absolute_deltas": {
+      "mean_latency_s": 0.0,
+      "p95_latency_s": 0.0,
+      "p99_latency_s": 0.0,
+      "cvar99_s": 2.220446049250313e-16,
+      "cvar_tail_effective_tasks": 0.0
+    },
+    "violations": [],
+    "edges": {
+      "edge0": {
+        "admitted": 2242,
+        "completed": 2242,
+        "rejected": 23,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 37960,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03788619736532692,
+        "stopped": [
+          {
+            "epoch_ns": 1791946346484736600,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2242,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2242,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2265,
+              "rejected": 23,
+              "server_id": "edge0",
+              "service_estimate_s": 0.03579951860399428,
+              "source_epoch_ns": 1791946346484730300,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge1": {
+        "admitted": 2196,
+        "completed": 2196,
+        "rejected": 22,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 1,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 54316,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.03787751361441023,
+        "stopped": [
+          {
+            "epoch_ns": 1791946346485866700,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 2196,
+              "busy": false,
+              "capacity": 32,
+              "completed": 2196,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 2218,
+              "rejected": 22,
+              "server_id": "edge1",
+              "service_estimate_s": 0.031531946222376414,
+              "source_epoch_ns": 1791946346485859300,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge2": {
+        "admitted": 3928,
+        "completed": 3928,
+        "rejected": 151,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 74312,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.02422060705374029,
+        "stopped": [
+          {
+            "epoch_ns": 1791946346488952800,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3928,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3928,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4079,
+              "rejected": 151,
+              "server_id": "edge2",
+              "service_estimate_s": 0.023563499089949383,
+              "source_epoch_ns": 1791946346488944500,
+              "waiting_count": 0
+            }
+          }
+        ]
+      },
+      "edge3": {
+        "admitted": 3951,
+        "completed": 3951,
+        "rejected": 52,
+        "runtime": {
+          "executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+          "logical_cpus": 16,
+          "model": {
+            "batch_size": 1,
+            "engine": "resnet18_imagenet1k_v1_real_cpu",
+            "interop_threads": 1,
+            "precision": "float32",
+            "seeded_cpu_kernel": 3680.0,
+            "threads": 2,
+            "torch": "2.11.0+cu128",
+            "torch_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\__init__.py",
+            "torchvision": "0.26.0+cu128",
+            "torchvision_path": "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\__init__.py",
+            "warmup": 20,
+            "weight_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+          },
+          "pid": 81844,
+          "platform": "Windows-11-10.0.26200-SP0",
+          "python": "3.13.5",
+          "source_sha256": {
+            "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+            "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+            "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+            "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+            "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+            "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+            "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+            "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+            "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+            "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+            "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+            "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+            "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+            "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+            "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+            "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+            "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+            "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+            "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+          }
+        },
+        "mean_service_s": 0.024251650191487104,
+        "stopped": [
+          {
+            "epoch_ns": 1791946346488952900,
+            "kind": "stopped",
+            "snapshot": {
+              "admitted": 3951,
+              "busy": false,
+              "capacity": 32,
+              "completed": 3951,
+              "inference_errors": 0,
+              "predicted_wait_s": 0.0,
+              "received": 4003,
+              "rejected": 52,
+              "server_id": "edge3",
+              "service_estimate_s": 0.021403352458232067,
+              "source_epoch_ns": 1791946346488946000,
+              "waiting_count": 0
+            }
+          }
+        ]
+      }
+    },
+    "source_receipt": {
+      "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+      "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+      "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+      "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+      "systemlab\\client.py": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+      "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+      "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+      "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+      "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+      "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+      "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+      "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+      "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+      "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+      "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+      "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+      "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+      "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+      "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+    },
+    "complete": {
+      "actual_outcomes": 12565,
+      "error": null,
+      "frozen_actor_verification": {
+        "actor_executed": false
+      },
+      "inference_only": true,
+      "method": "stale_shortest",
+      "optimizer_calls": 0,
+      "protocol_complete": true,
+      "schedule_sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+      "source_continuity_pass": true
+    },
+    "cutoff": {
+      "begin_epoch_ns": 1791946196358019000,
+      "cutoff_epoch_ns": 1791946346358019000,
+      "error": null,
+      "fixed_drain_s": 30,
+      "protocol_horizon_s": 120.0,
+      "scheduled_tasks": 12565
+    },
+    "decisions": 10759,
+    "features_max_error": 0.0,
+    "destination_errors": 0,
+    "late_responses": 0,
+    "feedback_received": 8209,
+    "feedback_application_bytes_per_s": 65514.13333333333,
+    "monitor_errors_during_measurement": [
+      {
+        "epoch_ns": 1791946197314215900,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946200767599200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1"
+      },
+      {
+        "epoch_ns": 1791946208714174700,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946215613820100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946222021702900,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0"
+      },
+      {
+        "epoch_ns": 1791946227565586200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946244114736500,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946255926898800,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946287924023800,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3"
+      },
+      {
+        "epoch_ns": 1791946299461825700,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946310720554200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2"
+      },
+      {
+        "epoch_ns": 1791946312515591000,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1"
+      }
+    ],
+    "process_end": {
+      "exit_codes": {
+        "32260": 0,
+        "35120": 0,
+        "46136": 0,
+        "67784": 0,
+        "81252": 0
+      },
+      "forced_termination": false,
+      "known_children_still_alive": [],
+      "lingering_launcher_shims": [],
+      "liveness_basis": "runtime_pid_from_RUNTIME_json",
+      "normal_shutdown_requested": true,
+      "services": [
+        {
+          "health": {
+            "code": 200,
+            "pid": 38724
+          },
+          "runtime_exited": true,
+          "runtime_pid": 38724,
+          "shim_exit_code": 0,
+          "shim_pid": 32260,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8100"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 81844
+          },
+          "runtime_exited": true,
+          "runtime_pid": 81844,
+          "shim_exit_code": 0,
+          "shim_pid": 46136,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8104"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 74312
+          },
+          "runtime_exited": true,
+          "runtime_pid": 74312,
+          "shim_exit_code": 0,
+          "shim_pid": 35120,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8103"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 54316
+          },
+          "runtime_exited": true,
+          "runtime_pid": 54316,
+          "shim_exit_code": 0,
+          "shim_pid": 67784,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8102"
+        },
+        {
+          "health": {
+            "code": 200,
+            "pid": 37960
+          },
+          "runtime_exited": true,
+          "runtime_pid": 37960,
+          "shim_exit_code": 0,
+          "shim_pid": 81252,
+          "shutdown_requested": true,
+          "shutdown_response": {
+            "code": 200,
+            "response": {
+              "stopping": true
+            }
+          },
+          "url": "http://127.0.0.1:8101"
+        }
+      ]
+    },
+    "p99_release_to_send_s": 0.05100126220959311
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\azure\\invocations_per_function_md.anon.d13.csv",
+  "sha256": "395251affeba32baf8e6008e9fe5fd4254019f73fe9fe52235c4e69fe8effc4a",
+  "function_rows": 36676,
+  "minutes": 1440,
+  "total_invocations": 929215760,
+  "count_semantics": "invocations recorded after execution, demand-intensity proxy"
+}

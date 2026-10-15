@@ -1,0 +1,18 @@
+{
+  "method": "Towards-PPO-DSR",
+  "seed": 5,
+  "python": "3.13.5",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "finite_buffer_protocol": true,
+  "latency_is_uncapped": true,
+  "checkpoint_rule": "final_requested_training_budget_no_test_early_stopping",
+  "train_split_id": "KAIST_poisson_bursty_train_s5_e12c344c1cdc231e",
+  "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+  "validation_split_id": "KAIST_poisson_bursty_validation_s10005_7f8e4376f41348af",
+  "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+  "evaluation_split_role": "validation",
+  "evaluation_split_id": "KAIST_poisson_bursty_validation_s10005_7f8e4376f41348af",
+  "evaluation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34",
+  "config_sha256": "2743e268ea6b1fc98409494e1ba4146d7c47d3d3f15bc7dbdf9dc1b6530b328c",
+  "checkpoint_sha256": "4d0548296b0c7fc210b3d02d2b67f04337223eb6d9246bd856b4230c3d83c37e"
+}

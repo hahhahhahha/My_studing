@@ -1,0 +1,434 @@
+{
+  "M1_rr_s1_attempt_01": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791900680344437500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 60.0961715
+      },
+      {
+        "epoch_ns": 1791900680345686900,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 60.0974209
+      },
+      {
+        "epoch_ns": 1791900680346806000,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 60.09854
+      },
+      {
+        "epoch_ns": 1791900680347829500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 60.0995635
+      },
+      {
+        "epoch_ns": 1791900680911234400,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 60.6629684
+      },
+      {
+        "epoch_ns": 1791900681546531800,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 61.2982658
+      },
+      {
+        "epoch_ns": 1791900682053197800,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 61.8049318
+      },
+      {
+        "epoch_ns": 1791900682565713700,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 62.3174477
+      }
+    ],
+    "monitor_response_serialized_bytes": 486047,
+    "application_feedback_bytes": 1985170,
+    "application_rate": 66172.33333333333,
+    "feedback_messages": 1712,
+    "max_observed_waiting": 2
+  },
+  "M1_stress_s1_attempt_01": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791900940520734800,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.1880183
+      },
+      {
+        "epoch_ns": 1791900940521824600,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 150.1891081
+      },
+      {
+        "epoch_ns": 1791900940523000500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 150.190284
+      },
+      {
+        "epoch_ns": 1791900940524029300,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 150.1913128
+      },
+      {
+        "epoch_ns": 1791900941086807100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.7540906
+      },
+      {
+        "epoch_ns": 1791900941600131700,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 151.2674152
+      },
+      {
+        "epoch_ns": 1791900942110137200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 151.7774207
+      },
+      {
+        "epoch_ns": 1791900942619913600,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 152.2871971
+      }
+    ],
+    "monitor_response_serialized_bytes": 2091255,
+    "application_feedback_bytes": 7894240,
+    "application_rate": 65785.33333333333,
+    "feedback_messages": 6400,
+    "max_observed_waiting": 32
+  },
+  "M2c_qla_s101_attempt_01": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791908907631793300,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.1920542
+      },
+      {
+        "epoch_ns": 1791908907632773400,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 150.1930343
+      },
+      {
+        "epoch_ns": 1791908907633762500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 150.1940234
+      },
+      {
+        "epoch_ns": 1791908907634843600,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 150.1951045
+      },
+      {
+        "epoch_ns": 1791908908200762100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.761023
+      },
+      {
+        "epoch_ns": 1791908908709391400,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 151.2696523
+      },
+      {
+        "epoch_ns": 1791908909223004900,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 151.7832658
+      },
+      {
+        "epoch_ns": 1791908909732377100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 152.292638
+      }
+    ],
+    "monitor_response_serialized_bytes": 2059946,
+    "application_feedback_bytes": 7880728,
+    "application_rate": 65672.73333333334,
+    "feedback_messages": 6464,
+    "max_observed_waiting": 15
+  },
+  "M2c_score_softmax_s101_attempt_01": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791909068812688400,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.2065801
+      },
+      {
+        "epoch_ns": 1791909068813883100,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 150.2077748
+      },
+      {
+        "epoch_ns": 1791909068814979900,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 150.2088716
+      },
+      {
+        "epoch_ns": 1791909068815995500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 150.2098872
+      },
+      {
+        "epoch_ns": 1791909069377591400,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.7714831
+      },
+      {
+        "epoch_ns": 1791909069886931600,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 151.2808233
+      },
+      {
+        "epoch_ns": 1791909070396660900,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 151.7905526
+      },
+      {
+        "epoch_ns": 1791909070902704900,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 152.2965966
+      }
+    ],
+    "monitor_response_serialized_bytes": 2054914,
+    "application_feedback_bytes": 7894538,
+    "application_rate": 65787.81666666667,
+    "feedback_messages": 6512,
+    "max_observed_waiting": 26
+  },
+  "M2c_stale_shortest_s101_attempt_01": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791909088213340600,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 8.8092778
+      },
+      {
+        "epoch_ns": 1791909111862723100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 32.4586603
+      },
+      {
+        "epoch_ns": 1791909134266408100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 54.8623453
+      },
+      {
+        "epoch_ns": 1791909137107260200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 57.7031974
+      },
+      {
+        "epoch_ns": 1791909139213711500,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 59.8096487
+      },
+      {
+        "epoch_ns": 1791909193413037100,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 114.0089743
+      },
+      {
+        "epoch_ns": 1791909229579480500,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.1754177
+      },
+      {
+        "epoch_ns": 1791909229580583800,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 150.176521
+      },
+      {
+        "epoch_ns": 1791909229581593900,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 150.1775311
+      },
+      {
+        "epoch_ns": 1791909229582601200,
+        "error": "RemoteDisconnected('Remote end closed connection without response')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 150.1785384
+      },
+      {
+        "epoch_ns": 1791909230149826500,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 150.7457637
+      },
+      {
+        "epoch_ns": 1791909230656481200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 151.2524184
+      },
+      {
+        "epoch_ns": 1791909231165069200,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 151.7610064
+      },
+      {
+        "epoch_ns": 1791909231675619600,
+        "error": "TimeoutError('timed out')",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 152.2715568
+      }
+    ],
+    "monitor_response_serialized_bytes": 2008037,
+    "application_feedback_bytes": 7889072,
+    "application_rate": 65742.26666666666,
+    "feedback_messages": 6528,
+    "max_observed_waiting": 32
+  },
+  "functional_4edge_attempt_02": {
+    "monitor_errors": [
+      {
+        "epoch_ns": 1791907032238027400,
+        "error": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 1.5151836
+      },
+      {
+        "epoch_ns": 1791907032238512200,
+        "error": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 1.5156684
+      },
+      {
+        "epoch_ns": 1791907032238965100,
+        "error": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 1.5161213
+      },
+      {
+        "epoch_ns": 1791907032239370100,
+        "error": "ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 1.5165263
+      },
+      {
+        "epoch_ns": 1791907032807410800,
+        "error": "URLError(TimeoutError('timed out'))",
+        "kind": "monitor_error",
+        "server_id": "edge0",
+        "relative_to_begin_s": 2.084567
+      },
+      {
+        "epoch_ns": 1791907033318462800,
+        "error": "URLError(TimeoutError('timed out'))",
+        "kind": "monitor_error",
+        "server_id": "edge1",
+        "relative_to_begin_s": 2.595619
+      },
+      {
+        "epoch_ns": 1791907033824872900,
+        "error": "URLError(TimeoutError('timed out'))",
+        "kind": "monitor_error",
+        "server_id": "edge2",
+        "relative_to_begin_s": 3.1020291
+      },
+      {
+        "epoch_ns": 1791907034329680500,
+        "error": "URLError(TimeoutError('timed out'))",
+        "kind": "monitor_error",
+        "server_id": "edge3",
+        "relative_to_begin_s": 3.6068367
+      }
+    ],
+    "monitor_response_serialized_bytes": 5553,
+    "application_feedback_bytes": 17446,
+    "application_rate": 43615.0,
+    "feedback_messages": 16,
+    "max_observed_waiting": 0
+  }
+}

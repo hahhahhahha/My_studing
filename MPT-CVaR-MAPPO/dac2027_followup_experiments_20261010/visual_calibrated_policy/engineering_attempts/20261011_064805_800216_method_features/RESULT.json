@@ -1,0 +1,235 @@
+{
+  "at": "2026-10-11T06:48:07.045336+08:00",
+  "passed": true,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch_imported": false
+  },
+  "actor_shape": [
+    30,
+    19
+  ],
+  "critic_shape": [
+    30,
+    705
+  ],
+  "learning_inputs_identical": true,
+  "current_action_not_critic_argument": true,
+  "permutation_feature_check": true,
+  "calibration_only_scales": {
+    "location_low": [
+      -1096.560559751253,
+      -3056.2370174503544
+    ],
+    "location_span": [
+      3707.5110506634064,
+      4213.262452920347
+    ],
+    "edge_positions": [
+      [
+        -902.4219383588713,
+        -2688.8966626493734
+      ],
+      [
+        413.2927793484041,
+        -2602.467661413529
+      ],
+      [
+        2244.6442391001174,
+        -2895.48560862018
+      ],
+      [
+        891.4144290627933,
+        -1656.600927372967
+      ]
+    ],
+    "profiles": [
+      "CPU-1T",
+      "CPU-1T",
+      "CPU-4T",
+      "CPU-4T"
+    ],
+    "mean_payload_bytes": 116952.135,
+    "mean_profile_service_seconds": [
+      0.028320473800000003,
+      0.028320473800000003,
+      0.01228716165,
+      0.01228716165
+    ],
+    "reference_service_seconds": 0.028320473800000003,
+    "decision_seconds": 0.05,
+    "request_scale": 7.0,
+    "q_max": 3.0,
+    "latency_scale_seconds": 1.0,
+    "age_scale_seconds": 0.5,
+    "calibration_role": "calibration"
+  },
+  "prepared_dimensions": {
+    "n_users": 30,
+    "n_edges": 4,
+    "actor_obs_dim": 19,
+    "critic_obs_dim": 705,
+    "max_supported_users": 30,
+    "include_feedback_age": true,
+    "feedback_age_norm": 0.5
+  },
+  "historical_model_sources": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": "08481b36d74964f8118f341f0d665ddec13ba986993c0d45ab5b5e4311fa25e4"
+  },
+  "historical_class_names_read_not_executed": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": [
+      "SharedGaussianActor",
+      "FlatPriceBiasGaussianActor",
+      "AgeGatedGaussianActor",
+      "ResidualGaussianActor",
+      "EdgeWisePriceGaussianActor",
+      "AgentCentralizedCritic",
+      "MAPPOUpdateStats",
+      "MAPPOPolicy"
+    ],
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": [
+      "MAPPOSystemConfig",
+      "ServerScoreConfig",
+      "MAPPOConfig",
+      "MAPPOExperimentConfig"
+    ],
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": [
+      "DSRReward",
+      "MVReward",
+      "SharedGaussianPPO",
+      "PPOItem",
+      "PPOBuffer",
+      "ReplayBuffer",
+      "DeterministicActor",
+      "CentralCritic"
+    ]
+  },
+  "synthetic_reward_fixture": {
+    "team_reward": -0.12271176925268779,
+    "manual_formula_reward": -0.12271176925268781,
+    "concentrated_h_after": 0.0016666666666666672
+  },
+  "calibration_sources": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b10_CPU-1T.csv": "aeab37b532538d40113d22d7e0b9ab4914d07ce185b64a17ded44e5f9e46c685",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b10_CPU-4T.csv": "b0c3de31b9184792029b24377d3ec7d9074413c9187e3c83237efeaad86bf0ba",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b1_CPU-1T.csv": "9285903683b5d51f40dbbcbdd1c73a5d500e0cd1daf86b4ca3fc31cb2b563231",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b1_CPU-4T.csv": "27f04a5571d5503e819e0e0fc9c7ec48b193d31b324720cadf808415e40e9469",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b2_CPU-1T.csv": "bb9d14ac3936b37509df6ab35a1053f2a790d2a3e12eeed703bdd92f705e3f2b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b2_CPU-4T.csv": "04b1183a22c97a3c4ea08eedf7e13f36d6cf47c7118ba36831a9dd254feb1c31",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b3_CPU-1T.csv": "16e4c200950004b34479d5f97383769a51765e8606b23df7fa39313b3c5e58f3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b3_CPU-4T.csv": "b6371d3ad6933e4ff8b1bd1ef3825d884f2a5513fb9be6824c0a93c25c68f19b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b4_CPU-1T.csv": "b1b12ef96c667c52762e5f5297ad8d6b552d81255c41f932704bcd64fb1220cd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b4_CPU-4T.csv": "c84e5c8ddf7b8cb82f4036d359382f38fe8a417ba001812381fd5aefaa8f6854",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b5_CPU-1T.csv": "7772712ad8251c4eee4ade7083efee567e469e50772bd25262b3f163853e26f6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b5_CPU-4T.csv": "453f0656d3b32436684e9cdf9c78ef0a9d79977a52dc2de5541142fc451acf2c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b6_CPU-1T.csv": "03d79b87017cdc8f6e18eca26e909c0d03ed494508af5320dcbfa6c59641c248",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b6_CPU-4T.csv": "8ae51854d5f8d88c57afb2c39be27203630977fc20c4d99df2d9b8038f682669",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b7_CPU-1T.csv": "3f3fa0efe5db82ea8ea40d3de4af958346674d095ee2ebbcc523b9cf9cf91b2f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b7_CPU-4T.csv": "2cb35e381bf77c25ed96bcc9a3f2d53a5cae521732e4ffb1a86cdd7650138ee5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b8_CPU-1T.csv": "64ab203e0fc044b999c7c68244b1adf71d60f793a06aed0de287f9cd8e8b1bba",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b8_CPU-4T.csv": "a051990469de1ebcc3b8bcf3492d685ad5ff9d5f67d3d535ea9366af7f33af4c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b9_CPU-1T.csv": "0e324cc35117be6307bee333cc4c48720f49a545fb8a2f163478a99eb3d4a012",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b9_CPU-4T.csv": "af9bcedfc8e00de2885e8325aa0ef8d083b7297ececfb494b55a70428a173957",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b10_CPU-1T.csv": "ea588222dd7d92a2683e559a025a4301f73d9c3856fbe0f2b9afce305ca90173",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b10_CPU-4T.csv": "e38ef7a89db9ff18fa6f06f1c8efc66a5c5d8d115df3b75134edb8df740e9944",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b1_CPU-1T.csv": "3f7a7ab94b0bf0b4f8ec7dfcc9b207bde84d8d5e6ce979f7d5f0db830afd5651",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b1_CPU-4T.csv": "d1acd05309a48525ea4543e5345e35de4a6732bbfc52361228cbd3c5c9520024",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b2_CPU-1T.csv": "144e7096b7949b3328256dca84c33d3d0948cd26d7a9f149b21eb0bfb0a476d8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b2_CPU-4T.csv": "d9f261604bb1285a847a7fc9ff17b78e477c4dff5990ad4685b800ed709e6ff6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b3_CPU-1T.csv": "a97b73e223aed9a4f4216be9a4159436efd47abd1bf49b07797325ac13566e14",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b3_CPU-4T.csv": "db9caa9b34ae65892bcbe116dcb2f57be2d9c5a980806f3f415d102fa6576407",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b4_CPU-1T.csv": "673046410d8c60ddda89e8eb390838b4fff576fb88b2d9a1f5d518df9ad42e06",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b4_CPU-4T.csv": "2c2f77a6590c12c51853f45a8e9d0f8fc8353c49eb76c27c52226c8e808240d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b5_CPU-1T.csv": "becd0fe2d938182c6274b85862fc70f51454cbda94896e3b855d35ca3e664aad",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b5_CPU-4T.csv": "5aa873f030dcf467cd3eff8bffb855b5374b81be4df202bcae57d1e258c97b77",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b6_CPU-1T.csv": "a2fdc29d89b9dbf6c9800253dcc5e2c314231da59eeb35027d95502677ffd019",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b6_CPU-4T.csv": "42bb019e695328bf1ca599f777dd6a4013dbf88a2ff736d367721b2f532d885b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b7_CPU-1T.csv": "13c5a0d7726eb5aeeb8a2b01bf61a4ba647c69b9e769877e9caf47e7313fae4a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b7_CPU-4T.csv": "837c625a6110ab7aed85f691022b8ce94bdfc55948ce61a019cd3ebb754d1292",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b8_CPU-1T.csv": "da2d4a7b3067cc18cd48906cb1a47fa6f831fe6d77688f05d82e72bc4ddbf3ec",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b8_CPU-4T.csv": "686a3a9b4a79cef69b3f38f0d2271ffb610fb466d6c7cd20abadea1adcf2600e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b9_CPU-1T.csv": "37da473f786423b9fc1f3ca960a91cce4778c2225eacec9b91aa2155ed4abb7f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b9_CPU-4T.csv": "6dc435c3b92735aa2eaf25ca3df0f11ade01eab52413cea710e886e38c970a89",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b10_CPU-1T.csv": "bf687e53bdc500a8c9f7e010792306e4b5f69c5d2969ccbb747c32aea568e940",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b10_CPU-4T.csv": "7517fbe8e7032efcac209f4409280ca18f93595a99d42b39508a558d30619b37",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b1_CPU-1T.csv": "09b6b40e15014ba338bbd45428467ebcbf73b6177aae9ac1d8b59fecc74eaafc",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b1_CPU-4T.csv": "02f3ae115805af131b8beadb7227f52dfa02f6e72b11bc8cb2cae313387845e8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b2_CPU-1T.csv": "a1ecdff4b6da25ffe641db51780f5466651fb08f7ea3144b85393d0907056a0f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b2_CPU-4T.csv": "9d8c6842d322c647c9d7ab6ee96a117b3623a532079ab4588012e670d57242fb",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b3_CPU-1T.csv": "d79ed372a5ee36a08e7668ca7a7ec1207326ed54a1c722f1c836e4f72f3f425e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b3_CPU-4T.csv": "41f55f39082ea9da7bcc88d53c0481e692d88fdc827ed11e87e3ad2c4f8dc90f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b4_CPU-1T.csv": "3d91e6770666c3389d6ec5b50eddac0e3038f79f25bad59732e9cc9350521e54",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b4_CPU-4T.csv": "a4144fabed7322710d70b955595f1d2dbe8e53d8d71b3e33dc08f094394dd460",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b5_CPU-1T.csv": "481050f0bdd7d1557398f67ebc83ad1b333333328a0f382053d167c4b89b765d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b5_CPU-4T.csv": "6a1d010f905e447ac6c7d8258573f184ac8d730f7adbbf5bc8e5769b1bc2f5d2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b6_CPU-1T.csv": "3d845006c62f1707850ab61678ab34de9dc113afc854a9195695bac20cb717c2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b6_CPU-4T.csv": "e140a570de881384d569faf3f95ed7c7a220b8cd6f86d7dcfa706ae1c33a530f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b7_CPU-1T.csv": "b9046aa7d00783d0fcc072a2348bcbfac71b271fd13cbf265d1fbe31ad50c783",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b7_CPU-4T.csv": "0ac67dfae40a1ca1b43b1f5256f7638e0927ea5424fde125dfdf8d34545511bc",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b8_CPU-1T.csv": "d091e8e88fb9aba96ad75fad4527f35c5fd2b1b3f75ef01d8cb78b7a0c9e61aa",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b8_CPU-4T.csv": "d8bab8e48f68487c30719d2d5a9daa81eaae3f67208553ebe4e53f1a0167127f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b9_CPU-1T.csv": "98a882fdaef27d5ddd45daad1576d173657d93a70045a23b94712fc95854fb13",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b9_CPU-4T.csv": "dc5f054c3c6771e658bf9d75d24448e9766f228fefc4638495ad37e6079e4f3b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b10_CPU-1T.csv": "a98bd27b93115dff0c5314c6634200b148b0ba21b18123c2550e3ed970e3789d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b10_CPU-4T.csv": "72bb0c3ed088d8c1fb13a1cf5164095672259ed36a532c0dc5fb2c68c3147c1f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b1_CPU-1T.csv": "a9b236ba3ec4c70a80f2ac4270c5d846020b26fb6a59d766a4c6309fcfaa0693",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b1_CPU-4T.csv": "eaada0ca736e3bd852825e5870de1c8f5583d6ee3c6debd242d5c2107090587d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b2_CPU-1T.csv": "ab701b92eb55d7b056623f5cbe73c4a8296b041dc75f778bdcff1b8738f943e9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b2_CPU-4T.csv": "776a776982f1ac2f41de2281399431a149480d06bbcd984cdb4c0699aa4351da",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b3_CPU-1T.csv": "d9e61cb3d846b850b66a0d136c48c587bb2445300811f594363f9d80d29f60a6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b3_CPU-4T.csv": "8e0cee126d6dddfb7fa0b35d5a695a25ec2fe4b00974a3a61e44eccaecb7210f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b4_CPU-1T.csv": "9d3d7b168625ff385119eb3ccc236f6eda8f79e564f3f8a0f0e65fe2d0059711",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b4_CPU-4T.csv": "87d2d858841d366723bda2ae30a7998ca6ff6ad8eb2ded72db6632e929249e80",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b5_CPU-1T.csv": "03416491d2f9a283ce9cc42761e51e9d782d12a19efa169d65d89c86dfddae3c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b5_CPU-4T.csv": "a9575e4e3d4bca4c8e6e6f6ac9d91ff70904b913e34fa0cea80fd611dd6fbcf3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b6_CPU-1T.csv": "ae686c6cc761dff2758ebe4e7c4d6f05b28c48cc990a3cfd3d3ab7a7f8501d21",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b6_CPU-4T.csv": "aab350b1806ea5a9f4ac73894b981c84e7f92db6e67b246f659cbca6e3bca04b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b7_CPU-1T.csv": "e823a8551ec87069a97dccad405c87589f3cc59ecd27a8a2cc259866424ec7c4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b7_CPU-4T.csv": "2629a81575b549d34a4af9b2ffbbc4d861275b7927110d8d4253158ff9a8b48e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b8_CPU-1T.csv": "d6678efd989c7426373514d9c71d11bd64f061afa673310ebcf9c1a0008b11d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b8_CPU-4T.csv": "ae5d4e853be1af1a8aa0507b23b9ab93f0f4b8d692c41ce4127c0ed62f2320f0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b9_CPU-1T.csv": "2d1b2f67cbe333e46ebba2cfef015f5d13c8104385fdc322963d2e46ef1ddf18",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b9_CPU-4T.csv": "83aa655484470d37e1698b556374dc3c8ba26e4eafa2585f376703f11c15bc62",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b10_CPU-1T.csv": "08be426148b34bac05ad50a2a815cc152ffe485ccdf85eeddeb2b1a8d24a288d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b10_CPU-4T.csv": "1deed00d2280c3677830c719983ecb6ef0fec631e6d5e491a68bebf78a0c8535",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b1_CPU-1T.csv": "8e7e19197965cefaf5bbfa4c810d22ee2fd6d6622496e373f5a9f62d5f0f658f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b1_CPU-4T.csv": "80b93afa80a1ee78fb338a9cce68be88c7d891af342ad1070895f1695f5b0511",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b2_CPU-1T.csv": "3a2c93c57479a77c55f2b19917f39c3b542a478161ac1a473d056411571c41b9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b2_CPU-4T.csv": "b6d9c7f5390752988a5b4aa9b34f14430e6cb64400a4518af3f79949aa1f7d36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b3_CPU-1T.csv": "a5ca1d43fe0121ed8d7fae0f1d9c6a691b6bd390141f44abaf818adbf4ac0bb3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b3_CPU-4T.csv": "a5f9042a7f3a2c4f9706c03898c8d1fcb00b13b684a301a0b3c86f20447a48fa",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b4_CPU-1T.csv": "ca80042686d0a215101445ce79d883f4426c3438e24697f365849c05bd9f2518",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b4_CPU-4T.csv": "6cf564a0eaa773af0663cb9adccd0dd4c6074c4e09bbef16c034bb5aebe713de",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b5_CPU-1T.csv": "f019abcb49ad7b0212eb24fcf2671cc1c6394a702f4460939a064bed1f4c401c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b5_CPU-4T.csv": "55ffdff075d5ce1a3e7f1a334b13f6b686b1026bc9e82af9718bc3639734b0b6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b6_CPU-1T.csv": "f20588d32c2bb10104af52a8dfad8015efe54d4b21ab54c299d340f9007ae6f2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b6_CPU-4T.csv": "d7681c7417a1b93fb8a3984ed32a47905bdd3abdf0fe59f58ac979cee9626b36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b7_CPU-1T.csv": "e8d73066053dcad08d9605d9c4da8fbe79d5cf720e29d0085dcd49ec6d22c5f4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b7_CPU-4T.csv": "7c11b7ac7ad1c2310b139bf1b24209a563cab0bb531bd32cd8c30124b04f4be7",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b8_CPU-1T.csv": "ec791599a8fe02d5df3c8bea29fec31a29f6924e7c725ab56b1778db4d801498",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b8_CPU-4T.csv": "cc0ae2c09e53b901a5e744901948e2ae2767e35a8d00f6eb5c090df666cda70f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b9_CPU-1T.csv": "9a2115c2b2f141ae0892a4c3a3e2989f30bd9988bbcab65950c5dcfd9511c18b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b9_CPU-4T.csv": "32f8a0429be9705534cf47532be115588329d51f0932938bdb04348fd38ff7c9"
+  },
+  "implementation_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_method_features.py": "2369961eb5df2638b3666ba502f49786bd10c810f3a2a3e7e45c090b0d515d8c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_METHODS_中文.md": "1171838e8a96c8580d18a85a7e9e988141e67fc21e1967e1ef16a0d212bacead",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_method_features.py": "b74ed6336c6dc44c0041d1427f904a22b022cc4fd6a57dfc086b226aa58bd722",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_shared_reward.py": "46b6fd5ba9adfae286d736c31b64841915ba17bfeb91b8f86852f2bd8a764faf",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_learned_bindings.py": "9fb8399b73547ad8e525a543f7ce1f4aa1941e84da8d1c8b23a871bba2019416",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_environment_adapter.py": "66efc2c045f2894b7d2a800c3e269ad61718b4b73cb22c148a8a711b30603723",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\metadata_service_predictor.py": "c174224ed26b9870eb40d84393b63e77c4112eaecb380a09b96e528921a143f9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\execution_service_catalog.py": "94f353ed9159e52ccc5a85e29fe6acdab8a73ccc45261f6cfd768d77357b9424"
+  },
+  "real_receipt_hook_connected": false,
+  "model_factory_executed": false,
+  "actual_model_smoke": false,
+  "independent_complete_entry_review": false,
+  "formal_protocol_frozen": false,
+  "policy_training_cells": 0,
+  "formal_policy_test_cells": 0,
+  "scope": "Feature/source-binding and synthetic receipt-reward engineering checks only; no learned policy, performance or final audit"
+}

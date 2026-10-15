@@ -1,0 +1,12 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4060 Ti",
+  "python_executable": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+  "cpu_threads": 1,
+  "install_or_rebuild": false,
+  "fallback_to_cpu": false,
+  "readiness": "requires successful seeded CUDA witness and two arm smoke tests"
+}

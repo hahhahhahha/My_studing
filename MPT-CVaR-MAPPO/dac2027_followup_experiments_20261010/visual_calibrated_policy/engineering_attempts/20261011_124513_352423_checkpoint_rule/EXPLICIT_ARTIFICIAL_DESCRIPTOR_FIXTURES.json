@@ -1,0 +1,182 @@
+[
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "QLA-MAPPO",
+    "seed": 1,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "QLA-MAPPO",
+    "seed": 2,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "QLA-MAPPO",
+    "seed": 3,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "QLA-MAPPO",
+    "seed": 4,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "QLA-MAPPO",
+    "seed": 5,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "PPO-MV-A",
+    "seed": 1,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "PPO-MV-A",
+    "seed": 2,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "PPO-MV-A",
+    "seed": 3,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "PPO-MV-A",
+    "seed": 4,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  },
+  {
+    "EXPLICIT_ARTIFICIAL_NOT_WEIGHTS": true,
+    "method": "PPO-MV-A",
+    "seed": 5,
+    "final_episode": 10,
+    "environment_decisions": 10000,
+    "user_behavior_samples": 300000,
+    "adverse_zero_completed_validation": {
+      "generated": 10,
+      "completed": 0,
+      "dropped": 3,
+      "unfinished": 7,
+      "uncapped_latency_seconds": [],
+      "negative_outcomes_retained": true,
+      "performance_filter_applied": false
+    },
+    "long_latency_not_filtered_seconds": 1000000000.0
+  }
+]

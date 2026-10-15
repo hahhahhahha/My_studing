@@ -1,0 +1,95 @@
+{
+  "integrity_passed_for_existing_roles": true,
+  "roles": {
+    "pilot": {
+      "rows": 200,
+      "blocks": 2,
+      "failed_requests": 0,
+      "paired_prediction_disagreements": 0
+    },
+    "calibration": {
+      "rows": 20000,
+      "blocks": 100,
+      "failed_requests": 0,
+      "paired_prediction_disagreements": 0
+    },
+    "validation": {
+      "rows": 3000,
+      "blocks": 18,
+      "failed_requests": 0,
+      "paired_prediction_disagreements": 0
+    }
+  },
+  "formal_rows": 23000,
+  "test_rows": 0,
+  "validation_accepted": false,
+  "recomputed": [
+    {
+      "profile": "CPU-1T",
+      "metric": "mean",
+      "calibration_ms": 28.320473800000002,
+      "validation_ms": 27.83419593333333,
+      "error": 0.01747051963819517,
+      "passed": true
+    },
+    {
+      "profile": "CPU-1T",
+      "metric": "P95",
+      "calibration_ms": 34.0954,
+      "validation_ms": 30.5031,
+      "error": 0.11776835797017346,
+      "passed": true
+    },
+    {
+      "profile": "CPU-1T",
+      "metric": "P99",
+      "calibration_ms": 41.2981,
+      "validation_ms": 36.628,
+      "error": 0.12750081904553887,
+      "passed": true
+    },
+    {
+      "profile": "CPU-4T",
+      "metric": "mean",
+      "calibration_ms": 12.28716165,
+      "validation_ms": 11.814360866666668,
+      "error": 0.04001915877373475,
+      "passed": true
+    },
+    {
+      "profile": "CPU-4T",
+      "metric": "P95",
+      "calibration_ms": 16.5329,
+      "validation_ms": 15.1942,
+      "error": 0.08810598781113853,
+      "passed": true
+    },
+    {
+      "profile": "CPU-4T",
+      "metric": "P99",
+      "calibration_ms": 29.6038,
+      "validation_ms": 21.2702,
+      "error": 0.3917969741704357,
+      "passed": false
+    }
+  ],
+  "evidence_sha256": {
+    "calibration\\VALIDATION_REPORT.json": "200cce6fb5eb88ab79ef2f6a89ef9d4dc85c06580a331bb76806376fcc8e3095",
+    "calibration\\validation_errors.csv": "3b47688b99a16dbe87a5d2237bee67f3afbe53b69c30d2a023f5b5f2f80cf32a",
+    "protocol\\FORMAL_EXECUTION_STATE.json": "d1cec7e59a670d2a2ac5c88a4b9facec9495436b6f94025ba30360b8e24a5f62",
+    "protocol\\FORMAL_EXECUTION_PLAN.json": "682b10b09050628d81a80d16df9f64380b54270cb45a363967fe62a1e9aa093d",
+    "protocol\\SERVICE_DISTRIBUTION_VALIDATION_RULE.json": "091c9d7cfc5e6c9c74d8abe1cc6df5cd7336040dcf688b2813f2ba795aa1aa4e",
+    "logs\\service_distribution_validation.log": "c85cab87601c8ea9812edb2c801709d29c9411d6039e41d2635f4c6d71494e50",
+    "logs\\formal_runner_stdout.log": "7f62844d6e5ca9753fdf5839b373c74711d462748b2b046fbbdb6869929d61e5",
+    "logs\\formal_runner_stderr.log": "33417327ee278a9e6800b27f319cc86a80079af8216a125a3816c69f63e44d6e"
+  },
+  "schema": "formal_service_measurement_failure_recheck_v1",
+  "recheck_date_local": "2026-10-10",
+  "failure_time_local": "2026-10-10T15:44:49.571749",
+  "original_target_formal_rows": 33000,
+  "full_measurement_completed": false,
+  "calibration_accepted": false,
+  "frozen_source_plan_environment_review_check_passed": true,
+  "scope": "Recheck of existing pilot/calibration/validation records and frozen source/plan/rule fingerprints. No test measurement, simulator validation, deployment or QLA benefit claim.",
+  "action": "Retain all measurements and failed validation; do not restart, relax tolerances, discard slow requests or substitute old/simulated data. Completion heartbeat paused."
+}

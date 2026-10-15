@@ -1,0 +1,52 @@
+{
+  "schema": "visual-pilot-20mhz-adapter-and-small-smoke-receiver-v1",
+  "status": "source_checks_passed_fresh_independent_source_review_pending_no_launch_authority",
+  "created_at": "2026-10-13",
+  "network_choice": "retain_2MHz_adverse_evidence_exclude_2MHz_full_grid_register_20MHz_per_user_orthogonal_simulation_for_one_formal_grid",
+  "network_direction_record": "protocol/human_direction/20261013_visual_network_choice.json",
+  "network_direction_record_sha256": "2870f4b3ef40d37e81dc21fcb65d64c3a3161e4324379c832ab3f0e3b3051d46",
+  "preserved_actual_smoke_audit": ".aris/traces/experiment-audit/2026-10-13_A4_actual_small_smoke_audit.md",
+  "preserved_actual_smoke_audit_sha256": "e01aa3f7206b49f681041915db376666f9689375cd8841ea47038dc862dad55f",
+  "preserved_actual_visual_smoke_sha256": "207742f1663774237a71f8e1ec170cad0ed206255da68c562ca703a1002899db",
+  "preserved_actual_reward_smoke_sha256": "679058fafe4bbd630660a431434f532314dcc630a6af437980d431b485613bff",
+  "preserved_old_source_before_sha256": {
+    "scripts/visual_pilot_preparation.py": "67beca9fca170ba9e31b950daccbdd069569118f64906802bde876c6bc89a5b0",
+    "scripts/visual_method_features.py": "b74ed6336c6dc44c0041d1427f904a22b022cc4fd6a57dfc086b226aa58bd722",
+    "scripts/visual_protocol_assembly.py": "5e57566220ef7002145dceb9b049aec7caafc9c87ee7703710714c91e70f64388",
+    "scripts/check_visual_pilot_preparation.py": "4cb408d3605a04ab4e6e77fa6bf34dfea7f5d8d534291717d9298a35c4b1a1de",
+    "scripts/check_visual_method_features.py": "2369961eb5df2638b3666ba502f49786bd10c810f3a2a3e7e45c090b0d515d8c",
+    "scripts/visual_training_coordinator.py": "bcda7f4dadba74246ab563d85a8b116fe5b2e25bc08cfe6c4c17a9a7660df3bf",
+    "scripts/visual_upload_link.py": "4c3f5c41a5d7554cfc4bac8e759eb96b560efdf731dd3bb74d12209d76949534",
+    "scripts/retained_test_evaluator.py": "7386050b8874f9b28d08dfd98d2b695dff6f57885417ad323138c2531d6c976e"
+  },
+  "current_source_sha256": {
+    "scripts/visual_pilot_preparation.py": "903620049debc795cea4c0bc7b8aed539509190100960dfeb931871a10975821",
+    "scripts/visual_method_features.py": "440c41b771e311bc2b1f0e8d03e944408940711d2f45c229407125faa8602b91",
+    "scripts/visual_protocol_assembly.py": "e11c275a7c5799f556981901c0d08be3bd20578b5c7d75bb3bdb4c76eda698b8",
+    "scripts/visual_upload_link.py": "f9f75f9a1f6dd5340d0872b2555039b546df31c09748bc607b25f44388c549d5",
+    "scripts/visual_training_coordinator.py": "e2d792431bb7d518b7f2879c186449bfff11615999fe5f1cc45f5ceaac7436f6",
+    "scripts/retained_test_evaluator.py": "828fb14fd64313717c09a95aea5cf4e264b275651b682db6441542c3a071a2b6",
+    "check_high_bandwidth_adapter.py": "5a1c3e896726fa6f1cd13bc5839d88226245112c4b62025896fad1c40994082f",
+    "ADAPTER_CHECKS.json": "6e4190fe88a6d8ef5b14941b6788d6d585e4146ea8a3589a7aab795e5ef95dbc"
+  },
+  "source_receiver_selfcheck": {
+    "current_baseline_import_source_count": 203,
+    "a4_additive_source_count": 6,
+    "accepted_current_bound_count": 209,
+    "exact_a4_sha_check_passed": true,
+    "candidate_network_and_feature_link_match_check_passed": true,
+    "unregistered_bandwidth_rejection_check_passed": true,
+    "formal_pilot_or_grid_run_started": false
+  },
+  "fresh_independent_review_task": "/root/visual_20mhz_source_review",
+  "required_narrow_fixes": [
+    "Add a fail-closed receiver that accepts only the exact six A4 additions and the exact current complete source/protected maps; do not accept arbitrary subset/superset maps.",
+    "Make empty-request fallback transmission use the same registered link configuration as populated-request and serialized-upload paths.",
+    "Permit only the exact registered 2 MHz legacy condition or exact user-authorized 20 MHz per-user orthogonal simulation; keep all other link/noise/rho/split/model settings unchanged.",
+    "Bind the chosen network record, candidate, adapter sources, and subsequent actual small smoke in a fresh source identity. The old smoke remains valid only for its original source identity.",
+    "Add deterministic tests for 2 MHz default compatibility, 20 MHz empty-request propagation, link mismatch rejection, exact small-smoke map acceptance, and changed/extra source rejection."
+  ],
+  "formal_budgets_and_scientific_gates_changed": false,
+  "2MHz_evidence_preserved_and_full_grid_excluded": true,
+  "formal_pilot_or_grid_run_started": false
+}

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "environment_spec_sha256": "4511efe6b446219a53cd67bf68807db1d04cd28ed8cff05a6ce88d8676c934e7",
+  "image_split_sha256": "8d6a3701fc3e046f8a2c898aaaf243ceb40449d2eb4d0fd7dfc2e0d8dcfb3b48",
+  "measurement_sha256": {
+    "measurements\\pilot\\pilot_s1_b1_CPU-1T.csv": "79da9adeb2ace38f3eaf0393f0c2a3a4694458f6564bdc2fc2818340cfd495f2",
+    "measurements\\pilot\\pilot_s1_b1_CPU-1T.json": "3be4fcadf43d62661576e37b2a7ab181ad1c8b5f6d0e8a3aeb55a3f130b9539c",
+    "measurements\\pilot\\pilot_s1_b1_CPU-4T.csv": "bd126e0129c8ccd885ce641ad8f0504d04a7e807b0275b1ab9acf6621381444d",
+    "measurements\\pilot\\pilot_s1_b1_CPU-4T.json": "b3242904cf31c99cc2e31b719372ac9db8b66608307afc5cf2c73a4244b93c51"
+  },
+  "source_sha256": {
+    "scripts/common.py": "176c8169412bc4a3aacec7db3823d1cf947b5192cd952c052c19365e1f6d234c",
+    "scripts/pipeline.py": "3fdb01c9942a0e08da5739ba018ee3e19b46bf3e0fde58dd0a299d2b5c8bb13a",
+    "scripts/measure_block.py": "313468ed6dde49ae17baad889253b4bcd2eb5292e74a4129175e639ea8ee26c1"
+  },
+  "formal_samples": false,
+  "requests": 200,
+  "datetime": "2026-10-10T13:41:41.890956"
+}

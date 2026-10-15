@@ -1,0 +1,9 @@
+# Alibaba2017 诊断与原协议门槛的区别
+
+独立schema审计已经完成，记录见 `data_acquisition/original2017_attempt_20261010/schema_review/INDEPENDENT_REVIEW.md`，SHA256 `50a77bfada76ed2a2c952f97165f90161b377bdae66c49ff9eef5f9c2e953b36`。
+
+原始归档、单一普通server_usage成员、抽取字节与旧失败保留均独立核对PASS；原200观测分钟×3窗口、35机器的数据准备就绪为FAIL，实际完整机器0。五分钟原生网格每个物理200分钟窗口最多40条观测，不是200条。
+
+额外诊断 `audit_alibaba2017_schema.py` 的 `registered_data_preparation_gate_passed` 还包含 `and not invalid`，这比原reader的skip-invalid策略严格。它不是实际执行入口，不应被当作新的全局零无效行门槛。原协议继续以原reader的无效CPU跳过、机器完整性规则为准；本批有一行空CPU，但即使忽略这条额外条件，完整机器仍0。诊断源码/报告作为当时证据不回写，正式新增入口应避免复用这个多余判定。
+
+不能通过补值、换窗、修改eligible定义或静默重解释时间来标为ready。975机器在原物理窗口具有全部40条原生网格观测，这只表明另建明确五分钟协议可能可行，不是已批准的新队列试验。用户方向未到前原243cells仍不启动，既有实验不覆盖。

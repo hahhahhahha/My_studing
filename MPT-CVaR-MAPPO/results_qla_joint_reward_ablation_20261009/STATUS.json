@@ -1,0 +1,8 @@
+{
+  "status": "blocked_preflight",
+  "training_started": false,
+  "reason": "Historical PyTorch/CUDA runtime witness failed",
+  "returncode": 1,
+  "log": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_joint_reward_ablation_20261009\\preflight.log",
+  "at": "2026-10-09T23:22:23.431077"
+}

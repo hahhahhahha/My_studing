@@ -1,0 +1,199 @@
+{
+  "schema": "retained-test-entry-review-v2-repaired",
+  "reviewed_at": "2026-10-10T19:40:48.809568+08:00",
+  "reviewer": "Fresh independent agent-follows-doc reviewer (repaired entry; no author-module imports)",
+  "passed": true,
+  "verdict": "PASS_ENTRY_ONLY_NOT_TEST_OUTCOME_OR_TRAINING_AUTHORIZATION",
+  "continuation_sha256": "2b72d9fb8ca33cd67d5f09cd88b329aa6d285b20525d91566cb791cca306a7ae",
+  "entry_source_sha256": "52414bcb385a43a96a9d833103b85b5a71be685f7337d540ee8379058ecdb86e",
+  "original_plan_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+  "readme_sha256": "5162a4ffcdfe2d70f7f1026afdf7c939bc57df52de732d8fc46676ece8b41ad5",
+  "validation_report_sha256": "3827883cb3e74020890c54b0324ce667e76085e21e9331c0fbe3d001f077a181",
+  "historical_confirmation_audit_sha256": "46d8f31bc753fcfac77961346f4a6761baf88152a0c034c2a0b8fba43cf6f79d",
+  "historical_failed_review_sha256": "31f185aa69840e1f54011de3de90a55d84b666fef4857dcdad23520873438783",
+  "command": {
+    "command": "& 'X:/anaconda/ANACONDA/python.exe' -X utf8 'X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261010_v2/scripts/run_retained_test_isolated.py' check",
+    "cwd": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261010_v2",
+    "interpreter": "X:/anaconda/ANACONDA/python.exe",
+    "exit_code": 0,
+    "execution_count": 1,
+    "output_summary": [
+      "V2_FROZEN_PROTOCOL_AND_CPU_WITNESS_OK 993e3568d24481d79993e3d7872f0d98fe2e247c055fc1de41b7deb49395c118",
+      "RETAINED_TEST_READONLY_CHECK_OK; passed=true, rows=13200, blocks=120"
+    ],
+    "full_output_artifact": "analysis/retained_test_continuation/entry_review_repaired/CHECK_COMMAND_TRACE.json",
+    "independent_readonly_facts_command": "& 'X:/anaconda/ANACONDA/python.exe' -X utf8 'X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261010_v2/analysis/retained_test_continuation/entry_review_repaired/readonly_review_facts.py'",
+    "independent_readonly_facts_exit_code": 0
+  },
+  "scope": {
+    "verification": "Current additive retained-test entry; verbatim documentation check, independent file hashes/JSON identities/JPEG hashes, frozen prerequisites and static source/control-flow review.",
+    "initial_context_documents": [
+      "README_RETAINED_TEST_中文.md",
+      "../.aris/compute/local-visual-calibration.md"
+    ],
+    "test_service_times_measured": false,
+    "test_images_inferred": false,
+    "original_runner_run_invoked": false,
+    "retained_test_launched": false,
+    "prepare_resources_statistics_export_or_audit_all_invoked": false,
+    "experiment_sources_plan_model_splits_weights_gates_or_raw_evidence_changed": false,
+    "reviewer_artifact_writes_only": [
+      "analysis/retained_test_continuation/entry_review_repaired/",
+      "protocol/RETAINED_TEST_ENTRY_REVIEW.json (replacement after archived-failure verification)"
+    ],
+    "qla_vision_training_simulator_or_paper_work_authorized": false
+  },
+  "checks": [
+    {
+      "id": "C1",
+      "status": "PASS",
+      "subject": "Agent follows README exactly",
+      "evidence": [
+        "README_RETAINED_TEST_中文.md",
+        "analysis/retained_test_continuation/entry_review_repaired/CHECK_COMMAND_TRACE.json"
+      ],
+      "detail": "Read the two specified initial context documents before source inspection. Executed the documented read-only check once, unchanged, using the stated cwd/interpreter. It exited 0 with the frozen CPU kernel witness and confirmation integrity output (13200 rows, 120 jobs). No service timing was measured."
+    },
+    {
+      "id": "C2",
+      "status": "PASS",
+      "subject": "All frozen and protected SHA256 bindings",
+      "evidence": [
+        "analysis/retained_test_continuation/entry_review_repaired/READONLY_FACTS.json",
+        "scripts/run_retained_test_isolated.py:43",
+        "scripts/run_retained_test_isolated.py:132"
+      ],
+      "detail": "Independent stdlib traversal matched all 3 original source bindings, 7 original artifacts, 262 V1 readonly paths, and 558 current continuation-protected paths. PLAN is bbddc7...f282, environment canonical ID is f3609a91. Current continuation binds this exact entry source, README, accepted confirmation report and independent confirmation audit. All 554 earlier protected bindings are preserved unchanged."
+    },
+    {
+      "id": "C3",
+      "status": "PASS",
+      "subject": "Historical failed entry review preserved before replacement",
+      "evidence": [
+        "protocol/RETAINED_TEST_ENTRY_REVIEW_PRE_REPAIR.json",
+        "protocol/RETAINED_TEST_CONTINUATION_PRE_ENTRY_REVIEW.json",
+        "analysis/retained_test_continuation/run_retained_test_isolated_pre_review.py",
+        "analysis/retained_test_continuation/README_RETAINED_TEST_PRE_REVIEW_中文.md"
+      ],
+      "detail": "Archived historical report is passed=false and JSON-equal to the original initial FAIL artifact. Its continuation/source/README SHA256 values match the archived freeze/source/README. Current repair history binds the archived failed report and prior continuation; all four archive paths are now protected. The still-current protocol entry was independently observed passed=false, bound to the old continuation, before replacement. The source diff is additive guard/entry-repair work; no original PLAN or frozen runner/measure_block changes."
+    },
+    {
+      "id": "C4",
+      "status": "PASS",
+      "subject": "Exact original 1000-image pool and five-session 50-job schedule",
+      "evidence": [
+        "protocol/PLAN.json",
+        "protocol/SPLITS.json",
+        "protocol/RETAINED_TEST_CONTINUATION.json",
+        "analysis/retained_test_continuation/entry_review_repaired/READONLY_FACTS.json"
+      ],
+      "detail": "SPLITS.test equals all original V1 test entries in order, with 1000 unique image IDs; all 1000 actual JPEG SHA256 values independently match. No overlap with V1 calibration, V2 confirmation or V2 reference IDs. Current continuation sessions exactly equal original frozen V2 PLAN sessions 1-5. Each has ten 200-image profile-specific jobs (five paired block IDs), each profile covers the 1000-image set exactly once, and every pair uses identical image order. Total is 50 jobs / 10000 new test rows, plus 13200 confirmation/reference rows = 23200. This certifies the frozen V2 job order, not V1's earlier job permutation."
+    },
+    {
+      "id": "C5",
+      "status": "PASS",
+      "subject": "Unchanged acceptance prerequisites and measurement settings",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:43",
+        "scripts/run_retained_test_isolated.py:302",
+        "scripts/measure_block.py:20",
+        "scripts/runner.py:479"
+      ],
+      "detail": "Prerequisites require hash-bound confirmation accepted=true, six passed criteria, independent record-integrity PASS and frozen six-metric PASS. The six relative errors were independently recalculated from the bound reported point values and matched the frozen tolerances (mean .10, P95 .15, P99 .20). Confirmation has no unsupported inputs and report/model/PLAN bindings match. Frozen warmup 200, spacing 900 seconds, idle limits 35% global / 60% selected cores / >=2 GiB free memory, maximum idle wait 3600 seconds, affinity and fixed weights are retained."
+    },
+    {
+      "id": "C6",
+      "status": "PASS",
+      "subject": "PyTorch measurement and NumPy statistics remain isolated",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:186",
+        "scripts/run_retained_test_isolated.py:195",
+        "scripts/run_retained_test_isolated.py:309",
+        "scripts/run_retained_test_isolated.py:328",
+        "scripts/runner.py:401",
+        "scripts/measure_block.py:16"
+      ],
+      "detail": "Parent imports only stdlib and frozen helpers; its runner helpers do not import torch/numpy along the orchestration path. Original runner check runs in its own child. Every fixed-weight measurement block is a sequential fresh PyTorch child. statistics-worker calls frozen audit/evaluate(True), whose NumPy imports are local and which does not call torch check. Export is a separate NumPy/matplotlib child. safe_runtime rejects active torch in the parent/statistics paths and unsafe KMP_DUPLICATE_LIB_OK values. No installations or global environment changes were made."
+    },
+    {
+      "id": "C7",
+      "status": "PASS",
+      "subject": "No refit, overwrite, restart or automatic retries",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:70",
+        "scripts/run_retained_test_isolated.py:83",
+        "scripts/run_retained_test_isolated.py:289",
+        "scripts/runner.py:401",
+        "scripts/runner.py:456",
+        "scripts/measure_block.py:82"
+      ],
+      "detail": "Only the additive entry's run is available; original runner run is never called. Passed entry review must match current continuation and source. Exclusive run lock, test jobs/session records/logs/raw CSV+JSON/statistical outputs prevent overwrite; separate state preserves original failure evidence. No resume/refit/retry action or automated retry loop exists. prepare-repaired-entry requires an unstarted test and fingerprint-bound failed review, preserves both historical records exclusively, and cannot be repeated after those archives or after launch/test evidence. Current independent inventory found no test lock/state/report/raw/job/log/session/export evidence. All original and confirmation evidence hashes match."
+    },
+    {
+      "id": "C8",
+      "status": "PASS",
+      "subject": "Frozen statistics and honest failure/completion semantics",
+      "evidence": [
+        "scripts/runner.py:411",
+        "scripts/runner.py:431",
+        "scripts/runner.py:449",
+        "scripts/runner.py:456",
+        "scripts/run_retained_test_isolated.py:338",
+        "scripts/run_retained_test_isolated.py:349"
+      ],
+      "detail": "Frozen evaluate(True) uses equal 1/1000 image weights and five equal sessions, original kNN empirical model, all measured slow requests, unchanged six gates and 500 size×class/image×whole-session crossed bootstrap draws. No reference correction or test-driven refit is used. Frozen evaluation writes report, errors and Chinese results before raising on numerical/support failure; child failure aborts formal run and preserves failed state/raw/logs. Native process disappearance can leave the last state, but no restart follows. Successful measurement/statistics/export still ends complete_pending_independent_audit, never independent full acceptance."
+    },
+    {
+      "id": "C9",
+      "status": "PASS",
+      "subject": "Historical B1 resolved: same-day measurement, later-day processing allowed",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:65",
+        "scripts/run_retained_test_isolated.py:195",
+        "scripts/run_retained_test_isolated.py:208",
+        "scripts/run_retained_test_isolated.py:231",
+        "scripts/run_retained_test_isolated.py:245",
+        "scripts/run_retained_test_isolated.py:291",
+        "scripts/run_retained_test_isolated.py:319"
+      ],
+      "detail": "Current-date measurement_day calls are confined to prepare/check/run (including each session/block before measurement); prerequisites/frozen_guard no longer use today's date. statistics-worker, audit-all and export-worker validate recorded row dates against PLAN.frozen_at, all five exclusive session starts/identities, >=900-second start spacing, rows not preceding their session, and block sensor start/end dates. The frozen row audit additionally checks row-in-block intervals, monotonic timestamps, serial nonoverlap, identities and counts. Later read-only processing is not rejected merely because its own execution date differs."
+    },
+    {
+      "id": "C10",
+      "status": "PASS",
+      "subject": "Historical B2 resolved: complete export requires numerical acceptance",
+      "evidence": [
+        "scripts/run_retained_test_isolated.py:245",
+        "scripts/run_retained_test_isolated.py:249",
+        "scripts/run_retained_test_isolated.py:260",
+        "scripts/run_retained_test_isolated.py:338"
+      ],
+      "detail": "Direct export-worker first audits actual confirmation/test records and report-integrity/PLAN binding, then requires accepted is exactly true, exactly six criteria all passed is exactly true, no unsupported inputs, and the frozen model SHA256. These checks occur before any complete CSV/figure is written, including the direct CLI path. The normal run also requires frozen evaluate(True) success. Complete exports use new names with absent-target/exclusive safeguards; confirmation CSV/figures are protected and not overwritten."
+    }
+  ],
+  "resolved_historical_findings": [
+    {
+      "id": "B1",
+      "status": "RESOLVED_IN_CURRENT_HASHED_ENTRY",
+      "finding": "Current-day restrictions moved out of unconditional prerequisite/freeze checks; subsequent processing validates recorded measurement dates/session spacing instead."
+    },
+    {
+      "id": "B2",
+      "status": "RESOLVED_IN_CURRENT_HASHED_ENTRY",
+      "finding": "Both normal and directly callable complete-export paths now gate on accepted test, six passed criteria, support and report/PLAN/model integrity bindings before writing."
+    }
+  ],
+  "blocking_findings": [],
+  "limitations": [
+    "This is entry verification only. No retained-test measurement, inference, launch, preparation, resource probe, statistics-worker, export-worker or audit-all action was executed; no future numerical result is certified.",
+    "Same-day/later-processing and direct-export repairs were verified from independently parsed static source/control flow, not by changing the clock, fabricating a TEST_REPORT, or dynamically invoking processing/export actions.",
+    "Confirmation relative-error arithmetic was checked using bound reported point values; this entry review does not duplicate the historical independent raw-row/model reconstruction or bootstrap endpoint audit.",
+    "The report depends on the inspected SHA256 fingerprints and current zero-test-evidence snapshot. Future file changes invalidate the entry binding. A full independent raw-row/metric audit remains mandatory after test measurement.",
+    "The documented check and reviewer SHA256 work read metadata and JPEG bytes but do not benchmark service times. Successful CPU witness is not a global guarantee against native library/runtime failure.",
+    "Historical limitations remain: same-day single-machine/two-CPU-profile evidence, sparse cells, point-estimate acceptance only, bootstrap intervals of measured distributions rather than prediction error, and incomplete reproduction of the original OpenMP failure.",
+    "No per-cell accuracy, real deployment generalization, queue/simulator validity, vision accuracy, QLA benefit, model training or paper authorization is implied."
+  ],
+  "evidence_artifact": "analysis/retained_test_continuation/entry_review_repaired/READONLY_FACTS.json",
+  "review_artifact": "analysis/retained_test_continuation/entry_review_repaired/ENTRY_REVIEW.json",
+  "historical_failed_review_preserved": true
+}

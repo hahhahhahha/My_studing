@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "tests_run": 8,
+  "failures": 0,
+  "errors": 0,
+  "scope": "pure protocol tests, not downloaded-data validation or model service-time measurement",
+  "syntax_checked": ["common.py", "measure_block.py", "pipeline.py", "resource_probe.py", "test_protocol.py"],
+  "tests": [
+    "archive path traversal is rejected",
+    "ten-class stratified role counts are correct and disjoint",
+    "image selection is reproducible",
+    "paired CPU profiles use matching image order",
+    "session initial profile order is counterbalanced",
+    "cross-role dHash near-duplicate candidates are detected",
+    "session range is guarded",
+    "cached role integrity is revalidated"
+  ],
+  "cpu_kernel_witness": "FAILED before kernel execution, PyTorch WinError10106",
+  "pretrained_model_pilot": "NOT STARTED",
+  "formal_service_measurement_rows": 0
+}

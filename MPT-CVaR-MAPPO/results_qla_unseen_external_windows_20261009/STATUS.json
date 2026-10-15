@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-09T23:51:55.944349",
+  "model_tests_started": false,
+  "training_started": false,
+  "environment_ready": false,
+  "alibaba2017_missing": true,
+  "status": "blocked_preflight_or_data",
+  "completed_model_cells": 0,
+  "expected_model_cells": 243
+}

@@ -1,0 +1,1 @@
+合成fixture错误：FixtureSocket缺接受构造参数的__init__，replay在client.py:50建立模拟接收器时TypeError退出。没有真实网络、服务或模型执行；没有任务执行。保留整个attempt_01；修正的诊断改用独立attempt_02，不追加或合并本目录内容。

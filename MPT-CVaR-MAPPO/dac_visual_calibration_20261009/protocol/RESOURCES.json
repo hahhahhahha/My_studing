@@ -1,0 +1,55 @@
+{
+  "datetime": "2026-10-10T13:31:12.427414",
+  "source": "C:\\Users\\CKX\\.codex\\skills\\get-available-resources\\scripts\\detect_resources.py",
+  "note": "Original aggregate detector failed on psutil disk response; individual probes preserve unknowns",
+  "os": {
+    "system": "Windows",
+    "release": "11",
+    "version": "10.0.26200",
+    "machine": "",
+    "python_version": "3.13.5"
+  },
+  "cpu": {
+    "physical_cores": 8,
+    "logical_cores": 16,
+    "max_frequency_mhz": 3800.0,
+    "architecture": "",
+    "processor": "",
+    "current_frequency_mhz": 3800.0
+  },
+  "memory": {
+    "total_gb": 31.1,
+    "available_gb": 6.2,
+    "used_gb": 24.9,
+    "percent_used": 80.1,
+    "swap_total_gb": 44.0,
+    "swap_available_gb": 18.47
+  },
+  "gpu": {
+    "nvidia_gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA GeForce RTX 4060 Ti",
+        "memory_total_mb": 8188.0,
+        "memory_free_mb": 1988.0,
+        "driver_version": "591.86",
+        "compute_capability": "8.9",
+        "type": "NVIDIA",
+        "backend": "CUDA"
+      }
+    ],
+    "amd_gpus": [],
+    "apple_silicon": null,
+    "total_gpus": 1,
+    "available_backends": [
+      "CUDA"
+    ]
+  },
+  "disk": {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009",
+    "total_bytes": 511914799104,
+    "free_bytes": 217414823936,
+    "source": "stdlib shutil.disk_usage"
+  },
+  "gpu_interpretation": "No detected GPU in this probe is not proof of absence; CPU-only measurement does not require GPU"
+}

@@ -1,0 +1,6 @@
+{
+  "error": "FileNotFoundError(2, 'No such file or directory')",
+  "partial_evidence_preserved": true,
+  "actual_evaluator_or_policy_calls": 0,
+  "attempted_original_test_timing_CSV_opens": []
+}

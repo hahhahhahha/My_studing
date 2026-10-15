@@ -1,0 +1,30 @@
+{
+  "at": "2026-10-13T13:24:10.096396+08:00",
+  "status": "non_neural_link_adapter_checks_passed",
+  "role": "calibration_only",
+  "same_task_and_payload_ids": true,
+  "populated_request_transmission_scales_exactly_with_bandwidth": true,
+  "empty_request_features_use_the_selected_link": true,
+  "actor_shape": [
+    30,
+    19
+  ],
+  "stale_protected_sources_are_rebound_only_by_the_current_complete_source_lock": true,
+  "actual_smoke_receiver_checks_exact_plan_semantics_and_8x30_receipts": true,
+  "exact_human_direction_file_sha_schema_and_link_configuration_checked": true,
+  "registered_conditions": [
+    "2MHz_adverse_preserved",
+    "20MHz_per_user_orthogonal_simulation"
+  ],
+  "unregistered_link_rejected": true,
+  "torch_imported": false,
+  "model_or_optimizer_calls": 0,
+  "test_role_opened": false,
+  "formal_policy_cells": 0,
+  "sources_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261013_visual_20mhz_adapter\\check_high_bandwidth_adapter.py": "02c8247e4c26b4057208b22c5e7056c2286005df02b93eb1b9b1680db237f6b5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_upload_link.py": "f9f75f9a1f6dd5340d0872b2555039b546df31c09748bc607b25f44388c549d5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_method_features.py": "440c41b771e311bc2b1f0e8d03e944408940711d2f45c229407125faa8602b91",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_protocol_assembly.py": "e11c275a7c5799f556981901c0d08be3bd20578b5c7d75bb3bdb4c76eda698b8"
+  }
+}

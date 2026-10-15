@@ -1,0 +1,10 @@
+{
+  "executed_at": "2026-10-10T19:54:14+08:00",
+  "command": "X:/anaconda/ANACONDA/python.exe -X utf8 scripts/test_fifo_execution.py",
+  "cwd": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010",
+  "exit_code": 0,
+  "passed": true,
+  "count": 6,
+  "fixtures": ["one task: upload plus service", "two uploads: FIFO analytic wait", "upload spanning decision slots: no early admission", "continuous service across broadcast/decision boundaries", "whole-task finite buffer drop and count conservation", "bounded drain: complete versus unfinished is explicit"],
+  "evidence_scope": "Synthetic analytic semantic fixtures only; no measured simulator calibration, RL result or independent entry review"
+}

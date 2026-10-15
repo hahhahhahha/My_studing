@@ -1,0 +1,8 @@
+{
+  "valid_images": 13394,
+  "invalid_images": [],
+  "sha256_duplicates_excluded": [],
+  "near_duplicate_method": "64-bit dHash, Hamming<=2, selected roles",
+  "cross_role_near_duplicates": [],
+  "archive_sha256": "6cbfac238434d89fe99e651496f0812ebc7a10fa62bd42d6874042bf01de4efd"
+}

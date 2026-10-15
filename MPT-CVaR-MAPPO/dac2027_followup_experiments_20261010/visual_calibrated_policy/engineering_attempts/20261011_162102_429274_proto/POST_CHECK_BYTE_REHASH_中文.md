@@ -1,0 +1,7 @@
+# 作者工程字节复核，不是Type-A独立审计
+
+另一PowerShell进程按RESULT.json逐文件核对428份受保护输入／原源／证据和3份新增源／说明，共431份，SHA差异0。RESULT.json实际字节SHA为fdc401dacf3e0903c5a2e75afb121e1c76eb431acfa2b3fa30a55f07f5bdbf4f。
+
+本轮仅10人工环境身份模板→30条件→120描述、13损坏环境拒绝、深副本／编码独立／未执行ledger配对公式及两个人工文件绑定拒绝。真实generator／geometry／rolecatalog／pilot保护／序列化路径未执行，正式协议写出0，没有假冻结或PASS文件，没有Torch／test计时CSV／模型／队列／策略运行。首次161833成功与三份源在SOURCE_BEFORE_BINDING_HARDENING保存后，加严同路径SHA不能重绑定、原generator矩阵／文件／输入身份和训练geometry窗参与held-out隔离，再做本次新的纯检查，不覆盖前次证据。
+
+四份旧可变状态在MUTABLE_STATUS_BEFORE保存，后续仅更新交接／状态／环境日志。原GPU门槛、网络和数据用户方向、旧独立FAIL及修复复审PENDING未变；旧smoke准备计划过期不重封运行。科学条件一次绑定的协议源仍待真实pilot／smoke／完整Type-A入口，作者自检不能替代。

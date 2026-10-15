@@ -1,0 +1,31 @@
+{
+  "schema": "independent_measurement_entry_review_v1",
+  "passed": true,
+  "date": "2026-10-10",
+  "reviewer": "independent fresh documentation-following agent visual_runtime_follows_doc",
+  "documented_command": "X:/anaconda/ANACONDA/python.exe scripts/formal_runner.py check --pre-review",
+  "exit_code": 0,
+  "observed_output": "FROZEN_SOURCES_AND_PILOT_OK",
+  "execution_plan_sha256": "682b10b09050628d81a80d16df9f64380b54270cb45a363967fe62a1e9aa093d",
+  "source_sha256": {
+    "scripts/common.py": "176c8169412bc4a3aacec7db3823d1cf947b5192cd952c052c19365e1f6d234c",
+    "scripts/windows_runtime.py": "d7a3f3a93d56a56bdb4bde3a0ec2311581425ca060056f43b4593b9f51e09f2b",
+    "scripts/pipeline.py": "3fdb01c9942a0e08da5739ba018ee3e19b46bf3e0fde58dd0a299d2b5c8bb13a",
+    "scripts/measure_block.py": "313468ed6dde49ae17baad889253b4bcd2eb5292e74a4129175e639ea8ee26c1",
+    "scripts/measurement_audit.py": "15502aa7bcb830a4835516edf82fc400c1ec52454afad11316fa428519fda78e",
+    "scripts/service_summary.py": "0b268378c2a6fff715ea1285aa042eaf220ca9afb7e155768e14b492eea905f2",
+    "scripts/formal_runner.py": "ced8c8774776444843e5e91818527de6e31413eac411d85c9541263039f59a4b"
+  },
+  "reviewed_checks": [
+    "13 sessions in calibration-validation-test order; minimum 900-second start spacing",
+    "complete execution-plan fingerprint and semantic validation",
+    "same-day checks after idle waiting and actual session completion",
+    "adopted calibration session1: 4000 rows, 20 blocks, zero failed requests, zero paired prediction disagreements",
+    "no orphan or existing data conflicts for the remaining12 sessions",
+    "strict per-request identity, timing and paired-profile checks",
+    "no test measurements in calibration fitting or validation acceptance",
+    "nearest-rank quantiles, population standard deviation and paired session-block bootstrap",
+    "failures stop and retain raw evidence; no automatic timing overwrite"
+  ],
+  "scope": "protocol, implementation, documentation and existing calibration1 only; not final33000 completion, final distribution acceptance, simulatorFIFO or policy performance"
+}

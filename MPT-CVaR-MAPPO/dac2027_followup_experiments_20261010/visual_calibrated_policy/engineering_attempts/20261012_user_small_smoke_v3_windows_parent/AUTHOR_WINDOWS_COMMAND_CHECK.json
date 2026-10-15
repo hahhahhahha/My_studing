@@ -1,0 +1,29 @@
+{
+  "schema": "author-only-Windows-parent-command-fixtures-v1",
+  "date": "2026-10-12",
+  "independent_verdict": false,
+  "prior_V3_report_preserved_sha256": "6ccd9fcbf49025c88bdb4b371670499ddd34cdca06e549135d963585a8c461be",
+  "prior_V3_JSON_preserved_sha256": "65d50b9166eef905ff262caa493f856bd85a15d37b5293541defa9ddda515d9d",
+  "before_sources": "SOURCE_BEFORE_COMMAND_REPAIR",
+  "AST_parse_three_current_sources": "PASS",
+  "real_source_guard_frozen_closure_raw_environment": "PASS_NON_NEURAL",
+  "in_memory_fixtures": {
+    "one_verified_venv_launcher": "accept",
+    "direct_live_parent": "accept",
+    "actual_OS_missing_B": "reject",
+    "duplicate_parsed_option": "reject",
+    "actual_OS_extra_argument": "reject",
+    "changed_launcher_command": "reject",
+    "unknown_launcher": "reject",
+    "reused_parent_PID": "reject",
+    "extra_launcher_layer": "reject"
+  },
+  "diagnostic_actual_current_process_pid": 25456,
+  "diagnostic_native_exe": "X:/anaconda/ANACONDA/python.exe",
+  "diagnostic_actual_cmdline_argv0": "environment/qla_np226/Scripts/python.exe",
+  "diagnostic_actual_interpreter_flags": ["-B", "-X", "utf8"],
+  "V3_schedule_or_plan_prepared": false,
+  "Torch_numpy_model_or_CUDA_calls": 0,
+  "formal_or_small_budgets_changed": false,
+  "new_scope_independent_review_required": true
+}

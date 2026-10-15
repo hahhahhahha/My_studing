@@ -1,0 +1,92 @@
+{
+  "source_sha256": {
+    "systemlab\\__init__.py": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+    "systemlab\\__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+    "systemlab\\admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+    "systemlab\\analysis.py": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+    "systemlab\\client.py": "d0be24dffdfa00a4e4b5f236fe5e030211a29455c1a81ad3feeb9504ab33c584",
+    "systemlab\\common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+    "systemlab\\data.py": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+    "systemlab\\edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+    "systemlab\\feedback.py": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+    "systemlab\\launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+    "systemlab\\policy.py": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+    "tools\\build_manifest.py": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+    "tools\\check_actor_transfer.py": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+    "tools\\configure_pilot.py": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+    "tools\\interaction.py": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+    "tools\\make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+    "tools\\register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+    "tools\\stop_owned_attempt.py": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+    "tools\\verify_unit.py": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf"
+  },
+  "artifacts": {
+    "REVIEW_RESPONSE.md": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_RESPONSE.md",
+      "sha256": "7d364cef79507a8aa660ad41a4ce57dc8a73a8bdd0f7f028ef85556b3161e6af"
+    },
+    "REVIEW_REQUEST.md": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_REQUEST.md",
+      "sha256": "adf05aefc4e9c7759d33ebdcdd66a362e086e0e509a800e2b4e74809490ed8e9"
+    },
+    "EXPERIMENT_AUDIT.md": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\EXPERIMENT_AUDIT.md",
+      "sha256": "db695ffc39864f71b4b4c39602f47cb65273231c383c8516258f76932affcf1a"
+    },
+    "UNIT_RESULT.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\UNIT_RESULT.json",
+      "sha256": "8e5b1846be595c79958c32c86b6dcb76b7ffd1cb23e60d72239d27eb998c82f3"
+    },
+    "FUNCTIONAL_VERIFICATION.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FUNCTIONAL_VERIFICATION.json",
+      "sha256": "fc41f81bae347a093ff7a9c00dccfcea2f75212f2200e70fdfd4970982d0eb12"
+    },
+    "FUNCTIONAL_ANALYSIS.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\FUNCTIONAL_ANALYSIS.json",
+      "sha256": "d1fa170f38f9ba5de42be2f734dcdce663436c107e119f0a18252228eece1ce4"
+    },
+    "functional_4edge_attempt_01/PROCESS_END.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\PROCESS_END.json",
+      "sha256": "328616b470d2b89862e43eeecee216b40bfc80ee217fe6b837b503d713ff2d3c"
+    },
+    "functional_4edge_attempt_01/client/COMPLETE.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\functional_4edge_attempt_01\\client\\COMPLETE.json",
+      "sha256": "56060729ecd8e1e23a075fb29479d5872cf921875e243ffcbb1cc23eaa08e65c"
+    },
+    "synthetic_cutoff_race_attempt_02/RESULT.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\synthetic_cutoff_race_attempt_02\\RESULT.json",
+      "sha256": "6ce89784002ee9383d4dd071e5d16fd09c59f0c354f5b3d07108ddb105b5cb71"
+    },
+    "POST_EXECUTION_RECEIPT.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\POST_EXECUTION_RECEIPT.json",
+      "sha256": "e8f602f899fc4e7a5332f0a8a4c7066f5e9c2346b8da12b9945f35630864390c"
+    },
+    "PRE_EXECUTION_RECEIPT.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\PRE_EXECUTION_RECEIPT.json",
+      "sha256": "83055e1629d3f175e8509af5ec27b8900f41a47eddd840b8e30f68e81d766e68"
+    },
+    "LEGACY_SOURCE_RESOLUTION.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\LEGACY_SOURCE_RESOLUTION.json",
+      "sha256": "cbb2b6306477bfce7c10fdff71958f13a25ca77a350335bae284ec74929798b4"
+    },
+    "READ_INVENTORY.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\READ_INVENTORY.json",
+      "sha256": "97cc078ffe3c3a6a65c5f183993f58b9d1e32fe33427ed812e9942b9ead8ded0"
+    },
+    "RAW_RUN_RECOMPUTATION.json": {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\RAW_RUN_RECOMPUTATION.json",
+      "sha256": "afe6834159335d1bc03c8a91be6439bd81e079d3fa8188b7e65de341ef7f11d8"
+    }
+  },
+  "supplementary_and_protocol_hashes": {
+    "protocol/frozen_v2/FROZEN_SYSTEM_PROTOCOL.json": "68e0caa92cfcd30e2a70beb21a1b0955061a5cfbc42d902d7bd0981838b970da",
+    "protocol/E1_test_registry_v2.json": "4e43cfe4cf86eb31d6cc9a0a0329be85033fc60e0625c9640a38a334c546752f",
+    "engineering_repairs/20261013_three_logic_fixes/REPAIR_REPORT_中文.md": "965f6e9f33d91c7a2f1218c5e3578ee28d37f6329ff6b645d0bcedc1b50edc4f",
+    "engineering_repairs/20261013_three_logic_fixes/RESULT.json": "4bfec38bec9d5f526947c453a3654a567a6738991eb0fcb87071130df606f829",
+    "engineering_repairs/20261013_three_logic_fixes/UNIT_RESULT_attempt_02.json": "cad2b3df5cc3c0d471f019fe3d42302f1bd1090f9566299170055396d61aa2e5",
+    "verification/images.json": "ef57fd7ba6dbb5e37fa516d1a32658e1cbb8be2d489c937b356ff9f16771cefa",
+    "verification/schedule_4edge.json": "cfd36059dac35fb9bfab546c382c62d2282b1c87c88216d1b3f4be4005599022",
+    "verification/actor_fixture_bundle.json": "fce7224e87a66f0e2e13119ad21c09b6073ac389b10463ae1b0ffcc723e75e7b"
+  },
+  "finalized_at_utc": "2026-10-14T02:26:52.7333045Z"
+}

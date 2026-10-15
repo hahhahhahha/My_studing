@@ -1,0 +1,48 @@
+{
+  "datetime": "2026-10-10T13:28:27.653805+08:00",
+  "python_executable": "X:\\anaconda\\ANACONDA\\python.exe",
+  "python_version": "3.13.5",
+  "restored_process_variables": {
+    "SystemRoot": "C:\\WINDOWS",
+    "windir": "C:\\WINDOWS",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramW6432": "C:\\Program Files",
+    "USERNAME": "CodexSandboxOffline",
+    "TEMP": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\.runtime_cache\\tmp",
+    "TMP": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\.runtime_cache\\tmp"
+  },
+  "required_process_variables": {
+    "SystemRoot": "C:\\WINDOWS",
+    "windir": "C:\\WINDOWS",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramW6432": "C:\\Program Files",
+    "USERNAME": "CodexSandboxOffline",
+    "TEMP": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\.runtime_cache\\tmp",
+    "TMP": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\.runtime_cache\\tmp"
+  },
+  "persistent_environment_modified": false,
+  "packages_or_drivers_modified": false,
+  "visual_service_measurements": false,
+  "passed": true,
+  "socket_asyncio_ok": true,
+  "torch": "2.11.0+cu128",
+  "torchvision": "0.26.0+cu128",
+  "pytorch_cuda_runtime": "12.8",
+  "cpu_kernel_ok": true,
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "total_memory_bytes": 8585216000,
+    "compute_capability": [
+      8,
+      9
+    ],
+    "device_count": 1
+  },
+  "cuda_matrix_and_autograd_ok": true,
+  "torchvision_resnet18_cuda_forward_ok": true,
+  "nvidia_smi": {
+    "returncode": 0,
+    "stdout": "NVIDIA GeForce RTX 4060 Ti, 591.86, 8188 MiB",
+    "stderr": ""
+  }
+}

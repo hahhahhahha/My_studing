@@ -1,0 +1,21 @@
+{
+  "record_type": "executor_dispatch_metadata_not_independent_verdict",
+  "reviewer": "/root/visual_smoke_repair_rereview_v2",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "review_type": "Type-A",
+  "fork_turns": "none",
+  "scope": "visual_smoke_source_repair_after_preserved_FAIL",
+  "request_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/entry_source_reviews/20261011_214124_683383_integrated_source_packet/REPAIR_REREVIEW_REQUEST_VERBATIM.md",
+  "current_manifest_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/entry_source_reviews/20261011_214124_683383_integrated_source_packet/CURRENT_PATHS_AND_BYTES.json",
+  "current_manifest_sha256": "c9a2b8ee97074bb13ebe3f0530a80d2e506cf5939c342b0b4d49877dd60b7556",
+  "readonly_current_usage_check_ordinary_usage_allowed": true,
+  "readonly_current_usage_check_primary_used_percent": 89,
+  "readonly_current_usage_check_secondary_used_percent": 29,
+  "account_reset_or_credit_purchase_performed": false,
+  "reviewer_dispatched_once_after_current_readonly_availability_check": true,
+  "independent_review_result": "PENDING",
+  "runtime_full_pilot_or_formal_launch_authorized": false,
+  "actual_model_smoke_pilot_training_or_test_calls": 0,
+  "Type_B_certification": false
+}

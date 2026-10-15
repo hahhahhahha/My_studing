@@ -1,0 +1,36 @@
+{
+  "datetime": "2026-10-10T15:44:49.685168",
+  "status": "formal_measurement_stopped_with_error",
+  "downloads": {
+    "imagenette": "verified_existing",
+    "resnet18": "verified_existing"
+  },
+  "cpu_kernel_ready": true,
+  "gpu_initialization_ready": true,
+  "gpu_initialization_report": "protocol/PYTORCH_GPU_INITIALIZATION.json",
+  "process_environment_bootstrap_enabled": true,
+  "topology_verified": true,
+  "service_measurements_started": true,
+  "formal_measurement_rows": 23000,
+  "global_environment_changed": false,
+  "remaining": [
+    "pilot",
+    "calibration/validation measurement",
+    "calibration integration and independent acceptance",
+    "test measurement",
+    "calibrated policy comparisons"
+  ],
+  "measurement_rows_by_role": {
+    "pilot": 200,
+    "calibration": 20000,
+    "validation": 3000,
+    "test": 0
+  },
+  "formal_measurement_row_count_status": "actual raw CSV rows; completion still requires integrity audit",
+  "next_session": {
+    "role": "test",
+    "session": 1
+  },
+  "next_earliest_start": "2026-10-10T15:44:44.082432",
+  "error": "RuntimeError('Child failed (1); see logs/service_distribution_validation.log')"
+}

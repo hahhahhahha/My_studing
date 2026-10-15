@@ -1,0 +1,201 @@
+{
+  "schema": "service_distribution_exploratory_diagnostic_v1",
+  "date": "2026-10-10",
+  "mode": "read-only analysis; no measurements, refitting, protocol edits or acceptance changes",
+  "test_timing_accessed": false,
+  "roles": {
+    "calibration": {
+      "unique_images": 2000,
+      "formal_rows_all_profiles": 20000,
+      "CPU4T_service": {
+        "n": 10000,
+        "mean": 12.28716165,
+        "P95": 16.5329,
+        "P99": 29.6038
+      },
+      "CPU4T_stages": {
+        "decode_ms": {
+          "n": 10000,
+          "mean": 2.03898778,
+          "P95": 3.1293,
+          "P99": 11.7139
+        },
+        "preprocess_ms": {
+          "n": 10000,
+          "mean": 1.3770702300000002,
+          "P95": 2.1236,
+          "P99": 7.0737
+        },
+        "infer_ms": {
+          "n": 10000,
+          "mean": 8.84995117,
+          "P95": 10.4573,
+          "P99": 16.3524
+        },
+        "postprocess_ms": {
+          "n": 10000,
+          "mean": 0.02115247,
+          "P95": 0.0262,
+          "P99": 0.0356
+        }
+      },
+      "pixels": {
+        "n": 2000,
+        "mean": 237081.7025,
+        "P95": 373750,
+        "P99": 1920000
+      },
+      "bytes": {
+        "n": 2000,
+        "mean": 116952.135,
+        "P95": 222069,
+        "P99": 454852
+      },
+      "images_over_1MP": 46,
+      "images_over_2MP": 16,
+      "tail_threshold_ms": 29.6038,
+      "tail_rows_at_or_above_P99": 101,
+      "tail_rows_over_2MP": 62,
+      "tail_unique_images": 49,
+      "tail_stage_fractions": {
+        "decode_ms": 0.4599019868031872,
+        "preprocess_ms": 0.16765585423252985,
+        "infer_ms": 0.37193723224586195,
+        "postprocess_ms": 0.0005049267184209506
+      },
+      "CPU4T_sessions": [
+        {
+          "session": 1,
+          "n": 2000,
+          "mean": 12.25836365,
+          "P95": 15.9718,
+          "P99": 28.092
+        },
+        {
+          "session": 2,
+          "n": 2000,
+          "mean": 12.25879545,
+          "P95": 16.7988,
+          "P99": 32.0911
+        },
+        {
+          "session": 3,
+          "n": 2000,
+          "mean": 11.8706391,
+          "P95": 15.3258,
+          "P99": 28.1878
+        },
+        {
+          "session": 4,
+          "n": 2000,
+          "mean": 12.12422215,
+          "P95": 15.8425,
+          "P99": 29.626
+        },
+        {
+          "session": 5,
+          "n": 2000,
+          "mean": 12.923787899999999,
+          "P95": 17.8642,
+          "P99": 31.4709
+        }
+      ]
+    },
+    "validation": {
+      "unique_images": 500,
+      "formal_rows_all_profiles": 3000,
+      "CPU4T_service": {
+        "n": 1500,
+        "mean": 11.814360866666668,
+        "P95": 15.1942,
+        "P99": 21.2702
+      },
+      "CPU4T_stages": {
+        "decode_ms": {
+          "n": 1500,
+          "mean": 1.7367729333333333,
+          "P95": 2.6734,
+          "P99": 4.8407
+        },
+        "preprocess_ms": {
+          "n": 1500,
+          "mean": 1.3004727333333335,
+          "P95": 1.8214,
+          "P99": 4.6568
+        },
+        "infer_ms": {
+          "n": 1500,
+          "mean": 8.756350600000001,
+          "P95": 10.6666,
+          "P99": 16.2385
+        },
+        "postprocess_ms": {
+          "n": 1500,
+          "mean": 0.020764599999999998,
+          "P95": 0.0253,
+          "P99": 0.0341
+        }
+      },
+      "pixels": {
+        "n": 500,
+        "mean": 190018.818,
+        "P95": 307200,
+        "P99": 602112
+      },
+      "bytes": {
+        "n": 500,
+        "mean": 107539.956,
+        "P95": 202426,
+        "P99": 259882
+      },
+      "images_over_1MP": 2,
+      "images_over_2MP": 0,
+      "tail_threshold_ms": 21.2702,
+      "tail_rows_at_or_above_P99": 16,
+      "tail_rows_over_2MP": 0,
+      "tail_unique_images": 16,
+      "tail_stage_fractions": {
+        "decode_ms": 0.07883192165590105,
+        "preprocess_ms": 0.17860229082459175,
+        "infer_ms": 0.7417551107140491,
+        "postprocess_ms": 0.0008106768054581307
+      },
+      "CPU4T_sessions": [
+        {
+          "session": 1,
+          "n": 500,
+          "mean": 12.1931306,
+          "P95": 16.1974,
+          "P99": 27.655
+        },
+        {
+          "session": 2,
+          "n": 500,
+          "mean": 11.7342672,
+          "P95": 14.3217,
+          "P99": 18.9279
+        },
+        {
+          "session": 3,
+          "n": 500,
+          "mean": 11.5156848,
+          "P95": 14.3333,
+          "P99": 19.0093
+        }
+      ]
+    }
+  },
+  "unused_train_inventory_only": {
+    "rows": 6869,
+    "images_over_2MP": 45,
+    "images_over_1MP": 111,
+    "note": "inventory only; not a qualified new split; exact and near duplicate checks still required; no official-val/test feature summaries"
+  },
+  "evidence_sha256": {
+    "protocol\\IMAGE_SPLITS.json": "8d6a3701fc3e046f8a2c898aaaf243ceb40449d2eb4d0fd7dfc2e0d8dcfb3b48",
+    "calibration\\VALIDATION_REPORT.json": "200cce6fb5eb88ab79ef2f6a89ef9d4dc85c06580a331bb76806376fcc8e3095",
+    "scripts\\measure_block.py": "313468ed6dde49ae17baad889253b4bcd2eb5292e74a4129175e639ea8ee26c1",
+    "scripts\\measurement_audit.py": "15502aa7bcb830a4835516edf82fc400c1ec52454afad11316fa428519fda78e",
+    "scripts\\service_summary.py": "0b268378c2a6fff715ea1285aa042eaf220ca9afb7e155768e14b492eea905f2"
+  }
+}

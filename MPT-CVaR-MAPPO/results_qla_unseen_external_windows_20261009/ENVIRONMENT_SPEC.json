@@ -1,0 +1,10 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.2.6",
+  "torch": "2.11.0+cu128",
+  "device": "cuda",
+  "cpu_threads": 1,
+  "cuda_witness_seed": 123,
+  "automatic_cpu_fallback": false,
+  "policy_update_permitted": false
+}

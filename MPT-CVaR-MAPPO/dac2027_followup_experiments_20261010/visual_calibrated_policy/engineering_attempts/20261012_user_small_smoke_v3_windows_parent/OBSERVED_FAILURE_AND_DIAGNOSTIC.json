@@ -1,0 +1,26 @@
+{
+  "schema": "observed-Windows-venv-parent-boundary-v1",
+  "date": "2026-10-12",
+  "failed_output": "reward_smoke_attempts/20261012_2041_user_small_v2",
+  "failure": "Private worker requires live recorded parent and exact arm",
+  "Full_Popen_launcher_pid": 45708,
+  "failed_before_resource_witness_or_Torch_or_model": true,
+  "second_arm_started": false,
+  "old_failed_lock_plan_and_output_preserved": true,
+  "unlaunched_visual_plan_preserved": "visual_calibrated_policy/engineering_attempts/20261012_204021_054556_model_smoke_entry",
+  "actual_non_neural_process_diagnostic": {
+    "logical_parent_pid": 69280,
+    "Popen_venv_launcher_pid": 51424,
+    "actual_child_pid": 44016,
+    "child_getppid": 51424,
+    "launcher_exe": "environment/qla_np226/Scripts/python.exe",
+    "logical_parent_native_exe": "X:/anaconda/ANACONDA/python.exe",
+    "child_sys_executable": "environment/qla_np226/Scripts/python.exe",
+    "launcher_command_equal_child_invocation": true,
+    "exit_code": 0,
+    "CUDA_calls": 0,
+    "model_calls": 0
+  },
+  "new_attempt_not_automatic_append_retry_or_arm_merge": true,
+  "new_independent_scope_review_required": true
+}

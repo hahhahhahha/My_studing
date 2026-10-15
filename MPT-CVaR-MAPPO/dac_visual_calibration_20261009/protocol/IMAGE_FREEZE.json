@@ -1,0 +1,11 @@
+{
+  "seed": 20261009,
+  "split_sha256": "8d6a3701fc3e046f8a2c898aaaf243ceb40449d2eb4d0fd7dfc2e0d8dcfb3b48",
+  "role_counts": {
+    "pilot": 100,
+    "calibration": 2000,
+    "validation": 500,
+    "test": 1000
+  },
+  "frozen_before_service_measurement": true
+}

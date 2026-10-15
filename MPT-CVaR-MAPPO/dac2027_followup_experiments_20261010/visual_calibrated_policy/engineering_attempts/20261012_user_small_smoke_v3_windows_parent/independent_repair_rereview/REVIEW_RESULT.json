@@ -1,0 +1,117 @@
+{
+  "schema": "independent-v3-windows-parent-source-review-v1",
+  "review_type": "Type-A",
+  "review_date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "status": "FAIL",
+  "complete": true,
+  "scope": "Bounded V2-to-V3 changed-function source review of Windows parent-chain repair; not Type-B or full integrated-entry certification",
+  "blockers": [
+    {
+      "id": "B4",
+      "priority": 1,
+      "title": "Actual worker OS command is not verified on the direct-parent path; canonical visual worker CLI is self-derived",
+      "locations": [
+        "reward_input_integrity.py:90-120",
+        "reward_input_integrity.py:123-128",
+        "reward_smoke_small.py:146-148",
+        "visual_model_smoke_small.py:215"
+      ],
+      "evidence": "require_worker_parent never calls current.cmdline(). Both callers synthesize expected_command from intended interpreter flags plus sys.argv, and the helper compares the suffix to that same sys.argv. Direct-parent mock with actual -B omitted is accepted and receipt asserts -B. Visual helper also accepts equivalent duplicated method options because there is no independent canonical reconstruction/comparison of its full invocation. Reward pre-launch COMMAND artifact mitigates script-argument drift but does not establish actual interpreter flags.",
+      "impact": "Violates the requested exact-worker-CLI rejection and evidence contract. Not a reproduced real launch failure or evidence of changed numerical/scientific behavior; the fixed parent ordinarily constructs the intended command.",
+      "required_closure": "Compare observed current-worker OS cmdline against an independently reconstructed canonical worker command on both admitted parent paths, preserving the legitimate isolated-argv0/base-native-executable Windows venv distinction. Retain logical-parent creation-time and actual-Popen-PID receipt checks. Obtain a new bounded source disposition after any repair."
+    }
+  ],
+  "findings": [
+    {
+      "id": "P1",
+      "classification": "PASS_SOURCE_WITH_B4_EXCEPTION",
+      "detail": "Direct logical parent or exactly one declared Windows venv launcher only; no ancestor search. Launcher executable/command and logical parent PID+creation time+same entry run prefix are checked. Mocks reject unknown launcher, altered launcher command, extra layer, reused logical PID, wrong action/entry, non-Windows intermediary and absent direct parent. Actual current-worker command omission is B4."
+    },
+    {
+      "id": "P2",
+      "classification": "PASS_SOURCE",
+      "detail": "Receipts distinguish native worker and launcher. Both parents compare receipt launched_pid to their actual Popen process.pid after zero exit and before result acceptance; wrong Popen PID and parent creation time fail mocked receipt checks. No worker admission relies on post-Popen parent files."
+    },
+    {
+      "id": "P3",
+      "classification": "UNCHANGED_SOURCE_GUARDS",
+      "detail": "Existing helper functions are AST-identical to V2. Actual caller/interpreter/metadata/NumPy ownership, imported worker runtime/GPU/CPU+interop checks, current strict1800 witness ordering, frozen source/raw/schedule review guards, arm-boundary and completion checks remain. No live gate or model execution is asserted."
+    },
+    {
+      "id": "P4",
+      "classification": "UNCHANGED_SCIENTIFIC_SCOPE",
+      "detail": "Frozen baseline and public resource files remain byte-identical. No changed formula/RNG/splits/seeds/critic/bootstrap/final-buffer/numerical or output validators. Reward 32train/8validation/30users/35servers and visual 8decisions/30users/4servers/full30s drain unchanged. No retries, partial merge or formal scope extension introduced."
+    },
+    {
+      "id": "P5",
+      "classification": "PRESERVED_FAILURE_AND_NEW_BINDINGS_REQUIRED",
+      "detail": "V2 failed output, permanent lock, reward plan/registry/four schedule files and complete review pairs retained; no Full arm directory or second-arm result present. Traceback precedes resource/model work. Prepared visual evidence reports zero model calls; semantic run lock absent. V3 reader uses its own independent_repair_rereview and current nine-source map; old approval/plan cannot stand in for V3 preparation."
+    },
+    {
+      "id": "W_INHERITED",
+      "classification": "WARN_RETAINED",
+      "detail": "Retain D2 complete review warnings: small-budget coverage, post-update finite checks, crash/partial evidence, limited independent parent output re-audit, reward/visual validation distinctions, old-plan scope, resource point-in-time and source/package/import/TOCTOU limits, workflow rather than immutable cryptographic process attestation. This changed-function review does not re-certify the entire frozen closure."
+    }
+  ],
+  "verification": {
+    "methods": ["direct_source_and_evidence_read", "byte_rehash", "stdlib_ast_function_comparison", "in_memory_ast_extracted_helpers_with_fake_psutil_and_stub_source_guard"],
+    "ast_delta": {
+      "reward_input_integrity.py": {"new_functions": ["parent_creation_time", "require_worker_parent", "validate_worker_parent_receipt"], "changed_existing_functions": [], "removed_functions": []},
+      "reward_smoke_small.py": {"changed_functions": ["worker", "run"]},
+      "visual_model_smoke_small.py": {"changed_functions": ["worker", "run"]}
+    },
+    "mock_expected_acceptances_passed": ["direct exact parent", "one declared Windows launcher; launched PID differs from native worker PID"],
+    "mock_expected_rejections_passed": ["changed launcher command", "unknown launcher executable", "two intermediary layers", "logical PID reuse with changed creation time", "wrong logical action", "different logical entry", "non-Windows intermediary", "absent direct parent", "receipt wrong Popen PID", "receipt wrong parent creation time"],
+    "mock_unexpected_acceptances": ["direct worker actual command omits -B but receipt asserts -B", "visual-style sys.argv contains equivalent duplicated method option; helper accepts its self-derived expected command"],
+    "mock_limit": "Helpers only with fake process objects; no full worker, model, GPU or live process test. Mixed outcomes: B4 prevents an overall test pass.",
+    "v2_source_map_mismatches": [],
+    "v2_schedule_registry_files_verified": 4,
+    "author_diagnostic_reproduced_by_reviewer": false,
+    "source_modified_by_reviewer": false,
+    "old_artifacts_modified_by_reviewer": false,
+    "additional_reviewer_spawned": false,
+    "quota_interrupted": false
+  },
+  "classifications": {
+    "source_disposition": "FAIL_B4_OPEN",
+    "source_only_review": true,
+    "actual_smoke_executed_by_reviewer": false,
+    "actual_numerical_success": "NOT_ESTABLISHED",
+    "live_gpu_resource_status": "NOT_PROBED",
+    "full_integrated_entry_readiness": "NOT_CERTIFIED",
+    "type_b_certification": false,
+    "launch_approval": false,
+    "pilot_authority": false,
+    "formal_authority": false
+  },
+  "reviewed_sources_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\visual_model_smoke_small.py": "5609638fcee39e1f679bc95e575095e3d7f601fecac42600650146440bdbad2d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\reward_smoke_small.py": "d21ba121b94fa9405b0737f8705186be8402b524ca31a6ad2377b1f3b53b0620",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\reward_input_integrity.py": "f04f371482c6928edfdf1c3338f41821f6993da1968edb40cb8679b025b29bc3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\FROZEN_BASELINE.json": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\README_SMALL_SMOKE_中文.md": "dae02d05c6622107e094d026fe1481917e0b31ae33f0b9520f4e0c69e787a00b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\USER_REQUEST.json": "e0d663d686e54abb4b31165a6577d5932ed014f316206a6a424277886cbc5c0f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3"
+  },
+  "retained_evidence_sha256_relative_to_followup_root": {
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/independent_repair_review/REVIEW_RESPONSE.md": "01b7e8a963a25c09706a251283140fee1873940bb9af45dba885f152b9f4a148",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/independent_repair_review/REVIEW_RESULT.json": "441d896a96730c1270d7ad4976042ccffa9cdee7619e51f92f80526bb4bce399",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/independent_repair_rereview/REVIEW_RESPONSE.md": "f7513e0add10fc60dbc98b7c07b7b75357003af1712b6bfccc3ae86bd1bfcf0f",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/independent_repair_rereview/REVIEW_RESULT.json": "5508840b9cbcbefaffb488f95371d861286fe87b5f94c6f4201760ed7abd0cdc",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/SMALL_REWARD_PLAN.json": "fb226637479c59f898d22235ff46156f82eabebb4c6965015129b7f0a3e7f373",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v2_repair/SCHEDULE_REGISTRY.json": "325efdeb1e303f8a2e57a026c72129d2432c462d1223c71560ece6813cfa8da4",
+    "visual_calibrated_policy/engineering_attempts/20261012_204021_054556_model_smoke_entry/SMOKE_CANDIDATE_PLAN.json": "1f57648e58cefe3210c880d3da4ff854722b015e00bb3548f1b5055c1c963cde",
+    "visual_calibrated_policy/engineering_attempts/20261012_204021_054556_model_smoke_entry/RESULT.json": "be0adb56a886df33e5ad5da3d906ce76acdeaf90b1485709a622774ece7d1986",
+    "visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v3_windows_parent/OBSERVED_FAILURE_AND_DIAGNOSTIC.json": "c65f4402ece9557bb9b8ebb224492fa93cf878290a0a36482756a66bbdfcc235",
+    "reward_smoke_attempts/locks/a588f160d441b29bbe84fda3a9df6bc64d3b84bfa0f69a0b81edef05064eb62b.json": "71b3fd97167b63b2f7bd73ebeefcbf253843ed3f0df4810511468ab945e24868",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/FAILURE.json": "496d3fe750c90197647a56d8c3cc105b6d03f1ea78e9ae69bc2847750fc6ea8e",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/Full_COMMAND.json": "3c5fb39a75fb3b78ec202cc8189f1b4488c2a57bc3899baafe2133d60a01419a",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/Full_STARTED.json": "84f75da5576857fb00088d63d753d8c90d20fecf568ddb67275c49fcbd71b3b3",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/Full_stderr.log": "c4a0c41754726f2d26469fd7a16a2f41da694d562b091cf0ec02f2a645fc2afa",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/Full_stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reward_smoke_attempts/20261012_2041_user_small_v2/STARTED.json": "9fd31a4c5b7aed0cb16d8ce0cd049f4394d5cf2d0a6f603eb3c2250ba4106e96"
+  }
+}

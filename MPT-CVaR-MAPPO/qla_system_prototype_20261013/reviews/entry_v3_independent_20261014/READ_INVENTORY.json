@@ -1,0 +1,2703 @@
+[
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\compose.yaml",
+    "bytes": 2023,
+    "sha256": "db26c7f4384af0a356bc8968ffcb3d01098ff460ad929aadc58b0ac65c24b00b",
+    "text_lines": 57
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\configs\\functional_1edge.json",
+    "bytes": 1385,
+    "sha256": "de9bd2058ea3ab5d1cdcb3fac68d6a99326f661c2b6ca6758e0854a51c9a8776",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\configs\\functional_4edge.json",
+    "bytes": 1855,
+    "sha256": "f650522894d3e47f296c1455ba75d1cf50d409704f4200275bf406966d8f7dab",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\configs\\local_4edge.json",
+    "bytes": 1980,
+    "sha256": "1c0260a5cdb327d06863fa09a5df21dc389a650b0f87dde88a6b0c3e999249c4",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\calibration_images.json",
+    "bytes": 386869,
+    "sha256": "b082bc5708db00c6dd6fb1f0fd0897f79d15ae84b2849bbaf15ac85ad08782ed",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\calibration_rr_s1.json",
+    "bytes": 101440,
+    "sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\calibration_stress_s1.json",
+    "bytes": 3191039,
+    "sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_01_s1.json",
+    "bytes": 2105128,
+    "sha256": "8f09c0c2fa21c8b86718a402fd5e4c7de2efd9e7ab12d2541cd16187e4fae0c9",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_02_s2.json",
+    "bytes": 2125473,
+    "sha256": "56ddc44bf8197ca31563db66cd556bc77b16e5f91dca02d072bcedd4a95b5186",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_03_s3.json",
+    "bytes": 2094633,
+    "sha256": "b66e9996d4b78d4a8432a4645c1d0193176989eda79fe427dbef47af3a575528",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_04_s1.json",
+    "bytes": 3149423,
+    "sha256": "65bf45be310add8449ba0cbd4b9c07b63f0d9854fcc3c08e4dd3ba126c57af7c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_05_s2.json",
+    "bytes": 3157085,
+    "sha256": "449d0e6082a47a73ff50de6e46b942496decbea0fda31f9ffb271b9717058fa8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_common_v3\\common_06_s3.json",
+    "bytes": 3149831,
+    "sha256": "65de243d09c033ea7ca48f527f65ae1fd14accb42f30d4f311f60b2bb217c566",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho60_s1.json",
+    "bytes": 2104998,
+    "sha256": "3e718ec6f9ddbe327bd20ad775c11b56b0d43bae7a4a9ebfa538ed1b86393bca",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho60_s2.json",
+    "bytes": 2125566,
+    "sha256": "cd8100081ab14613d1a5a7ac55b617b98954ea9e348e227e7fb33a935d070cdb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho60_s3.json",
+    "bytes": 2094686,
+    "sha256": "5b43c4ec262683b081b4f93a628dca48cf9eb7b5bdbcbf3148f2a7f26120e965",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho90_s1.json",
+    "bytes": 3149470,
+    "sha256": "6d7b098d1bc8bb7e4dd85fdfd67fc8739c43d2dfdc4d80247828b045cd7517f9",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho90_s2.json",
+    "bytes": 3157170,
+    "sha256": "d857d8e267492dde84f349b4b23599b3adc609491d2af85c58f0e4156273e1a7",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\E1_rho90_s3.json",
+    "bytes": 3149864,
+    "sha256": "e89fcff81db234b9e68ee33354ee6c22b711d64a7eff07908885cf3fa6a7e630",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\test_images.json",
+    "bytes": 191587,
+    "sha256": "d8355dbaf2aec4a82698da4642ba6b2b466ec993269ec895b7cb99bd5e5b948a",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\validation_images.json",
+    "bytes": 96984,
+    "sha256": "69c01f12b194e8ef67e7880d76f6f318c929b96de5d49195757a7742c7af223c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\data\\validation_s101.json",
+    "bytes": 2120621,
+    "sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\Dockerfile",
+    "bytes": 373,
+    "sha256": "f6fa45c5fcc39dffefc427f23119b51d7eb91006e966b46786595bc402eedf8f",
+    "text_lines": 8
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\docs\\AGENT_HANDOFF_中文.md",
+    "bytes": 18509,
+    "sha256": "0292ac0bd74418e781df2ad0a25b481450b0a63d34097bb8fbf51171e53d9041",
+    "text_lines": 201
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\docs\\DATA_PLAN_中文.md",
+    "bytes": 6837,
+    "sha256": "36959d3dc7b135554cd83ba72752f86663b99476bc079da7067f0854f88adca8",
+    "text_lines": 64
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\docs\\EXPERIMENT_PLAN_中文.md",
+    "bytes": 10834,
+    "sha256": "916d9709d2a05cc6c2df9769693a5f2ab1bb00c905d4e5be1368227eb6846bee",
+    "text_lines": 93
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\docs\\EXPERIMENT_TRACKER_中文.md",
+    "bytes": 3925,
+    "sha256": "0635f6315de5416968b863a2351d44a4004528a10f7856cc885bcb8c9b853227",
+    "text_lines": 28
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\docs\\SECON_BASELINE_SEARCH_20261014_中文.md",
+    "bytes": 6279,
+    "sha256": "cfaa9c49cd7809c94bef481c82e83ebb2b1eb2a471225211e773702758e0fb4e",
+    "text_lines": 54
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_b2_recover.py",
+    "bytes": 3988,
+    "sha256": "e5dc02ad7e55748061374a5e0c39b37a3ebe5c91d4e1e3c9b18e8ea006b6713e",
+    "text_lines": 78
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_e1_grid_v2.py",
+    "bytes": 1503,
+    "sha256": "651fcc56a6ba9a5dcc352ac28aa507779905aad86fd3d2f0c7bd592fefb0c760",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_e1_prep.py",
+    "bytes": 2375,
+    "sha256": "ab62ea3eea2e9efb9d5e56c315d6678d9770cad25476768f3a55244b6d96ee72",
+    "text_lines": 51
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_freeze_v3.py",
+    "bytes": 2344,
+    "sha256": "e48870b2e3dd0af0122f79cbd47dec65a2130f6b8431c3b0f655b5f70dcb1df0",
+    "text_lines": 40
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_interference_calibration.py",
+    "bytes": 5453,
+    "sha256": "e78e2d1a57086a8288e810c6e450c10e1934d84e76cc6a3f786145c11e443b99",
+    "text_lines": 119
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_calibrate.py",
+    "bytes": 1225,
+    "sha256": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+    "text_lines": 27
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_prep.py",
+    "bytes": 1193,
+    "sha256": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+    "text_lines": 24
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m1_stress.py",
+    "bytes": 1494,
+    "sha256": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2_freeze.py",
+    "bytes": 1677,
+    "sha256": "eb16b0e0821056950848092618aeacd234b1ea944a9e8348d77618f1c9223a08",
+    "text_lines": 36
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2_prep.py",
+    "bytes": 2861,
+    "sha256": "5404f6afb14f56b5907369d9fc30f3a292603a0984a57634abdc669398d78e8d",
+    "text_lines": 48
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2_validation.py",
+    "bytes": 1428,
+    "sha256": "227773548654b2ed2e50760ddadf93c9317c7119734d90e719325d2cdbafda6c",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2b_freeze.py",
+    "bytes": 1762,
+    "sha256": "3e217dc3d0535599759a4516807d54aeafa44051197f0f0e7e80f62fbc474d45",
+    "text_lines": 34
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2b_validation.py",
+    "bytes": 1583,
+    "sha256": "fbdc186cdac1f4f0df41f5829a777e137a899d76653dc49192df34dd5d0a669a",
+    "text_lines": 31
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2c_freeze.py",
+    "bytes": 1750,
+    "sha256": "d29d94ccce8addba623e5541de9efdde3c2d70579b2e378771cd43007e6c0339",
+    "text_lines": 33
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2c_validation.py",
+    "bytes": 1514,
+    "sha256": "139464589c6808280e0bb638898d42eaa3aeb307cdef9616a675f67b567a06e1",
+    "text_lines": 32
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_m2d_validation.py",
+    "bytes": 1514,
+    "sha256": "384b24825a999df361fa2ac73a337aa75f61d5110ce3a1f746b6ff7e975e7f68",
+    "text_lines": 32
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_review_request.py",
+    "bytes": 11313,
+    "sha256": "e5b3e9ba781a63b1b09918b9571ad41c1d464f34a360510d4a9e88916d1453b6",
+    "text_lines": 150
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\drive_scripts\\run_selfaudit.py",
+    "bytes": 1351,
+    "sha256": "f089167149fe9b251ec66e4cb47bf6066c92fd06b52dfd6ed26e98cbb4a79504",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\docs\\AGENT_HANDOFF_中文.md",
+    "bytes": 18014,
+    "sha256": "46828b63c061b223e24715bbfe25c1211743ad7cc75bc1751a58f9be9fee0785",
+    "text_lines": 198
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\docs\\DATA_PLAN_中文.md",
+    "bytes": 6837,
+    "sha256": "36959d3dc7b135554cd83ba72752f86663b99476bc079da7067f0854f88adca8",
+    "text_lines": 64
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\docs\\EXPERIMENT_PLAN_中文.md",
+    "bytes": 10834,
+    "sha256": "916d9709d2a05cc6c2df9769693a5f2ab1bb00c905d4e5be1368227eb6846bee",
+    "text_lines": 93
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\docs\\EXPERIMENT_TRACKER_中文.md",
+    "bytes": 2949,
+    "sha256": "b6c8bc30b4747f46049c95f5538fa1ea1456d5d0a65919da77d8302caa9c1430",
+    "text_lines": 25
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_e1_prep.py",
+    "bytes": 3146,
+    "sha256": "a14f59b0ea38d405a065452c2e7447728143797e823318b4b8490f9a82315269",
+    "text_lines": 65
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_calibrate.py",
+    "bytes": 1225,
+    "sha256": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+    "text_lines": 27
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_prep.py",
+    "bytes": 1193,
+    "sha256": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+    "text_lines": 24
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m1_stress.py",
+    "bytes": 1494,
+    "sha256": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m2_freeze.py",
+    "bytes": 1677,
+    "sha256": "eb16b0e0821056950848092618aeacd234b1ea944a9e8348d77618f1c9223a08",
+    "text_lines": 36
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m2_prep.py",
+    "bytes": 2702,
+    "sha256": "7acd256df36156e0c26ed42826080e6b2161d068be59fda6f02a5508685e5531",
+    "text_lines": 47
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m2_validation.py",
+    "bytes": 1428,
+    "sha256": "227773548654b2ed2e50760ddadf93c9317c7119734d90e719325d2cdbafda6c",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m2b_freeze.py",
+    "bytes": 1762,
+    "sha256": "3e217dc3d0535599759a4516807d54aeafa44051197f0f0e7e80f62fbc474d45",
+    "text_lines": 34
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_m2b_validation.py",
+    "bytes": 1583,
+    "sha256": "fbdc186cdac1f4f0df41f5829a777e137a899d76653dc49192df34dd5d0a669a",
+    "text_lines": 31
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\drive_scripts\\run_selfaudit.py",
+    "bytes": 1351,
+    "sha256": "f089167149fe9b251ec66e4cb47bf6066c92fd06b52dfd6ed26e98cbb4a79504",
+    "text_lines": 30
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\calibration_scales_v1.json",
+    "bytes": 1867,
+    "sha256": "2f9e813a18797732ebf85565c650107db3d14b567d47ada1910a0470c6727f5e",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\E1_grid.json",
+    "bytes": 4991,
+    "sha256": "efd0ff9e3d6bf134aa25cf80545f0ab54c463621ea94b8d9a1be02b807833696",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\E1_test_registry.json",
+    "bytes": 2840,
+    "sha256": "4f0da10a23107add3b7fe0d9c2db21d34da51d17eae023266136fbfd980d85f1",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\formal_actor_v1.json",
+    "bytes": 16037,
+    "sha256": "913dc6c6f9248b975c8c34324b45db3017552df6284d92cc2c62f75bb5997521",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\frozen_v1\\FEATURE_SCALES.json",
+    "bytes": 1847,
+    "sha256": "d68046e2f7cd208e7c66e2b698caeeb76b77bba834bbd812ba92b2e7e3971572",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\frozen_v1\\FORMAL_CONFIG.json",
+    "bytes": 3460,
+    "sha256": "9e77871bc07e477e46fdf89491b25c4d699c16423952d7f3b3e5837e4599886f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\frozen_v1\\FROZEN_SYSTEM_PROTOCOL.json",
+    "bytes": 9848,
+    "sha256": "ef5b869e0b43a5a3f1f0766529d2d560fbd8fa12652b69c0d54d61f8141f2f69",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\validation_actor_forward_v1.json",
+    "bytes": 14146,
+    "sha256": "6467600e68307516b175eed3e3ed0d82d3b5ed8f46020e86356f5212590ca34b",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\validation_actor_v1.json",
+    "bytes": 16057,
+    "sha256": "20378ea08df47efe22a32acf911173fd0d10d591c763ae77d95052087cf041cc",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\validation_config_v1.json",
+    "bytes": 3244,
+    "sha256": "9aafdc798f1e4ed778f46c647c45672ff6114256fd61c0893dd05e83aaabbd8a",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\protocol\\validation_registration_v1.json",
+    "bytes": 747,
+    "sha256": "1e2311696e86eec07beb9be7f2b893b0eb8ebff36b2722955ced6cd417f7fdb9",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\reviews\\entry_selfaudit_v1\\SELF_AUDIT_REPORT_中文.md",
+    "bytes": 8615,
+    "sha256": "d4ac9a2210f69ba41327468cb692c9a3973be9f4156f2c867f302795220dcd4a",
+    "text_lines": 89
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\reviews\\entry_selfaudit_v1\\SELF_AUDIT_RESULT.json",
+    "bytes": 2425,
+    "sha256": "b40f5f80d8458d428bd3527d3dceaedfcd9dccca6a58ceba1d57f647fa3f1476",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__init__.py",
+    "bytes": 103,
+    "sha256": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+    "text_lines": 2
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__main__.py",
+    "bytes": 10073,
+    "sha256": "45b3cd6dc12196864a25d715f109f6c12d71c62db808d2d5da7befef1b66124f",
+    "text_lines": 182
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\__init__.cpython-313.pyc",
+    "bytes": 301,
+    "sha256": "f2bd6ba12f4d94e059c8aeebeb3806277d2e5a8a674e50934e2bd4466a005dd4"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\__main__.cpython-313.pyc",
+    "bytes": 14669,
+    "sha256": "b44482021ff189cdac5f62940aa18c356bc228b9a7dac0d3cb90305ffd8a35e6"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\analysis.cpython-313.pyc",
+    "bytes": 14745,
+    "sha256": "8a31eabcb45a81517273e5fcc41a87389098d7bd2255e328c9501c8819086de3"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\client.cpython-313.pyc",
+    "bytes": 19215,
+    "sha256": "56f70726b98e46d68bac7bd7f2a256d41503d275737c4f68b0800a6a280ec3cf"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\common.cpython-313.pyc",
+    "bytes": 10378,
+    "sha256": "1fb60942eefb18e4b8a05d6dde47d2635ce67b9e930d2c15b85a3d263f7f587f"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\data.cpython-313.pyc",
+    "bytes": 9562,
+    "sha256": "eaca2274645f30d483850680d43b7d76db8b9ce5eb351bb6bb50a7db8ad1c3b5"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\edge.cpython-313.pyc",
+    "bytes": 19961,
+    "sha256": "196b494f7a6496fbb15a63461e47036154d3c15a8fa85652f41ff179476c3b7a"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\feedback.cpython-313.pyc",
+    "bytes": 16410,
+    "sha256": "958461afa46bbc840e110d3d0211cf6f5bf35944b1ac8de4f8301571da3d25bc"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\launcher.cpython-313.pyc",
+    "bytes": 12975,
+    "sha256": "80c7719839891718249d360cc4dbe3009e8934b08c376fb072e4db6023dcfa56"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\__pycache__\\policy.cpython-313.pyc",
+    "bytes": 16505,
+    "sha256": "245cefc97b7e5b493397d7f27cc33bc8d979367bf176f49709c7c39639383419"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\analysis.py",
+    "bytes": 14324,
+    "sha256": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+    "text_lines": 228
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\client.py",
+    "bytes": 12948,
+    "sha256": "1418e60c0ffe965ac11dc2dce83adfd8f83103f215fb795ade18c55bce0fbb18",
+    "text_lines": 220
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\common.py",
+    "bytes": 4758,
+    "sha256": "d72aca9edf50fe8806298a25870db58b2e497ea0ee7b22534c5636bf4fb76ec0",
+    "text_lines": 132
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\data.py",
+    "bytes": 6393,
+    "sha256": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+    "text_lines": 120
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\edge.py",
+    "bytes": 11184,
+    "sha256": "4a482b9cf2120aeb4b6b849af7920cd7f438f38af9bfc3e1668831d0915b267c",
+    "text_lines": 231
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\feedback.py",
+    "bytes": 9390,
+    "sha256": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+    "text_lines": 200
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\launcher.py",
+    "bytes": 8634,
+    "sha256": "71fcda9515cdbfa6bbb77dc69be0128585efd3e4f6effbdc44582f025e4fd65e",
+    "text_lines": 179
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\systemlab\\policy.py",
+    "bytes": 10197,
+    "sha256": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+    "text_lines": 180
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tests\\__pycache__\\test_core.cpython-313.pyc",
+    "bytes": 12515,
+    "sha256": "51905ab8547bc6d19d92798783f256bcf2d80d2d84728f0ddd69c1a38ffb2f7c"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tests\\test_core.py",
+    "bytes": 6669,
+    "sha256": "23eb3bc4546cd2ab6e8effebac39a2ebf943e52e112b9da9f96c238ea735ba44",
+    "text_lines": 135
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\build_manifest.py",
+    "bytes": 1137,
+    "sha256": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+    "text_lines": 22
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\check_actor_transfer.py",
+    "bytes": 1630,
+    "sha256": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+    "text_lines": 42
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\configure_pilot.py",
+    "bytes": 831,
+    "sha256": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+    "text_lines": 19
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\interaction.py",
+    "bytes": 2347,
+    "sha256": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+    "text_lines": 45
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\make_grid.py",
+    "bytes": 2237,
+    "sha256": "2c9c15b09f6411b2dfbcf48f3e4858cd1d99691b1d76202bfb9f23284f54c1c7",
+    "text_lines": 43
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\stop_owned_attempt.py",
+    "bytes": 1588,
+    "sha256": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+    "text_lines": 35
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\BEFORE\\tools\\verify_unit.py",
+    "bytes": 979,
+    "sha256": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf",
+    "text_lines": 22
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\COMPLETE.json",
+    "bytes": 497,
+    "sha256": "56060729ecd8e1e23a075fb29479d5872cf921875e243ffcbb1cc23eaa08e65c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\CUTOFF.json",
+    "bytes": 153,
+    "sha256": "d695ac6f4771a138ede53736c96de255fdb65b80ebac98bdd1e34646e2819653",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\decisions.jsonl",
+    "bytes": 3356,
+    "sha256": "d718e05f2cb56b2c9b0a3ceb2df65078db350e477a718861b3a8e40b065549fa",
+    "rows": 4,
+    "kinds": {
+      "decision": 4
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\feedback_receive.jsonl",
+    "bytes": 20644,
+    "sha256": "763290acaf783dcccbf85ee2948d39bad3879a352ca36f86fd8fe8943371dc19",
+    "rows": 96,
+    "kinds": {
+      "feedback_received": 96
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\INPUTS.json",
+    "bytes": 17521,
+    "sha256": "92b0ea0ba1a1791314b9063e66c984c56fd683f4437f2ed853b227bf2fb13cab",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\tasks.jsonl",
+    "bytes": 3684,
+    "sha256": "04410c3151496b1ea9072184ff02fec28f19cfa4b3569ed88bc31b1cc786e724",
+    "rows": 4,
+    "kinds": {
+      "task_outcome": 4
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller\\feedback_send.jsonl",
+    "bytes": 128875,
+    "sha256": "b48a85d77910e4e6b1616a8bb506c4dc050e860abd03e9e03c55c1b1cc07f22d",
+    "rows": 445,
+    "kinds": {
+      "monitor_snapshot": 212,
+      "feedback_sent": 224,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller\\RUNTIME.json",
+    "bytes": 2071,
+    "sha256": "ae137435131fbda3f0da3d401e320a4c57e4a8a5aef0847a50b148ecb380de52",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge0.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge1.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge2.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge3.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge0\\edge.jsonl",
+    "bytes": 1218,
+    "sha256": "53086385f5eb88f721f182343091ed6e59577b88be39c4669bb20d0046a015cf",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2457,
+    "sha256": "a4d7dd7dd30c3d77205f5b18c8d1588f708fe7484c9aae607f5052d57e662b11",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge1\\edge.jsonl",
+    "bytes": 1218,
+    "sha256": "922f3aa9f1e84cd3bfb5f6fe6ecb3ba978ed2c2f4b307e957e2472790221ee48",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2457,
+    "sha256": "9ba54b90b9004918513d4303fe7315e2883d40c15896ca4b1f5e5960373565ac",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge2\\edge.jsonl",
+    "bytes": 1216,
+    "sha256": "91e5463372d5f17ed15f931f98b9930a8097a3b9fdffbbfa6107559475c09175",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2457,
+    "sha256": "7029911e677ebbe067d3c45dc1d3fa5254d20bdb31c159b12dd31c2ec8e5cd94",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge3\\edge.jsonl",
+    "bytes": 1221,
+    "sha256": "d91b47ac97d030e5e524c83f17e0f8d002f6a98041a8423ccc2beb1173b3b4a8",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2457,
+    "sha256": "aecd67c33cbef6b00e063a8b2d2fbc0f6ce6425f5563b4d020d4c4923a37ed50",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\PROCESS_END.json",
+    "bytes": 1411,
+    "sha256": "124c75d991e98d469fc8c51f032353d852bc3848c83cae5c5e674e8afe67d2cf",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\PROCESSES.json",
+    "bytes": 2618,
+    "sha256": "ffdae772f739f5b65056cdd5ccee628261dcb1a12084e0aaf39c6bf19d31b3bb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\REPAIR_REPORT_中文.md",
+    "bytes": 7930,
+    "sha256": "965f6e9f33d91c7a2f1218c5e3578ee28d37f6329ff6b645d0bcedc1b50edc4f",
+    "text_lines": 54
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\RESULT.json",
+    "bytes": 2697,
+    "sha256": "4bfec38bec9d5f526947c453a3654a567a6738991eb0fcb87071130df606f829",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\engineering_repairs\\20261013_three_logic_fixes\\UNIT_RESULT_attempt_02.json",
+    "bytes": 4586,
+    "sha256": "cad2b3df5cc3c0d471f019fe3d42302f1bd1090f9566299170055396d61aa2e5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\PLAN.json",
+    "bytes": 13808,
+    "sha256": "3392414d4131c3db7d6e085472c770aac1f7003aa9b2ee40e9184918e4b53849",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\REPORT_中文.md",
+    "bytes": 5570,
+    "sha256": "7e790e72a920647a4bf894cf1e21028db3db6a09a7bd3d9491917db1d85be885",
+    "text_lines": 53
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_00\\edge0.json",
+    "bytes": 33212,
+    "sha256": "30fd4f612daa41e25f1ff06ed46166456a6391f811aead2c3b86c99adb5c755c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_01\\edge0.json",
+    "bytes": 33218,
+    "sha256": "5c30485b64dd1875be1938255483fd4522c37abced306f9d07bbbfa689a31adb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_02\\edge0.json",
+    "bytes": 33127,
+    "sha256": "5019ab317b77ca48ce54d99e871e91e512f95960b549d4be55b5ef1f263efe9f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_02\\edge1.json",
+    "bytes": 33125,
+    "sha256": "9c074aa40778ef0b4ebf054618effcc21c119486c394431911902137444ef598",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_02\\edge2.json",
+    "bytes": 33206,
+    "sha256": "b6bff0ec124720ba93aa705f945e30ee25c453561cbf690df0bcfd4197a03a0a",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_02\\edge3.json",
+    "bytes": 33194,
+    "sha256": "27dbe267b61dc6c6f358c2a912e1d9b1f0d05338a986794e5a5faaa138e77bcb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_03\\edge1.json",
+    "bytes": 33225,
+    "sha256": "ec3c46c7d13c06b12c9239c843861a769caa17bb34a40ca0356f34625aee9edd",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_04\\edge0.json",
+    "bytes": 33202,
+    "sha256": "356c8935a5f294aa10582d3f900dcf744a97c9495665f6dee89463db89fa4735",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_04\\edge1.json",
+    "bytes": 33140,
+    "sha256": "0e7107d255573a82f4825daf26556420a65135a3ca95a1ecb3ce538fd3b95bf6",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_04\\edge2.json",
+    "bytes": 33233,
+    "sha256": "9a0178d425330a8a0c272b48935314c831cac79a4f9a759978be8e232a63b97c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_04\\edge3.json",
+    "bytes": 33238,
+    "sha256": "a87b41054c17991428a36f0bdcecefc1ef326d4eb0bb491257b089598f061876",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_05\\edge0.json",
+    "bytes": 33208,
+    "sha256": "0f1089ade3555ca8228c406725886c7e21f2aa500b2b588dde9f10807ef4c842",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_06\\edge2.json",
+    "bytes": 33252,
+    "sha256": "a5726c50a5884f1df05bdc37a5ab7e4d21aa2c176103fb965768da6822aa9009",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_07\\edge3.json",
+    "bytes": 33232,
+    "sha256": "9968c120b421391b6ca3cdb2b6bf867dd02c572de4a40f33343695407d36edc1",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_08\\edge0.json",
+    "bytes": 33110,
+    "sha256": "991a0fbf74982d327d5b6d344f46ec99848e037ff0c39a6d9016d75262494859",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_08\\edge1.json",
+    "bytes": 33112,
+    "sha256": "c2ca75666fe410135e813e78a1e630f6bfb3a9659602a7a5d06541187fba6bb2",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_08\\edge2.json",
+    "bytes": 33194,
+    "sha256": "69858741740f05bf84baebcba34238410036d704cb8c81b7549c4e24f9b77a79",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_08\\edge3.json",
+    "bytes": 33211,
+    "sha256": "9657b2db8427de2187e61192f8771bbd396ff087296373c173493dcd2f8cdb47",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_09\\edge3.json",
+    "bytes": 33270,
+    "sha256": "29cf644e0ba55a8c27e5865d38ef669992e4c72069822ce6b36022ec7cb5bf34",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_10\\edge0.json",
+    "bytes": 33234,
+    "sha256": "1ffbcc3ff369ef06f3b67505e63e550fd3f96b517d698582d33707a4368e4bc5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_10\\edge1.json",
+    "bytes": 33154,
+    "sha256": "1ada6c5f6e7c3d6afd2ce3a985877b28bf15e31a5d9810b23d90325635dca9a1",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_10\\edge2.json",
+    "bytes": 33246,
+    "sha256": "7d5b7f19d8e52d016f165abd92caa461d6bb9562d3e52b1970f97e2b09de6ee5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_10\\edge3.json",
+    "bytes": 33235,
+    "sha256": "721a29d4ba1a43fd7b4ebe8a18cb2ba8d8f2dd2af7ed855508c1ac74212795cf",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_11\\edge2.json",
+    "bytes": 33237,
+    "sha256": "468f3fd09b60e79400df56f9a132b9f1a0b8a19e79a9a50a91debbe4e1272efa",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_12\\edge3.json",
+    "bytes": 33260,
+    "sha256": "b11061b8590142b1a5a99a3dc477f8a278fb7c44274e1bcfb2626ac72f759192",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_13\\edge2.json",
+    "bytes": 33236,
+    "sha256": "8afe9127d277154bc51c4990da405c644ca8c1f321d4dc14472d2439a72a43e2",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_14\\edge0.json",
+    "bytes": 33112,
+    "sha256": "8189871da50721adae44d609b416641f338af633636ea2992e855506c392f06f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_14\\edge1.json",
+    "bytes": 33113,
+    "sha256": "5e88224bb1d415a5e17fef94514ba44f3d43b987383bc8decce375daedeb00ae",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_14\\edge2.json",
+    "bytes": 33223,
+    "sha256": "ea23a761326a3457a5c20acc16056f566422560a0e2c0820caa1ce578b9063c7",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_14\\edge3.json",
+    "bytes": 33179,
+    "sha256": "af85cb4c5a08deb5c08c96f8d22f36ccdd9f62bf5a6d74550aff03305c04aeae",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_15\\edge1.json",
+    "bytes": 33220,
+    "sha256": "f394c0d421201cb2a583d02d8d1b6e25b7aa18e4aa29884cdb1b77d5c6e4cfd7",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_16\\edge1.json",
+    "bytes": 33206,
+    "sha256": "9d33d6de07687e19a41ce9e40ef5cacc0f408f4ced197dfeec34e4ad1bbfe70d",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_17\\edge0.json",
+    "bytes": 33232,
+    "sha256": "de911b3351f2952005910e02810bb771eeedadbbe1a67bd75d42e598750d1392",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_17\\edge1.json",
+    "bytes": 33151,
+    "sha256": "960da90936a89651c4dafd8c1d9d5b49190f3e477b2b5d542f88df4b724bb9b8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_17\\edge2.json",
+    "bytes": 33235,
+    "sha256": "bc39f1a1b56e9c4e686a9c760d86821441127763b6b2e2ac932af9bb5c5656f9",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration\\run_17\\edge3.json",
+    "bytes": 33237,
+    "sha256": "1130d10cf89e3f301e2578761032191fd9bb9f0cbd7849ead682055f22c929cb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\PLAN.json",
+    "bytes": 13808,
+    "sha256": "3392414d4131c3db7d6e085472c770aac1f7003aa9b2ee40e9184918e4b53849",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_00\\edge0.json",
+    "bytes": 33215,
+    "sha256": "ff778ea5222cbc9b3a4b57896c02ba1c4deda63194a84c20890c9829368c1c15",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_01\\edge0.json",
+    "bytes": 33244,
+    "sha256": "0a3e52805ac5ae54ab0b9bbce2f2863cfb25cbbc3306dab0aa6dc624e981e6a4",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_02\\edge0.json",
+    "bytes": 33132,
+    "sha256": "bac61c3c20d26a63817de8f301e2b930799cd10db8043723880d019996037376",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_02\\edge1.json",
+    "bytes": 33097,
+    "sha256": "8372bc151173e7e3ef00142d747f0b27a9ba88570d4e631d56d4b846d673c33f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_02\\edge2.json",
+    "bytes": 33219,
+    "sha256": "b9e59db1f85994519ec5421b480683e8e6e39ffc306a2031f3a40f271508db8c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_02\\edge3.json",
+    "bytes": 33209,
+    "sha256": "bd02c7a6ae8dd52364407a5eacc2f7467f7fda7ffb45ae460f5dcd1b54d9fecd",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_03\\edge1.json",
+    "bytes": 33229,
+    "sha256": "9c7dce8043a14c58f3b9431f38332f33fef6b690b20dd50bf0a3f4e45b89d6c8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_04\\edge0.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_04\\edge1.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_04\\edge2.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_04\\edge3.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_05\\edge0.json",
+    "bytes": 33209,
+    "sha256": "16a18974f7162aba289156161fc8653733ee550cd44c76522df300dd7d2db3e6",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_06\\edge2.json",
+    "bytes": 33251,
+    "sha256": "da905d695d9a6836641f82f880d556092bd35dbc2cd2fb6aa382be8cef8711c5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_07\\edge3.json",
+    "bytes": 33253,
+    "sha256": "5eef4f11114d032d07f10af632a4406ea5dc4bc690075652587e6fa71606059b",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_08\\edge0.json",
+    "bytes": 33105,
+    "sha256": "5c4d1630f778442efa4e69648f0b3a997b2ad06b49f26798094fbea062c276f4",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_08\\edge1.json",
+    "bytes": 33131,
+    "sha256": "9bc955213f20f4fd2bafb8eff96cc7363be36397b0078f05fac944f634713f41",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_08\\edge2.json",
+    "bytes": 33202,
+    "sha256": "103c69838d4ee0db608d831599e5b7397eaaba0e8818da018d98cdc561f98892",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_08\\edge3.json",
+    "bytes": 33219,
+    "sha256": "58e2d72d407f1a6e083a540fdf44b1a65ef9ee2c2d5c6bcefe47aa5e059eb0d6",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_09\\edge3.json",
+    "bytes": 33238,
+    "sha256": "7291039a2a29b2f7ed935b7e67d401eedc3c8727fa70857f061a8a4f1a5c0762",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_10\\edge0.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_10\\edge1.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_10\\edge2.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_10\\edge3.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_11\\edge2.json",
+    "bytes": 33239,
+    "sha256": "9a3a8aa1fe8c63fd62814f67b7ce35bb604ad16b1a58db567b125e885d9d9f09",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_12\\edge3.json",
+    "bytes": 33230,
+    "sha256": "98a07dc381b6e834dbcabce9fb4ca03d283f3d666ae8cebd97e26b6cf7b601bf",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_13\\edge2.json",
+    "bytes": 33246,
+    "sha256": "b66b660405ae7976474cec1827149395dee68fc446786ca308b29f1abee9f194",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_14\\edge0.json",
+    "bytes": 33098,
+    "sha256": "ca611fe5663678bdfecd2f03c755852d3e5c533ce54543612fa8ee8bd03e19d1",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_14\\edge1.json",
+    "bytes": 33109,
+    "sha256": "c70bcd093fdfc5d5457959abd03793ed31a18d52815d7e5316f88d1e75557e59",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_14\\edge2.json",
+    "bytes": 33213,
+    "sha256": "e99d87849d01f1b1212feaa3722601065c5136e8bebad7281bc657f22b356ef8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_14\\edge3.json",
+    "bytes": 33200,
+    "sha256": "cf498a2b27302855990dd6af1998b03722bbeff9340c12699ae8ffd69abe66a0",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_15\\edge1.json",
+    "bytes": 33196,
+    "sha256": "10815cd0437296e38958d0fc5afbf388c23c9d3ad88f989e76899e3b736b17d2",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_16\\edge1.json",
+    "bytes": 33241,
+    "sha256": "7f501023f613b3540c9f0d2fdd664d6e7fea28566e1fa21048afd788222c816d",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_17\\edge0.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_17\\edge1.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_17\\edge2.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\interference_calibration_affinity_attempt_01_broken\\run_17\\edge3.error.json",
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\legacy_source\\RECOVERY_REPORT.json",
+    "bytes": 2783,
+    "sha256": "23ca98f6f9b0e9cc1506db818ce54f392d2d1fb72a6c690dbfcf1b6b3bcbcbf8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\legacy_source\\systemlab\\common.py",
+    "bytes": 4294,
+    "sha256": "6cedd7b3590da61d1a3e3ee12f20f6b5b0154954d5a0e8a5b54cc6418183a0d6",
+    "text_lines": 123
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\calibration_scales_v1.json",
+    "bytes": 1867,
+    "sha256": "2f9e813a18797732ebf85565c650107db3d14b567d47ada1910a0470c6727f5e",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\E1_grid_v3.json",
+    "bytes": 5126,
+    "sha256": "6bf149fe674e4f996e39e0bc7d05607d100a3870ab6d47f01250ca55ba702ab0",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\E1_test_registry_v3.json",
+    "bytes": 4943,
+    "sha256": "51df80fba22c1f75ef30e064eff152a157988cc42a3e949790bca20bcceaa2fd",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\formal_actor_v3.json",
+    "bytes": 16037,
+    "sha256": "913dc6c6f9248b975c8c34324b45db3017552df6284d92cc2c62f75bb5997521",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\frozen_v3\\FEATURE_SCALES.json",
+    "bytes": 1847,
+    "sha256": "d68046e2f7cd208e7c66e2b698caeeb76b77bba834bbd812ba92b2e7e3971572",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\frozen_v3\\FORMAL_CONFIG.json",
+    "bytes": 3460,
+    "sha256": "6026d8d8c616294fe79ea47fe7ca62670a584b44898ab4027aa42ce05baee64b",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\frozen_v3\\FROZEN_SYSTEM_PROTOCOL.json",
+    "bytes": 10034,
+    "sha256": "cf7acc96346a2aeb400ebf3638abb6c64a5c185d6b2137ce1ba648c6f2cde46d",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\validation_actor_v1.json",
+    "bytes": 16057,
+    "sha256": "20378ea08df47efe22a32acf911173fd0d10d591c763ae77d95052087cf041cc",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\validation_config_v1.json",
+    "bytes": 3244,
+    "sha256": "9aafdc798f1e4ed778f46c647c45672ff6114256fd61c0893dd05e83aaabbd8a",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\protocol\\validation_registration_v1.json",
+    "bytes": 747,
+    "sha256": "1e2311696e86eec07beb9be7f2b893b0eb8ebff36b2722955ced6cd417f7fdb9",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\README.md",
+    "bytes": 3470,
+    "sha256": "f727e93bab28e7da869ff0965178ff08320950a3f533c32dc4abaab5ca469ced",
+    "text_lines": 37
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\requirements.txt",
+    "bytes": 62,
+    "sha256": "f28d232c8a656419073ce0fd2a91270d22f9d8d9a6540c216d76c209427a8ee0",
+    "text_lines": 4
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\reviews\\entry_v2_independent_20261014\\REVIEW_RESPONSE.md",
+    "bytes": 33029,
+    "sha256": "7d364cef79507a8aa660ad41a4ce57dc8a73a8bdd0f7f028ef85556b3161e6af",
+    "text_lines": 218
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\analysis.json",
+    "bytes": 26105,
+    "sha256": "e3064b7365dce53d11fa965cb35e3a85028196b2064d6ec8a66b44d49518af36",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\COMPLETE.json",
+    "bytes": 295,
+    "sha256": "7b0b1ad75d0a1acce36df0407568f10d22ee0952115b76f27385c6c39c7b4f8d",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\CUTOFF.json",
+    "bytes": 157,
+    "sha256": "904caab94a84d65f50bda395944834e041089488b16fa9467a3c1288ad6e06d6",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\decisions.jsonl",
+    "bytes": 498669,
+    "sha256": "a7de138af0362850b3ae5ebb8dca4b0febb7e6b4a16de9111a6cd894488a9003",
+    "rows": 582,
+    "kinds": {
+      "decision": 582
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\feedback_receive.jsonl",
+    "bytes": 742724,
+    "sha256": "cdddfabfe03be64474f87e187745cef5234c031aa8e3be0faed762b9faf6278b",
+    "rows": 3424,
+    "kinds": {
+      "feedback_received": 3424
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\INPUTS.json",
+    "bytes": 3853,
+    "sha256": "d2dafaeaa8cd9a72acb746e7cd1de7a689d11e0317938d5e8537752355150e71",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\client\\tasks.jsonl",
+    "bytes": 549861,
+    "sha256": "5f2f3c90db9067f1b638a4bb42e19ef1d2c7ee15ccada292a6124c1ff35d31e6",
+    "rows": 599,
+    "kinds": {
+      "task_outcome": 599
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\controller\\feedback_send.jsonl",
+    "bytes": 2340756,
+    "sha256": "65d4095dd85496fbdbb2d92b9f8bad654c962cf5d24ec8785540736f45a8e877",
+    "rows": 7834,
+    "kinds": {
+      "monitor_snapshot": 4092,
+      "feedback_sent": 3600,
+      "budget_deferred": 133,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\controller\\RUNTIME.json",
+    "bytes": 2057,
+    "sha256": "4d1de72d5f130085ade443c8a720120ba924682b7d3b8f7b44a9e6f794f8d763",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\controller.stderr.log",
+    "bytes": 2686,
+    "sha256": "720e1fd464b976cb5ac3e6946a22443641a8cf8b239551c650004c1a2bbbfc34",
+    "text_lines": 52
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge0.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge1.stderr.log",
+    "bytes": 1657,
+    "sha256": "eee70891d59a51af60c5f25f4574ca1a07ad2afb39ea445e7422bfdaf4e4f0c1",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge2.stderr.log",
+    "bytes": 1657,
+    "sha256": "71e840f9baa7502faffed3f060bb4fd3cb940595a96a521fd6ebad27495cd16c",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge3.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge0\\edge.jsonl",
+    "bytes": 88415,
+    "sha256": "75a23305b54db33eeb6c55ae1b75044d7f870dc24d85926906333d45ed06cac3",
+    "rows": 278,
+    "kinds": {
+      "ready": 1,
+      "admitted": 138,
+      "execution_result": 138,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2445,
+    "sha256": "7b34829f45e87adf53384eb9eae76438eea1b80500fff5e5d6d70d5d0ea8eb1f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge1\\edge.jsonl",
+    "bytes": 101208,
+    "sha256": "fead1516e3de69adaf35328d9e44139c233131a999700d58be866594ed22a97a",
+    "rows": 318,
+    "kinds": {
+      "ready": 1,
+      "admitted": 158,
+      "execution_result": 158,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2445,
+    "sha256": "bcc7770c7df2221e1e3bfa112c197552e2a304875daf0a59f40ceb30312c3004",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge2\\edge.jsonl",
+    "bytes": 98773,
+    "sha256": "24cee05045268652f7f67db8e793776716b2327eb77b9f36441be919f0ebbdde",
+    "rows": 310,
+    "kinds": {
+      "ready": 1,
+      "admitted": 154,
+      "execution_result": 154,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2445,
+    "sha256": "af62a0832355a7cb81af71029a613e1f6e4f9378d7136c0b47cb18165f08ab0f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge3\\edge.jsonl",
+    "bytes": 95601,
+    "sha256": "514d868cc650dd0b024b89a80dc43db3f8e9cab1158bca25f520dc5e96ec683c",
+    "rows": 300,
+    "kinds": {
+      "ready": 1,
+      "admitted": 149,
+      "execution_result": 149,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2445,
+    "sha256": "18aa1510a9d7cee24b1b71f3e1b61fcf37249b71c8ef9c7146dbbbc0427e9016",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\PROCESS_END.json",
+    "bytes": 1407,
+    "sha256": "cc882fb6be24cdd6b80afaf3e162bed8cae315cf67b70a993898d443f4398acc",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_rr_s1_attempt_01\\PROCESSES.json",
+    "bytes": 2336,
+    "sha256": "dc96b6d412c982651eac0d321ad6c7a7132819454140febe558a7814e7f0b61a",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\analysis.json",
+    "bytes": 160682,
+    "sha256": "bbc35b205c32a5480f1e054d419196979baad417fb2348d8b70195ed7839c9a5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\COMPLETE.json",
+    "bytes": 297,
+    "sha256": "f198bb2acc1d5725183140e5a0d4a8d24b46dff4446fb6a8d333bc07d5611375",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\CUTOFF.json",
+    "bytes": 160,
+    "sha256": "bbecb8dbeb58eb8ab92413120078bec2024244718bdf733f57d5cc9da6c43369",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\decisions.jsonl",
+    "bytes": 12882126,
+    "sha256": "38701b280f07fe69857bbd8a6a07d27b7f96f3e4dc466568d23b2057d8e70c8a",
+    "rows": 14955,
+    "kinds": {
+      "decision": 14955
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\feedback_receive.jsonl",
+    "bytes": 1759638,
+    "sha256": "f6634a1d738f644c08408ee9e8cf7f7430e96c8789a983fd9617360287a16ce3",
+    "rows": 8080,
+    "kinds": {
+      "feedback_received": 8080
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\INPUTS.json",
+    "bytes": 4028,
+    "sha256": "98e81e7a17ee1fe0a0aaff29ff907f1660254cabd5750c7db65deaa9be31b894",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\client\\tasks.jsonl",
+    "bytes": 16417836,
+    "sha256": "2055742a4b5c464af6fbd50fc943a071c31b35f8d0e1f60cd6a2a5ebd92d63a4",
+    "rows": 18916,
+    "kinds": {
+      "task_outcome": 18916
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\controller\\feedback_send.jsonl",
+    "bytes": 5734271,
+    "sha256": "0aa2ac7932d7339fd16ee8feddf899e0207be84544f06f648a9152a258da746f",
+    "rows": 18677,
+    "kinds": {
+      "monitor_snapshot": 9972,
+      "feedback_sent": 8240,
+      "budget_deferred": 456,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\controller\\RUNTIME.json",
+    "bytes": 2233,
+    "sha256": "9b35d208f48b0993941ec0bdf8e83e0793c09ff50addca1453a9e1b382d58a65",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\controller.stderr.log",
+    "bytes": 2686,
+    "sha256": "5edcb340450b4dbdabe3a38cd29464dd1bd0bc9efd61f368ae5f6149c5683f49",
+    "text_lines": 52
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge0.stderr.log",
+    "bytes": 1657,
+    "sha256": "981d5659179fb121ef98b629be2bc7318ea5eab47213c89cc63885fd7c3f94bc",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge1.stderr.log",
+    "bytes": 1657,
+    "sha256": "36302a1869fea68b4350b2024e0f46d56ab048195e05d64cf8898fb62e9a4dfb",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge2.stderr.log",
+    "bytes": 1657,
+    "sha256": "b8a78242e431487fa2e55a0c8b08c5829a66771e172f484ce899d3a942dfb556",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge3.stderr.log",
+    "bytes": 1657,
+    "sha256": "858aa91d7a9088505dcffcc4ccd0742965bbacf8750093cd8c94af542176f4eb",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge0\\edge.jsonl",
+    "bytes": 2216919,
+    "sha256": "55240ac5a5176c40cd88945ee23b3809558b17ad74b1cb1952ac1f8291d88728",
+    "rows": 7968,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3156,
+      "execution_result": 3156,
+      "rejected": 1654,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2620,
+    "sha256": "d9baab1c6970665b5e3b949f5d2ba15a8677e2b201b9a7632a01bda0aec7d189",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge1\\edge.jsonl",
+    "bytes": 2190753,
+    "sha256": "9016b548377a5cdadd05f26f53c86108b9b6892ccae93f0ec03093568c7c12fc",
+    "rows": 7765,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3156,
+      "execution_result": 3156,
+      "rejected": 1451,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2620,
+    "sha256": "381b8f5584f4e25180d5b6413d8866d346b7256e7411479f85cafbf948dfb248",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge2\\edge.jsonl",
+    "bytes": 3015100,
+    "sha256": "d7be01480c721223e3e92744b5c45a2bb22092fc0f66919a7380c64e891f5656",
+    "rows": 9508,
+    "kinds": {
+      "ready": 1,
+      "admitted": 4726,
+      "execution_result": 4726,
+      "rejected": 54,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2620,
+    "sha256": "6f7cdc477ecfa45d91c5ec46461d615bfbfa2474f610e24f603fe7c638842030",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge3\\edge.jsonl",
+    "bytes": 3002034,
+    "sha256": "d163f04e187caf5ad2d74bca3d9c10291d584f7dc7d21cb7bc4f559dacf2e4af",
+    "rows": 9435,
+    "kinds": {
+      "ready": 1,
+      "admitted": 4714,
+      "execution_result": 4714,
+      "rejected": 5,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2620,
+    "sha256": "f4d0d2b151d34a28d1c74b862e33b1d250ae0d2f06a2da0e834a5e022d817245",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\PROCESS_END.json",
+    "bytes": 1411,
+    "sha256": "fb29f743349a5335b048dbadbbfdee0fdade23bb36117ef04c457a431623c6b5",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M1_stress_s1_attempt_01\\PROCESSES.json",
+    "bytes": 2358,
+    "sha256": "3afa4e565a7801cf217dd4f72643cc05822a9867f0128ec2d18006fafded459d",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\analysis.json",
+    "bytes": 152096,
+    "sha256": "bf020c0acec90478f89830c66304ccb9c2c366cc8933745846560e92361de388",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\COMPLETE.json",
+    "bytes": 501,
+    "sha256": "7b54bb199a5c532bf50a853ebdc09c682bfa3b4b843f18083ccd22d8937b35ff",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\CUTOFF.json",
+    "bytes": 160,
+    "sha256": "f98262d3724a6d19eb15e9bc76cb1e1de801aa112f41c06b41d8b2ac44032e54",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\decisions.jsonl",
+    "bytes": 9860704,
+    "sha256": "af3ecd8568e1167fcdc7e3d19ef92eeb52331c82d16a11c51ee89292da9cbed6",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\feedback_receive.jsonl",
+    "bytes": 1777204,
+    "sha256": "522371ed70433e677c8a6770e4e8e87417d8539b0f48f46ae49d14f2139c5980",
+    "rows": 8160,
+    "kinds": {
+      "feedback_received": 8160
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\INPUTS.json",
+    "bytes": 19082,
+    "sha256": "c6f679290f73c7a90da53049d788dcb3ac7b3ef93ce94aea2bf46af8e27f1924",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\client\\tasks.jsonl",
+    "bytes": 11496107,
+    "sha256": "71d78259795378799ce982aa6001184f6928b00b15229b5b4626721fa665ee8d",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\controller\\feedback_send.jsonl",
+    "bytes": 5748735,
+    "sha256": "b72ea9be3dab557076726991a6be669f1c897f71451f2092b35691074f28cdd6",
+    "rows": 18815,
+    "kinds": {
+      "monitor_snapshot": 10000,
+      "feedback_sent": 8384,
+      "budget_deferred": 426,
+      "monitor_error": 4,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\controller\\RUNTIME.json",
+    "bytes": 2071,
+    "sha256": "cb6e6653a3079c8fc244bbce570a3e12caa76eedf28e88e3c919d88d05dcd3d0",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\controller.stderr.log",
+    "bytes": 2686,
+    "sha256": "c5775b154d70bcdc61407ea097716edac864486984db907a0ab4f41a1d2a2e6a",
+    "text_lines": 52
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge0.stderr.log",
+    "bytes": 1657,
+    "sha256": "864e41a2fa649f176aecedbe9f057b84fd6c91fb59dfe59e2a34b838166fa9c4",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge1.stderr.log",
+    "bytes": 1657,
+    "sha256": "491e0b57162e88c1ca3298d9062e8529efa89d24df293d9f8cb2f778d6bc9ca2",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge2.stderr.log",
+    "bytes": 1657,
+    "sha256": "fadf02ea3382dc6e8112c1f308c85c9351e882c40f6c17f9cdb922516769f8c8",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge3.stderr.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge0\\edge.jsonl",
+    "bytes": 1785679,
+    "sha256": "fa53f7ea167ff5cdf1217af8c5548040be02621f848ce88f55faabb27740afb4",
+    "rows": 5622,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2810,
+      "execution_result": 2810,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "f22e895ba6193ab09fc7f99b6f9d52739f9b0fd540049ab99fd4ec6466c42e97",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge1\\edge.jsonl",
+    "bytes": 1762067,
+    "sha256": "95bbd41af02d2a729713141d162e7b0e7585bc6854091f5957d108a50cc02c70",
+    "rows": 5548,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2773,
+      "execution_result": 2773,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "c7df05999c834a295b38278a399e0eb866d247ccaa82601e20e984eecd95565c",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge2\\edge.jsonl",
+    "bytes": 2219231,
+    "sha256": "cf474d9c6c9a709ba0ebf3ed308ae0457dbe2b55015bf82da6ce088cca95b058",
+    "rows": 6974,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3486,
+      "execution_result": 3486,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "cbac051d4db0c3a8181d5e91bc637acdedaf711f83bd80a0b76052def925f7ff",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge3\\edge.jsonl",
+    "bytes": 2225758,
+    "sha256": "72fbaf3aaed03a799f14ee1f645bd92c85b8ae1a658015385efd53a79659ac35",
+    "rows": 6994,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3496,
+      "execution_result": 3496,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "ab59d3976e041965686260dc4fdee639d9b114b5ae92c23078021d5758b39633",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\PROCESS_END.json",
+    "bytes": 1411,
+    "sha256": "f3261c4ef0ddaa13daf5bf795953578eab6908d0607e42e081efb1484ffc8abb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_qla_s101_attempt_01\\PROCESSES.json",
+    "bytes": 2408,
+    "sha256": "e0c86cc5b6f211d4824d279bb587049e26249b56a7b883f163af86a27531dd4b",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\analysis.json",
+    "bytes": 148964,
+    "sha256": "0c3dc66a4dc2d750e6413ec0fc4f3d267d44ad8172bb8ebe7e0b91adfa2cd35e",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\COMPLETE.json",
+    "bytes": 299,
+    "sha256": "8507f0b5088ec3855231cd0d2da960be2855263d2fc1fe1b8a63dc22be91741f",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\CUTOFF.json",
+    "bytes": 160,
+    "sha256": "1bc7a73c0a3ac6fe1b13030c767fc5e57874962c11d954f0b7a87bb6f8f8b5b7",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\decisions.jsonl",
+    "bytes": 9998175,
+    "sha256": "1d106e0aadb2d1a064392e613b0aac9605b454de79efe0af8450cb5effd3f1b7",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\feedback_receive.jsonl",
+    "bytes": 1787456,
+    "sha256": "a2c1f34cd65965078dc2b7b8cbe27301166072b0a14ea57fed80ce0bf79f0925",
+    "rows": 8209,
+    "kinds": {
+      "feedback_received": 8209
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\INPUTS.json",
+    "bytes": 5466,
+    "sha256": "45acce13f1f645e1406256e411337ce57ae09be97204ca91d22fcbaca939009e",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\client\\tasks.jsonl",
+    "bytes": 11502203,
+    "sha256": "dd108733f6bb06af066fed0336b2ab07afb0a73849868993cf0e13e94a7c96a2",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\controller\\feedback_send.jsonl",
+    "bytes": 5674446,
+    "sha256": "d90fcbf4b22c4489173e302159970970f5fcd7167010c9f29fad4ab2867a5cb9",
+    "rows": 18575,
+    "kinds": {
+      "monitor_snapshot": 9856,
+      "feedback_sent": 8304,
+      "budget_deferred": 406,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\controller\\RUNTIME.json",
+    "bytes": 2071,
+    "sha256": "e614345495b2bb52909cb8fb7e4414d4d57a1411d66e6204cfee136d28e325f8",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\controller.stderr.log",
+    "bytes": 2686,
+    "sha256": "b851f36b40555316cbf2cfa202024470da1540ca00c32fa0247d7d4c7da49b82",
+    "text_lines": 52
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge0.stderr.log",
+    "bytes": 1657,
+    "sha256": "25d6f7de4b5b98162e2eb3f325bbe467298c9dff2582a30d144aab4bc0d9d575",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge1.stderr.log",
+    "bytes": 1657,
+    "sha256": "b0ec4d737ab284532341937421364352bae2089ebd30145e8b237bc73a453ffb",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge2.stderr.log",
+    "bytes": 1657,
+    "sha256": "5e40f1497d5f43301c631a87973f232da0e20a0bcb7a6c78d20061dee0867770",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge3.stderr.log",
+    "bytes": 1657,
+    "sha256": "2fd999a17ff8facbdc9dca491892b3facd88634548908237ec0eef90c9bbc519",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge0\\edge.jsonl",
+    "bytes": 1585821,
+    "sha256": "33d2b81ccfb6029b9abcdd5ec7ba7d36edb63aeb34246893d134776c9176a5f0",
+    "rows": 4992,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2495,
+      "execution_result": 2495,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "8dd63bc077a0e1037ec81d5f46d2d85bdd178ad02eeab04ea52fcd47fad79a09",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge1\\edge.jsonl",
+    "bytes": 1592396,
+    "sha256": "f47c881fb853e067e3e1fbb7d005e0a8f9f899ab21d59358d6f860c498a40f4b",
+    "rows": 5012,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2505,
+      "execution_result": 2505,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "357f5e1793e21dbb713df52831289c504603a3b6fee7aff477f1cab488e997aa",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge2\\edge.jsonl",
+    "bytes": 2431641,
+    "sha256": "921975196b2627a9c10b235b01f5d05111a8f6a8e3f1ad4fe9ba01080d9cefb1",
+    "rows": 7642,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3820,
+      "execution_result": 3820,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "48cdf54734e07b12f296c7ee311210deb8b43659b50365a34cf6d10e3d5dd886",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge3\\edge.jsonl",
+    "bytes": 2383925,
+    "sha256": "d7c2888f8399c0c95b0ad4a92d8b418f21e04f6aa9f3b7c8b47e2b4acf01fff1",
+    "rows": 7492,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3745,
+      "execution_result": 3745,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "c0119134bce3b558d81f37fc5faf3acc3ddcd423dd318e61e9714edad3974502",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\PROCESS_END.json",
+    "bytes": 1411,
+    "sha256": "f2988b8c76a2f38f05f27a28580d26f3fdd5cdd22a694a99075afa0f844048cb",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_score_softmax_s101_attempt_01\\PROCESSES.json",
+    "bytes": 2458,
+    "sha256": "806f771aaa8c174f5418d703de9fba2bb7296ebdf1d7aded88557801a9f3acc0",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\analysis.json",
+    "bytes": 117338,
+    "sha256": "076462f4b56f589d31966cfa5670c87317c92d738f5a4b90aaf5ec5ea8954fb3",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\COMPLETE.json",
+    "bytes": 300,
+    "sha256": "5a074b3044ca9aba3de0dafa3ca81749489804a63613a9855373d66565d638d3",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\CUTOFF.json",
+    "bytes": 160,
+    "sha256": "661903cdc112e1865c2a0f3552e2a6e7c815037fbc3af95a9bdd656f62904997",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\decisions.jsonl",
+    "bytes": 9307547,
+    "sha256": "d3e76b69f1dcdb603f080e6ab75cd79b6bb23d9ecf29a82ca07e418c2007cbb2",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\feedback_receive.jsonl",
+    "bytes": 1787040,
+    "sha256": "6b80c7b0a489e6cd3af37866c4d7cbabb5ae764ffe39654818603b769ea0586b",
+    "rows": 8209,
+    "kinds": {
+      "feedback_received": 8209
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\INPUTS.json",
+    "bytes": 5468,
+    "sha256": "19b2109953226bb16695004e57a1349402f9d4c92c0623ae541958678d7bd9ba",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\late_responses.jsonl",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\client\\tasks.jsonl",
+    "bytes": 11418281,
+    "sha256": "8ed897e64aa41c2713152ec5fec5a3d0757af4736b3d6d00e12484b81bba53f9",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\controller\\feedback_send.jsonl",
+    "bytes": 5539531,
+    "sha256": "0ab3095e1ecc4cda90415faa97472e34769775d42ff6c565b0bc6701c254b264",
+    "rows": 18129,
+    "kinds": {
+      "monitor_snapshot": 9492,
+      "feedback_sent": 8304,
+      "monitor_error": 20,
+      "budget_deferred": 312,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\controller\\RUNTIME.json",
+    "bytes": 2071,
+    "sha256": "e1d90b9bdfdca1608373e99044cec3f418f6c4521ef0fb90b7e7231f37b3cad6",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\controller.stderr.log",
+    "bytes": 2686,
+    "sha256": "473c96f98459098311e4913603ef1b92d83c11878a7d5c667dab71f3e1fe8ede",
+    "text_lines": 52
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\controller.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge0.stderr.log",
+    "bytes": 3182,
+    "sha256": "52b982aedece8ecebf086eded85549a32470d2e51573ec1ba02d998504f3b59c",
+    "text_lines": 58
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge0.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge1.stderr.log",
+    "bytes": 4707,
+    "sha256": "bc5187ead05f9d528ca229d8d056700207b7727556421d96deb30d8bf41046ef",
+    "text_lines": 87
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge1.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge2.stderr.log",
+    "bytes": 13857,
+    "sha256": "4bb274f219840061bed452ff1c3d00490c6cb2ee8fe72a64420416d026ba25a1",
+    "text_lines": 261
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge2.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge3.stderr.log",
+    "bytes": 1525,
+    "sha256": "88f1564474ffb3b44c9173537c5ad70d493e95d52313a50002550f6c129f71bf",
+    "text_lines": 29
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edge3.stdout.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge0\\edge.jsonl",
+    "bytes": 1427825,
+    "sha256": "3e5af9d647696237b91b560e892062930846d7f4d73a5a4880f2648e7f32a562",
+    "rows": 4509,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2242,
+      "execution_result": 2242,
+      "rejected": 23,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge0\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "8fc0a7a3559587ef2fbe70a6027fd827d06bbd68f2cfbd26322f10e42c4d30ec",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge1\\edge.jsonl",
+    "bytes": 1398671,
+    "sha256": "7131151f7990efe5360d8761af6aade6787c018c04bc8281c626fc5e7a1764a0",
+    "rows": 4416,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2196,
+      "execution_result": 2196,
+      "rejected": 22,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge1\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "288b97034100eee11ea9550fe230606256b7443acda7926c9a5a2c3481314628",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge2\\edge.jsonl",
+    "bytes": 2519567,
+    "sha256": "9f969fe852cda3a69875b0ca4b75ce03c931298911133758398c0496d85dbbdb",
+    "rows": 8009,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3928,
+      "execution_result": 3928,
+      "rejected": 151,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge2\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "56f3ed6c0b7b4551915a912af7b378db216b2f3824bbe5c00addb0282257d912",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge3\\edge.jsonl",
+    "bytes": 2521463,
+    "sha256": "644655dc32333b63b67e3358ef6f3032d543af1664dfb1b60e4d41d2710b493e",
+    "rows": 7956,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3951,
+      "execution_result": 3951,
+      "rejected": 52,
+      "stopped": 1
+    }
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\edges\\edge3\\RUNTIME.json",
+    "bytes": 2458,
+    "sha256": "1f4c9bbb57d6ecf187e8c2c55f810bccca66f42a71602991d93d4893782433f4",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\PROCESS_END.json",
+    "bytes": 1411,
+    "sha256": "3a61d1c189538703b821f837941d9a13ddd04302aafa6b1e6863653dfdc56482",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\runs\\M2d_stale_shortest_s101_attempt_01\\PROCESSES.json",
+    "bytes": 2463,
+    "sha256": "68c854077820ebf000e3569fd5892702d86842ad5568d65c99de3060d4dfc4d4",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__init__.py",
+    "bytes": 103,
+    "sha256": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+    "text_lines": 2
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__main__.py",
+    "bytes": 10341,
+    "sha256": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+    "text_lines": 184
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\__init__.cpython-313.pyc",
+    "bytes": 301,
+    "sha256": "f2bd6ba12f4d94e059c8aeebeb3806277d2e5a8a674e50934e2bd4466a005dd4"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\__main__.cpython-313.pyc",
+    "bytes": 15094,
+    "sha256": "aa7c0e9cce0a7d4ca151d7688b96b2d8d2b9fe79823974d01bb5a419129fea19"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\admission.cpython-313.pyc",
+    "bytes": 15160,
+    "sha256": "db8785ac016752a9ac5b48bfcf33a77b776df07d92c2a047adc6f7122096f2be"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\analysis.cpython-313.pyc",
+    "bytes": 22520,
+    "sha256": "f5f55e9343df24f9ec3fed1040cd9ca490743d5a8e85b06fb54e9f0b102e4808"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\client.cpython-313.pyc",
+    "bytes": 17491,
+    "sha256": "6c6acebc96079ec610bef689650ffb48a81e06beb279690a4947a0c26b2ba714"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\common.cpython-313.pyc",
+    "bytes": 10489,
+    "sha256": "89f31588b6d21eb5c4da8c1939610a350acdcf3bd3b70ff9efb2360fe3819ff4"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\data.cpython-313.pyc",
+    "bytes": 9562,
+    "sha256": "eaca2274645f30d483850680d43b7d76db8b9ce5eb351bb6bb50a7db8ad1c3b5"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\edge.cpython-313.pyc",
+    "bytes": 19757,
+    "sha256": "ec72d9d600c77fb845351293955cd33a57705fa49b1f183e6ebd7d93eb76f537"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\feedback.cpython-313.pyc",
+    "bytes": 16410,
+    "sha256": "958461afa46bbc840e110d3d0211cf6f5bf35944b1ac8de4f8301571da3d25bc"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\launcher.cpython-313.pyc",
+    "bytes": 14564,
+    "sha256": "fe0b15e860b862e6a8bc7f3d5d8886e99af9efeb266b0a975cea6ee921f90bed"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\__pycache__\\policy.cpython-313.pyc",
+    "bytes": 16505,
+    "sha256": "245cefc97b7e5b493397d7f27cc33bc8d979367bf176f49709c7c39639383419"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\admission.py",
+    "bytes": 11589,
+    "sha256": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+    "text_lines": 178
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\analysis.py",
+    "bytes": 14324,
+    "sha256": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+    "text_lines": 228
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\client.py",
+    "bytes": 11930,
+    "sha256": "09e9cba325d4657ad04d58f7b75cee2e82dd7aed706576fe1ccfc9b89fbef869",
+    "text_lines": 205
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\common.py",
+    "bytes": 4870,
+    "sha256": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+    "text_lines": 133
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\data.py",
+    "bytes": 6393,
+    "sha256": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+    "text_lines": 120
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py",
+    "bytes": 11347,
+    "sha256": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+    "text_lines": 233
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py",
+    "bytes": 9390,
+    "sha256": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+    "text_lines": 200
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\launcher.py",
+    "bytes": 9783,
+    "sha256": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+    "text_lines": 200
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\policy.py",
+    "bytes": 10197,
+    "sha256": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+    "text_lines": 180
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tests\\__pycache__\\test_core.cpython-313.pyc",
+    "bytes": 12547,
+    "sha256": "2869e0ccd2052f94c0762fd5411a7189c3f81ae7106f707bc8eb353f7959a1bc"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tests\\__pycache__\\test_logic_repairs.cpython-313.pyc",
+    "bytes": 21035,
+    "sha256": "30240c94b87ee66d501a9d35a49ec02ed336d05060a1848f56f1e71fbd98ca4c"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tests\\test_core.py",
+    "bytes": 6818,
+    "sha256": "b843760f1b575d8338a251e29ef077cb70284d497ed905ce0d0adad1fd4f4cda",
+    "text_lines": 137
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tests\\test_cutoff_race.py",
+    "bytes": 6334,
+    "sha256": "826d42a12cc4e4c91df22c496979ebd85f4f78d725aeb3cc0dcecc002a9b3b11",
+    "text_lines": 167
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tests\\test_logic_repairs.py",
+    "bytes": 11259,
+    "sha256": "fc2e5819a28a8c4ec8b0cd50238f1980f6658e031c9632da5ae556a19af26779",
+    "text_lines": 187
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\build_manifest.py",
+    "bytes": 1137,
+    "sha256": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+    "text_lines": 22
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\check_actor_transfer.py",
+    "bytes": 1630,
+    "sha256": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+    "text_lines": 42
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\configure_pilot.py",
+    "bytes": 831,
+    "sha256": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+    "text_lines": 19
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\interaction.py",
+    "bytes": 2347,
+    "sha256": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+    "text_lines": 45
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\make_grid.py",
+    "bytes": 2307,
+    "sha256": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+    "text_lines": 44
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\register_test.py",
+    "bytes": 948,
+    "sha256": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+    "text_lines": 20
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\stop_owned_attempt.py",
+    "bytes": 1588,
+    "sha256": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+    "text_lines": 35
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\tools\\verify_unit.py",
+    "bytes": 979,
+    "sha256": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf",
+    "text_lines": 22
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\verification\\actor_fixture_bundle.json",
+    "bytes": 14484,
+    "sha256": "fce7224e87a66f0e2e13119ad21c09b6073ac389b10463ae1b0ffcc723e75e7b",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\verification\\images.json",
+    "bytes": 881,
+    "sha256": "ef57fd7ba6dbb5e37fa516d1a32658e1cbb8be2d489c937b356ff9f16771cefa",
+    "json_type": "dict"
+  },
+  {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\verification\\schedule_4edge.json",
+    "bytes": 942,
+    "sha256": "cfd36059dac35fb9bfab546c382c62d2282b1c87c88216d1b3f4be4005599022",
+    "json_type": "dict"
+  }
+]

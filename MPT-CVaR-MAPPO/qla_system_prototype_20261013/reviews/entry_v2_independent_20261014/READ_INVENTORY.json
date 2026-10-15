@@ -1,0 +1,1941 @@
+{
+  "configs\\functional_1edge.json": {
+    "bytes": 1385,
+    "sha256": "de9bd2058ea3ab5d1cdcb3fac68d6a99326f661c2b6ca6758e0854a51c9a8776",
+    "json_type": "dict"
+  },
+  "configs\\functional_4edge.json": {
+    "bytes": 1855,
+    "sha256": "f650522894d3e47f296c1455ba75d1cf50d409704f4200275bf406966d8f7dab",
+    "json_type": "dict"
+  },
+  "configs\\local_4edge.json": {
+    "bytes": 1980,
+    "sha256": "1c0260a5cdb327d06863fa09a5df21dc389a650b0f87dde88a6b0c3e999249c4",
+    "json_type": "dict"
+  },
+  "data\\calibration_images.json": {
+    "bytes": 386869,
+    "sha256": "b082bc5708db00c6dd6fb1f0fd0897f79d15ae84b2849bbaf15ac85ad08782ed",
+    "json_type": "dict"
+  },
+  "data\\calibration_rr_s1.json": {
+    "bytes": 101440,
+    "sha256": "7e1611022d74f4a8d0799e228196ce2185bcc982bea0d751b19abe58bba6d15e",
+    "json_type": "dict"
+  },
+  "data\\calibration_stress_s1.json": {
+    "bytes": 3191039,
+    "sha256": "e7b1ea4116a0d551f17c72bacdccbf45eb8668f112bd3b461302e6eae6953984",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_01_s1.json": {
+    "bytes": 2105128,
+    "sha256": "8f09c0c2fa21c8b86718a402fd5e4c7de2efd9e7ab12d2541cd16187e4fae0c9",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_02_s2.json": {
+    "bytes": 2125473,
+    "sha256": "56ddc44bf8197ca31563db66cd556bc77b16e5f91dca02d072bcedd4a95b5186",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_03_s3.json": {
+    "bytes": 2094633,
+    "sha256": "b66e9996d4b78d4a8432a4645c1d0193176989eda79fe427dbef47af3a575528",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_04_s1.json": {
+    "bytes": 3149423,
+    "sha256": "65bf45be310add8449ba0cbd4b9c07b63f0d9854fcc3c08e4dd3ba126c57af7c",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_05_s2.json": {
+    "bytes": 3157085,
+    "sha256": "449d0e6082a47a73ff50de6e46b942496decbea0fda31f9ffb271b9717058fa8",
+    "json_type": "dict"
+  },
+  "data\\E1_common_v2\\common_06_s3.json": {
+    "bytes": 3149831,
+    "sha256": "65de243d09c033ea7ca48f527f65ae1fd14accb42f30d4f311f60b2bb217c566",
+    "json_type": "dict"
+  },
+  "data\\E1_rho60_s1.json": {
+    "bytes": 2104998,
+    "sha256": "3e718ec6f9ddbe327bd20ad775c11b56b0d43bae7a4a9ebfa538ed1b86393bca",
+    "json_type": "dict"
+  },
+  "data\\E1_rho60_s2.json": {
+    "bytes": 2125566,
+    "sha256": "cd8100081ab14613d1a5a7ac55b617b98954ea9e348e227e7fb33a935d070cdb",
+    "json_type": "dict"
+  },
+  "data\\E1_rho60_s3.json": {
+    "bytes": 2094686,
+    "sha256": "5b43c4ec262683b081b4f93a628dca48cf9eb7b5bdbcbf3148f2a7f26120e965",
+    "json_type": "dict"
+  },
+  "data\\E1_rho90_s1.json": {
+    "bytes": 3149470,
+    "sha256": "6d7b098d1bc8bb7e4dd85fdfd67fc8739c43d2dfdc4d80247828b045cd7517f9",
+    "json_type": "dict"
+  },
+  "data\\E1_rho90_s2.json": {
+    "bytes": 3157170,
+    "sha256": "d857d8e267492dde84f349b4b23599b3adc609491d2af85c58f0e4156273e1a7",
+    "json_type": "dict"
+  },
+  "data\\E1_rho90_s3.json": {
+    "bytes": 3149864,
+    "sha256": "e89fcff81db234b9e68ee33354ee6c22b711d64a7eff07908885cf3fa6a7e630",
+    "json_type": "dict"
+  },
+  "data\\test_images.json": {
+    "bytes": 191587,
+    "sha256": "d8355dbaf2aec4a82698da4642ba6b2b466ec993269ec895b7cb99bd5e5b948a",
+    "json_type": "dict"
+  },
+  "data\\validation_images.json": {
+    "bytes": 96984,
+    "sha256": "69c01f12b194e8ef67e7880d76f6f318c929b96de5d49195757a7742c7af223c",
+    "json_type": "dict"
+  },
+  "data\\validation_s101.json": {
+    "bytes": 2120621,
+    "sha256": "8cf9e65ec45f375175a4b08dd8fb1427b5f6d3dd70e5741f696f21ed9f8273d5",
+    "json_type": "dict"
+  },
+  "docs\\AGENT_HANDOFF_中文.md": {
+    "bytes": 18509,
+    "sha256": "0292ac0bd74418e781df2ad0a25b481450b0a63d34097bb8fbf51171e53d9041",
+    "text_lines": 201
+  },
+  "docs\\DATA_PLAN_中文.md": {
+    "bytes": 6837,
+    "sha256": "36959d3dc7b135554cd83ba72752f86663b99476bc079da7067f0854f88adca8",
+    "text_lines": 64
+  },
+  "docs\\EXPERIMENT_PLAN_中文.md": {
+    "bytes": 10834,
+    "sha256": "916d9709d2a05cc6c2df9769693a5f2ab1bb00c905d4e5be1368227eb6846bee",
+    "text_lines": 93
+  },
+  "docs\\EXPERIMENT_TRACKER_中文.md": {
+    "bytes": 3833,
+    "sha256": "344bea060b1855e3aeca8bab55d3365a4e04ed567b9937506d676692f68cafe5",
+    "text_lines": 28
+  },
+  "drive_scripts\\run_e1_grid_v2.py": {
+    "bytes": 1503,
+    "sha256": "651fcc56a6ba9a5dcc352ac28aa507779905aad86fd3d2f0c7bd592fefb0c760",
+    "text_lines": 29
+  },
+  "drive_scripts\\run_e1_prep.py": {
+    "bytes": 2375,
+    "sha256": "ab62ea3eea2e9efb9d5e56c315d6678d9770cad25476768f3a55244b6d96ee72",
+    "text_lines": 51
+  },
+  "drive_scripts\\run_interference_calibration.py": {
+    "bytes": 5453,
+    "sha256": "e78e2d1a57086a8288e810c6e450c10e1934d84e76cc6a3f786145c11e443b99",
+    "text_lines": 119
+  },
+  "drive_scripts\\run_m1_calibrate.py": {
+    "bytes": 1225,
+    "sha256": "472b99ce490a86b86f86939646a9e29d131558c081c8ca86c50f6c2a9966cf0e",
+    "text_lines": 27
+  },
+  "drive_scripts\\run_m1_prep.py": {
+    "bytes": 1193,
+    "sha256": "28de0aa9adbf195e761402bc89003e030767ca366623100368a46f3ba06ed314",
+    "text_lines": 24
+  },
+  "drive_scripts\\run_m1_stress.py": {
+    "bytes": 1494,
+    "sha256": "2178351582dd4b5398de3f57f3f48da702588887a1b83e5f4c2c8a5292de10be",
+    "text_lines": 30
+  },
+  "drive_scripts\\run_m2_freeze.py": {
+    "bytes": 1677,
+    "sha256": "eb16b0e0821056950848092618aeacd234b1ea944a9e8348d77618f1c9223a08",
+    "text_lines": 36
+  },
+  "drive_scripts\\run_m2_prep.py": {
+    "bytes": 2861,
+    "sha256": "5404f6afb14f56b5907369d9fc30f3a292603a0984a57634abdc669398d78e8d",
+    "text_lines": 48
+  },
+  "drive_scripts\\run_m2_validation.py": {
+    "bytes": 1428,
+    "sha256": "227773548654b2ed2e50760ddadf93c9317c7119734d90e719325d2cdbafda6c",
+    "text_lines": 30
+  },
+  "drive_scripts\\run_m2b_freeze.py": {
+    "bytes": 1762,
+    "sha256": "3e217dc3d0535599759a4516807d54aeafa44051197f0f0e7e80f62fbc474d45",
+    "text_lines": 34
+  },
+  "drive_scripts\\run_m2b_validation.py": {
+    "bytes": 1583,
+    "sha256": "fbdc186cdac1f4f0df41f5829a777e137a899d76653dc49192df34dd5d0a669a",
+    "text_lines": 31
+  },
+  "drive_scripts\\run_m2c_freeze.py": {
+    "bytes": 1750,
+    "sha256": "d29d94ccce8addba623e5541de9efdde3c2d70579b2e378771cd43007e6c0339",
+    "text_lines": 33
+  },
+  "drive_scripts\\run_m2c_validation.py": {
+    "bytes": 1514,
+    "sha256": "139464589c6808280e0bb638898d42eaa3aeb307cdef9616a675f67b567a06e1",
+    "text_lines": 32
+  },
+  "drive_scripts\\run_selfaudit.py": {
+    "bytes": 1351,
+    "sha256": "f089167149fe9b251ec66e4cb47bf6066c92fd06b52dfd6ed26e98cbb4a79504",
+    "text_lines": 30
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\COMPLETE.json": {
+    "bytes": 497,
+    "sha256": "56060729ecd8e1e23a075fb29479d5872cf921875e243ffcbb1cc23eaa08e65c",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\CUTOFF.json": {
+    "bytes": 153,
+    "sha256": "d695ac6f4771a138ede53736c96de255fdb65b80ebac98bdd1e34646e2819653",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\decisions.jsonl": {
+    "bytes": 3356,
+    "sha256": "d718e05f2cb56b2c9b0a3ceb2df65078db350e477a718861b3a8e40b065549fa",
+    "rows": 4,
+    "kinds": {
+      "decision": 4
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\feedback_receive.jsonl": {
+    "bytes": 20644,
+    "sha256": "763290acaf783dcccbf85ee2948d39bad3879a352ca36f86fd8fe8943371dc19",
+    "rows": 96,
+    "kinds": {
+      "feedback_received": 96
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\INPUTS.json": {
+    "bytes": 17521,
+    "sha256": "92b0ea0ba1a1791314b9063e66c984c56fd683f4437f2ed853b227bf2fb13cab",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\client\\tasks.jsonl": {
+    "bytes": 3684,
+    "sha256": "04410c3151496b1ea9072184ff02fec28f19cfa4b3569ed88bc31b1cc786e724",
+    "rows": 4,
+    "kinds": {
+      "task_outcome": 4
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller\\feedback_send.jsonl": {
+    "bytes": 128875,
+    "sha256": "b48a85d77910e4e6b1616a8bb506c4dc050e860abd03e9e03c55c1b1cc07f22d",
+    "rows": 445,
+    "kinds": {
+      "monitor_snapshot": 212,
+      "feedback_sent": 224,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller\\RUNTIME.json": {
+    "bytes": 2071,
+    "sha256": "ae137435131fbda3f0da3d401e320a4c57e4a8a5aef0847a50b148ecb380de52",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge0.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge1.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge2.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge3.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge0\\edge.jsonl": {
+    "bytes": 1218,
+    "sha256": "53086385f5eb88f721f182343091ed6e59577b88be39c4669bb20d0046a015cf",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2457,
+    "sha256": "a4d7dd7dd30c3d77205f5b18c8d1588f708fe7484c9aae607f5052d57e662b11",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge1\\edge.jsonl": {
+    "bytes": 1218,
+    "sha256": "922f3aa9f1e84cd3bfb5f6fe6ecb3ba978ed2c2f4b307e957e2472790221ee48",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2457,
+    "sha256": "9ba54b90b9004918513d4303fe7315e2883d40c15896ca4b1f5e5960373565ac",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge2\\edge.jsonl": {
+    "bytes": 1216,
+    "sha256": "91e5463372d5f17ed15f931f98b9930a8097a3b9fdffbbfa6107559475c09175",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2457,
+    "sha256": "7029911e677ebbe067d3c45dc1d3fa5254d20bdb31c159b12dd31c2ec8e5cd94",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge3\\edge.jsonl": {
+    "bytes": 1221,
+    "sha256": "d91b47ac97d030e5e524c83f17e0f8d002f6a98041a8423ccc2beb1173b3b4a8",
+    "rows": 4,
+    "kinds": {
+      "ready": 1,
+      "admitted": 1,
+      "execution_result": 1,
+      "stopped": 1
+    }
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2457,
+    "sha256": "aecd67c33cbef6b00e063a8b2d2fbc0f6ce6425f5563b4d020d4c4923a37ed50",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\PROCESS_END.json": {
+    "bytes": 1411,
+    "sha256": "124c75d991e98d469fc8c51f032353d852bc3848c83cae5c5e674e8afe67d2cf",
+    "json_type": "dict"
+  },
+  "engineering_repairs\\20261013_three_logic_fixes\\functional_4edge_attempt_02\\PROCESSES.json": {
+    "bytes": 2618,
+    "sha256": "ffdae772f739f5b65056cdd5ccee628261dcb1a12084e0aaf39c6bf19d31b3bb",
+    "json_type": "dict"
+  },
+  "interference_calibration\\PLAN.json": {
+    "bytes": 13808,
+    "sha256": "3392414d4131c3db7d6e085472c770aac1f7003aa9b2ee40e9184918e4b53849",
+    "json_type": "dict"
+  },
+  "interference_calibration\\REPORT_中文.md": {
+    "bytes": 4224,
+    "sha256": "27f2769fb236d041a2e708bd1d5317b13642edd6754271333cb5c213a705723b",
+    "text_lines": 46
+  },
+  "interference_calibration\\run_00\\edge0.json": {
+    "bytes": 33212,
+    "sha256": "30fd4f612daa41e25f1ff06ed46166456a6391f811aead2c3b86c99adb5c755c",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_01\\edge0.json": {
+    "bytes": 33218,
+    "sha256": "5c30485b64dd1875be1938255483fd4522c37abced306f9d07bbbfa689a31adb",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_02\\edge0.json": {
+    "bytes": 33127,
+    "sha256": "5019ab317b77ca48ce54d99e871e91e512f95960b549d4be55b5ef1f263efe9f",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_02\\edge1.json": {
+    "bytes": 33125,
+    "sha256": "9c074aa40778ef0b4ebf054618effcc21c119486c394431911902137444ef598",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_02\\edge2.json": {
+    "bytes": 33206,
+    "sha256": "b6bff0ec124720ba93aa705f945e30ee25c453561cbf690df0bcfd4197a03a0a",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_02\\edge3.json": {
+    "bytes": 33194,
+    "sha256": "27dbe267b61dc6c6f358c2a912e1d9b1f0d05338a986794e5a5faaa138e77bcb",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_03\\edge1.json": {
+    "bytes": 33225,
+    "sha256": "ec3c46c7d13c06b12c9239c843861a769caa17bb34a40ca0356f34625aee9edd",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_04\\edge0.json": {
+    "bytes": 33202,
+    "sha256": "356c8935a5f294aa10582d3f900dcf744a97c9495665f6dee89463db89fa4735",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_04\\edge1.json": {
+    "bytes": 33140,
+    "sha256": "0e7107d255573a82f4825daf26556420a65135a3ca95a1ecb3ce538fd3b95bf6",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_04\\edge2.json": {
+    "bytes": 33233,
+    "sha256": "9a0178d425330a8a0c272b48935314c831cac79a4f9a759978be8e232a63b97c",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_04\\edge3.json": {
+    "bytes": 33238,
+    "sha256": "a87b41054c17991428a36f0bdcecefc1ef326d4eb0bb491257b089598f061876",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_05\\edge0.json": {
+    "bytes": 33208,
+    "sha256": "0f1089ade3555ca8228c406725886c7e21f2aa500b2b588dde9f10807ef4c842",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_06\\edge2.json": {
+    "bytes": 33252,
+    "sha256": "a5726c50a5884f1df05bdc37a5ab7e4d21aa2c176103fb965768da6822aa9009",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_07\\edge3.json": {
+    "bytes": 33232,
+    "sha256": "9968c120b421391b6ca3cdb2b6bf867dd02c572de4a40f33343695407d36edc1",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_08\\edge0.json": {
+    "bytes": 33110,
+    "sha256": "991a0fbf74982d327d5b6d344f46ec99848e037ff0c39a6d9016d75262494859",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_08\\edge1.json": {
+    "bytes": 33112,
+    "sha256": "c2ca75666fe410135e813e78a1e630f6bfb3a9659602a7a5d06541187fba6bb2",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_08\\edge2.json": {
+    "bytes": 33194,
+    "sha256": "69858741740f05bf84baebcba34238410036d704cb8c81b7549c4e24f9b77a79",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_08\\edge3.json": {
+    "bytes": 33211,
+    "sha256": "9657b2db8427de2187e61192f8771bbd396ff087296373c173493dcd2f8cdb47",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_09\\edge3.json": {
+    "bytes": 33270,
+    "sha256": "29cf644e0ba55a8c27e5865d38ef669992e4c72069822ce6b36022ec7cb5bf34",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_10\\edge0.json": {
+    "bytes": 33234,
+    "sha256": "1ffbcc3ff369ef06f3b67505e63e550fd3f96b517d698582d33707a4368e4bc5",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_10\\edge1.json": {
+    "bytes": 33154,
+    "sha256": "1ada6c5f6e7c3d6afd2ce3a985877b28bf15e31a5d9810b23d90325635dca9a1",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_10\\edge2.json": {
+    "bytes": 33246,
+    "sha256": "7d5b7f19d8e52d016f165abd92caa461d6bb9562d3e52b1970f97e2b09de6ee5",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_10\\edge3.json": {
+    "bytes": 33235,
+    "sha256": "721a29d4ba1a43fd7b4ebe8a18cb2ba8d8f2dd2af7ed855508c1ac74212795cf",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_11\\edge2.json": {
+    "bytes": 33237,
+    "sha256": "468f3fd09b60e79400df56f9a132b9f1a0b8a19e79a9a50a91debbe4e1272efa",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_12\\edge3.json": {
+    "bytes": 33260,
+    "sha256": "b11061b8590142b1a5a99a3dc477f8a278fb7c44274e1bcfb2626ac72f759192",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_13\\edge2.json": {
+    "bytes": 33236,
+    "sha256": "8afe9127d277154bc51c4990da405c644ca8c1f321d4dc14472d2439a72a43e2",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_14\\edge0.json": {
+    "bytes": 33112,
+    "sha256": "8189871da50721adae44d609b416641f338af633636ea2992e855506c392f06f",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_14\\edge1.json": {
+    "bytes": 33113,
+    "sha256": "5e88224bb1d415a5e17fef94514ba44f3d43b987383bc8decce375daedeb00ae",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_14\\edge2.json": {
+    "bytes": 33223,
+    "sha256": "ea23a761326a3457a5c20acc16056f566422560a0e2c0820caa1ce578b9063c7",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_14\\edge3.json": {
+    "bytes": 33179,
+    "sha256": "af85cb4c5a08deb5c08c96f8d22f36ccdd9f62bf5a6d74550aff03305c04aeae",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_15\\edge1.json": {
+    "bytes": 33220,
+    "sha256": "f394c0d421201cb2a583d02d8d1b6e25b7aa18e4aa29884cdb1b77d5c6e4cfd7",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_16\\edge1.json": {
+    "bytes": 33206,
+    "sha256": "9d33d6de07687e19a41ce9e40ef5cacc0f408f4ced197dfeec34e4ad1bbfe70d",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_17\\edge0.json": {
+    "bytes": 33232,
+    "sha256": "de911b3351f2952005910e02810bb771eeedadbbe1a67bd75d42e598750d1392",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_17\\edge1.json": {
+    "bytes": 33151,
+    "sha256": "960da90936a89651c4dafd8c1d9d5b49190f3e477b2b5d542f88df4b724bb9b8",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_17\\edge2.json": {
+    "bytes": 33235,
+    "sha256": "bc39f1a1b56e9c4e686a9c760d86821441127763b6b2e2ac932af9bb5c5656f9",
+    "json_type": "dict"
+  },
+  "interference_calibration\\run_17\\edge3.json": {
+    "bytes": 33237,
+    "sha256": "1130d10cf89e3f301e2578761032191fd9bb9f0cbd7849ead682055f22c929cb",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\PLAN.json": {
+    "bytes": 13808,
+    "sha256": "3392414d4131c3db7d6e085472c770aac1f7003aa9b2ee40e9184918e4b53849",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_00\\edge0.json": {
+    "bytes": 33215,
+    "sha256": "ff778ea5222cbc9b3a4b57896c02ba1c4deda63194a84c20890c9829368c1c15",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_01\\edge0.json": {
+    "bytes": 33244,
+    "sha256": "0a3e52805ac5ae54ab0b9bbce2f2863cfb25cbbc3306dab0aa6dc624e981e6a4",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_02\\edge0.json": {
+    "bytes": 33132,
+    "sha256": "bac61c3c20d26a63817de8f301e2b930799cd10db8043723880d019996037376",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_02\\edge1.json": {
+    "bytes": 33097,
+    "sha256": "8372bc151173e7e3ef00142d747f0b27a9ba88570d4e631d56d4b846d673c33f",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_02\\edge2.json": {
+    "bytes": 33219,
+    "sha256": "b9e59db1f85994519ec5421b480683e8e6e39ffc306a2031f3a40f271508db8c",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_02\\edge3.json": {
+    "bytes": 33209,
+    "sha256": "bd02c7a6ae8dd52364407a5eacc2f7467f7fda7ffb45ae460f5dcd1b54d9fecd",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_03\\edge1.json": {
+    "bytes": 33229,
+    "sha256": "9c7dce8043a14c58f3b9431f38332f33fef6b690b20dd50bf0a3f4e45b89d6c8",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_04\\edge0.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_04\\edge1.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_04\\edge2.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_04\\edge3.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_05\\edge0.json": {
+    "bytes": 33209,
+    "sha256": "16a18974f7162aba289156161fc8653733ee550cd44c76522df300dd7d2db3e6",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_06\\edge2.json": {
+    "bytes": 33251,
+    "sha256": "da905d695d9a6836641f82f880d556092bd35dbc2cd2fb6aa382be8cef8711c5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_07\\edge3.json": {
+    "bytes": 33253,
+    "sha256": "5eef4f11114d032d07f10af632a4406ea5dc4bc690075652587e6fa71606059b",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_08\\edge0.json": {
+    "bytes": 33105,
+    "sha256": "5c4d1630f778442efa4e69648f0b3a997b2ad06b49f26798094fbea062c276f4",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_08\\edge1.json": {
+    "bytes": 33131,
+    "sha256": "9bc955213f20f4fd2bafb8eff96cc7363be36397b0078f05fac944f634713f41",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_08\\edge2.json": {
+    "bytes": 33202,
+    "sha256": "103c69838d4ee0db608d831599e5b7397eaaba0e8818da018d98cdc561f98892",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_08\\edge3.json": {
+    "bytes": 33219,
+    "sha256": "58e2d72d407f1a6e083a540fdf44b1a65ef9ee2c2d5c6bcefe47aa5e059eb0d6",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_09\\edge3.json": {
+    "bytes": 33238,
+    "sha256": "7291039a2a29b2f7ed935b7e67d401eedc3c8727fa70857f061a8a4f1a5c0762",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_10\\edge0.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_10\\edge1.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_10\\edge2.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_10\\edge3.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_11\\edge2.json": {
+    "bytes": 33239,
+    "sha256": "9a3a8aa1fe8c63fd62814f67b7ce35bb604ad16b1a58db567b125e885d9d9f09",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_12\\edge3.json": {
+    "bytes": 33230,
+    "sha256": "98a07dc381b6e834dbcabce9fb4ca03d283f3d666ae8cebd97e26b6cf7b601bf",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_13\\edge2.json": {
+    "bytes": 33246,
+    "sha256": "b66b660405ae7976474cec1827149395dee68fc446786ca308b29f1abee9f194",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_14\\edge0.json": {
+    "bytes": 33098,
+    "sha256": "ca611fe5663678bdfecd2f03c755852d3e5c533ce54543612fa8ee8bd03e19d1",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_14\\edge1.json": {
+    "bytes": 33109,
+    "sha256": "c70bcd093fdfc5d5457959abd03793ed31a18d52815d7e5316f88d1e75557e59",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_14\\edge2.json": {
+    "bytes": 33213,
+    "sha256": "e99d87849d01f1b1212feaa3722601065c5136e8bebad7281bc657f22b356ef8",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_14\\edge3.json": {
+    "bytes": 33200,
+    "sha256": "cf498a2b27302855990dd6af1998b03722bbeff9340c12699ae8ffd69abe66a0",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_15\\edge1.json": {
+    "bytes": 33196,
+    "sha256": "10815cd0437296e38958d0fc5afbf388c23c9d3ad88f989e76899e3b736b17d2",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_16\\edge1.json": {
+    "bytes": 33241,
+    "sha256": "7f501023f613b3540c9f0d2fdd664d6e7fea28566e1fa21048afd788222c816d",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_17\\edge0.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_17\\edge1.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_17\\edge2.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "interference_calibration_affinity_attempt_01_broken\\run_17\\edge3.error.json": {
+    "bytes": 58,
+    "sha256": "0702c73553cbf3975aa830b94aa6c0bdeede7e317a940ea695697a7b5c84ade5",
+    "json_type": "dict"
+  },
+  "protocol\\calibration_scales_v1.json": {
+    "bytes": 1867,
+    "sha256": "2f9e813a18797732ebf85565c650107db3d14b567d47ada1910a0470c6727f5e",
+    "json_type": "dict"
+  },
+  "protocol\\E1_grid.json": {
+    "bytes": 4991,
+    "sha256": "efd0ff9e3d6bf134aa25cf80545f0ab54c463621ea94b8d9a1be02b807833696",
+    "json_type": "dict"
+  },
+  "protocol\\E1_grid_v2.json": {
+    "bytes": 5126,
+    "sha256": "a2a29f47d802bf6887fdaac10eb98a76363ac4f5b91bd956d935adce286b74d9",
+    "json_type": "dict"
+  },
+  "protocol\\E1_test_registry.json": {
+    "bytes": 2840,
+    "sha256": "4f0da10a23107add3b7fe0d9c2db21d34da51d17eae023266136fbfd980d85f1",
+    "json_type": "dict"
+  },
+  "protocol\\E1_test_registry_v2.json": {
+    "bytes": 4943,
+    "sha256": "4e43cfe4cf86eb31d6cc9a0a0329be85033fc60e0625c9640a38a334c546752f",
+    "json_type": "dict"
+  },
+  "protocol\\formal_actor_v1.json": {
+    "bytes": 16037,
+    "sha256": "913dc6c6f9248b975c8c34324b45db3017552df6284d92cc2c62f75bb5997521",
+    "json_type": "dict"
+  },
+  "protocol\\formal_actor_v2.json": {
+    "bytes": 16037,
+    "sha256": "913dc6c6f9248b975c8c34324b45db3017552df6284d92cc2c62f75bb5997521",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v1\\FEATURE_SCALES.json": {
+    "bytes": 1847,
+    "sha256": "d68046e2f7cd208e7c66e2b698caeeb76b77bba834bbd812ba92b2e7e3971572",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v1\\FORMAL_CONFIG.json": {
+    "bytes": 3460,
+    "sha256": "9e77871bc07e477e46fdf89491b25c4d699c16423952d7f3b3e5837e4599886f",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v1\\FROZEN_SYSTEM_PROTOCOL.json": {
+    "bytes": 9848,
+    "sha256": "ef5b869e0b43a5a3f1f0766529d2d560fbd8fa12652b69c0d54d61f8141f2f69",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v2\\FEATURE_SCALES.json": {
+    "bytes": 1847,
+    "sha256": "d68046e2f7cd208e7c66e2b698caeeb76b77bba834bbd812ba92b2e7e3971572",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v2\\FORMAL_CONFIG.json": {
+    "bytes": 3460,
+    "sha256": "817b45713a1894890c7d2f8b2fdbe0899d8645661eaaa48e8e1c31a0e1e852c5",
+    "json_type": "dict"
+  },
+  "protocol\\frozen_v2\\FROZEN_SYSTEM_PROTOCOL.json": {
+    "bytes": 10034,
+    "sha256": "68e0caa92cfcd30e2a70beb21a1b0955061a5cfbc42d902d7bd0981838b970da",
+    "json_type": "dict"
+  },
+  "protocol\\validation_actor_forward_v1.json": {
+    "bytes": 14146,
+    "sha256": "6467600e68307516b175eed3e3ed0d82d3b5ed8f46020e86356f5212590ca34b",
+    "json_type": "dict"
+  },
+  "protocol\\validation_actor_v1.json": {
+    "bytes": 16057,
+    "sha256": "20378ea08df47efe22a32acf911173fd0d10d591c763ae77d95052087cf041cc",
+    "json_type": "dict"
+  },
+  "protocol\\validation_config_v1.json": {
+    "bytes": 3244,
+    "sha256": "9aafdc798f1e4ed778f46c647c45672ff6114256fd61c0893dd05e83aaabbd8a",
+    "json_type": "dict"
+  },
+  "protocol\\validation_registration_v1.json": {
+    "bytes": 747,
+    "sha256": "1e2311696e86eec07beb9be7f2b893b0eb8ebff36b2722955ced6cd417f7fdb9",
+    "json_type": "dict"
+  },
+  "README.md": {
+    "bytes": 3470,
+    "sha256": "f727e93bab28e7da869ff0965178ff08320950a3f533c32dc4abaab5ca469ced",
+    "text_lines": 37
+  },
+  "requirements.txt": {
+    "bytes": 62,
+    "sha256": "f28d232c8a656419073ce0fd2a91270d22f9d8d9a6540c216d76c209427a8ee0",
+    "text_lines": 4
+  },
+  "runs\\M1_rr_s1_attempt_01\\analysis.json": {
+    "bytes": 26105,
+    "sha256": "e3064b7365dce53d11fa965cb35e3a85028196b2064d6ec8a66b44d49518af36",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\COMPLETE.json": {
+    "bytes": 295,
+    "sha256": "7b0b1ad75d0a1acce36df0407568f10d22ee0952115b76f27385c6c39c7b4f8d",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\CUTOFF.json": {
+    "bytes": 157,
+    "sha256": "904caab94a84d65f50bda395944834e041089488b16fa9467a3c1288ad6e06d6",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\decisions.jsonl": {
+    "bytes": 498669,
+    "sha256": "a7de138af0362850b3ae5ebb8dca4b0febb7e6b4a16de9111a6cd894488a9003",
+    "rows": 582,
+    "kinds": {
+      "decision": 582
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\feedback_receive.jsonl": {
+    "bytes": 742724,
+    "sha256": "cdddfabfe03be64474f87e187745cef5234c031aa8e3be0faed762b9faf6278b",
+    "rows": 3424,
+    "kinds": {
+      "feedback_received": 3424
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\INPUTS.json": {
+    "bytes": 3853,
+    "sha256": "d2dafaeaa8cd9a72acb746e7cd1de7a689d11e0317938d5e8537752355150e71",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "runs\\M1_rr_s1_attempt_01\\client\\tasks.jsonl": {
+    "bytes": 549861,
+    "sha256": "5f2f3c90db9067f1b638a4bb42e19ef1d2c7ee15ccada292a6124c1ff35d31e6",
+    "rows": 599,
+    "kinds": {
+      "task_outcome": 599
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\controller\\feedback_send.jsonl": {
+    "bytes": 2340756,
+    "sha256": "65d4095dd85496fbdbb2d92b9f8bad654c962cf5d24ec8785540736f45a8e877",
+    "rows": 7834,
+    "kinds": {
+      "monitor_snapshot": 4092,
+      "feedback_sent": 3600,
+      "budget_deferred": 133,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\controller\\RUNTIME.json": {
+    "bytes": 2057,
+    "sha256": "4d1de72d5f130085ade443c8a720120ba924682b7d3b8f7b44a9e6f794f8d763",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\controller.stderr.log": {
+    "bytes": 2686,
+    "sha256": "720e1fd464b976cb5ac3e6946a22443641a8cf8b239551c650004c1a2bbbfc34",
+    "text_lines": 52,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 55907)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 55909)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_rr_s1_attempt_01\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge0.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge1.stderr.log": {
+    "bytes": 1657,
+    "sha256": "eee70891d59a51af60c5f25f4574ca1a07ad2afb39ea445e7422bfdaf4e4f0c1",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 55893)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge2.stderr.log": {
+    "bytes": 1657,
+    "sha256": "71e840f9baa7502faffed3f060bb4fd3cb940595a96a521fd6ebad27495cd16c",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 55897)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge3.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge0\\edge.jsonl": {
+    "bytes": 88415,
+    "sha256": "75a23305b54db33eeb6c55ae1b75044d7f870dc24d85926906333d45ed06cac3",
+    "rows": 278,
+    "kinds": {
+      "ready": 1,
+      "admitted": 138,
+      "execution_result": 138,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2445,
+    "sha256": "7b34829f45e87adf53384eb9eae76438eea1b80500fff5e5d6d70d5d0ea8eb1f",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge1\\edge.jsonl": {
+    "bytes": 101208,
+    "sha256": "fead1516e3de69adaf35328d9e44139c233131a999700d58be866594ed22a97a",
+    "rows": 318,
+    "kinds": {
+      "ready": 1,
+      "admitted": 158,
+      "execution_result": 158,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2445,
+    "sha256": "bcc7770c7df2221e1e3bfa112c197552e2a304875daf0a59f40ceb30312c3004",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge2\\edge.jsonl": {
+    "bytes": 98773,
+    "sha256": "24cee05045268652f7f67db8e793776716b2327eb77b9f36441be919f0ebbdde",
+    "rows": 310,
+    "kinds": {
+      "ready": 1,
+      "admitted": 154,
+      "execution_result": 154,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2445,
+    "sha256": "af62a0832355a7cb81af71029a613e1f6e4f9378d7136c0b47cb18165f08ab0f",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge3\\edge.jsonl": {
+    "bytes": 95601,
+    "sha256": "514d868cc650dd0b024b89a80dc43db3f8e9cab1158bca25f520dc5e96ec683c",
+    "rows": 300,
+    "kinds": {
+      "ready": 1,
+      "admitted": 149,
+      "execution_result": 149,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_rr_s1_attempt_01\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2445,
+    "sha256": "18aa1510a9d7cee24b1b71f3e1b61fcf37249b71c8ef9c7146dbbbc0427e9016",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\PROCESS_END.json": {
+    "bytes": 1407,
+    "sha256": "cc882fb6be24cdd6b80afaf3e162bed8cae315cf67b70a993898d443f4398acc",
+    "json_type": "dict"
+  },
+  "runs\\M1_rr_s1_attempt_01\\PROCESSES.json": {
+    "bytes": 2336,
+    "sha256": "dc96b6d412c982651eac0d321ad6c7a7132819454140febe558a7814e7f0b61a",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\analysis.json": {
+    "bytes": 160682,
+    "sha256": "bbc35b205c32a5480f1e054d419196979baad417fb2348d8b70195ed7839c9a5",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\COMPLETE.json": {
+    "bytes": 297,
+    "sha256": "f198bb2acc1d5725183140e5a0d4a8d24b46dff4446fb6a8d333bc07d5611375",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\CUTOFF.json": {
+    "bytes": 160,
+    "sha256": "bbecb8dbeb58eb8ab92413120078bec2024244718bdf733f57d5cc9da6c43369",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\decisions.jsonl": {
+    "bytes": 12882126,
+    "sha256": "38701b280f07fe69857bbd8a6a07d27b7f96f3e4dc466568d23b2057d8e70c8a",
+    "rows": 14955,
+    "kinds": {
+      "decision": 14955
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\feedback_receive.jsonl": {
+    "bytes": 1759638,
+    "sha256": "f6634a1d738f644c08408ee9e8cf7f7430e96c8789a983fd9617360287a16ce3",
+    "rows": 8080,
+    "kinds": {
+      "feedback_received": 8080
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\INPUTS.json": {
+    "bytes": 4028,
+    "sha256": "98e81e7a17ee1fe0a0aaff29ff907f1660254cabd5750c7db65deaa9be31b894",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "runs\\M1_stress_s1_attempt_01\\client\\tasks.jsonl": {
+    "bytes": 16417836,
+    "sha256": "2055742a4b5c464af6fbd50fc943a071c31b35f8d0e1f60cd6a2a5ebd92d63a4",
+    "rows": 18916,
+    "kinds": {
+      "task_outcome": 18916
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\controller\\feedback_send.jsonl": {
+    "bytes": 5734271,
+    "sha256": "0aa2ac7932d7339fd16ee8feddf899e0207be84544f06f648a9152a258da746f",
+    "rows": 18677,
+    "kinds": {
+      "monitor_snapshot": 9972,
+      "feedback_sent": 8240,
+      "budget_deferred": 456,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\controller\\RUNTIME.json": {
+    "bytes": 2233,
+    "sha256": "9b35d208f48b0993941ec0bdf8e83e0793c09ff50addca1453a9e1b382d58a65",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\controller.stderr.log": {
+    "bytes": 2686,
+    "sha256": "5edcb340450b4dbdabe3a38cd29464dd1bd0bc9efd61f368ae5f6149c5683f49",
+    "text_lines": 52,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50574)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50578)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_stress_s1_attempt_01\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge0.stderr.log": {
+    "bytes": 1657,
+    "sha256": "981d5659179fb121ef98b629be2bc7318ea5eab47213c89cc63885fd7c3f94bc",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50563)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge1.stderr.log": {
+    "bytes": 1657,
+    "sha256": "36302a1869fea68b4350b2024e0f46d56ab048195e05d64cf8898fb62e9a4dfb",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 54362)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge2.stderr.log": {
+    "bytes": 1657,
+    "sha256": "b8a78242e431487fa2e55a0c8b08c5829a66771e172f484ce899d3a942dfb556",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 54371)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge3.stderr.log": {
+    "bytes": 1657,
+    "sha256": "858aa91d7a9088505dcffcc4ccd0742965bbacf8750093cd8c94af542176f4eb",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 54369)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 183, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 177, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge0\\edge.jsonl": {
+    "bytes": 2216919,
+    "sha256": "55240ac5a5176c40cd88945ee23b3809558b17ad74b1cb1952ac1f8291d88728",
+    "rows": 7968,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3156,
+      "execution_result": 3156,
+      "rejected": 1654,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2620,
+    "sha256": "d9baab1c6970665b5e3b949f5d2ba15a8677e2b201b9a7632a01bda0aec7d189",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge1\\edge.jsonl": {
+    "bytes": 2190753,
+    "sha256": "9016b548377a5cdadd05f26f53c86108b9b6892ccae93f0ec03093568c7c12fc",
+    "rows": 7765,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3156,
+      "execution_result": 3156,
+      "rejected": 1451,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2620,
+    "sha256": "381b8f5584f4e25180d5b6413d8866d346b7256e7411479f85cafbf948dfb248",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge2\\edge.jsonl": {
+    "bytes": 3015100,
+    "sha256": "d7be01480c721223e3e92744b5c45a2bb22092fc0f66919a7380c64e891f5656",
+    "rows": 9508,
+    "kinds": {
+      "ready": 1,
+      "admitted": 4726,
+      "execution_result": 4726,
+      "rejected": 54,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2620,
+    "sha256": "6f7cdc477ecfa45d91c5ec46461d615bfbfa2474f610e24f603fe7c638842030",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge3\\edge.jsonl": {
+    "bytes": 3002034,
+    "sha256": "d163f04e187caf5ad2d74bca3d9c10291d584f7dc7d21cb7bc4f559dacf2e4af",
+    "rows": 9435,
+    "kinds": {
+      "ready": 1,
+      "admitted": 4714,
+      "execution_result": 4714,
+      "rejected": 5,
+      "stopped": 1
+    }
+  },
+  "runs\\M1_stress_s1_attempt_01\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2620,
+    "sha256": "f4d0d2b151d34a28d1c74b862e33b1d250ae0d2f06a2da0e834a5e022d817245",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\PROCESS_END.json": {
+    "bytes": 1411,
+    "sha256": "fb29f743349a5335b048dbadbbfdee0fdade23bb36117ef04c457a431623c6b5",
+    "json_type": "dict"
+  },
+  "runs\\M1_stress_s1_attempt_01\\PROCESSES.json": {
+    "bytes": 2358,
+    "sha256": "3afa4e565a7801cf217dd4f72643cc05822a9867f0128ec2d18006fafded459d",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\analysis.json": {
+    "bytes": 152285,
+    "sha256": "0e310eb0821a4b71d94c908e60d63eee21904e28cfd12dac567f8bea450d9e62",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\COMPLETE.json": {
+    "bytes": 501,
+    "sha256": "7b54bb199a5c532bf50a853ebdc09c682bfa3b4b843f18083ccd22d8937b35ff",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\CUTOFF.json": {
+    "bytes": 160,
+    "sha256": "1016df6e5536a7fdf1d8faee01be3f8a91a60c061039e72d3f8b9227a5dd1b84",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\decisions.jsonl": {
+    "bytes": 9863832,
+    "sha256": "94be3b707571fb0a0ec75de0a753ce2864ba98f200e515797850b78c9c53e519",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\feedback_receive.jsonl": {
+    "bytes": 1777204,
+    "sha256": "cafe5552e2e6d24894fca2fb3b6336a5edd80e60419417d2558960d05dc95cfd",
+    "rows": 8160,
+    "kinds": {
+      "feedback_received": 8160
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\INPUTS.json": {
+    "bytes": 19082,
+    "sha256": "9a018e56279e247c5047c992fcfd4e364934109229ef3edc173ef000110778b7",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "runs\\M2c_qla_s101_attempt_01\\client\\tasks.jsonl": {
+    "bytes": 11497151,
+    "sha256": "ff1e64234bf29dfdf4457028c748b4793a17b1a58eb4c842ccadb70c079b6244",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\controller\\feedback_send.jsonl": {
+    "bytes": 5741690,
+    "sha256": "7cf25ac191a2af7c5f7993ab4ba60b33b56817c7b0a15246dd25ec7c5425ef1f",
+    "rows": 18796,
+    "kinds": {
+      "monitor_snapshot": 9992,
+      "feedback_sent": 8368,
+      "budget_deferred": 427,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\controller\\RUNTIME.json": {
+    "bytes": 2071,
+    "sha256": "48b040f22fa4069b6a38a3f40b58ea388d0d988d8b4c1650686312372bca2f04",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\controller.stderr.log": {
+    "bytes": 2686,
+    "sha256": "0f987d723e83312ec55637468f72ad54be8735872e1e2b52ce64dd3a16620004",
+    "text_lines": 52,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50546)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50548)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge0.stderr.log": {
+    "bytes": 1657,
+    "sha256": "6dc1a508536fd9e393d89d7c20c063b3b7e7bbe3588050f8cb65dd5911cec697",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50534)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge1.stderr.log": {
+    "bytes": 1657,
+    "sha256": "1546d13407d1d10642f041229752903e329c596918320cde14ffad939d58352d",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 50536)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge2.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge3.stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge0\\edge.jsonl": {
+    "bytes": 1787392,
+    "sha256": "931b6497a8a4fe77d0b128cffc4288a803e056c0652be6fa53252db5789cdd9b",
+    "rows": 5628,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2813,
+      "execution_result": 2813,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "393e0adf56c0b42226b27978fdf6d4b37667627e469578e469a328e12917ac0b",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge1\\edge.jsonl": {
+    "bytes": 1787634,
+    "sha256": "ce56b1f843cd5f866ee8d0facaaed89ee440d1431ad0727eb49708238646a7f0",
+    "rows": 5628,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2813,
+      "execution_result": 2813,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "0e8b95e59a5b309c8c0044d86a49e0a6733e423b388b9832dbf9c961c2b1807d",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge2\\edge.jsonl": {
+    "bytes": 2208748,
+    "sha256": "0c94b8df0d26b6bfb7db2bfc7302c5315f523b602c79b92f8f0bad6776678fe7",
+    "rows": 6940,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3469,
+      "execution_result": 3469,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "0d94308040d9b04b8b2d23dd6ea667ae7cc4cd9aa10787a9ea92143155079494",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge3\\edge.jsonl": {
+    "bytes": 2209321,
+    "sha256": "2953e28129af6d22dc3442343362633c0fa70d7e41d727d3697b7601f237a98c",
+    "rows": 6942,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3470,
+      "execution_result": 3470,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_qla_s101_attempt_01\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "e8408f7910cd721789dbb574b2440cfdd5f395571541c1b59e903dcd42a028ef",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\PROCESS_END.json": {
+    "bytes": 1409,
+    "sha256": "aab3996b6854cb0945e6c42ddb4ae09b07d470c4e872b5bed18bec4063071248",
+    "json_type": "dict"
+  },
+  "runs\\M2c_qla_s101_attempt_01\\PROCESSES.json": {
+    "bytes": 2407,
+    "sha256": "8108603514afc4acb88df106b9b2d0ad114459110f6fb47e2f01861778777b04",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\analysis.json": {
+    "bytes": 148323,
+    "sha256": "3a4e1254ce26149764045f9c6f266bf421335833a5b41b4a78142b256cb2190c",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\COMPLETE.json": {
+    "bytes": 299,
+    "sha256": "8507f0b5088ec3855231cd0d2da960be2855263d2fc1fe1b8a63dc22be91741f",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\CUTOFF.json": {
+    "bytes": 160,
+    "sha256": "d0750b0d4604631e445299f181170ff8d96cd46ad563c1969f343f495f831fbc",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\decisions.jsonl": {
+    "bytes": 9998409,
+    "sha256": "9a2d07fc283609335826477ec5a309f8b00570ee275350bf98eeeaa2d1f8f14a",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\feedback_receive.jsonl": {
+    "bytes": 1787254,
+    "sha256": "9844666e79b49b90b292204cedab3d9bcb8c9161637989678f928ba087769149",
+    "rows": 8208,
+    "kinds": {
+      "feedback_received": 8208
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\INPUTS.json": {
+    "bytes": 5466,
+    "sha256": "67179b349f1b56d6df74d8b380307101e7212f877b0f0819576a8c1739419ef6",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\client\\tasks.jsonl": {
+    "bytes": 11501637,
+    "sha256": "4cc4df9b6a582fb0dafe53649d39dfc9045cd67abfd60b123e11cad3e3311a9d",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\controller\\feedback_send.jsonl": {
+    "bytes": 5676156,
+    "sha256": "b581f3a615a47a5742a8739ed34b86a082ae0b27679d62401f38ef307f9741c7",
+    "rows": 18575,
+    "kinds": {
+      "monitor_snapshot": 9868,
+      "feedback_sent": 8288,
+      "budget_deferred": 410,
+      "monitor_error": 8,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\controller\\RUNTIME.json": {
+    "bytes": 2071,
+    "sha256": "1e5b6778a7127cf425d2af114be43afa9d61adc5a4a9da58b6b75f4bfc2529b1",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\controller.stderr.log": {
+    "bytes": 2686,
+    "sha256": "bee77c4e3ffa78878433bdf7d9102a1917c32c325149e0d4aa94a0253a24ae8d",
+    "text_lines": 52,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 61080)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 61083)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge0.stderr.log": {
+    "bytes": 1657,
+    "sha256": "326c6520636c8f030a3c4e120590f8ba6a9a29b5376df45e60c9fab2ed58d6aa",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 52514)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge1.stderr.log": {
+    "bytes": 1657,
+    "sha256": "048f28de6201662ed2f42071e0f82bfe016d26a79e42ce2a0409d245cdf7e1b5",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 52507)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge2.stderr.log": {
+    "bytes": 1657,
+    "sha256": "b38b08197050d25b0950ba73e18e28248c81fc8295fd0380f87e9f59dd6c8468",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 52509)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge3.stderr.log": {
+    "bytes": 1657,
+    "sha256": "96c28c6c10ca7cc0839bf80fcea8f09d5838e72b52da7beedea40aeb9fd9ac1b",
+    "text_lines": 29,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 52512)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge0\\edge.jsonl": {
+    "bytes": 1587746,
+    "sha256": "51ec0f5917fdc47bf487c813f0c037d10b1c2d143a0784e0e12338ccca29c651",
+    "rows": 4998,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2498,
+      "execution_result": 2498,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "b405277679d15bd9fca4388dfb04afd005e69f81dc232e6e00fea0cc09394090",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge1\\edge.jsonl": {
+    "bytes": 1616889,
+    "sha256": "797736b2d0cb27b48d315fcfba831fb831da826d902ea83bcc1fecd374a10cfc",
+    "rows": 5090,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2544,
+      "execution_result": 2544,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "08f1782713aefd8108ec899834acf96478a4e255085ad2bc9c199f8c55ce7c32",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge2\\edge.jsonl": {
+    "bytes": 2383896,
+    "sha256": "bd9354908bc4b0b5de1eb576dafaaec73c4b39f26fb0736d85bf01ffa29105ab",
+    "rows": 7492,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3745,
+      "execution_result": 3745,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "6a0a5097ba6959a481c1a32ddeee7332d72b7a4273a9366f5d987a344e8f1b04",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge3\\edge.jsonl": {
+    "bytes": 2405024,
+    "sha256": "2ccdd6fa2dc36b10144cd0fda3f654d9bfbf2d67729d6a7173e93f91a2058a8f",
+    "rows": 7558,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3778,
+      "execution_result": 3778,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "7ec3fdf4773a01af5a5ba6e6a913ee1dd7f0b77e2763f9e8875a0f6939f3a687",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\PROCESS_END.json": {
+    "bytes": 1411,
+    "sha256": "72d059d4ed5b0341e746ec3d712ff5db9e71fdda718ca556daf494ff7e32351e",
+    "json_type": "dict"
+  },
+  "runs\\M2c_score_softmax_s101_attempt_01\\PROCESSES.json": {
+    "bytes": 2458,
+    "sha256": "9f3cebdd8f540e612439f29f0173be84162a14d936784fa418b4dc0b87641498",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\analysis.json": {
+    "bytes": 117831,
+    "sha256": "b7cee1c4b545459f983f65359801071e6fffd12b4b76b8b73be9953f7d7c7938",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\COMPLETE.json": {
+    "bytes": 300,
+    "sha256": "5a074b3044ca9aba3de0dafa3ca81749489804a63613a9855373d66565d638d3",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\CUTOFF.json": {
+    "bytes": 160,
+    "sha256": "8d7bd98d7c345a5e8aabdc59be3ce92ce715b37edc51f19d9f23c89e1443b075",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\decisions.jsonl": {
+    "bytes": 9304904,
+    "sha256": "7ec61d16315e7b0fc52d5b22c2a9a29ae79232bef0b19a24fd5a8b6c4509423d",
+    "rows": 10759,
+    "kinds": {
+      "decision": 10759
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\feedback_receive.jsonl": {
+    "bytes": 1790508,
+    "sha256": "97eca8aadc509bdf6e73640b6d04a53852d5b3533a68b6550b24230234a22cf9",
+    "rows": 8224,
+    "kinds": {
+      "feedback_received": 8224
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\INPUTS.json": {
+    "bytes": 5468,
+    "sha256": "83d1a28b1a6241d17816c8cee87afe44fd6ac16ac8cb31115a2c26e4ac53dece",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\late_responses.jsonl": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "rows": 0,
+    "kinds": {}
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\client\\tasks.jsonl": {
+    "bytes": 11433374,
+    "sha256": "c3879f947e33a277a7543ec8811e76d875c722e974e03bc240ae4faecea2e8a3",
+    "rows": 12565,
+    "kinds": {
+      "task_outcome": 12565
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\controller\\feedback_send.jsonl": {
+    "bytes": 5613588,
+    "sha256": "8aee2799ddd258bfdfd50138fc3c29c095bc17d04c03e5eafc54573260465256",
+    "rows": 18370,
+    "kinds": {
+      "monitor_snapshot": 9690,
+      "feedback_sent": 8304,
+      "budget_deferred": 361,
+      "monitor_error": 14,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\controller\\RUNTIME.json": {
+    "bytes": 2071,
+    "sha256": "a83626c21080b15e8b418e8c20d059aef512cfbccc2396cc0fe35069bc0de959",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\controller.stderr.log": {
+    "bytes": 2686,
+    "sha256": "c4f0a9ce48a28a1cb8922719e8284f330db752e380d1ae5c74fdd95efb4fbc37",
+    "text_lines": 52,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58152)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58155)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\feedback.py\", line 178, in do_GET\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\controller.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge0.stderr.log": {
+    "bytes": 4707,
+    "sha256": "664ba47e4d5f29ada51e29049e4b859312022ee8400b046d9cd1fded01cd2d40",
+    "text_lines": 87,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58140)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 54589)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 187, in do_GET\r\n    self.send(200, core.snapshot())\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 54143)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 187, in do_GET\r\n    self.send(200, core.snapshot())\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge0.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge1.stderr.log": {
+    "bytes": 4839,
+    "sha256": "05be4e226735bbff1b643a2416698db84586fc3c3910a86c9ad68da9a754336f",
+    "text_lines": 87,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58134)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58146)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 51032)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 187, in do_GET\r\n    self.send(200, core.snapshot())\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge1.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge2.stderr.log": {
+    "bytes": 3182,
+    "sha256": "9489c0b443eb1c7726d05e021e6db401a17dfd165095ef1c24744aac73c61899",
+    "text_lines": 58,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58115)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 57393)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 187, in do_GET\r\n    self.send(200, core.snapshot())\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge2.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge3.stderr.log": {
+    "bytes": 3182,
+    "sha256": "74d90752f26f3bab8f84fdae16679771a47b3ad8bc90f574b515bc2519944e3e",
+    "text_lines": 58,
+    "text": "----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 58113)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 185, in do_GET\r\n    self.send(200, dict(ready=True, pid=runtime()['pid'], server_id=server_id, model=engine.receipt))\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n----------------------------------------\r\nException occurred during processing of request from ('127.0.0.1', 55066)\r\nTraceback (most recent call last):\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 697, in process_request_thread\r\n    self.finish_request(request, client_address)\r\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 362, in finish_request\r\n    self.RequestHandlerClass(request, client_address, self)\r\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 766, in __init__\r\n    self.handle()\r\n    ~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 436, in handle\r\n    self.handle_one_request()\r\n    ~~~~~~~~~~~~~~~~~~~~~~~^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\http\\server.py\", line 424, in handle_one_request\r\n    method()\r\n    ~~~~~~^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 187, in do_GET\r\n    self.send(200, core.snapshot())\r\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\qla_system_prototype_20261013\\systemlab\\edge.py\", line 179, in send\r\n    self.wfile.write(body)\r\n    ~~~~~~~~~~~~~~~~^^^^^^\r\n  File \"X:\\anaconda\\ANACONDA\\Lib\\socketserver.py\", line 845, in write\r\n    self._sock.sendall(b)\r\n    ~~~~~~~~~~~~~~~~~~^^^\r\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\r\n----------------------------------------\r\n"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edge3.stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_lines": 0
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge0\\edge.jsonl": {
+    "bytes": 1553061,
+    "sha256": "1fcbd9855a58b33cfdb126db2db4b544768d32723743e4047b7bac122891081f",
+    "rows": 4927,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2431,
+      "execution_result": 2431,
+      "rejected": 63,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge0\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "3a6140a2d3042b434dcbde8a9009547fba1247638b69db3fc3b78691ba29ec45",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge1\\edge.jsonl": {
+    "bytes": 1473721,
+    "sha256": "2db451c226860f6980d8bc4cc0fc923d36a4e6fc5ff6f099723124ae88886b4a",
+    "rows": 4681,
+    "kinds": {
+      "ready": 1,
+      "admitted": 2305,
+      "execution_result": 2305,
+      "rejected": 69,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge1\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "8cee5260fe34f82ec560aac60aeb12fc61bf9264ddcac8572119cd21fa7b1105",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge2\\edge.jsonl": {
+    "bytes": 2322933,
+    "sha256": "56300777db213ab1a7645b7571f76b707d50eac10473e6ee0d03a3a5d50a70ae",
+    "rows": 7322,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3642,
+      "execution_result": 3642,
+      "rejected": 36,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge2\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "01403deba3809fa1b7bcd6f338d8864940b26e135e36809f2ca0307816d3a194",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge3\\edge.jsonl": {
+    "bytes": 2546501,
+    "sha256": "be5414447b8b2624c21f9cc13f069d3762fe2efbd019400eab039d4b3a21bd5c",
+    "rows": 8017,
+    "kinds": {
+      "ready": 1,
+      "admitted": 3996,
+      "execution_result": 3996,
+      "rejected": 23,
+      "stopped": 1
+    }
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\edges\\edge3\\RUNTIME.json": {
+    "bytes": 2458,
+    "sha256": "716ba8f82a8ad01a57dde92f621384ce2246a93ddf72a47bb8d12af4f3303d22",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\PROCESS_END.json": {
+    "bytes": 1411,
+    "sha256": "01c246c9295dffa40caa852bf4242c4d30fd02f0a199fdd92483b045776ffba4",
+    "json_type": "dict"
+  },
+  "runs\\M2c_stale_shortest_s101_attempt_01\\PROCESSES.json": {
+    "bytes": 2463,
+    "sha256": "adcd365260281f9f13234297a51b6023adad48a43c24b5711830db0a18bf0dda",
+    "json_type": "dict"
+  },
+  "systemlab\\__init__.py": {
+    "bytes": 103,
+    "sha256": "a590a53454b85f9630437329607c03ea3ee3a125aae2868ac7ff7ffe420e7f44",
+    "text_lines": 2
+  },
+  "systemlab\\__main__.py": {
+    "bytes": 10341,
+    "sha256": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+    "text_lines": 184
+  },
+  "systemlab\\admission.py": {
+    "bytes": 11589,
+    "sha256": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+    "text_lines": 178
+  },
+  "systemlab\\analysis.py": {
+    "bytes": 14324,
+    "sha256": "19402d7f475fa09a86cce0d0f785138a78db79bd0a082238ca7ff2cd4b468bc5",
+    "text_lines": 228
+  },
+  "systemlab\\client.py": {
+    "bytes": 11677,
+    "sha256": "d0be24dffdfa00a4e4b5f236fe5e030211a29455c1a81ad3feeb9504ab33c584",
+    "text_lines": 202
+  },
+  "systemlab\\common.py": {
+    "bytes": 4870,
+    "sha256": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+    "text_lines": 133
+  },
+  "systemlab\\data.py": {
+    "bytes": 6393,
+    "sha256": "939f2a67577b44f6a54c5bba63f4007ac036a1e472874647a8580636c7265e73",
+    "text_lines": 120
+  },
+  "systemlab\\edge.py": {
+    "bytes": 11347,
+    "sha256": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+    "text_lines": 233
+  },
+  "systemlab\\feedback.py": {
+    "bytes": 9390,
+    "sha256": "97ac868dcbae31d2efd660458cfd316aaae2024213bd677bda8cb50508f9c4f0",
+    "text_lines": 200
+  },
+  "systemlab\\launcher.py": {
+    "bytes": 9783,
+    "sha256": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+    "text_lines": 200
+  },
+  "systemlab\\policy.py": {
+    "bytes": 10197,
+    "sha256": "6db8dbeb68ce7d3cedf0a0b36f80bdbc2a6ffe066b8f27f95f790d6706edae78",
+    "text_lines": 180
+  },
+  "tests\\test_core.py": {
+    "bytes": 6818,
+    "sha256": "b843760f1b575d8338a251e29ef077cb70284d497ed905ce0d0adad1fd4f4cda",
+    "text_lines": 137
+  },
+  "tests\\test_logic_repairs.py": {
+    "bytes": 11259,
+    "sha256": "fc2e5819a28a8c4ec8b0cd50238f1980f6658e031c9632da5ae556a19af26779",
+    "text_lines": 187
+  },
+  "tools\\build_manifest.py": {
+    "bytes": 1137,
+    "sha256": "399fb4de86f9db7940ec0be4da83a2b5737c94d31af85eb6e8232dd5694af0bc",
+    "text_lines": 22
+  },
+  "tools\\check_actor_transfer.py": {
+    "bytes": 1630,
+    "sha256": "7197f27272d0571cec9a84f9de27736ea29f1ee48b95addbf7f63df2b9917c18",
+    "text_lines": 42
+  },
+  "tools\\configure_pilot.py": {
+    "bytes": 831,
+    "sha256": "0a484202c34b6d6fb0adec21ba215905602f07b685aaa99d3e34880211c6ae42",
+    "text_lines": 19
+  },
+  "tools\\interaction.py": {
+    "bytes": 2347,
+    "sha256": "c5f7f57c1b4e75fac6dc3ec7092c8b87d6ca409049d54e12ed20073e715b18da",
+    "text_lines": 45
+  },
+  "tools\\make_grid.py": {
+    "bytes": 2307,
+    "sha256": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+    "text_lines": 44
+  },
+  "tools\\register_test.py": {
+    "bytes": 948,
+    "sha256": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+    "text_lines": 20
+  },
+  "tools\\stop_owned_attempt.py": {
+    "bytes": 1588,
+    "sha256": "2285c3535c0c1e763b8de9067b9ecf4a21d4d0e93d62b3e53ef4b704e0098c95",
+    "text_lines": 35
+  },
+  "tools\\verify_unit.py": {
+    "bytes": 979,
+    "sha256": "cbb76d608941e32fa9ed1e0367dbf970d08f530a1294b79285e3d8f1ef695cdf",
+    "text_lines": 22
+  }
+}

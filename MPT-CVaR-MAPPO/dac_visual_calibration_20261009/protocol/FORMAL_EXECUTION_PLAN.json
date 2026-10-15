@@ -1,0 +1,148 @@
+{
+  "schema": "same_day_cpu_service_measurements_v1",
+  "created": "2026-10-10T13:53:54.926219",
+  "date": "2026-10-10",
+  "sequence": [
+    {
+      "role": "calibration",
+      "session": 1
+    },
+    {
+      "role": "calibration",
+      "session": 2
+    },
+    {
+      "role": "calibration",
+      "session": 3
+    },
+    {
+      "role": "calibration",
+      "session": 4
+    },
+    {
+      "role": "calibration",
+      "session": 5
+    },
+    {
+      "role": "validation",
+      "session": 1
+    },
+    {
+      "role": "validation",
+      "session": 2
+    },
+    {
+      "role": "validation",
+      "session": 3
+    },
+    {
+      "role": "test",
+      "session": 1
+    },
+    {
+      "role": "test",
+      "session": 2
+    },
+    {
+      "role": "test",
+      "session": 3
+    },
+    {
+      "role": "test",
+      "session": 4
+    },
+    {
+      "role": "test",
+      "session": 5
+    }
+  ],
+  "minimum_session_start_gap_seconds": 900,
+  "session_start_definition": "first timing block sensor_before.wall_clock, before warmup",
+  "idle_check": {
+    "seconds": 5,
+    "max_machine_CPU_percent": 35,
+    "max_selected_core_CPU_percent": 60,
+    "min_available_memory_bytes": 2147483648,
+    "max_wait_seconds": 3600
+  },
+  "same_machine_same_day": true,
+  "original_plan_cross_day_coverage_not_claimed": true,
+  "temperature_measurements_available": false,
+  "continuous_frequency_sampling": false,
+  "calibration_session_1_adopted_after_complete_audit": {
+    "passed": true,
+    "role": "calibration",
+    "sessions": [
+      1
+    ],
+    "rows": 4000,
+    "blocks": 20,
+    "failed_requests": 0,
+    "paired_prediction_disagreements": 0,
+    "measurement_sha256": {
+      "measurements\\calibration\\calibration_s1_b1_CPU-1T.csv": "9285903683b5d51f40dbbcbdd1c73a5d500e0cd1daf86b4ca3fc31cb2b563231",
+      "measurements\\calibration\\calibration_s1_b1_CPU-1T.json": "5f30de1c7b5dd509ac7d630497bdfc0fa64481c2025cce5026fc34a95df70246",
+      "measurements\\calibration\\calibration_s1_b1_CPU-4T.csv": "27f04a5571d5503e819e0e0fc9c7ec48b193d31b324720cadf808415e40e9469",
+      "measurements\\calibration\\calibration_s1_b1_CPU-4T.json": "8527ae1449220069f0930693091d36712b37befc2c37e976a5ddd6cb10f61ac8",
+      "measurements\\calibration\\calibration_s1_b2_CPU-4T.csv": "04b1183a22c97a3c4ea08eedf7e13f36d6cf47c7118ba36831a9dd254feb1c31",
+      "measurements\\calibration\\calibration_s1_b2_CPU-4T.json": "6619a8837e8b9e13473a9977296fc251ddb27fe3ff91ac40bd15b536df457098",
+      "measurements\\calibration\\calibration_s1_b2_CPU-1T.csv": "bb9d14ac3936b37509df6ab35a1053f2a790d2a3e12eeed703bdd92f705e3f2b",
+      "measurements\\calibration\\calibration_s1_b2_CPU-1T.json": "b65bcbe8ba3953d06b5053380ed527cb94a7f0116f5c6e049b0c4be692b509d4",
+      "measurements\\calibration\\calibration_s1_b3_CPU-1T.csv": "16e4c200950004b34479d5f97383769a51765e8606b23df7fa39313b3c5e58f3",
+      "measurements\\calibration\\calibration_s1_b3_CPU-1T.json": "2ddab78383dcf7d95d8e666f4894bdde5b42190e821e313a47bd973d0d37e0ac",
+      "measurements\\calibration\\calibration_s1_b3_CPU-4T.csv": "b6371d3ad6933e4ff8b1bd1ef3825d884f2a5513fb9be6824c0a93c25c68f19b",
+      "measurements\\calibration\\calibration_s1_b3_CPU-4T.json": "869f65ee7b87bcfbbe1d917ab5d4a8c42fd3703b4df482cae10b0b3d3fd9dcb5",
+      "measurements\\calibration\\calibration_s1_b4_CPU-4T.csv": "c84e5c8ddf7b8cb82f4036d359382f38fe8a417ba001812381fd5aefaa8f6854",
+      "measurements\\calibration\\calibration_s1_b4_CPU-4T.json": "0dd794230963eb0cdd26e70065291386048f2a05b1fac82e929fdd14d57b3321",
+      "measurements\\calibration\\calibration_s1_b4_CPU-1T.csv": "b1b12ef96c667c52762e5f5297ad8d6b552d81255c41f932704bcd64fb1220cd",
+      "measurements\\calibration\\calibration_s1_b4_CPU-1T.json": "00cc0cdc85091e856dcd417bf7b7a66e4fe29e6862377044fa3b5b9e633d79d9",
+      "measurements\\calibration\\calibration_s1_b5_CPU-1T.csv": "7772712ad8251c4eee4ade7083efee567e469e50772bd25262b3f163853e26f6",
+      "measurements\\calibration\\calibration_s1_b5_CPU-1T.json": "f91da659003e7752a66498680b13f5dea28251c20354f3dbab9c9b25b6c0ad43",
+      "measurements\\calibration\\calibration_s1_b5_CPU-4T.csv": "453f0656d3b32436684e9cdf9c78ef0a9d79977a52dc2de5541142fc451acf2c",
+      "measurements\\calibration\\calibration_s1_b5_CPU-4T.json": "0ad2415b5028c296f28cede874ce68c9297602e7d276363e8e9d8d758fdda135",
+      "measurements\\calibration\\calibration_s1_b6_CPU-4T.csv": "8ae51854d5f8d88c57afb2c39be27203630977fc20c4d99df2d9b8038f682669",
+      "measurements\\calibration\\calibration_s1_b6_CPU-4T.json": "caab0c77941cf8c05dbcfe38966effd9785e820c69eb161f9f24b344eb3b8c2d",
+      "measurements\\calibration\\calibration_s1_b6_CPU-1T.csv": "03d79b87017cdc8f6e18eca26e909c0d03ed494508af5320dcbfa6c59641c248",
+      "measurements\\calibration\\calibration_s1_b6_CPU-1T.json": "5773f42a7c0d9347adae1cf43fa6dc3edf9d8ba316ee4ce9c99ce522d0df4fe8",
+      "measurements\\calibration\\calibration_s1_b7_CPU-1T.csv": "3f3fa0efe5db82ea8ea40d3de4af958346674d095ee2ebbcc523b9cf9cf91b2f",
+      "measurements\\calibration\\calibration_s1_b7_CPU-1T.json": "6a05c68795b4d0588e08fc80b5283e685862f6a2e5a286337879198c006fe548",
+      "measurements\\calibration\\calibration_s1_b7_CPU-4T.csv": "2cb35e381bf77c25ed96bcc9a3f2d53a5cae521732e4ffb1a86cdd7650138ee5",
+      "measurements\\calibration\\calibration_s1_b7_CPU-4T.json": "3c9b17e092d2a67dc4e3107bdedb4f50cc4e00befe8c949de10684ce327c72b9",
+      "measurements\\calibration\\calibration_s1_b8_CPU-4T.csv": "a051990469de1ebcc3b8bcf3492d685ad5ff9d5f67d3d535ea9366af7f33af4c",
+      "measurements\\calibration\\calibration_s1_b8_CPU-4T.json": "c1db8b17c03ebe3e60fc6bf0d1c3032d0cf40c5b617520891c0d3a62c535e3e7",
+      "measurements\\calibration\\calibration_s1_b8_CPU-1T.csv": "64ab203e0fc044b999c7c68244b1adf71d60f793a06aed0de287f9cd8e8b1bba",
+      "measurements\\calibration\\calibration_s1_b8_CPU-1T.json": "95b9c45a2444c423d9811b083b14a7bb068f48d303ef7f5cdb6658bc276a498c",
+      "measurements\\calibration\\calibration_s1_b9_CPU-1T.csv": "0e324cc35117be6307bee333cc4c48720f49a545fb8a2f163478a99eb3d4a012",
+      "measurements\\calibration\\calibration_s1_b9_CPU-1T.json": "991f02d520f4b62b60014e9fdb5520bdfa982324c09eebbcdd749f4f7496ac5b",
+      "measurements\\calibration\\calibration_s1_b9_CPU-4T.csv": "af9bcedfc8e00de2885e8325aa0ef8d083b7297ececfb494b55a70428a173957",
+      "measurements\\calibration\\calibration_s1_b9_CPU-4T.json": "8f61703ba1ed2cfc05241861fb342f53609a2fd56e207bbc4fd87e2ffb78092d",
+      "measurements\\calibration\\calibration_s1_b10_CPU-4T.csv": "b0c3de31b9184792029b24377d3ec7d9074413c9187e3c83237efeaad86bf0ba",
+      "measurements\\calibration\\calibration_s1_b10_CPU-4T.json": "b2c3737fcdc233c910d1dd0a9b3568ca72410757a91333cacf18221edb1612ea",
+      "measurements\\calibration\\calibration_s1_b10_CPU-1T.csv": "aeab37b532538d40113d22d7e0b9ab4914d07ce185b64a17ded44e5f9e46c685",
+      "measurements\\calibration\\calibration_s1_b10_CPU-1T.json": "f88e308776ca1116f93f498277a364243130e8e54b8056bc40f7b05ad134dc50"
+    },
+    "first_block_start": "2026-10-10T13:43:32.940956",
+    "last_block_end": "2026-10-10T13:47:13.835795"
+  },
+  "environment_spec_sha256": "4511efe6b446219a53cd67bf68807db1d04cd28ed8cff05a6ce88d8676c934e7",
+  "image_split_sha256": "8d6a3701fc3e046f8a2c898aaaf243ceb40449d2eb4d0fd7dfc2e0d8dcfb3b48",
+  "distribution_rule_sha256": "091c9d7cfc5e6c9c74d8abe1cc6df5cd7336040dcf688b2813f2ba795aa1aa4e",
+  "source_sha256": {
+    "scripts/common.py": "176c8169412bc4a3aacec7db3823d1cf947b5192cd952c052c19365e1f6d234c",
+    "scripts/windows_runtime.py": "d7a3f3a93d56a56bdb4bde3a0ec2311581425ca060056f43b4593b9f51e09f2b",
+    "scripts/pipeline.py": "3fdb01c9942a0e08da5739ba018ee3e19b46bf3e0fde58dd0a299d2b5c8bb13a",
+    "scripts/measure_block.py": "313468ed6dde49ae17baad889253b4bcd2eb5292e74a4129175e639ea8ee26c1",
+    "scripts/measurement_audit.py": "15502aa7bcb830a4835516edf82fc400c1ec52454afad11316fa428519fda78e",
+    "scripts/service_summary.py": "0b268378c2a6fff715ea1285aa042eaf220ca9afb7e155768e14b492eea905f2",
+    "scripts/formal_runner.py": "ced8c8774776444843e5e91818527de6e31413eac411d85c9541263039f59a4b"
+  },
+  "expected_formal_rows": 33000,
+  "pilot_rows_excluded": 200,
+  "test_gate": "all calibration/validation sessions audited; frozen service-distribution tolerances accepted; independent source/protocol review passed",
+  "out_of_scope": [
+    "RL policy training",
+    "simulator integration",
+    "paper changes",
+    "multi-device deployment"
+  ]
+}

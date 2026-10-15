@@ -1,0 +1,36 @@
+{
+  "cpu": {
+    "physical_cores": 8,
+    "logical_cores": 16,
+    "max_frequency_mhz": 3800.0,
+    "architecture": "",
+    "processor": "",
+    "current_frequency_mhz": 3800.0
+  },
+  "memory": {
+    "total_gb": 31.1,
+    "available_gb": 6.96,
+    "used_gb": 24.14,
+    "percent_used": 77.6,
+    "swap_total_gb": 44.0,
+    "swap_available_gb": 16.03
+  },
+  "disk": {
+    "total_gb": 476.75780868530273,
+    "available_gb": 199.3586311340332
+  },
+  "gpu": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "memory_total_mb": 8188.0,
+      "memory_free_mb": 1845.0,
+      "driver_version": "591.86",
+      "compute_capability": "8.9",
+      "type": "NVIDIA",
+      "backend": "CUDA"
+    }
+  ],
+  "detector_note": "Full detector failed: missing disk.available_gb; skill probes + shutil fallback. Process-only Windows paths restored before NVML.",
+  "strategy": "CPU timing only, sequential independent blocks; no GPU allocation or installs"
+}

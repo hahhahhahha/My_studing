@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-10T20:46:52.724652+08:00",
+  "rows": 23200,
+  "artifacts": {
+    "analysis/v2_complete_service_requests.csv": "e829ed21b2fe7143d1dc94253d4628198ce7033d01a4a3cbaa148633877200db",
+    "figures/fig_visual_service_v2_complete.png": "dd9b13a7166ae1e09c0f374b2693c4c79a31cdbe419f914bc8471e6fd3153028",
+    "figures/fig_visual_service_v2_complete.pdf": "d80cc1d3db97fc908ceee67201727862f5b0ce958b2d7f1a22d4c21755d7dbe4"
+  },
+  "independent_result_review": "pending"
+}

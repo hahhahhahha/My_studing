@@ -1,0 +1,11 @@
+{
+  "fitted_role":"calibration",
+  "status":"provisional_requires_new_concurrent_system_calibration",
+  "request_scale":7.0,
+  "mean_payload_bytes":200000.0,
+  "reference_service_s":0.031,
+  "queue_reference_s":1.0,
+  "latency_scale_s":1.0,
+  "age_scale_s":0.5,
+  "transfer_seconds_per_server":[0.001,0.001,0.001,0.001]
+}

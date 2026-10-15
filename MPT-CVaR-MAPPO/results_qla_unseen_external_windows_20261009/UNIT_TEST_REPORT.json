@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-09",
+  "suite": "test_heldout_external_windows.DataTests",
+  "tests_run": 6,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "python": "3.13.5",
+  "numpy": "2.1.3",
+  "scope": "pure schema-aware data processing and random-stream tests only; not CUDA or model inference validation",
+  "tests": [
+    "Azure minute columns exclude numeric metadata",
+    "Schedule dimensions are guarded",
+    "Duplicate minute values are averaged",
+    "Missing minutes are not interpolated",
+    "Same seed creates identical schedule arrays",
+    "Demand changes do not advance assignment or feedback random streams"
+  ]
+}

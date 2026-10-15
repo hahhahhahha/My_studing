@@ -1,0 +1,15 @@
+{
+  "schema": "user-authorized-small-smoke-repair-v3-windows-parent",
+  "latest_request_verbatim": "请修复并开始实验",
+  "prior_resource_request_verbatim": "我需要你修改原来的`<500MiB` 门槛  到<1800MIB",
+  "prior_small_scale_request_verbatim": "允许正常退出全部 Chrome 窗口并启动实验，冒烟测试缩小规模，以免浪费太多时间",
+  "repair_scope": ["Preserve source-resolved B1/B2/B3 and current1800 identity", "Repair newly observed Windows venv one-launcher parent chain without arbitrary ancestor acceptance", "Preserve V2 failed output/permanent lock and unlaunched visual plan; separately review additive V3 before fresh preparation/run"],
+  "visual_decisions_per_arm": 8,
+  "reward_training_slots_per_arm": 32,
+  "reward_validation_slots_per_arm": 8,
+  "GPU_memory_used_max_MiB_exclusive": 1800,
+  "formal_budgets_or_scientific_settings_changed": false,
+  "old_outputs_or_failed_sources_overwritten": false,
+  "no_automatic_retry_append_or_partial_arm_merge": true,
+  "independent_new_scope_source_review_before_actual_smoke": true
+}

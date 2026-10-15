@@ -1,0 +1,28 @@
+{
+  "status": "failed",
+  "pid": 58604,
+  "url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+  "bytes_downloaded": 243321159,
+  "service_times_changed": false,
+  "started_at": "2026-10-10T20:01:22.909990+08:00",
+  "download_started_at": "2026-10-10T20:47:23.053070+08:00",
+  "headers": {
+    "Server": "AliyunOSS",
+    "Date": "Sat, 10 Oct 2026 12:47:26 GMT",
+    "Content-Type": "application/gzip",
+    "Content-Length": "243321159",
+    "Connection": "close",
+    "x-oss-request-id": "6ACA33DE19E4A23239B0D6D8",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1BCB355701A63A8F246AC570BF9AD12E-24\"",
+    "Last-Modified": "Mon, 27 Feb 2023 09:35:26 GMT",
+    "x-oss-object-type": "Multipart",
+    "x-oss-hash-crc64ecma": "2700699146184863613",
+    "x-oss-storage-class": "Standard",
+    "x-oss-server-time": "64"
+  },
+  "final_url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+  "archive_sha256": "b7efe9dc9caa75352de41b9ac34b329602cde3414fd7cab87c1d21a9a9871d66",
+  "error": "RuntimeError('Archive does not match official trace_201708.tgz checksum; do not treat rename as verification')",
+  "ended_at": "2026-10-10T20:47:33.019173+08:00"
+}

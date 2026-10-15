@@ -1,0 +1,163 @@
+{
+  "schema": "independent-small-v1-report-delivery-completion-v1",
+  "delivery_status": "COMPLETE_ORIGINAL_REPORT_DELIVERY_ONLY",
+  "completed_at": "2026-10-12T19:49:20.9152039+08:00",
+  "timezone": "Asia/Shanghai",
+  "reviewer_task": "/root/user_small_smoke_source_review",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "xhigh",
+  "review_type": "Type-A",
+  "scope": "Bounded completion of original small-v1 source review delivery; not a new review of the subsequent 1800MiB resource revision",
+  "original_verdict_preserved": {
+    "combined": "FAIL",
+    "visual_source": "WARN",
+    "reward_source": "FAIL",
+    "blockers": [
+      "B1",
+      "B2"
+    ],
+    "warnings": [
+      "W1",
+      "W2",
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7",
+      "W8",
+      "W9",
+      "W10"
+    ]
+  },
+  "cutoff": {
+    "original_review_json_last_write_observed": "2026-10-12T16:20:16.1567565+08:00",
+    "interpretation": "Original reviewed byte identity was materialized by this saved JSON, before the later resource revision; file time is not an independently authenticated timestamp of each source read.",
+    "resource_revision_later_recorded_at": "2026-10-12T19:41:14+08:00",
+    "active_1800_resource_revision_outside_original_verdict": true
+  },
+  "delivery_before_resume": {
+    "saved_result_existed": true,
+    "markdown_report_existed": false,
+    "independently_observed_at": "2026-10-12T19:45:51.9535012+08:00",
+    "parent_trace_MD_absent_observed_at": "2026-10-12T19:43:45.2144156+08:00",
+    "saved_JSON_complete_report_true_was_premature_for_two_artifact_delivery": true,
+    "absent_MD_not_relabelled_previously_delivered": true
+  },
+  "artifacts": {
+    "original_saved_result": {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v1/independent_small_review/REVIEW_RESULT.json",
+      "sha256": "287499c7d1d61b189dc871349c389742dd2c2c78938bb731218feb41cf7cf6fb",
+      "preserved_unchanged": true
+    },
+    "newly_created_report": {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v1/independent_small_review/REVIEW_RESPONSE.md",
+      "sha256": "91bdbafd5118b6faa50eb7d7b2cfc52a9e1cbcc93bf984c3d1de46debd814549",
+      "first_created_in_this_delivery_completion": true
+    },
+    "delivery_record_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_user_small_smoke_v1/independent_small_review/DELIVERY_COMPLETION.json"
+  },
+  "prior_quota_interruption": {
+    "artifact_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/.aris/traces/experiment-audit/2026-10-12_user_small_smoke_v1_delivery/QUOTA_ERROR_VERBATIM.txt",
+    "artifact_sha256": "11f413aaf3b22bf3227657cb1b6c7debdc35ed8c6bec70522de7e1b76c401b22",
+    "trace_metadata_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/.aris/traces/experiment-audit/2026-10-12_user_small_smoke_v1_delivery/TRACE_METADATA.json",
+    "trace_metadata_sha256": "87bcc31897240b8af14aadbb4db92b63e5f9e042fe6ee0ab2b2fe638f9e282ca",
+    "provenance": "Exact original collaboration final-status payload preserved by parent; read by reviewer; not reconstructed from provider logs.",
+    "exact_provider_timestamp": null,
+    "error_verbatim": "Agent errored: You’ve hit your usage limit. Upgrade to Pro (https://chatgpt.com/explore/pro), visit https://chatgpt.com/codex/settings/usage to purchase more credits or try again at 7:09 PM.\n\nThis agent's turn failed. If you still need this agent, use the available collaboration tools to give it another task.",
+    "scientific_or_runtime_verdict": false,
+    "account_reset_upgrade_credit_purchase_performed": false
+  },
+  "author_file_continuity": [
+    {
+      "actual_sha256": "577575609ff2939258aeacc5b8efbc0931a799c5b5c05b1fc044d0c54e576415",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v1\\USER_REQUEST.json",
+      "matches": true,
+      "expected_sha256": "577575609ff2939258aeacc5b8efbc0931a799c5b5c05b1fc044d0c54e576415"
+    },
+    {
+      "actual_sha256": "0817961b23f84a6e8056fd77b62f3a460b535e5c2fc06d5c31f5dcd41f1eb484",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v1\\README_SMALL_SMOKE_中文.md",
+      "matches": true,
+      "expected_sha256": "0817961b23f84a6e8056fd77b62f3a460b535e5c2fc06d5c31f5dcd41f1eb484"
+    },
+    {
+      "actual_sha256": "5c8028fbde9a2b7b706ef1acc8b12f3f46d8da5eb24256cfd2f32884418c2d9d",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v1\\visual_model_smoke_small.py",
+      "matches": true,
+      "expected_sha256": "5c8028fbde9a2b7b706ef1acc8b12f3f46d8da5eb24256cfd2f32884418c2d9d"
+    },
+    {
+      "actual_sha256": "353b3f95f433185e64b4dd4edf633ed91682ac50e8d46a8de8a21142016de0d3",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v1\\reward_smoke_small.py",
+      "matches": true,
+      "expected_sha256": "353b3f95f433185e64b4dd4edf633ed91682ac50e8d46a8de8a21142016de0d3"
+    }
+  ],
+  "old_resource_scope_continuity": [
+    {
+      "expected_sha256": "f20497f0725fcef76e3581d4d423c684cc2b115d750e55df85d72fdca62d1d91",
+      "actual_sha256": "f20497f0725fcef76e3581d4d423c684cc2b115d750e55df85d72fdca62d1d91",
+      "current_path_sha256": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+      "original_reviewed_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py",
+      "matches": true,
+      "preserved_before_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\attempts\\20261012_1940_user_authorized_gpu1800\\BEFORE\\qla_environment.py"
+    },
+    {
+      "expected_sha256": "a6a440c36c4a0ebe188145c29affbdc0fd83353838f9c745b523d79f556e9cf4",
+      "actual_sha256": "a6a440c36c4a0ebe188145c29affbdc0fd83353838f9c745b523d79f556e9cf4",
+      "current_path_sha256": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3",
+      "original_reviewed_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json",
+      "matches": true,
+      "preserved_before_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\attempts\\20261012_1940_user_authorized_gpu1800\\BEFORE\\QLA_ENVIRONMENT_SPEC.json"
+    }
+  ],
+  "out_of_scope_resource_context_files": [
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/environment/attempts/20261012_1940_user_authorized_gpu1800/USER_AUTHORITY.json",
+      "sha256": "93ef16ed5854e5351d813e6047737c6022d9851df4e3949483dee22471e7b2be"
+    },
+    {
+      "path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/README_RESOURCE_GATE_1800_中文.md",
+      "sha256": "2629000b002aea583f57230c64e539fb59ef6e992ebf8171f5d2b418a9e8df1d"
+    }
+  ],
+  "bounded_verification": {
+    "four_original_author_files_rehashed_against_saved_review": true,
+    "all_four_match": true,
+    "old_qla_environment_and_spec_verified_at_preserved_BEFORE_paths": true,
+    "both_preserved_hashes_match": true,
+    "current_resource_path_hashes_differ": true,
+    "current_resource_implementation_substantively_reviewed_or_approved": false,
+    "original_all_input_second_pass_rehash_completed": false,
+    "saved_JSON_pending_second_pass_field_left_unchanged": true,
+    "new_static_or_runtime_review_performed": false,
+    "original_source_findings_independently_preserved": true
+  },
+  "actual_completeness": {
+    "original_saved_JSON_present": true,
+    "complete_MD_now_present": true,
+    "all_two_blockers_and_ten_warnings_present": true,
+    "all_six_original_checks_present": true,
+    "full_original_hash_maps_retained_in_unchanged_JSON": true,
+    "primary_hashes_and_completion_continuity_in_MD": true,
+    "delivery_record_now_separate_from_original_JSON": true
+  },
+  "reviewer_completion_operations": {
+    "read_saved_report_and_scope_artifacts": true,
+    "read_preserved_original_resource_sources": true,
+    "read_quota_provenance": true,
+    "hash_only_continuity": true,
+    "checks_prepare_run_worker_calls": 0,
+    "Torch_imports": 0,
+    "GPU_probes_or_allocations": 0,
+    "models_or_optimizers": 0,
+    "new_agents": 0,
+    "author_source_edits": 0,
+    "old_plans_design_bindings_saved_JSON_edits": 0
+  },
+  "runtime_authorized": false,
+  "formal_launch_authorized": false,
+  "full_integrated_entry_certified": false,
+  "resource_1800_revision_certified": false,
+  "Type_B_certification": false
+}

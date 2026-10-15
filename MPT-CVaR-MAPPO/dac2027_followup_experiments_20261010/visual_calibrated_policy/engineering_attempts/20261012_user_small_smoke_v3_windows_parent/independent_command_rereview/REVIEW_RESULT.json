@@ -1,0 +1,95 @@
+{
+  "schema": "independent-v3-b4-command-source-rereview-v1",
+  "review_type": "Type-A",
+  "review_date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "status": "WARN",
+  "blockers": [],
+  "complete": true,
+  "scope": "Narrow changed-source B4 canonical/actual worker command rereview; no full protocol re-audit",
+  "previous_blocker_disposition": {
+    "B4": "RESOLVED_AT_SOURCE_LEVEL"
+  },
+  "findings": [
+    {
+      "id": "B4_CLOSED",
+      "classification": "PASS_SOURCE",
+      "locations": ["reward_input_integrity.py:102", "reward_smoke_small.py:146", "visual_model_smoke_small.py:215"],
+      "detail": "Both workers independently reconstruct canonical CLI from concrete parsed and checked values; neither assignment expands sys.argv. Reward remaining arguments retain their frozen-command equality check. The helper compares sys.argv to the canonical suffix and current.cmdline() to the canonical command before both ancestry paths. Interpreter argv0 is resolved-path compared; remaining tokens are exact. Missing-B, extra, reordered and duplicate options fail bounded fixtures. Receipt now records actual_OS_worker_command separately."
+    },
+    {
+      "id": "PARENT_AND_RECEIPT_PRESERVED",
+      "classification": "PASS_SOURCE",
+      "detail": "Direct recorded logical parent or one declared Windows venv launcher only. Logical PID+creation time, same entry run prefix, actual launcher executable/command, native-worker/launcher PID distinction, and parent Popen receipt constraints remain. Parent run functions and receipt validator are AST-identical to the reviewed pre-command-repair sources. No post-Popen-file admission dependency added. Native current-process executable is not incorrectly required to equal the isolated launcher executable."
+    },
+    {
+      "id": "DISTINCT_REVIEW_REQUIRED",
+      "classification": "PASS_SOURCE",
+      "detail": "require_review now reads independent_command_rereview exclusively, with unchanged PASS/WARN, empty blockers, Type-A, exact current nine-map and MD-existence conditions. Old complete FAIL remains intact and cannot substitute for the changed-source prerequisite. Mocked reader accepted valid WARN and rejected five invalid cases."
+    },
+    {
+      "id": "INVARIANTS_UNCHANGED",
+      "classification": "UNCHANGED_SOURCE_SCOPE",
+      "detail": "Only named command/reader functions and README changed. Frozen baseline, USER_REQUEST and three public resource files match prior reviewed hashes. Source/raw/schedule/caller/environment guards, strict1800 resource rule, runtime/thread/device checks and model-import ordering, algorithms/scientific/numerical criteria, reward32/8/30users/35servers, visual8/30users/4servers/full30sdrain, no retry/merge and old-evidence preservation obligations unchanged. Not a fresh full closure audit or actual execution."
+    },
+    {
+      "id": "INHERITED_WARNINGS",
+      "classification": "WARN_RETAINED",
+      "detail": "Retain complete warnings in the first V3 report and its referenced D2 reports, including unverified runtime/numerical outcome, shallow small-budget scientific coverage, point-in-time resource/process/hash and TOCTOU limits, partial/crash evidence and inherited output-validation limitations. Logical-parent check remains same-entry/run-prefix rather than full trailing-parent-argument equality. No formal or expanded authority is inferred."
+    }
+  ],
+  "verification": {
+    "methods": ["direct source diff", "byte SHA256 rehash", "stdlib AST comparison", "AST-extracted in-memory mocked helper and canonical-assignment fixtures", "mocked distinct review-reader fixture"],
+    "ast_changed_functions": {
+      "reward_input_integrity.py": ["require_worker_parent", "require_review"],
+      "reward_smoke_small.py": ["worker"],
+      "visual_model_smoke_small.py": ["worker"]
+    },
+    "function_membership_unchanged": true,
+    "pre_repair_six_match_first_FAIL_source_map": true,
+    "canonical_assignments_reference_sys_argv": false,
+    "mock_results": {
+      "accepted_exact_commands": 4,
+      "rejected_malformed_current_commands": 24,
+      "rejected_malformed_launcher_commands": 12,
+      "rejected_parent_creation_or_Popen_PID_mismatch": 8,
+      "accepted_current_review_reader": 1,
+      "rejected_invalid_review_reader_cases": 5,
+      "all_expected_outcomes_passed": true
+    },
+    "command_mutation_categories": ["missing -B", "extra interpreter flag", "reordered interpreter flags", "extra script option", "reordered script options", "duplicate script option"],
+    "mock_limits": "Only extracted functions/assignment statements; source_guard stubbed, psutil fake, process objects in memory. No actual entry or runtime/resource/source guard invoked; no actual live parent chain inspected.",
+    "source_edits": false,
+    "old_artifact_edits": false,
+    "additional_reviewer_spawned": false,
+    "quota_interrupted": false
+  },
+  "classifications": {
+    "source_disposition": "WARN_B4_RESOLVED_NO_CHANGED_SCOPE_BLOCKERS",
+    "source_only_review": true,
+    "actual_smoke_executed_by_reviewer": false,
+    "actual_numerical_success": "NOT_ESTABLISHED",
+    "live_gpu_resource_status": "NOT_PROBED",
+    "full_integrated_entry_readiness": "NOT_CERTIFIED",
+    "type_b_certification": false,
+    "independent_runtime_launch_approval": false,
+    "expanded_execution_authority": false,
+    "pilot_authority": false,
+    "formal_authority": false
+  },
+  "prior_complete_FAIL_reports_sha256": {
+    "independent_repair_rereview/REVIEW_RESPONSE.md": "6ccd9fcbf49025c88bdb4b371670499ddd34cdca06e549135d963585a8c461be",
+    "independent_repair_rereview/REVIEW_RESULT.json": "65d50b9166eef905ff262caa493f856bd85a15d37b5293541defa9ddda515d9d"
+  },
+  "reviewed_sources_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\visual_model_smoke_small.py": "ec0a7535d3c74f758bad6c0ba3928cf6f4f88d5ce246e0e85674056fd442e406",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\reward_smoke_small.py": "99f917dfc77ba9d552d1b824e5f04470b9045ae64201aaa964f9be965409be4c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\reward_input_integrity.py": "1f774d8322a72b8fdb82fb3f5c2a49353e22d4fb8f45cf5864ec872926837cf3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\FROZEN_BASELINE.json": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\README_SMALL_SMOKE_中文.md": "b48f3e39ec9cc70585f89e88ef836704df541210e37b1f2b0e8264a0fbdbb5f0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v3_windows_parent\\USER_REQUEST.json": "e0d663d686e54abb4b31165a6577d5932ed014f316206a6a424277886cbc5c0f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3"
+  }
+}

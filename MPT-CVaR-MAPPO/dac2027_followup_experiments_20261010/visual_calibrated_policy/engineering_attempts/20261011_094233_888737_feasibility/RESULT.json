@@ -1,0 +1,540 @@
+{
+  "at": "2026-10-11T09:42:35.486267+08:00",
+  "diagnostic_completed": true,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch_imported": false
+  },
+  "plan": {
+    "status": "engineering_diagnostic_rules_not_formal_protocol",
+    "users": 30,
+    "virtual_profiles": [
+      "CPU-1T",
+      "CPU-1T",
+      "CPU-4T",
+      "CPU-4T"
+    ],
+    "geometry_seed": 123,
+    "candidate_training_mobility_window_seconds": [
+      0.0,
+      500.0
+    ],
+    "decision_seconds": 0.05,
+    "decision_points": 10000,
+    "rho": [
+      0.6,
+      0.75,
+      0.85
+    ],
+    "load_model": "Uniform per-user unconditional rate; JPEG/position independence",
+    "capacity_source": "Calibration mean only; validation JPEG payloads diagnostic only",
+    "default_network_unchanged": {
+      "bandwidth_hz": 2000000.0,
+      "noise_power_w": 1e-10,
+      "antenna_gain": 4.11,
+      "carrier_hz": 915000000.0,
+      "tx_power_w": 0.25,
+      "light_speed_m_s": 300000000.0,
+      "min_distance_m": 1.0
+    },
+    "upload_headroom_diagnostic_target": 0.8,
+    "training_budget_candidate": {
+      "total_decisions": 10000,
+      "episodes": 10,
+      "decisions_per_episode": 1000,
+      "generation_seconds_per_episode": 50.0,
+      "fixed_drain_seconds_per_episode": 30.0,
+      "updates_after_complete_episodes_only": true,
+      "gamma_per_second": 0.99,
+      "lambda_per_second": 0.95,
+      "MV_reset_rule_not_frozen_or_changed": true
+    },
+    "no_policy_performance_or_test_outcomes_for_parameter_selection": true,
+    "no_network_or_rho_modification_in_this_diagnostic": true
+  },
+  "capacity_marker_requests_per_second": 233.39180920282058,
+  "calibration_mean_profile_service_seconds": {
+    "CPU-1T": 0.028320473800000003,
+    "CPU-4T": 0.01228716165
+  },
+  "edge_positions_meters": [
+    [
+      -902.4219383588713,
+      -2688.8966626493734
+    ],
+    [
+      413.2927793484041,
+      -2602.467661413529
+    ],
+    [
+      2244.6442391001174,
+      -2895.48560862018
+    ],
+    [
+      891.4144290627933,
+      -1656.600927372967
+    ]
+  ],
+  "payload_statistics": {
+    "calibration": {
+      "images": 2000,
+      "mean_bytes": 116952.135,
+      "min_bytes": 1894,
+      "median_bytes": 110794.5,
+      "p95_bytes": 222097.64999999997,
+      "p99_bytes": 455279.9499999996,
+      "max_bytes": 2351370
+    },
+    "validation": {
+      "images": 2000,
+      "mean_bytes": 123541.313,
+      "min_bytes": 1551,
+      "median_bytes": 108701.5,
+      "p95_bytes": 224647.4,
+      "p99_bytes": 642025.77,
+      "max_bytes": 4201349
+    }
+  },
+  "decision_grid_all_links_megabits_per_second_min_median_max": [
+    0.7398093411199306,
+    1.5899103130618302,
+    21.386392156464826
+  ],
+  "scalar_vectorization_max_relative_error": 8.376780596711889e-16,
+  "conditions": [
+    {
+      "payload_role": "calibration",
+      "rho": 0.6,
+      "total_unconditional_requests_per_second": 140.03508552169234,
+      "unconditional_frames_per_user_second": 4.667836184056411,
+      "mean_payload_traffic_per_user_megabits_second": 4.367307260445202,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 1.9386401375496634,
+          "min_user_upload_work_ratio": 0.6529311967801377,
+          "max_user_upload_work_ratio": 2.7356467243835056,
+          "users_expected_work_at_least_available_time": 28,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 3.419558405479382
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 3.0358301280858426,
+          "min_user_upload_work_ratio": 1.4868147846040582,
+          "max_user_upload_work_ratio": 4.057373228968219,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 5.071716536210273
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 4.534773940517726,
+          "min_user_upload_work_ratio": 2.691862090412663,
+          "max_user_upload_work_ratio": 5.773514925413897,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 7.216893656767371
+        }
+      }
+    },
+    {
+      "payload_role": "calibration",
+      "rho": 0.75,
+      "total_unconditional_requests_per_second": 175.04385690211544,
+      "unconditional_frames_per_user_second": 5.834795230070514,
+      "mean_payload_traffic_per_user_megabits_second": 5.459134075556503,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 2.423300171937079,
+          "min_user_upload_work_ratio": 0.8161639959751722,
+          "max_user_upload_work_ratio": 3.419558405479382,
+          "users_expected_work_at_least_available_time": 29,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 4.274448006849227
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 3.794787660107304,
+          "min_user_upload_work_ratio": 1.858518480755073,
+          "max_user_upload_work_ratio": 5.071716536210274,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 6.339645670262842
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 5.66846742564716,
+          "min_user_upload_work_ratio": 3.364827613015829,
+          "max_user_upload_work_ratio": 7.216893656767372,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 9.021117070959214
+        }
+      }
+    },
+    {
+      "payload_role": "calibration",
+      "rho": 0.85,
+      "total_unconditional_requests_per_second": 198.38303782239748,
+      "unconditional_frames_per_user_second": 6.612767927413249,
+      "mean_payload_traffic_per_user_megabits_second": 6.187018618964036,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 2.746406861528689,
+          "min_user_upload_work_ratio": 0.9249858621051951,
+          "max_user_upload_work_ratio": 3.8754995262099663,
+          "users_expected_work_at_least_available_time": 29,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 4.844374407762458
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 4.300759348121611,
+          "min_user_upload_work_ratio": 2.1063209448557494,
+          "max_user_upload_work_ratio": 5.747945407704977,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 7.184931759631221
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 6.424263082400113,
+          "min_user_upload_work_ratio": 3.813471294751273,
+          "max_user_upload_work_ratio": 8.179146144336354,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 10.223932680420441
+        }
+      }
+    },
+    {
+      "payload_role": "validation",
+      "rho": 0.6,
+      "total_unconditional_requests_per_second": 140.03508552169234,
+      "unconditional_frames_per_user_second": 4.667836184056411,
+      "mean_payload_traffic_per_user_megabits_second": 4.61336488837791,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 2.047864692913781,
+          "min_user_upload_work_ratio": 0.6897178691853687,
+          "max_user_upload_work_ratio": 2.8897752763084434,
+          "users_expected_work_at_least_available_time": 29,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 3.612219095385554
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 3.206871256079961,
+          "min_user_upload_work_ratio": 1.5705831336708607,
+          "max_user_upload_work_ratio": 4.285968922566342,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 5.357461153207927
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 4.7902667768292035,
+          "min_user_upload_work_ratio": 2.843523780600543,
+          "max_user_upload_work_ratio": 6.09879943201319,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 7.623499290016487
+        }
+      }
+    },
+    {
+      "payload_role": "validation",
+      "rho": 0.75,
+      "total_unconditional_requests_per_second": 175.04385690211544,
+      "unconditional_frames_per_user_second": 5.834795230070514,
+      "mean_payload_traffic_per_user_megabits_second": 5.766706110472388,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 2.5598308661422267,
+          "min_user_upload_work_ratio": 0.862147336481711,
+          "max_user_upload_work_ratio": 3.6122190953855546,
+          "users_expected_work_at_least_available_time": 29,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 4.515273869231943
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 4.008589070099952,
+          "min_user_upload_work_ratio": 1.9632289170885762,
+          "max_user_upload_work_ratio": 5.357461153207928,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 6.696826441509909
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 5.987833471036506,
+          "min_user_upload_work_ratio": 3.5544047257506795,
+          "max_user_upload_work_ratio": 7.623499290016488,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 9.529374112520609
+        }
+      }
+    },
+    {
+      "payload_role": "validation",
+      "rho": 0.85,
+      "total_unconditional_requests_per_second": 198.38303782239748,
+      "unconditional_frames_per_user_second": 6.612767927413249,
+      "mean_payload_traffic_per_user_megabits_second": 6.535600258535372,
+      "upload_work_bounds": {
+        "fastest_link_lower_bound": {
+          "mean_upload_work_ratio": 2.9011416482945234,
+          "min_user_upload_work_ratio": 0.9771003146792724,
+          "max_user_upload_work_ratio": 4.093848308103628,
+          "users_expected_work_at_least_available_time": 29,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 5.117310385129535
+        },
+        "uniform_routing_diagnostic": {
+          "mean_upload_work_ratio": 4.543067612779945,
+          "min_user_upload_work_ratio": 2.224992772700386,
+          "max_user_upload_work_ratio": 6.071789306968985,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 7.589736633711231
+        },
+        "slowest_link_upper_bound": {
+          "mean_upload_work_ratio": 6.786211267174706,
+          "min_user_upload_work_ratio": 4.02832535585077,
+          "max_user_upload_work_ratio": 8.639965862018686,
+          "users_expected_work_at_least_available_time": 30,
+          "linear_bandwidth_scale_for_all_users_at_most_0p8": 10.799957327523357
+        }
+      }
+    }
+  ],
+  "candidate_budget_and_physical_discount": {
+    "total_decisions": 10000,
+    "decision_generation_seconds": 500.0,
+    "independent_episode_execution_seconds_including_fixed_drains": 800.0,
+    "updates_candidate_not_executed": 10,
+    "gamma_per_50ms": 0.9994976094477416,
+    "lambda_per_50ms": 0.9974386212234697,
+    "gamma_half_life_seconds": 68.96756393652842,
+    "lambda_half_life_seconds": 13.513407333964874,
+    "gamma_over_50_second_episode": 0.6050060671375364,
+    "lambda_over_50_second_episode": 0.07694497527671315,
+    "full_episode_float32_critic_storage_bytes": 84600000
+  },
+  "historical_MV_statistic_continuity_design_question": {
+    "source_sha256": {
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": "08481b36d74964f8118f341f0d665ddec13ba986993c0d45ab5b5e4311fa25e4"
+    },
+    "statistic_created_before_continuous_training_loop": true,
+    "new_closed_episode_reset_candidate_not_yet_frozen_or_fixed": true
+  },
+  "protected_input_and_source_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\RESULT.json": "0d8b37f4157b90a1d133f0f5e10f90028a19bc1da4e845f937569aed38066c08",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\SHARED_ENGINEERING_SCHEDULE.json": "19d10b656932f2c7ee51f077df978a55273e3f38589d9ae76220ccd0c172ca25",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_repeat_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\jseq_adapted_ENGINEERING_TRACE.json": "e068d47c4b4bab27fcf0c13b7ccbb2e14460bc5e852a6db42c407f25d35e440e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\zero_waiting_buffer_drop_fixture_ENGINEERING_TRACE.json": "446761bbb6407c926faa110f3deb17e0b9011181fff73695b0ffc47c333a049c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\short_fixed_drain_unfinished_fixture_ENGINEERING_TRACE.json": "574421b0b215a9d209d204ef3db93cb960c12ef01b917613e5003fec36078719",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_074310_240972_terminal_gae\\RESULT.json": "f6b3dd387609fa8252d18a9ca9b589da2c2a3ddd9ca8502b550d58867012efe5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_mv_reward.py": "f0323af9dc856a907ae8bba535e44eb888df66d97e3b275279441041efa13bcd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_MV_REWARD_中文.md": "89ef48e61d4a46c0de54649612a3fee1f912e9208d3f0009101eb8f00d3c5701",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_mean_variance_reward.py": "ebf61e702110bfb868f2abc961d39eafb2e592d23c60ebf2c9bbc6045bd5bbc7",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_learning_buffer.py": "1192e72c2e7c77986108f3c7c623082b531e7f85bc41e405944630b82dbc259c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_neural_controller.py": "9a5bae58b66665e58cde564aa231587b92963cea41bbc2f1937b223aa6f3ea5e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_terminal_accounting.py": "b4eed88c53966f1b2f887a6e02f3a508093a9e90716834f799907eea43fefc03",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_temporal_gae.py": "53aaf0a77eb55437fef3e408e09c4ff4df7bba7e4ab0acf1daeb7f0208c4e46d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_084523_355854_mv_reward\\RESULT.json": "a00b114f8282283aab5e9d89e8fb1870c2740d5f1893eb26ade95db99811ce7c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_episode_collector.py": "ff49519d931f01c0a730dbe6cb494c705bf318548fa9a90de550fcbce13fc195",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_EPISODE_COLLECTOR_中文.md": "5893a79f0fde460051d1f6d823c200568f41b41b343b6aacb064275f95e35699",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_episode_collector.py": "06cdc1ca534407c6d0e2feb177dfaafa2b9984186282398b8b67181d6448ef63",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_method_features.py": "b74ed6336c6dc44c0041d1427f904a22b022cc4fd6a57dfc086b226aa58bd722",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_receipt_environment.py": "ae933775ca365e0301eef1a14ad8f118d59adc2b43bef0af3c8f5e94be998036",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_shared_reward.py": "46b6fd5ba9adfae286d736c31b64841915ba17bfeb91b8f86852f2bd8a764faf",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_091538_576632_episode_collector\\RESULT.json": "d932db9bab612daf66556eaec83280f99c8c0e99ef7376150568b034bd815ebf",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b10_CPU-1T.csv": "aeab37b532538d40113d22d7e0b9ab4914d07ce185b64a17ded44e5f9e46c685",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b10_CPU-4T.csv": "b0c3de31b9184792029b24377d3ec7d9074413c9187e3c83237efeaad86bf0ba",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b1_CPU-1T.csv": "9285903683b5d51f40dbbcbdd1c73a5d500e0cd1daf86b4ca3fc31cb2b563231",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b1_CPU-4T.csv": "27f04a5571d5503e819e0e0fc9c7ec48b193d31b324720cadf808415e40e9469",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b2_CPU-1T.csv": "bb9d14ac3936b37509df6ab35a1053f2a790d2a3e12eeed703bdd92f705e3f2b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b2_CPU-4T.csv": "04b1183a22c97a3c4ea08eedf7e13f36d6cf47c7118ba36831a9dd254feb1c31",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b3_CPU-1T.csv": "16e4c200950004b34479d5f97383769a51765e8606b23df7fa39313b3c5e58f3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b3_CPU-4T.csv": "b6371d3ad6933e4ff8b1bd1ef3825d884f2a5513fb9be6824c0a93c25c68f19b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b4_CPU-1T.csv": "b1b12ef96c667c52762e5f5297ad8d6b552d81255c41f932704bcd64fb1220cd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b4_CPU-4T.csv": "c84e5c8ddf7b8cb82f4036d359382f38fe8a417ba001812381fd5aefaa8f6854",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b5_CPU-1T.csv": "7772712ad8251c4eee4ade7083efee567e469e50772bd25262b3f163853e26f6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b5_CPU-4T.csv": "453f0656d3b32436684e9cdf9c78ef0a9d79977a52dc2de5541142fc451acf2c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b6_CPU-1T.csv": "03d79b87017cdc8f6e18eca26e909c0d03ed494508af5320dcbfa6c59641c248",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b6_CPU-4T.csv": "8ae51854d5f8d88c57afb2c39be27203630977fc20c4d99df2d9b8038f682669",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b7_CPU-1T.csv": "3f3fa0efe5db82ea8ea40d3de4af958346674d095ee2ebbcc523b9cf9cf91b2f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b7_CPU-4T.csv": "2cb35e381bf77c25ed96bcc9a3f2d53a5cae521732e4ffb1a86cdd7650138ee5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b8_CPU-1T.csv": "64ab203e0fc044b999c7c68244b1adf71d60f793a06aed0de287f9cd8e8b1bba",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b8_CPU-4T.csv": "a051990469de1ebcc3b8bcf3492d685ad5ff9d5f67d3d535ea9366af7f33af4c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b9_CPU-1T.csv": "0e324cc35117be6307bee333cc4c48720f49a545fb8a2f163478a99eb3d4a012",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s1_b9_CPU-4T.csv": "af9bcedfc8e00de2885e8325aa0ef8d083b7297ececfb494b55a70428a173957",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b10_CPU-1T.csv": "ea588222dd7d92a2683e559a025a4301f73d9c3856fbe0f2b9afce305ca90173",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b10_CPU-4T.csv": "e38ef7a89db9ff18fa6f06f1c8efc66a5c5d8d115df3b75134edb8df740e9944",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b1_CPU-1T.csv": "3f7a7ab94b0bf0b4f8ec7dfcc9b207bde84d8d5e6ce979f7d5f0db830afd5651",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b1_CPU-4T.csv": "d1acd05309a48525ea4543e5345e35de4a6732bbfc52361228cbd3c5c9520024",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b2_CPU-1T.csv": "144e7096b7949b3328256dca84c33d3d0948cd26d7a9f149b21eb0bfb0a476d8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b2_CPU-4T.csv": "d9f261604bb1285a847a7fc9ff17b78e477c4dff5990ad4685b800ed709e6ff6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b3_CPU-1T.csv": "a97b73e223aed9a4f4216be9a4159436efd47abd1bf49b07797325ac13566e14",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b3_CPU-4T.csv": "db9caa9b34ae65892bcbe116dcb2f57be2d9c5a980806f3f415d102fa6576407",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b4_CPU-1T.csv": "673046410d8c60ddda89e8eb390838b4fff576fb88b2d9a1f5d518df9ad42e06",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b4_CPU-4T.csv": "2c2f77a6590c12c51853f45a8e9d0f8fc8353c49eb76c27c52226c8e808240d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b5_CPU-1T.csv": "becd0fe2d938182c6274b85862fc70f51454cbda94896e3b855d35ca3e664aad",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b5_CPU-4T.csv": "5aa873f030dcf467cd3eff8bffb855b5374b81be4df202bcae57d1e258c97b77",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b6_CPU-1T.csv": "a2fdc29d89b9dbf6c9800253dcc5e2c314231da59eeb35027d95502677ffd019",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b6_CPU-4T.csv": "42bb019e695328bf1ca599f777dd6a4013dbf88a2ff736d367721b2f532d885b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b7_CPU-1T.csv": "13c5a0d7726eb5aeeb8a2b01bf61a4ba647c69b9e769877e9caf47e7313fae4a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b7_CPU-4T.csv": "837c625a6110ab7aed85f691022b8ce94bdfc55948ce61a019cd3ebb754d1292",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b8_CPU-1T.csv": "da2d4a7b3067cc18cd48906cb1a47fa6f831fe6d77688f05d82e72bc4ddbf3ec",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b8_CPU-4T.csv": "686a3a9b4a79cef69b3f38f0d2271ffb610fb466d6c7cd20abadea1adcf2600e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b9_CPU-1T.csv": "37da473f786423b9fc1f3ca960a91cce4778c2225eacec9b91aa2155ed4abb7f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s2_b9_CPU-4T.csv": "6dc435c3b92735aa2eaf25ca3df0f11ade01eab52413cea710e886e38c970a89",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b10_CPU-1T.csv": "bf687e53bdc500a8c9f7e010792306e4b5f69c5d2969ccbb747c32aea568e940",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b10_CPU-4T.csv": "7517fbe8e7032efcac209f4409280ca18f93595a99d42b39508a558d30619b37",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b1_CPU-1T.csv": "09b6b40e15014ba338bbd45428467ebcbf73b6177aae9ac1d8b59fecc74eaafc",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b1_CPU-4T.csv": "02f3ae115805af131b8beadb7227f52dfa02f6e72b11bc8cb2cae313387845e8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b2_CPU-1T.csv": "a1ecdff4b6da25ffe641db51780f5466651fb08f7ea3144b85393d0907056a0f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b2_CPU-4T.csv": "9d8c6842d322c647c9d7ab6ee96a117b3623a532079ab4588012e670d57242fb",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b3_CPU-1T.csv": "d79ed372a5ee36a08e7668ca7a7ec1207326ed54a1c722f1c836e4f72f3f425e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b3_CPU-4T.csv": "41f55f39082ea9da7bcc88d53c0481e692d88fdc827ed11e87e3ad2c4f8dc90f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b4_CPU-1T.csv": "3d91e6770666c3389d6ec5b50eddac0e3038f79f25bad59732e9cc9350521e54",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b4_CPU-4T.csv": "a4144fabed7322710d70b955595f1d2dbe8e53d8d71b3e33dc08f094394dd460",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b5_CPU-1T.csv": "481050f0bdd7d1557398f67ebc83ad1b333333328a0f382053d167c4b89b765d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b5_CPU-4T.csv": "6a1d010f905e447ac6c7d8258573f184ac8d730f7adbbf5bc8e5769b1bc2f5d2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b6_CPU-1T.csv": "3d845006c62f1707850ab61678ab34de9dc113afc854a9195695bac20cb717c2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b6_CPU-4T.csv": "e140a570de881384d569faf3f95ed7c7a220b8cd6f86d7dcfa706ae1c33a530f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b7_CPU-1T.csv": "b9046aa7d00783d0fcc072a2348bcbfac71b271fd13cbf265d1fbe31ad50c783",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b7_CPU-4T.csv": "0ac67dfae40a1ca1b43b1f5256f7638e0927ea5424fde125dfdf8d34545511bc",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b8_CPU-1T.csv": "d091e8e88fb9aba96ad75fad4527f35c5fd2b1b3f75ef01d8cb78b7a0c9e61aa",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b8_CPU-4T.csv": "d8bab8e48f68487c30719d2d5a9daa81eaae3f67208553ebe4e53f1a0167127f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b9_CPU-1T.csv": "98a882fdaef27d5ddd45daad1576d173657d93a70045a23b94712fc95854fb13",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s3_b9_CPU-4T.csv": "dc5f054c3c6771e658bf9d75d24448e9766f228fefc4638495ad37e6079e4f3b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b10_CPU-1T.csv": "a98bd27b93115dff0c5314c6634200b148b0ba21b18123c2550e3ed970e3789d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b10_CPU-4T.csv": "72bb0c3ed088d8c1fb13a1cf5164095672259ed36a532c0dc5fb2c68c3147c1f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b1_CPU-1T.csv": "a9b236ba3ec4c70a80f2ac4270c5d846020b26fb6a59d766a4c6309fcfaa0693",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b1_CPU-4T.csv": "eaada0ca736e3bd852825e5870de1c8f5583d6ee3c6debd242d5c2107090587d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b2_CPU-1T.csv": "ab701b92eb55d7b056623f5cbe73c4a8296b041dc75f778bdcff1b8738f943e9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b2_CPU-4T.csv": "776a776982f1ac2f41de2281399431a149480d06bbcd984cdb4c0699aa4351da",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b3_CPU-1T.csv": "d9e61cb3d846b850b66a0d136c48c587bb2445300811f594363f9d80d29f60a6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b3_CPU-4T.csv": "8e0cee126d6dddfb7fa0b35d5a695a25ec2fe4b00974a3a61e44eccaecb7210f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b4_CPU-1T.csv": "9d3d7b168625ff385119eb3ccc236f6eda8f79e564f3f8a0f0e65fe2d0059711",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b4_CPU-4T.csv": "87d2d858841d366723bda2ae30a7998ca6ff6ad8eb2ded72db6632e929249e80",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b5_CPU-1T.csv": "03416491d2f9a283ce9cc42761e51e9d782d12a19efa169d65d89c86dfddae3c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b5_CPU-4T.csv": "a9575e4e3d4bca4c8e6e6f6ac9d91ff70904b913e34fa0cea80fd611dd6fbcf3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b6_CPU-1T.csv": "ae686c6cc761dff2758ebe4e7c4d6f05b28c48cc990a3cfd3d3ab7a7f8501d21",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b6_CPU-4T.csv": "aab350b1806ea5a9f4ac73894b981c84e7f92db6e67b246f659cbca6e3bca04b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b7_CPU-1T.csv": "e823a8551ec87069a97dccad405c87589f3cc59ecd27a8a2cc259866424ec7c4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b7_CPU-4T.csv": "2629a81575b549d34a4af9b2ffbbc4d861275b7927110d8d4253158ff9a8b48e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b8_CPU-1T.csv": "d6678efd989c7426373514d9c71d11bd64f061afa673310ebcf9c1a0008b11d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b8_CPU-4T.csv": "ae5d4e853be1af1a8aa0507b23b9ab93f0f4b8d692c41ce4127c0ed62f2320f0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b9_CPU-1T.csv": "2d1b2f67cbe333e46ebba2cfef015f5d13c8104385fdc322963d2e46ef1ddf18",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s4_b9_CPU-4T.csv": "83aa655484470d37e1698b556374dc3c8ba26e4eafa2585f376703f11c15bc62",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b10_CPU-1T.csv": "08be426148b34bac05ad50a2a815cc152ffe485ccdf85eeddeb2b1a8d24a288d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b10_CPU-4T.csv": "1deed00d2280c3677830c719983ecb6ef0fec631e6d5e491a68bebf78a0c8535",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b1_CPU-1T.csv": "8e7e19197965cefaf5bbfa4c810d22ee2fd6d6622496e373f5a9f62d5f0f658f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b1_CPU-4T.csv": "80b93afa80a1ee78fb338a9cce68be88c7d891af342ad1070895f1695f5b0511",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b2_CPU-1T.csv": "3a2c93c57479a77c55f2b19917f39c3b542a478161ac1a473d056411571c41b9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b2_CPU-4T.csv": "b6d9c7f5390752988a5b4aa9b34f14430e6cb64400a4518af3f79949aa1f7d36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b3_CPU-1T.csv": "a5ca1d43fe0121ed8d7fae0f1d9c6a691b6bd390141f44abaf818adbf4ac0bb3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b3_CPU-4T.csv": "a5f9042a7f3a2c4f9706c03898c8d1fcb00b13b684a301a0b3c86f20447a48fa",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b4_CPU-1T.csv": "ca80042686d0a215101445ce79d883f4426c3438e24697f365849c05bd9f2518",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b4_CPU-4T.csv": "6cf564a0eaa773af0663cb9adccd0dd4c6074c4e09bbef16c034bb5aebe713de",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b5_CPU-1T.csv": "f019abcb49ad7b0212eb24fcf2671cc1c6394a702f4460939a064bed1f4c401c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b5_CPU-4T.csv": "55ffdff075d5ce1a3e7f1a334b13f6b686b1026bc9e82af9718bc3639734b0b6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b6_CPU-1T.csv": "f20588d32c2bb10104af52a8dfad8015efe54d4b21ab54c299d340f9007ae6f2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b6_CPU-4T.csv": "d7681c7417a1b93fb8a3984ed32a47905bdd3abdf0fe59f58ac979cee9626b36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b7_CPU-1T.csv": "e8d73066053dcad08d9605d9c4da8fbe79d5cf720e29d0085dcd49ec6d22c5f4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b7_CPU-4T.csv": "7c11b7ac7ad1c2310b139bf1b24209a563cab0bb531bd32cd8c30124b04f4be7",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b8_CPU-1T.csv": "ec791599a8fe02d5df3c8bea29fec31a29f6924e7c725ab56b1778db4d801498",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b8_CPU-4T.csv": "cc0ae2c09e53b901a5e744901948e2ae2767e35a8d00f6eb5c090df666cda70f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b9_CPU-1T.csv": "9a2115c2b2f141ae0892a4c3a3e2989f30bd9988bbcab65950c5dcfd9511c18b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\measurements\\calibration\\calibration_s5_b9_CPU-4T.csv": "32f8a0429be9705534cf47532be115588329d51f0932938bdb04348fd38ff7c9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b10_CPU-1T.csv": "3240759708fa24a4905b4fe8232a005a7a6fa2e14fed04e1df09e18a3d914855",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b10_CPU-4T.csv": "93bba71b6115c14ca68382bf836d4c8100e38b828ab823c2a507d0f102e3761f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b1_CPU-1T.csv": "cb94de2b53685d34b5af47f443019b8bbb4e327483de85da4c8bb5fae2e3c948",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b1_CPU-4T.csv": "6dd384463f23c271efffee0849885c9d9107eb81d6cb4fa6946b1ad3e96b8f5b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b2_CPU-1T.csv": "bfafae43555b0c02ba476dd4976688f84392dde0fb7dd3d6774062141e205386",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b2_CPU-4T.csv": "c32aa71dc179a79730b5eb19156dfca1a16f1a3012ef1943d032b9c352073af3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b3_CPU-1T.csv": "b7f1585a8ccec977702ec257c6341cbc4122ff73460a842636dc962d992ca8e3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b3_CPU-4T.csv": "c99004b5b2a9585cb9c6650650e0a1fe78e752ba69bccbb0d0051d4211f2f442",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b4_CPU-1T.csv": "ab232e65e5dc1bce85d10f9f796b3cee930c4507fb1590583988f9d4e456ce39",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b4_CPU-4T.csv": "598e7e13ce75ead164679f2177db437363aae688034c300e7303ba2330ef5e09",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b5_CPU-1T.csv": "92c7ddaf2a7335e3a8e2e5234186e23eaa13034df9fc18cdb3277a476a80c9a6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b5_CPU-4T.csv": "a65b39f8aa6c45c1a6a647c8918ea619f4e432e4d478465a9118c1e7c727869a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b6_CPU-1T.csv": "68ad95ae928bd35548376b967e1dd31b01e5a798c343e63b01dee496780e01b5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b6_CPU-4T.csv": "5a349490c7bd4b6b89d9862a65775a9f266c53bc02879840fbc6d04fb6bf2eb8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b7_CPU-1T.csv": "e4ee6902ce5bfa381db53b870b24091cfd5e6238504d06eae76cf64ea07fcf2d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b7_CPU-4T.csv": "eda8c9d64a54f1cbc51040479db176bbf345c2cfdd9bbde5ca47ea63eee1cbe3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b8_CPU-1T.csv": "5819374bd83a8f3054bb7f885c543ce708a37c25f981fdc8365193f4b3ea2849",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b8_CPU-4T.csv": "8af439ba4d24ffbb4f68d70a70128af6088c5631f8a11927a4dc90fe903eef5e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b9_CPU-1T.csv": "65f11a0953291cd2bd50daeeb6bfb1d2280799eeeffe00cec59b64b1f37c8985",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b9_CPU-4T.csv": "bcb460c2aeff94aa1f1882624a3d2f39d5dd06b6112cc998cb11dc9d3a4d8420",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b10_CPU-1T.csv": "7df41be5f160f9e3e62de0f2058f965d9fa4655257416bd4f7520040b3f8ff3d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b10_CPU-4T.csv": "22a09e2b8eb645b81dcb2b02cace1fbe378b364421d1baa2952f4d7ebe375e71",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b1_CPU-1T.csv": "7e597b130c2cface27dd87ef1296b6a3ff706619ba7725280a2487ee956bd5e4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b1_CPU-4T.csv": "ffcc6b2ce908583b7d7f5fb43879c57448765ff422e8de9a0d90429cbbb5469f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b2_CPU-1T.csv": "0cbfcf2cd9995997f796600fddaa615fd390dbc34a21a5b0e4b8fd81cbb72f68",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b2_CPU-4T.csv": "01aabd46096a28efd10189db2604730f9a5eb417b41d3e06b09c61933d81cea9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b3_CPU-1T.csv": "3d10efeb9ca8a72f18e556b0a2d66bab9129cef8dfde38e664b2836fcdc865d4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b3_CPU-4T.csv": "afeb4d5014d422384be7dd51ff465da091a8cf2938e9c9d2c985e607845c9793",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b4_CPU-1T.csv": "dafe93a2241c7ac5952d6fb16d2aba65767f7a241f60faa1a1cd0af29d56a9ad",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b4_CPU-4T.csv": "a3be74a4b6bce654ea481a2577634cebdf142ba0c779244ec3e16d313fa37e0e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b5_CPU-1T.csv": "fe3adab9f81f2606d097d2624b48e43e047280c96509093759c2a3fba7a6e285",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b5_CPU-4T.csv": "8faf28237ec09b1e3541fcfb6f641fba5cb4817c44772687d823f7868fb9531f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b6_CPU-1T.csv": "b3e5a471f09b5b6178f3a5e7330dba9e204703bbde6da74e21ddc5c92a7e6d79",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b6_CPU-4T.csv": "0d25111a165e7bb45ad93054bd694ff864aad8b921ca5ddeec8c86bdd9c03489",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b7_CPU-1T.csv": "156157a71cf3eaace471be9b805bc6da010e9b0297011c4683ddb1d5aa0aae07",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b7_CPU-4T.csv": "33be304428b08bdd69f05d444c39bd6cb12a1a2aa5be7eab919b58d244ea20ca",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b8_CPU-1T.csv": "fe25da4f6cdc3ffcb6102c4660e53920d45de548b4d083e95ebd54256f42d9c7",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b8_CPU-4T.csv": "a73f4ef6d776c56976028178108a56509447405ffac1791e507812ce32474151",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b9_CPU-1T.csv": "1dc3f1c9f32ab920a46e66c671aa55b6cb1ce01c858b3541ee880c4ca740a7a1",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s2_b9_CPU-4T.csv": "89a82fd3f9a25b3fee3ebcf9e3e249af94cbdf91b027128bbd8973d6ac4ba74f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b10_CPU-1T.csv": "961cf8d2537ba698a775923b617841e095633d93dbba51d78473724a20e07303",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b10_CPU-4T.csv": "2b61f55e2509835567f96f1bccaa0a23b723ba43e220ec18bd8fe06d76ee84e8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b1_CPU-1T.csv": "46e9da6712f91c9f3f810fa5eab2f8e4b0c660b58084bfa33dce435c7fd23bbd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b1_CPU-4T.csv": "e9ef465ae91eb51516348f13e6597bc08d487980635dcb10bc1a42943f94b070",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b2_CPU-1T.csv": "fc1d7132959fedbf1a139b272557cc92eedc05ebb4376bce711e7a7086237541",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b2_CPU-4T.csv": "3478d9852265a2aad3ad63fcc3ba8e54bcec9e67996474a5f991d1a642e40585",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b3_CPU-1T.csv": "2609944c627d9699d2093854d06194c06c0feb2f994939992ce8116473d00bd3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b3_CPU-4T.csv": "49baf8063cf89cbd771c88a952b1ceecfc1a47cfc79e82411ab4afd564ebca26",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b4_CPU-1T.csv": "08c8b87375a5c2c6e6277e56fb12768853b6cca06c390ed7669fd5a69dad8802",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b4_CPU-4T.csv": "53cb24412ba00466359864b4ade0b136b207532a0b962f1de7bd61073519b40e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b5_CPU-1T.csv": "7098a9c20f22812485df2df874811ccf74c184018fd239c220806cc106c39fff",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b5_CPU-4T.csv": "d3eee58236628f847c18a9e63f0ba1cc2f010aebf9bff73242afa66ac14c1161",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b6_CPU-1T.csv": "df3d226466e3dec8b7621130db82c5d640faac9edd58f257f497c29d6212493f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b6_CPU-4T.csv": "85f2227fc445e99f61d7557887b1e4fd639ee2174c0ca1eccdff40d7a5a99e69",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b7_CPU-1T.csv": "34acf757370607b000e64b02b6def34d45cffdca05e13aefc8b9c77db275b687",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b7_CPU-4T.csv": "f30b99cdd7be88fb257c15cc917eb9b8f4c69dbf1318ca9b21be0cc27ce246d0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b8_CPU-1T.csv": "c0098338ed28045db478eff62974f1a2a48d4051998a47774ddf923dc82ca4bd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b8_CPU-4T.csv": "137dffffec7fb1c5e614fa109143d5dcb1e3469a86b4ab01059e63a98b46f56b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b9_CPU-1T.csv": "2c3a6f2aab30d8c96f92a67b20ab039932eca26c2557ae657146b78f0cf6b5a6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s3_b9_CPU-4T.csv": "f364473fe33ab92c3898c5ad95a9a2f516eaeae47a5e64d4f18e5b627210d5e2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_001.txt": "1915945b3babc9ec04b778747c76a48959b9198de7e2f4f7048e6575015783f9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_002.txt": "7cceeeb500a311452ec1de378b4293153b26881260f48029ac84f74fcbe4dbc0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_003.txt": "1300fef8e31e998c0df880d58c74f99b463a592fa096dbbc116037b6b738460f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_004.txt": "24ec4af2e15adfd087766a3a96ad28637e191fea8ec274a5dd0c4aee1fb94479",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_005.txt": "f04cc81b928ae72fb36093107b1fb70860e5f7612242ab398e27e234f7525871",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_006.txt": "d6e7d6d6af208f49bf78d7371518698618b409a9950178b535a0f03b3c939065",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_007.txt": "ecdd5eeb6be54477fcd64614a9b90ac24d883af83b2fb72b843b29cb2d6a765b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_008.txt": "57aedcbfc51238f71e760f06fd8016e6614477403fc1ffc7e9640a73fd275fb0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_009.txt": "a6f59d8d78f6225e81d955d63b3e1dec8df7a11dee2a9462b31b359de4fd9c6a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_010.txt": "08f63bf5cf21b310a076ba0259d9e1387c71d6c3343801f5826f5fca54d2b464",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_011.txt": "a2226ef5450a2c3e2ad7bb19d310de8ba8c07a8d04f776cb9f15575288756dfe",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_012.txt": "4be5f6f53e2051ac9a7806abacb1298ab27ca39ca94c4126fe24a066b4ef20ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_013.txt": "7cddbc5a257aefb13ddef75bcd260be738f5f58903b6867ec77a0dc9ef21428c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_014.txt": "e3d7d9187a7556aa63e9f950c4f6a42441d0c68a0f73c255112facf20e2cdb87",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_015.txt": "e27fedc670ff72a654aef3cecd6930f9adcc5b4e0a4aa3a52dd1e9a563395ca9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_016.txt": "b8c73d4baff853cc767ac2273b0299f17837c30a6017c1f5d2f04add4e27f645",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_017.txt": "551525d7b89fc4849914ba589402633ba6dd7a47bd4fd524ea5f041c5e3da9ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_018.txt": "c9a72056208c02829564b580a7f09ba442adbad3e319326d0b513a4d010498c2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_019.txt": "ef0d9dc77317566d2d3aec4354e90cca21d059c62718cf4266ae7eb0e242110d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_020.txt": "eed0ebe2d96737ef3cc02b4cf4de48602ce5153a460e9d121ed0a2d95a09b3c4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_021.txt": "6783eb26620a859f842023ce7362bfc749a55ab08199c6105750474776a90617",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_022.txt": "89af9d22a5b4b67eb035c3c7f691d849b9f331768099c809e58fcf60ee42f272",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_023.txt": "1d5b82e16743e9880fc9e39016df44db79bc974d92a8995f924d6142986fbf6e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_024.txt": "216a015b1b7d8a68bc77f6eb19fcb37ce260cb983e8c70d3b7bea0e08d31a08f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_025.txt": "68536b632ce59622c827d30adc9c6e9dc6e0d7e61fa47243469357387a5bad3e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_026.txt": "89e341f0486545a2fb2d02f14ebd73eeb3073648785b78cb60af7c29a529f7c9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_027.txt": "aa8df2ae336157719f5966b54ba0821c807eac9b079abeb74ff3a6804e124e80",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_028.txt": "edebe821c88fd19c457c13861023fb4b8131595ad711c75d011a3e5e9a97d503",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_029.txt": "2e1de5e01f7e7b9f5258a77928c830339c2c8a9bd8e9a0dcfc869565baad2619",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_030.txt": "31f4025feaa79d32c2082d905cda6bc29ce33f59d3fcc56e9d68c8977be9e239",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_feasibility_pilot.py": "3fdb8b93e87bb1eec35f153da41597c25fb68aab0523631496ea9591a427d152",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_FEASIBILITY_中文.md": "96c6b98696f96bb6d1acf70136b831cb2e9de4bfb9044e3de5c7dfffbdb04e36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_upload_link.py": "4c3f5c41a5d7554cfc4bac8e759eb96b560efdf731dd3bb74d12209d76949534",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\physical_mobility.py": "7b187f792cd3306a699a2116e692e388882f7955fe6f46a810b64b9d022a80ab",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\execution_service_catalog.py": "94f353ed9159e52ccc5a85e29fe6acdab8a73ccc45261f6cfd768d77357b9424"
+  },
+  "per_user_table_sha256": "9cd25e8bd63246167494383b63ece36d68d369c53bd181e7186e981fc529b37f",
+  "test_measurements_accessed": false,
+  "network_parameters_changed": false,
+  "rho_changed": false,
+  "method_performance_measured": false,
+  "FIFO_or_upload_queue_replay_executed": false,
+  "policy_training_cells": 0,
+  "formal_policy_test_cells": 0,
+  "formal_protocol_frozen": false,
+  "independent_full_entry_review": false,
+  "scope": "Analytic workload/serialized-upload work bounds and candidate budget units only; not queue stability, learned policy, wireless measurement, service remeasurement or deployment throughput"
+}

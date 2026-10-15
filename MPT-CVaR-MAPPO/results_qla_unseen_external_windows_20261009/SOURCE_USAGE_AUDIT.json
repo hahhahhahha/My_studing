@@ -1,0 +1,23 @@
+{
+  "schedule_manifests_checked": 189,
+  "source_files": [
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\alibaba\\machine_usage.csv",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\azure\\function_durations_percentiles.anon.d01.csv",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\azure\\invocations_per_function_md.anon.d01.csv"
+  ],
+  "maximum_schedule_prefix_length": 10000,
+  "proposed_sources_overlap": [],
+  "scope": "saved results*/external_schedules manifests; not a claim about every historical manual use",
+  "alibaba_legacy_prefix": {
+    "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\datasets\\external_traces\\extracted\\alibaba\\machine_usage.csv",
+    "legacy_used_prefix_rows": 10000,
+    "timestamp_min_s": 140.0,
+    "timestamp_max_s": 691110.0,
+    "machine_ids": [
+      "m_1932",
+      "m_1933"
+    ],
+    "calendar_holdout_available_from_later_rows": false,
+    "reason": "legacy prefix already spans most of the v2018 collection period; rows are not time order"
+  }
+}

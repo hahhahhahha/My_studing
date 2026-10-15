@@ -1,0 +1,101 @@
+{
+  "at": "2026-10-10T19:32:14.7824248+08:00",
+  "protected_files_checked": 554,
+  "protected_mismatches": [],
+  "original_plan_sessions_equal_continuation": true,
+  "test_pool_equal_v1": true,
+  "test_pool_count": 1000,
+  "validation_test_identity_overlap": 0,
+  "reference_test_identity_overlap": 0,
+  "sessions": [
+    {
+      "session": 1,
+      "jobs": 10,
+      "rows": 2000,
+      "order": [
+        "1:CPU-1T",
+        "1:CPU-4T",
+        "2:CPU-4T",
+        "2:CPU-1T",
+        "3:CPU-1T",
+        "3:CPU-4T",
+        "4:CPU-4T",
+        "4:CPU-1T",
+        "5:CPU-1T",
+        "5:CPU-4T"
+      ]
+    },
+    {
+      "session": 2,
+      "jobs": 10,
+      "rows": 2000,
+      "order": [
+        "1:CPU-4T",
+        "1:CPU-1T",
+        "2:CPU-1T",
+        "2:CPU-4T",
+        "3:CPU-4T",
+        "3:CPU-1T",
+        "4:CPU-1T",
+        "4:CPU-4T",
+        "5:CPU-4T",
+        "5:CPU-1T"
+      ]
+    },
+    {
+      "session": 3,
+      "jobs": 10,
+      "rows": 2000,
+      "order": [
+        "1:CPU-1T",
+        "1:CPU-4T",
+        "2:CPU-4T",
+        "2:CPU-1T",
+        "3:CPU-1T",
+        "3:CPU-4T",
+        "4:CPU-4T",
+        "4:CPU-1T",
+        "5:CPU-1T",
+        "5:CPU-4T"
+      ]
+    },
+    {
+      "session": 4,
+      "jobs": 10,
+      "rows": 2000,
+      "order": [
+        "1:CPU-4T",
+        "1:CPU-1T",
+        "2:CPU-1T",
+        "2:CPU-4T",
+        "3:CPU-4T",
+        "3:CPU-1T",
+        "4:CPU-1T",
+        "4:CPU-4T",
+        "5:CPU-4T",
+        "5:CPU-1T"
+      ]
+    },
+    {
+      "session": 5,
+      "jobs": 10,
+      "rows": 2000,
+      "order": [
+        "1:CPU-1T",
+        "1:CPU-4T",
+        "2:CPU-4T",
+        "2:CPU-1T",
+        "3:CPU-1T",
+        "3:CPU-4T",
+        "4:CPU-4T",
+        "4:CPU-1T",
+        "5:CPU-1T",
+        "5:CPU-4T"
+      ]
+    }
+  ],
+  "test_file_count": 0,
+  "retained_lock_exists": false,
+  "retained_state_exists": false,
+  "test_report_exists": false
+}

@@ -1,0 +1,191 @@
+{
+  "quantile_rank_audit": {
+    "CPU-1T": {
+      "p95": {
+        "exact_rank_one_based": 4750,
+        "frozen_rank_one_based": 4751,
+        "exact_ms": 35.8825,
+        "frozen_ms": 35.8829,
+        "difference_ms": 0.00039999999999906777
+      },
+      "p99": {
+        "exact_rank_one_based": 4950,
+        "frozen_rank_one_based": 4951,
+        "exact_ms": 45.086,
+        "frozen_ms": 45.1566,
+        "difference_ms": 0.07059999999999889
+      }
+    },
+    "CPU-4T": {
+      "p95": {
+        "exact_rank_one_based": 4750,
+        "frozen_rank_one_based": 4751,
+        "exact_ms": 16.4625,
+        "frozen_ms": 16.4708,
+        "difference_ms": 0.008300000000001972
+      },
+      "p99": {
+        "exact_rank_one_based": 4950,
+        "frozen_rank_one_based": 4951,
+        "exact_ms": 28.7193,
+        "frozen_ms": 28.8099,
+        "difference_ms": 0.09059999999999846
+      }
+    }
+  },
+  "PDF": {
+    "pages": 1,
+    "all_twelve_measured_labels_match": true,
+    "expected_labels": [
+      "30.91",
+      "36.00",
+      "45.65",
+      "13.20",
+      "18.53",
+      "31.62",
+      "30.93",
+      "35.88",
+      "45.16",
+      "13.05",
+      "16.47",
+      "28.81"
+    ],
+    "text": "50\n40\n30\n20\n10\n0\nMean P95 P99\n)sm(\nemit\necivreS\nTarget-weighted confirmation: CPU-1T\nFrozen prediction 35\nMeasured full service 45.65\n30\n36.00\n25\n30.91\n20\n15\n10\n5\n0\nMean P95 P99\n)sm(\nemit\necivreS\nTarget-weighted confirmation: CPU-4T\n31.62\n18.53\n13.20\n50\n40\n30\n20\n10\n0\nMean P95 P99\n)sm(\nemit\necivreS\nRetained test: CPU-1T\n45.16 30\n25\n35.88\n30.93\n20\n15\n10\n5\n0\nMean P95 P99\n)sm(\nemit\necivreS\nSingle machine, two CPU profiles; same-day repeated service measurements\nRetained test: CPU-4T\n28.81\n16.47\n13.05",
+    "panels": [
+      {
+        "role": "validation",
+        "profile": "CPU-1T",
+        "bar_count": 6,
+        "expected_values_ms": [
+          28.226599516114415,
+          30.905040939991505,
+          33.8728,
+          35.9973,
+          40.1974,
+          45.6524
+        ],
+        "points_per_ms_range": [
+          3.6068172397912193,
+          3.6068172612945957
+        ],
+        "bars_proportional_to_raw_recomputation": true
+      },
+      {
+        "role": "validation",
+        "profile": "CPU-4T",
+        "bar_count": 6,
+        "expected_values_ms": [
+          12.208073599524392,
+          13.199516785182016,
+          15.9146,
+          18.5304,
+          28.5398,
+          31.6225
+        ],
+        "points_per_ms_range": [
+          5.207047616653888,
+          5.207047662219919
+        ],
+        "bars_proportional_to_raw_recomputation": true
+      },
+      {
+        "role": "test",
+        "profile": "CPU-1T",
+        "bar_count": 6,
+        "expected_values_ms": [
+          28.258225160250007,
+          30.92822799999999,
+          33.9894,
+          35.8829,
+          40.6954,
+          45.1566
+        ],
+        "points_per_ms_range": [
+          3.646418535334806,
+          3.6464185632774218
+        ],
+        "bars_proportional_to_raw_recomputation": true
+      },
+      {
+        "role": "test",
+        "profile": "CPU-4T",
+        "bar_count": 6,
+        "expected_values_ms": [
+          12.212557619750008,
+          13.052322739999996,
+          15.8071,
+          16.4708,
+          29.0673,
+          28.8099
+        ],
+        "points_per_ms_range": [
+          5.66478013044771,
+          5.664780167702169
+        ],
+        "bars_proportional_to_raw_recomputation": true
+      }
+    ],
+    "sha256": "d80cc1d3db97fc908ceee67201727862f5b0ce958b2d7f1a22d4c21755d7dbe4"
+  },
+  "confirmation_target_weights": {
+    "mismatches": [],
+    "sum": 1
+  },
+  "actual_first_block_start_gaps_seconds": [
+    905.227241,
+    905.268997,
+    905.469503,
+    905.399084
+  ],
+  "all_170_block_metadata_dates_same_day": true,
+  "V1_original_rule": {
+    "schema": "empirical_service_distribution_rule_v1",
+    "created_before_validation_measurement": true,
+    "created_local_date": "2026-10-10",
+    "model": "paired empirical calibration request table, retain session and image identities",
+    "fitting_role": "calibration",
+    "validation_role": "validation",
+    "test_used_for_fit_or_acceptance": false,
+    "quantile_definition": "ascending order statistic at ceil(p*n), one-based",
+    "metrics": {
+      "mean": {
+        "maximum_absolute_relative_error": 0.1
+      },
+      "P95": {
+        "maximum_absolute_relative_error": 0.15
+      },
+      "P99": {
+        "maximum_absolute_relative_error": 0.2
+      }
+    },
+    "acceptance_rule": "all three metrics for both CPU profiles must meet their frozen tolerances",
+    "scope": "service-distribution calibration only; does not certify queue execution, policy performance, network simulation, or deployment",
+    "on_failure": "archive errors and stop before test; do not tune thresholds or use test measurements to choose a model"
+  },
+  "report_aliases": {
+    "VAL_REPORT_json_exists": false,
+    "actual_validation_report": "analysis/VALIDATION_REPORT.json",
+    "analysis_AUDIT_REPORT_json_exists": false,
+    "actual_historical_review": "analysis/recovery_20261010/reviewer/AUDIT_REPORT.json"
+  },
+  "retained_state": {
+    "status": "complete_pending_independent_audit",
+    "pid": 69420,
+    "started_at": "2026-10-10T19:44:11.937226+08:00",
+    "completed_blocks": 50,
+    "completed_rows": 10000,
+    "independent_result_review": "pending",
+    "original_runner_restarted": false,
+    "session": 5,
+    "session_started_at": "2026-10-10T20:44:40.747341+08:00",
+    "last_block": "test_s5_b5_CPU-4T",
+    "ended_at": "2026-10-10T20:46:53.527563+08:00",
+    "test_report_sha256": "1958703c49f59bb38b5936d92621ede4d4766071a6aa704641f7803910280cbe",
+    "total_new_rows": 23200,
+    "test_gate_passed": true
+  },
+  "PNG_visual_review": "Auditor visually inspected original PNG, matched four panels, twelve displayed labels, positive zero-based axes and scope title; no CI drawn.",
+  "result_doc_warning": "analysis/V2_保留测试结果_中文.md:15 uses confirmation target-weighting template wording; retained test is equal image/session weighted.",
+  "status_doc_warning": "RUN_STATUS_中文.md:3,5 still running; :19 says test not executed although complete_pending_independent_audit state has 10000 rows; stale status, not numerical mismatch.",
+  "readonly_scope": "No original module imported, measurement/probe/export called, inference/model fitting performed or evidence rewritten."
+}

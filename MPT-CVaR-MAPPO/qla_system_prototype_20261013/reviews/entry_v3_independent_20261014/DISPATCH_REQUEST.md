@@ -1,0 +1,7 @@
+你是全新上下文、未参与实现/修复的 Type-A 独立完整入口 reviewer。沿用用户指定 gpt-6-astra / xhigh；不得称 Type-B 或跨家族认证。根执行者参与过旧代码，不能作本次独立批准，你须直接读取源码/日志/证据。用户已准备本次权威复审请求，首先完整读取：X:/Yi-one/workspace/MPT-CVaR-MAPPO/qla_system_prototype_20261013/reviews/entry_v3_independent_20261014/REVIEW_REQUEST.md 和同目录 REVIEW_REQUEST_INDEX.json。按其完整读取清单和 A–I 清单审查 M2d / frozen_v3 / E1 v3，不是 M2c/v2。请求中的作者背景、SHA表和“已修复”均为待核主张，不能当成独立结论；source_sha256必须实际重算核对，不是盲复制表。
+
+你的工作范围是该请求所授权的审查与有限功能验证，不实施修复、不编辑待审源码/docs/config/protocol/状态/历史结果，不训练、不启动E1、不下载、不改科学门槛、不杀任何进程、不创建自动化。只在 entry_v3_independent_20261014 新证据路径保存审查文件。请求授权的一次现有功能配置真实运行可以在新路径执行；先核对端口/实际PID身份，正常关闭你自己核定的服务；占用时报告而不是关闭其他服务。任何部分失败完整保存，不自动合并/追加/重试。单元/受控并发 fixture 可用于正确性核验，明确它们不是性能证据；保留每次诊断失败。使用既有独立 environment qla_np226 Python 及局部Windows运行环境恢复，不全局安装或复位。
+
+直接完整读取当前源码、测试、协议、实际 M2d 全日志/角色/日程/actor/vision/helpers/依赖，按请求独立核对上一轮B1/B2的解除与影响，固定截止语义、单次结局、late/timeout/早期异常/停止路径等；对任何新阻断如实判断，不带PASS或FAIL预期。原 entry_v2 报告和历史失败只读保留，不作为本次绑定批准替代。
+
+请有限且完整完成原请求范围，不制造无穷新模块。输出完整 REVIEW_RESPONSE.md、真实 REVIEW_RESULT.json 和 EXPERIMENT_AUDIT.md/JSON；machine schema systemlab-independent-entry-v1, scope complete_system_entry，actual frozen_v3 protocol SHA与E1_test_registry_v3 SHA、完整实际source字典、报告绝对路径/实际SHA、complete_report与blockers真实，Type-A / independent_context=true / cross_family=false，以及实测验证/停止收据和scope warnings。报告文件用 apply_patch。实际PASS/WARN且blockers空才可能满足本地门禁，但本次不执行E1或造假PASS审批。保存请求/完整报告/机器JSON同字节副本和forensic trace，原用户请求文件不得改写；另外保存本次完整派发文本 DISPATCH_REQUEST.md（逐字）。结束返回完整结论、允许/不允许范围、所有产物路径/SHA、实际测试与停止收据、未解决事项。工作期间仅发送有意义的发现/失败/交付阶段更新，勿以作者summary替代证据。

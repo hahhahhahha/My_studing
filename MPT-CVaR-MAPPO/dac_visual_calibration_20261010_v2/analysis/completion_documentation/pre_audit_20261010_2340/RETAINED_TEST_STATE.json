@@ -1,0 +1,16 @@
+{
+  "status": "complete_pending_independent_audit",
+  "pid": 69420,
+  "started_at": "2026-10-10T19:44:11.937226+08:00",
+  "completed_blocks": 50,
+  "completed_rows": 10000,
+  "independent_result_review": "pending",
+  "original_runner_restarted": false,
+  "session": 5,
+  "session_started_at": "2026-10-10T20:44:40.747341+08:00",
+  "last_block": "test_s5_b5_CPU-4T",
+  "ended_at": "2026-10-10T20:46:53.527563+08:00",
+  "test_report_sha256": "1958703c49f59bb38b5936d92621ede4d4766071a6aa704641f7803910280cbe",
+  "total_new_rows": 23200,
+  "test_gate_passed": true
+}

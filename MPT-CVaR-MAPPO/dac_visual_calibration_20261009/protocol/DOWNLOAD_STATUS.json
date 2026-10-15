@@ -1,0 +1,19 @@
+{
+  "datetime": "2026-10-10T13:39:41.159524",
+  "assets": {
+    "imagenette": {
+      "status": "verified_existing",
+      "url": "https://s3.amazonaws.com/fast-ai-imageclas/imagenette2.tgz",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\data\\raw\\imagenette2.tgz",
+      "bytes": 1557161267,
+      "sha256": "6cbfac238434d89fe99e651496f0812ebc7a10fa62bd42d6874042bf01de4efd"
+    },
+    "resnet18": {
+      "status": "verified_existing",
+      "url": "https://download.pytorch.org/models/resnet18-f37072fd.pth",
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261009\\models\\resnet18-f37072fd.pth",
+      "bytes": 46830571,
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    }
+  }
+}

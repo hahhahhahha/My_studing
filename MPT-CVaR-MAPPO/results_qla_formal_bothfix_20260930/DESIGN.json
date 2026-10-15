@@ -1,0 +1,812 @@
+{
+  "study": "Formal QLA five-variant grid with critic-input and rollout-bootstrap repairs",
+  "created": "2026-09-30T22:41:45.470418",
+  "code_lock": {
+    "source_sha256": "028c265e80d6b2f868a3e62179bb0cfd93c4ee78c581d76e6ef9bfca2872c4d9",
+    "worker_sha256": "4992925825afb20c9176e9d6742bc039ae296c650fa14526217c9bd8e65c4d02",
+    "helper_sha256": "b42b3ebbb881f3586b5c76f058daeac4f8c4a97351554a7cb3131770e4371357",
+    "runner_sha256": "adfac62c0efaf5121a1efc3ed8e91281b9b2d3a3884397e14d00ab872f268b0f"
+  },
+  "variants": [
+    "Full",
+    "NoQL",
+    "NoBias",
+    "Shuffle",
+    "Flat"
+  ],
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "ages": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "conditions": [
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "variant": "Full",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "variant": "Full",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "variant": "NoQL",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "variant": "NoQL",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "variant": "NoQL",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "variant": "NoQL",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "variant": "NoQL",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "variant": "NoQL",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "variant": "NoQL",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "variant": "NoQL",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "variant": "NoQL",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "variant": "NoQL",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "variant": "NoBias",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "variant": "NoBias",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "variant": "NoBias",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "variant": "NoBias",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "variant": "NoBias",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "variant": "NoBias",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "variant": "NoBias",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "variant": "NoBias",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "variant": "NoBias",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "variant": "NoBias",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "variant": "NoBias",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "variant": "NoBias",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "variant": "NoBias",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "variant": "NoBias",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "variant": "NoBias",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "variant": "NoBias",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "variant": "NoBias",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "variant": "NoBias",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "variant": "NoBias",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "variant": "NoBias",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "variant": "NoBias",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "variant": "NoBias",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "variant": "NoBias",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "variant": "NoBias",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "variant": "NoBias",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "variant": "Shuffle",
+      "seed": 5,
+      "age": 8
+    },
+    {
+      "variant": "Flat",
+      "seed": 1,
+      "age": 0
+    },
+    {
+      "variant": "Flat",
+      "seed": 1,
+      "age": 1
+    },
+    {
+      "variant": "Flat",
+      "seed": 1,
+      "age": 2
+    },
+    {
+      "variant": "Flat",
+      "seed": 1,
+      "age": 4
+    },
+    {
+      "variant": "Flat",
+      "seed": 1,
+      "age": 8
+    },
+    {
+      "variant": "Flat",
+      "seed": 2,
+      "age": 0
+    },
+    {
+      "variant": "Flat",
+      "seed": 2,
+      "age": 1
+    },
+    {
+      "variant": "Flat",
+      "seed": 2,
+      "age": 2
+    },
+    {
+      "variant": "Flat",
+      "seed": 2,
+      "age": 4
+    },
+    {
+      "variant": "Flat",
+      "seed": 2,
+      "age": 8
+    },
+    {
+      "variant": "Flat",
+      "seed": 3,
+      "age": 0
+    },
+    {
+      "variant": "Flat",
+      "seed": 3,
+      "age": 1
+    },
+    {
+      "variant": "Flat",
+      "seed": 3,
+      "age": 2
+    },
+    {
+      "variant": "Flat",
+      "seed": 3,
+      "age": 4
+    },
+    {
+      "variant": "Flat",
+      "seed": 3,
+      "age": 8
+    },
+    {
+      "variant": "Flat",
+      "seed": 4,
+      "age": 0
+    },
+    {
+      "variant": "Flat",
+      "seed": 4,
+      "age": 1
+    },
+    {
+      "variant": "Flat",
+      "seed": 4,
+      "age": 2
+    },
+    {
+      "variant": "Flat",
+      "seed": 4,
+      "age": 4
+    },
+    {
+      "variant": "Flat",
+      "seed": 4,
+      "age": 8
+    },
+    {
+      "variant": "Flat",
+      "seed": 5,
+      "age": 0
+    },
+    {
+      "variant": "Flat",
+      "seed": 5,
+      "age": 1
+    },
+    {
+      "variant": "Flat",
+      "seed": 5,
+      "age": 2
+    },
+    {
+      "variant": "Flat",
+      "seed": 5,
+      "age": 4
+    },
+    {
+      "variant": "Flat",
+      "seed": 5,
+      "age": 8
+    }
+  ],
+  "total_training_conditions": 125,
+  "reused_training_conditions": 12,
+  "new_training_conditions": 113,
+  "reuse": [
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_1\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "2782b4b977a2ed33d10028c0b28f45400343d134fd874794eb75b6684c13d906",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b"
+    },
+    {
+      "variant": "Full",
+      "seed": 1,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_1\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_1\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "0288ac3718188ae9d83afe139b3494ef984357909b40a536c847f18b5e496637",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b"
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_2\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "9fcde34c49873ee0cbecc65efe9b9e7865952854c6073c4424ec63e934a3f3cc",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756"
+    },
+    {
+      "variant": "Full",
+      "seed": 2,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_2\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_2\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "70411a73f78d058ebf055bbe02e1813c85d72744179125351c2f24b358a1395b",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756"
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_3\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "ee59be0319fc9338c84bfcc3645c3b350205b0e0adda6d8034607306498f3848",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd"
+    },
+    {
+      "variant": "Full",
+      "seed": 3,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\Full_both\\seed_3\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\Full_both\\seed_3\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "7870ea342f4d09e6d3a7394caeb160173e15d9829d0b9782ec8263a52c9bb4bc",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_1\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_1\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_1\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "4d0b45e9093365b4146130cd0d7093a8d8636fadae05203e0e5de71a711bd829",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 1,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_1\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_1\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_1\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "248a6ddab1100deb44b7adaa0f93be6e4457208dfe19111f8b938fe327fa6d4d",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20",
+      "test_schedule_sha256": "6b9484c67a3b71ec7e0e2aebf5915b41a823de0774f7f5731ec214f14c86cf1b"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_2\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_2\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_2\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "967f0058d29b8e9af63b484ef2c70dc53c53d2fc7ea018e53bff31f32ffe4d2d",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 2,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_2\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_2\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_2\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "d085b4b51d0e5370df3a54c3dd8c30731d0740b64cd3cd11825e965a861718dc",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67",
+      "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_3\\delay_0",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_3\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_3\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "83b75fb985b0bf62220f6e4b30105880dce2024f45d21a12f2cc2b754d72f885",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd"
+    },
+    {
+      "variant": "NoQL",
+      "seed": 3,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_3\\delay_8",
+      "test": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\test\\NoQL_both\\seed_3\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\validation\\NoQL_both\\seed_3\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_LCC-MAPPO.pt",
+      "checkpoint_sha256": "b2816817c605f5a92887e1f1a3d1ef5f444a1573ab744b5123d871aa0ba9ddae",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d",
+      "test_schedule_sha256": "d8cd89491fbc31788c173f6a924dca076f22c2fb779dd63bc4358887f8b177bd"
+    }
+  ],
+  "repair": "both",
+  "checkpoint_rule": "final checkpoint after exactly 10000 training slots",
+  "freeze_rule": "freeze every validation checkpoint before any newly generated held-out test",
+  "performance_selection": "none",
+  "latency_semantics": "unchanged workload-derived slot-level latency"
+}

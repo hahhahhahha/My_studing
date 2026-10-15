@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-10T19:44:17.498163+08:00",
+  "review_snapshot_at": "2026-10-10T19:40:48.809568+08:00",
+  "continuation_sha256": "2b72d9fb8ca33cd67d5f09cd88b329aa6d285b20525d91566cb791cca306a7ae",
+  "entry_source_sha256": "52414bcb385a43a96a9d833103b85b5a71be685f7337d540ee8379058ecdb86e",
+  "original_plan_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+  "historical_failed_review_sha256": "31f185aa69840e1f54011de3de90a55d84b666fef4857dcdad23520873438783",
+  "all_frozen_and_protected_bindings_match": true,
+  "binding_counts": {
+    "source": 3,
+    "artifact": 7,
+    "old_readonly": 262,
+    "protected": 558
+  },
+  "observed_test_evidence_after_report": [
+    "protocol/RETAINED_TEST_RUN_STARTED.json",
+    "protocol/RETAINED_TEST_STATE.json",
+    "logs/retained_test_stdout.log",
+    "logs/retained_test_stderr.log"
+  ],
+  "reviewer_created_test_evidence": false,
+  "note": "Entry review was based on the initial unstarted snapshot. A post-report read-only rehash found unchanged source/PLAN/protected evidence and a subsequent run lock/state/stdout/stderr created elsewhere. No test rows were inspected, measured or changed by this reviewer. The reviewer-side strict post-check assertion expected unstarted state and therefore stopped; this was a state transition, not a fingerprint mismatch or reversal of the entry verdict."
+}

@@ -1,0 +1,20 @@
+{
+  "pid": 38848,
+  "command": [
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Scripts\\python.exe",
+    "-B",
+    "-X",
+    "utf8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\visual_model_smoke_small.py",
+    "_worker",
+    "--method",
+    "PPO-MV-A",
+    "--plan",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261013_121551_201593_model_smoke_entry\\SMOKE_CANDIDATE_PLAN.json",
+    "--plan-sha",
+    "283ab7d766a5985d1937c3539b01c8587482b24f7515869f89d9351ede0a7eb7",
+    "--output",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261013_1230_user_A4_smoke_results\\PPO-MV-A"
+  ],
+  "at": "2026-10-13T12:17:03.507143+08:00"
+}

@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-10T23:30:44.104080+08:00",
+  "files": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\reward_followup.py": "b3351e64ac522664d2cfed3f796560be36e0066311ce25504385ac8a4c853917",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_REWARD_EXECUTION_中文.md": "ad0892e8898816e1ab3c61efae3bdd2582d1c303278c29671eb8a16ea1cdbda2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\paper_doc_tools\\run_joint_reward_ablation.py": "7022349105cae59caffd6e9fd04aa12fc6abf6a775675cfcb32fc48af3c2b4a4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\paper_doc_tools\\joint_reward_ablation_worker.py": "dc5df7f043144f481ec14d6342a4145e7884475982566eec67eb7210ee87b630",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\paper_doc_tools\\joint_reward_ablation_core.py": "5a4d6584cbca59c5e247176b10d4391cbed2281a569da9d045926a342ca1b8a5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\paper_doc_tools\\test_joint_reward_ablation.py": "43f8dd4c510f3eedc3490934ab908fea41dbc56cec2def1e5f5a68d49278d79c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "f20497f0725fcef76e3581d4d423c684cc2b115d750e55df85d72fdca62d1d91",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "a6a440c36c4a0ebe188145c29affbdc0fd83353838f9c745b523d79f556e9cf4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_joint_reward_ablation_20261009\\PROTOCOL_中文.md": "44cfa1a0df369c2e2085692a3d6ecc269cb60fe19da1ef8567034d5262f635ea"
+  },
+  "design_sha256": "a9049bf9ba5d8b7ee1b8d1f0906222bc466bd4e09a2316ec389842e4d9734eb2",
+  "order": "two-arm smoke, all25 historical Full test replays,25 variant training/validation, freeze,25 variant tests, independent result audit",
+  "Full_replay_for_implementation_identity_only": true,
+  "test_used_for_hyperparameter_selection": false,
+  "original_tolerances_unchanged": true,
+  "training_started": false
+}

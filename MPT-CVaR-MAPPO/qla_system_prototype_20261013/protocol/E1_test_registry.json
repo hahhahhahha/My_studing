@@ -1,0 +1,81 @@
+{
+  "schema": "systemlab-test-registry-v1",
+  "grid": {
+    "path": "protocol/E1_grid.json",
+    "sha256": "efd0ff9e3d6bf134aa25cf80545f0ab54c463621ea94b8d9a1be02b807833696",
+    "config_sha256": "9e77871bc07e477e46fdf89491b25c4d699c16423952d7f3b3e5837e4599886f",
+    "feature_scales_sha256": "d68046e2f7cd208e7c66e2b698caeeb76b77bba834bbd812ba92b2e7e3971572",
+    "reference_capacity_per_s": 175.39535899135956
+  },
+  "horizon_s": 120,
+  "fixed_drain_s": 30,
+  "users": 16,
+  "test_manifest": {
+    "path": "data/test_images.json",
+    "sha256": "d8355dbaf2aec4a82698da4642ba6b2b466ec993269ec895b7cb99bd5e5b948a",
+    "role": "test"
+  },
+  "common_schedules": [
+    {
+      "file": "data/E1_rho60_s1.json",
+      "common_schedule_key": "0.6_1",
+      "rho": 0.6,
+      "seed": 1,
+      "aggregate_rate_per_s": 105.23721539481573,
+      "duration_s": 120.0,
+      "tasks": 12629,
+      "schedule_sha256": "3e718ec6f9ddbe327bd20ad775c11b56b0d43bae7a4a9ebfa538ed1b86393bca"
+    },
+    {
+      "file": "data/E1_rho60_s2.json",
+      "common_schedule_key": "0.6_2",
+      "rho": 0.6,
+      "seed": 2,
+      "aggregate_rate_per_s": 105.23721539481573,
+      "duration_s": 120.0,
+      "tasks": 12749,
+      "schedule_sha256": "cd8100081ab14613d1a5a7ac55b617b98954ea9e348e227e7fb33a935d070cdb"
+    },
+    {
+      "file": "data/E1_rho60_s3.json",
+      "common_schedule_key": "0.6_3",
+      "rho": 0.6,
+      "seed": 3,
+      "aggregate_rate_per_s": 105.23721539481573,
+      "duration_s": 120.0,
+      "tasks": 12567,
+      "schedule_sha256": "5b43c4ec262683b081b4f93a628dca48cf9eb7b5bdbcbf3148f2a7f26120e965"
+    },
+    {
+      "file": "data/E1_rho90_s1.json",
+      "common_schedule_key": "0.9_1",
+      "rho": 0.9,
+      "seed": 1,
+      "aggregate_rate_per_s": 157.8558230922236,
+      "duration_s": 120.0,
+      "tasks": 18896,
+      "schedule_sha256": "6d7b098d1bc8bb7e4dd85fdfd67fc8739c43d2dfdc4d80247828b045cd7517f9"
+    },
+    {
+      "file": "data/E1_rho90_s2.json",
+      "common_schedule_key": "0.9_2",
+      "rho": 0.9,
+      "seed": 2,
+      "aggregate_rate_per_s": 157.8558230922236,
+      "duration_s": 120.0,
+      "tasks": 18940,
+      "schedule_sha256": "d857d8e267492dde84f349b4b23599b3adc609491d2af85c58f0e4156273e1a7"
+    },
+    {
+      "file": "data/E1_rho90_s3.json",
+      "common_schedule_key": "0.9_3",
+      "rho": 0.9,
+      "seed": 3,
+      "aggregate_rate_per_s": 157.8558230922236,
+      "duration_s": 120.0,
+      "tasks": 18898,
+      "schedule_sha256": "e89fcff81db234b9e68ee33354ee6c22b711d64a7eff07908885cf3fa6a7e630"
+    }
+  ],
+  "note": "One common schedule per (rho,seed); the same file is shared by all three methods in that cell. Rates are rho*reference_capacity_per_s from the frozen grid; H is the frozen 120s window."
+}

@@ -1,0 +1,31 @@
+{
+  "schema": "original-formula-small-schedules-v2",
+  "root": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules",
+  "records": [
+    {
+      "role": "train",
+      "seed": 1,
+      "steps": 32,
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.npz",
+      "content_sha256": "3e05a1bf94fcb884bcc7fdae65eb998bb5f2d0634832e6f9bd367999d9ad583e",
+      "schedule_id": "KAIST_poisson_bursty_train_s1_81206bb67e683bb9"
+    },
+    {
+      "role": "validation",
+      "seed": 10001,
+      "steps": 8,
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.npz",
+      "content_sha256": "73576fe45b7130b1dbea1458f61c3502269940e0fc049743258954af4c1b34e3",
+      "schedule_id": "KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95"
+    }
+  ],
+  "files_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.json": "889151f15f29f5bd27c48e655707251fff196509ec6e048be5f8c1c20d8efb82",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.npz": "2f72332f7e912f577c73bdacdd73f33c33fa0a397d52e85328441224663de432",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.json": "97807c5280e259e42aa179686e35ca712ad8caf07bcbd2974e00b986d5aec446",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.npz": "f32da0b015171348ddfc96d334a3328926251338873705e297de0214533402b0"
+  },
+  "n_trace_slots": 1516,
+  "old_shared_schedule_root_written": false,
+  "source_and_consumed_raw_baseline_sha256": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d"
+}

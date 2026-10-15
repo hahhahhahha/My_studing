@@ -1,0 +1,10 @@
+{
+  "method": "Towards-PPO-DSR",
+  "seed": 3,
+  "age": 2,
+  "role": "test",
+  "elapsed_s": 5.929969799999526,
+  "output": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\test\\Towards-PPO-DSR\\seed_3\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "checkpoint_sha256": "3419e68706dc2b21454cbdee19510b71d98305d27b6e7cb26a9691a965646dd2"
+}

@@ -1,0 +1,57 @@
+# Linux Docker host. Create configs/docker_4edge.json from the local config:
+# weight_path=/inputs/resnet18-f37072fd.pth; bind_host=0.0.0.0;
+# edge URLs=http://edge0:8101...; controller_url=http://controller:8100;
+# udp_host=client; client_bind_host=0.0.0.0. Image manifest image_root=/images.
+services:
+  edge0:
+    build: .
+    command: [edge, --server, edge0, --config, /config/system.json, --output, /out/edge0]
+    cpus: 1.0
+    mem_limit: 1g
+    volumes: &volumes
+      - ${SYSTEM_CONFIG:?Set SYSTEM_CONFIG}:/config/system.json:ro
+      - ${RESNET18_WEIGHTS:?Set RESNET18_WEIGHTS}:/inputs/resnet18-f37072fd.pth:ro
+      - ${RUN_OUTPUT:?Use a new empty RUN_OUTPUT}:/out
+    networks: [lab]
+  edge1:
+    build: .
+    command: [edge, --server, edge1, --config, /config/system.json, --output, /out/edge1]
+    cpus: 1.0
+    mem_limit: 1g
+    volumes: *volumes
+    networks: [lab]
+  edge2:
+    build: .
+    command: [edge, --server, edge2, --config, /config/system.json, --output, /out/edge2]
+    cpus: 2.0
+    mem_limit: 1g
+    volumes: *volumes
+    networks: [lab]
+  edge3:
+    build: .
+    command: [edge, --server, edge3, --config, /config/system.json, --output, /out/edge3]
+    cpus: 2.0
+    mem_limit: 1g
+    volumes: *volumes
+    networks: [lab]
+  controller:
+    build: .
+    command: [controller, --config, /config/system.json, --output, /out/controller]
+    volumes: *volumes
+    networks: [lab]
+    depends_on: [edge0, edge1, edge2, edge3]
+  client:
+    build: .
+    profiles: [replay]
+    command: [run, --config, /config/system.json, --schedule, /inputs/schedule.json, --manifest, /inputs/images.json, --method, score_softmax, --output, /out/client]
+    volumes:
+      - ${SYSTEM_CONFIG}:/config/system.json:ro
+      - ${SCHEDULE_FILE:?Set SCHEDULE_FILE}:/inputs/schedule.json:ro
+      - ${IMAGE_MANIFEST:?Set IMAGE_MANIFEST}:/inputs/images.json:ro
+      - ${IMAGE_ROOT:?Set IMAGE_ROOT}:/images:ro
+      - ${RUN_OUTPUT}:/out
+    networks: [lab]
+    depends_on: [controller]
+networks:
+  lab:
+    driver: bridge

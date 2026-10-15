@@ -1,0 +1,19 @@
+{
+  "reference_day": 1,
+  "p05": 534983.85,
+  "p95": 732678.2,
+  "fit_on_test": false,
+  "formula": "lambda=0.65+4.2*(0.2+0.8*clip((count-p05)/(p95-p05),0,1))",
+  "window_minutes": 200,
+  "slots_per_minute": 5,
+  "time_compression": "one raw minute -> five 1-s simulation slots; 12x compression",
+  "test_days": [
+    11,
+    12,
+    13
+  ],
+  "raw_azure_minute_slice_zero_based": [
+    0,
+    200
+  ]
+}

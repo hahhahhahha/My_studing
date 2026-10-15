@@ -1,0 +1,40 @@
+{
+  "selected_logical_cpus": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "rule": {
+    "seconds": 5,
+    "max_machine_CPU_percent": 35,
+    "max_selected_core_CPU_percent": 60,
+    "min_available_memory_bytes": 2147483648,
+    "max_wait_seconds": 3600
+  },
+  "probes": [
+    {
+      "datetime": "2026-10-10T15:29:38.817009",
+      "per_logical_CPU_percent": [
+        6.4,
+        3.4,
+        2.2,
+        3.1,
+        5.3,
+        5.3,
+        12.5,
+        14.5,
+        17.3,
+        13.7,
+        4.4,
+        4.4,
+        5.6,
+        9.0,
+        1.9,
+        4.0
+      ],
+      "machine_CPU_percent": 7.0625,
+      "available_memory_bytes": 10547785728
+    }
+  ]
+}

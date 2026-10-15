@@ -1,0 +1,6 @@
+{
+  "call_number": 2,
+  "purpose": "resume-finalization-after-quota-interruption",
+  "agent_id": "/root/alibaba2017_schema_integrity",
+  "prompt": "Usage reset time 2026-10-11 04:23 Asia/Shanghai has passed (now04:37). Your independent computation/report files exist, but the final turn errored at quota. Resume only finalizing the original audit report, exact request/response trace and hashes based on your own computations; no parent verdict supplied. Do not rerun downloads/extraction/policies, modify original evidence, or treat current partial report as final certification. If evidence needs a read-only hash recheck, preserve it in your allowed schema_review. Original source/data unchanged by parent; parent changed only downstream handoff/mutable service status and added rewardv2 wrapper. Note diagnostic invalid-row flag differs from original skip-invalid semantics without imposing a new gate. Return actual final PASS/WARN/FAIL distinctions and conservative protocol-decision choices."
+}

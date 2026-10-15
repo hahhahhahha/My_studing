@@ -1,0 +1,56 @@
+{
+  "probes": [
+    {
+      "url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+      "at": "2026-10-10T19:58:43.975910+08:00",
+      "method": "HEAD",
+      "archive_downloaded": false,
+      "status": 200,
+      "final_url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+      "headers": {
+        "Server": "AliyunOSS",
+        "Date": "Sat, 10 Oct 2026 11:58:46 GMT",
+        "Content-Type": "application/gzip",
+        "Content-Length": "243321159",
+        "Connection": "close",
+        "x-oss-request-id": "6ACA2876C078153835E93882",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"1BCB355701A63A8F246AC570BF9AD12E-24\"",
+        "Last-Modified": "Mon, 27 Feb 2023 09:35:26 GMT",
+        "x-oss-object-type": "Multipart",
+        "x-oss-hash-crc64ecma": "2700699146184863613",
+        "x-oss-storage-class": "Standard",
+        "x-oss-server-time": "20"
+      }
+    },
+    {
+      "url": "http://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+      "at": "2026-10-10T19:58:46.363847+08:00",
+      "method": "HEAD",
+      "archive_downloaded": false,
+      "status": 200,
+      "final_url": "http://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/alibaba-trace-2017.tar.gz",
+      "headers": {
+        "Connection": "close",
+        "Content-Length": "243321159",
+        "Accept-Ranges": "bytes",
+        "Content-Type": "application/gzip",
+        "Date": "Sat, 10 Oct 2026 11:58:46 GMT",
+        "Etag": "\"1BCB355701A63A8F246AC570BF9AD12E-24\"",
+        "Last-Modified": "Mon, 27 Feb 2023 09:35:26 GMT",
+        "Server": "AliyunOSS",
+        "X-Oss-Hash-Crc64ecma": "2700699146184863613",
+        "X-Oss-Object-Type": "Multipart",
+        "X-Oss-Request-Id": "6ACA287667F3E435370750E3",
+        "X-Oss-Server-Time": "12",
+        "X-Oss-Storage-Class": "Standard"
+      }
+    }
+  ],
+  "primary_source": "https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2017/README2017.md",
+  "checksum_source": "https://github.com/alibaba/clusterdata/blob/master/cluster-trace-v2017/SHA256SUM",
+  "official_checksum_name": "trace_201708.tgz",
+  "expected_archive_sha256": "02c1fbc412fccc03b748c05ec18fc30fd93c0bc383eea47ac21146c4aa2235df",
+  "bytes_downloaded": 0,
+  "required_mapping_still_to_verify": true
+}

@@ -1,0 +1,75 @@
+{
+  "explicit_synthetic_count_fixture": true,
+  "ledger": {
+    "method": "QLA-MAPPO",
+    "seed": 1,
+    "phase": "updated_awaiting_checkpoint",
+    "candidate_budget": {
+      "episode_decisions": [
+        3
+      ],
+      "users": 30,
+      "decision_seconds": 0.05,
+      "fixed_drain_seconds": 30.0
+    },
+    "accounting": {
+      "environment_decisions": 3,
+      "user_behavior_samples": 90,
+      "generation_seconds": 0.15,
+      "fixed_drain_seconds_sum": 30.0,
+      "independent_episode_horizon_sum": 30.15,
+      "action_interval_settlement_seconds": 0.05,
+      "settlement_is_inside_fixed_drain": true,
+      "formal_budget_frozen": false
+    },
+    "paired_design_sha256": "8a49c0aa5a01096af3777cf10b0d634e807311760e97c34e4ce147dd58fe3628",
+    "committed_episodes": [
+      {
+        "episode_index": 1,
+        "schedule_sha256": "60d67a785cc296e8540d070fd702f3e1b70f8571f7996869166c1d30c77ee0c0",
+        "decisions": 3,
+        "data_role": "calibration",
+        "episode_token": "explicit-synthetic-token-1",
+        "users": 30,
+        "behavior_samples": 90,
+        "action_interval_seconds": 0.15000000000000002,
+        "reward_semantics": "QLA-shared-receipt",
+        "update_statistics_sha256": "735593422a1a896441a1d6f6cc4ce7f4b1bbafa344066ef564728e67b4baa947"
+      }
+    ],
+    "current_episode": null,
+    "events": [
+      {
+        "event": "begin_collect",
+        "episode_index": 1,
+        "schedule_sha256": "60d67a785cc296e8540d070fd702f3e1b70f8571f7996869166c1d30c77ee0c0",
+        "decisions": 3,
+        "data_role": "calibration"
+      },
+      {
+        "event": "collection_closed",
+        "counts": {
+          "episode_token": "explicit-synthetic-token-1",
+          "decisions": 3,
+          "users": 30,
+          "behavior_samples": 90,
+          "action_interval_seconds": 0.15000000000000002,
+          "reward_semantics": "QLA-shared-receipt"
+        }
+      },
+      {
+        "event": "begin_update",
+        "episode_token": "explicit-synthetic-token-1"
+      },
+      {
+        "event": "update_committed",
+        "episode_token": "explicit-synthetic-token-1"
+      }
+    ],
+    "failure": null,
+    "checkpoint_selection_done": false,
+    "formal_protocol_frozen": false,
+    "model_execution_proven_by_this_ledger": false,
+    "automatic_resume_supported": false
+  }
+}

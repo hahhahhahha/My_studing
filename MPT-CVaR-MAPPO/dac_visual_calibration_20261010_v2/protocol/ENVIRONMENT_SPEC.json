@@ -1,0 +1,29 @@
+{
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "Pillow": "11.1.0",
+    "psutil": "5.9.0"
+  },
+  "device": "cpu",
+  "model": "ResNet18_IMAGENET1K_V1",
+  "profiles": {
+    "CPU-1T": {
+      "intraop_threads": 1,
+      "interop_threads": 1,
+      "physical_cores": 1
+    },
+    "CPU-4T": {
+      "intraop_threads": 4,
+      "interop_threads": 1,
+      "physical_cores": 4
+    }
+  },
+  "batch_size": 1,
+  "precision": "float32",
+  "warmup_per_process": 200,
+  "witness_seed": 20261009,
+  "automatic_package_install": false
+}

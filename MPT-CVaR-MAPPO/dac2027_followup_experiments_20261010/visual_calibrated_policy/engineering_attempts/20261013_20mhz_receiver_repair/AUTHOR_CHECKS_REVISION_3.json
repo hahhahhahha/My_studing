@@ -1,0 +1,17 @@
+{
+  "changed_own_pin_rejected": true,
+  "changed_protected_input_rejected": true,
+  "changed_uncovered_source_rejected": true,
+  "exact_full_maps_passed": true,
+  "legacy_reward_default_path_unchanged": true,
+  "missing_protected_map_rejected": true,
+  "nine_file_map_rejected": true,
+  "protected_count": 210,
+  "schema": "visual-20mhz-complete-review-gate-fixture-check-v1",
+  "smoke_plan_or_experiment_calls": 0,
+  "source_count": 209,
+  "status": "PASS",
+  "synthetic_only": true,
+  "torch_cuda_or_model_calls": 0,
+  "wrong_review_directory_rejected": true
+}

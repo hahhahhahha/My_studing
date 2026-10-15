@@ -1,0 +1,100 @@
+{
+  "passed": true,
+  "at": "2026-10-10T23:34:49.730884+08:00",
+  "raw_hashes": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b10_CPU-1T.csv": "3240759708fa24a4905b4fe8232a005a7a6fa2e14fed04e1df09e18a3d914855",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b10_CPU-4T.csv": "93bba71b6115c14ca68382bf836d4c8100e38b828ab823c2a507d0f102e3761f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b1_CPU-1T.csv": "cb94de2b53685d34b5af47f443019b8bbb4e327483de85da4c8bb5fae2e3c948",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b1_CPU-4T.csv": "6dd384463f23c271efffee0849885c9d9107eb81d6cb4fa6946b1ad3e96b8f5b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b2_CPU-1T.csv": "bfafae43555b0c02ba476dd4976688f84392dde0fb7dd3d6774062141e205386",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b2_CPU-4T.csv": "c32aa71dc179a79730b5eb19156dfca1a16f1a3012ef1943d032b9c352073af3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b3_CPU-1T.csv": "b7f1585a8ccec977702ec257c6341cbc4122ff73460a842636dc962d992ca8e3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b3_CPU-4T.csv": "c99004b5b2a9585cb9c6650650e0a1fe78e752ba69bccbb0d0051d4211f2f442",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b4_CPU-1T.csv": "ab232e65e5dc1bce85d10f9f796b3cee930c4507fb1590583988f9d4e456ce39",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b4_CPU-4T.csv": "598e7e13ce75ead164679f2177db437363aae688034c300e7303ba2330ef5e09",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b5_CPU-1T.csv": "92c7ddaf2a7335e3a8e2e5234186e23eaa13034df9fc18cdb3277a476a80c9a6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b5_CPU-4T.csv": "a65b39f8aa6c45c1a6a647c8918ea619f4e432e4d478465a9118c1e7c727869a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b6_CPU-1T.csv": "68ad95ae928bd35548376b967e1dd31b01e5a798c343e63b01dee496780e01b5",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b6_CPU-4T.csv": "5a349490c7bd4b6b89d9862a65775a9f266c53bc02879840fbc6d04fb6bf2eb8",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b7_CPU-1T.csv": "e4ee6902ce5bfa381db53b870b24091cfd5e6238504d06eae76cf64ea07fcf2d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b7_CPU-4T.csv": "eda8c9d64a54f1cbc51040479db176bbf345c2cfdd9bbde5ca47ea63eee1cbe3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b8_CPU-1T.csv": "5819374bd83a8f3054bb7f885c543ce708a37c25f981fdc8365193f4b3ea2849",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b8_CPU-4T.csv": "8af439ba4d24ffbb4f68d70a70128af6088c5631f8a11927a4dc90fe903eef5e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b9_CPU-1T.csv": "65f11a0953291cd2bd50daeeb6bfb1d2280799eeeffe00cec59b64b1f37c8985",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\measurements\\validation\\validation_s1_b9_CPU-4T.csv": "bcb460c2aeff94aa1f1882624a3d2f39d5dd06b6112cc998cb11dc9d3a4d8420"
+  },
+  "validation_images": 128,
+  "cases": [
+    {
+      "case": "servers1_capacity0",
+      "servers": 1,
+      "waiting_capacity": 0,
+      "tasks": 128,
+      "completed": 8,
+      "dropped": 120,
+      "observation_cuts": 16,
+      "record_state_comparisons": 2048,
+      "max_service_seconds_mass_error": 5.967448757360216e-16
+    },
+    {
+      "case": "servers1_capacity1",
+      "servers": 1,
+      "waiting_capacity": 1,
+      "tasks": 128,
+      "completed": 10,
+      "dropped": 118,
+      "observation_cuts": 16,
+      "record_state_comparisons": 2048,
+      "max_service_seconds_mass_error": 5.828670879282072e-16
+    },
+    {
+      "case": "servers1_capacity32",
+      "servers": 1,
+      "waiting_capacity": 32,
+      "tasks": 128,
+      "completed": 41,
+      "dropped": 87,
+      "observation_cuts": 31,
+      "record_state_comparisons": 3968,
+      "max_service_seconds_mass_error": 1.1102230246251565e-15
+    },
+    {
+      "case": "servers4_capacity0",
+      "servers": 4,
+      "waiting_capacity": 0,
+      "tasks": 128,
+      "completed": 35,
+      "dropped": 93,
+      "observation_cuts": 15,
+      "record_state_comparisons": 1920,
+      "max_service_seconds_mass_error": 1.6653345369377348e-16
+    },
+    {
+      "case": "servers4_capacity1",
+      "servers": 4,
+      "waiting_capacity": 1,
+      "tasks": 128,
+      "completed": 47,
+      "dropped": 81,
+      "observation_cuts": 15,
+      "record_state_comparisons": 1920,
+      "max_service_seconds_mass_error": 2.220446049250313e-16
+    },
+    {
+      "case": "servers4_capacity32",
+      "servers": 4,
+      "waiting_capacity": 32,
+      "tasks": 128,
+      "completed": 128,
+      "dropped": 0,
+      "observation_cuts": 25,
+      "record_state_comparisons": 3200,
+      "max_service_seconds_mass_error": 2.220446049250313e-16
+    }
+  ],
+  "predictor_or_policy_fitted": false,
+  "retained_test_used": false,
+  "evidence": "Measured validation-service execution replay only; not integrated simulator, physical network or QLA gains",
+  "execution_sha256": "b3ab13d4401f636ab666a66e328bcc2cecbc703434f7e80b9b123f97ba42e9d6",
+  "oracle_sha256": "b4bf21792e6deb59ca159ec281589f3216870f230243ee80b236bdc862ed09b3"
+}

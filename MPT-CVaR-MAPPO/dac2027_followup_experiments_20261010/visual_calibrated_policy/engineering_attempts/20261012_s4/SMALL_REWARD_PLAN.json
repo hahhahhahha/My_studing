@@ -1,0 +1,96 @@
+{
+  "schema": "user-small-reward-smoke-v2",
+  "arms": [
+    "Full",
+    "NoJointDemandReward"
+  ],
+  "train_steps": 32,
+  "validation_steps": 8,
+  "seed": 1,
+  "nominal_delay": 8,
+  "role": "validation",
+  "source_files_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\visual_model_smoke_small.py": "ec0a7535d3c74f758bad6c0ba3928cf6f4f88d5ce246e0e85674056fd442e406",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\reward_smoke_small.py": "99f917dfc77ba9d552d1b824e5f04470b9045ae64201aaa964f9be965409be4c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\reward_input_integrity.py": "1f774d8322a72b8fdb82fb3f5c2a49353e22d4fb8f45cf5864ec872926837cf3",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\FROZEN_BASELINE.json": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\README_SMALL_SMOKE_中文.md": "fa14beb5e58e60643173cd15d7f57f1dd756d028a4ee25c5e12ce763aadd2c2c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\USER_REQUEST.json": "d3abf88c574c57083c25f74b9adeaac62368a277fec3bb3cdb832e3a4d8acbcd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3"
+  },
+  "baseline_sha256": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+  "source_review_sha256": {
+    "JSON": "ee513ee56800194dece4a80cd9fb450f836f6985b01fcaaed85bf4f2f0d323b6",
+    "MD": "1dff03bdace9fe3ca142260d72339662dfb330cee1d50667e4fe32d5e226b779"
+  },
+  "schedule_registry_sha256": "0ea78cf21219e5211e201d15a3dd624ab0f7465a681373c42f78a1202b5b8677",
+  "schedule_registry": {
+    "schema": "original-formula-small-schedules-v2",
+    "root": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules",
+    "records": [
+      {
+        "role": "train",
+        "seed": 1,
+        "steps": 32,
+        "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.npz",
+        "content_sha256": "3e05a1bf94fcb884bcc7fdae65eb998bb5f2d0634832e6f9bd367999d9ad583e",
+        "schedule_id": "KAIST_poisson_bursty_train_s1_81206bb67e683bb9"
+      },
+      {
+        "role": "validation",
+        "seed": 10001,
+        "steps": 8,
+        "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.npz",
+        "content_sha256": "73576fe45b7130b1dbea1458f61c3502269940e0fc049743258954af4c1b34e3",
+        "schedule_id": "KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95"
+      }
+    ],
+    "files_sha256": {
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.json": "889151f15f29f5bd27c48e655707251fff196509ec6e048be5f8c1c20d8efb82",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\train\\KAIST_poisson_bursty_train_s1_81206bb67e683bb9.npz": "2f72332f7e912f577c73bdacdd73f33c33fa0a397d52e85328441224663de432",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.json": "97807c5280e259e42aa179686e35ca712ad8caf07bcbd2974e00b986d5aec446",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_s4\\schedules\\KAIST\\poisson_bursty\\validation\\KAIST_poisson_bursty_validation_s10001_358b99dde2d86d95.npz": "f32da0b015171348ddfc96d334a3328926251338873705e297de0214533402b0"
+    },
+    "n_trace_slots": 1516,
+    "old_shared_schedule_root_written": false,
+    "source_and_consumed_raw_baseline_sha256": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d"
+  },
+  "original_output": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_joint_reward_ablation_20261010_repaired",
+  "consumed_raw_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_001.txt": "1915945b3babc9ec04b778747c76a48959b9198de7e2f4f7048e6575015783f9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_002.txt": "7cceeeb500a311452ec1de378b4293153b26881260f48029ac84f74fcbe4dbc0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_003.txt": "1300fef8e31e998c0df880d58c74f99b463a592fa096dbbc116037b6b738460f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_004.txt": "24ec4af2e15adfd087766a3a96ad28637e191fea8ec274a5dd0c4aee1fb94479",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_005.txt": "f04cc81b928ae72fb36093107b1fb70860e5f7612242ab398e27e234f7525871",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_006.txt": "d6e7d6d6af208f49bf78d7371518698618b409a9950178b535a0f03b3c939065",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_007.txt": "ecdd5eeb6be54477fcd64614a9b90ac24d883af83b2fb72b843b29cb2d6a765b",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_008.txt": "57aedcbfc51238f71e760f06fd8016e6614477403fc1ffc7e9640a73fd275fb0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_009.txt": "a6f59d8d78f6225e81d955d63b3e1dec8df7a11dee2a9462b31b359de4fd9c6a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_010.txt": "08f63bf5cf21b310a076ba0259d9e1387c71d6c3343801f5826f5fca54d2b464",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_011.txt": "a2226ef5450a2c3e2ad7bb19d310de8ba8c07a8d04f776cb9f15575288756dfe",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_012.txt": "4be5f6f53e2051ac9a7806abacb1298ab27ca39ca94c4126fe24a066b4ef20ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_013.txt": "7cddbc5a257aefb13ddef75bcd260be738f5f58903b6867ec77a0dc9ef21428c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_014.txt": "e3d7d9187a7556aa63e9f950c4f6a42441d0c68a0f73c255112facf20e2cdb87",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_015.txt": "e27fedc670ff72a654aef3cecd6930f9adcc5b4e0a4aa3a52dd1e9a563395ca9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_016.txt": "b8c73d4baff853cc767ac2273b0299f17837c30a6017c1f5d2f04add4e27f645",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_017.txt": "551525d7b89fc4849914ba589402633ba6dd7a47bd4fd524ea5f041c5e3da9ce",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_018.txt": "c9a72056208c02829564b580a7f09ba442adbad3e319326d0b513a4d010498c2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_019.txt": "ef0d9dc77317566d2d3aec4354e90cca21d059c62718cf4266ae7eb0e242110d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_020.txt": "eed0ebe2d96737ef3cc02b4cf4de48602ce5153a460e9d121ed0a2d95a09b3c4",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_021.txt": "6783eb26620a859f842023ce7362bfc749a55ab08199c6105750474776a90617",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_022.txt": "89af9d22a5b4b67eb035c3c7f691d849b9f331768099c809e58fcf60ee42f272",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_023.txt": "1d5b82e16743e9880fc9e39016df44db79bc974d92a8995f924d6142986fbf6e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_024.txt": "216a015b1b7d8a68bc77f6eb19fcb37ce260cb983e8c70d3b7bea0e08d31a08f",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_025.txt": "68536b632ce59622c827d30adc9c6e9dc6e0d7e61fa47243469357387a5bad3e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_026.txt": "89e341f0486545a2fb2d02f14ebd73eeb3073648785b78cb60af7c29a529f7c9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_027.txt": "aa8df2ae336157719f5966b54ba0821c807eac9b079abeb74ff3a6804e124e80",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_028.txt": "edebe821c88fd19c457c13861023fb4b8131595ad711c75d011a3e5e9a97d503",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_029.txt": "2e1de5e01f7e7b9f5258a77928c830339c2c8a9bd8e9a0dcfc869565baad2619",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\Traces_TimeXY_10sec_txt\\KAIST\\KAIST_10sec_030.txt": "31f4025feaa79d32c2082d905cda6bc29ce33f59d3fcc56e9d68c8977be9e239"
+  },
+  "GPU_memory_used_max_MiB_exclusive": 1800,
+  "formal_training_or_test_access": false,
+  "automatic_resume": false
+}

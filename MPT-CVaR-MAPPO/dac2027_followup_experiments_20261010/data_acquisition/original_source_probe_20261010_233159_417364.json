@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-10T23:31:59.417274+08:00",
+  "method": "HEAD only",
+  "source_gate_changed": false,
+  "original_worker_restarted": false,
+  "archive_extracted": false,
+  "results": [
+    {
+      "url": "https://clusterdata.oss-cn-beijing.aliyuncs.com/trace_201708.tgz",
+      "status": 200,
+      "final_url": "https://clusterdata.oss-cn-beijing.aliyuncs.com/trace_201708.tgz",
+      "headers": {
+        "Server": "AliyunOSS",
+        "Date": "Sat, 10 Oct 2026 15:31:55 GMT",
+        "Content-Type": "application/gzip",
+        "Content-Length": "243323702",
+        "Connection": "close",
+        "x-oss-request-id": "6ACA5A6BB43FDF33362A59F5",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"E6730E3769B431FF881A68EBCF043D27\"",
+        "Last-Modified": "Wed, 06 Sep 2017 05:25:42 GMT",
+        "x-oss-object-type": "Normal",
+        "x-oss-hash-crc64ecma": "5396074915053743863",
+        "x-oss-storage-class": "Standard",
+        "Content-MD5": "5nMON2m0Mf+IGmjrzwQ9Jw==",
+        "x-oss-server-time": "28"
+      }
+    },
+    {
+      "url": "https://clusterdata-us.oss-us-west-1.aliyuncs.com/trace_201708.tgz",
+      "status": 200,
+      "final_url": "https://clusterdata-us.oss-us-west-1.aliyuncs.com/trace_201708.tgz",
+      "headers": {
+        "Server": "AliyunOSS",
+        "Date": "Sat, 10 Oct 2026 15:31:57 GMT",
+        "Content-Type": "application/gzip",
+        "Content-Length": "243323702",
+        "Connection": "close",
+        "x-oss-request-id": "6ACA5A6C4D8C623438B5F99C",
+        "Accept-Ranges": "bytes",
+        "ETag": "\"E6730E3769B431FF881A68EBCF043D27\"",
+        "Last-Modified": "Wed, 06 Sep 2017 05:23:17 GMT",
+        "x-oss-object-type": "Multipart",
+        "x-oss-hash-crc64ecma": "5396074915053743863",
+        "x-oss-storage-class": "Standard",
+        "Content-MD5": "5nMON2m0Mf+IGmjrzwQ9Jw==",
+        "x-oss-server-time": "31"
+      }
+    },
+    {
+      "url": "https://aliopentrace.oss-cn-beijing.aliyuncs.com/v2017Traces/trace_201708.tgz",
+      "error": "<HTTPError 404: 'Not Found'>",
+      "status": 404
+    }
+  ]
+}

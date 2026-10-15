@@ -1,0 +1,16 @@
+{
+  "method": "MFC-DI-A",
+  "seed": 2,
+  "python": "3.13.5",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "finite_buffer_protocol": true,
+  "latency_is_uncapped": true,
+  "checkpoint_rule": "final_requested_training_budget_no_test_early_stopping",
+  "test_split_id": "KAIST_poisson_bursty_test_s10002_9cfe00abea12c8fe",
+  "test_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+  "evaluation_split_role": "test",
+  "evaluation_split_id": "KAIST_poisson_bursty_test_s10002_9cfe00abea12c8fe",
+  "evaluation_schedule_sha256": "6c1dd78daa84353ecd0c4679fd5c50496c59e3fbe592b6aecadfd28ae92d6756",
+  "config_sha256": "d884b3ec316560384c45f666c3634f08eb941b51f642909bf31e3f49cdb37395",
+  "checkpoint_sha256": "c3c4065f7f212515c6e28fc3e85bc5c89cab3484cabf70ea94102caa7bd92308"
+}

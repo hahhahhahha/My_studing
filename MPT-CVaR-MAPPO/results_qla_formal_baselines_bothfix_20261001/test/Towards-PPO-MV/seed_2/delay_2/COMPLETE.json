@@ -1,0 +1,10 @@
+{
+  "method": "Towards-PPO-MV",
+  "seed": 2,
+  "age": 2,
+  "role": "test",
+  "elapsed_s": 5.80307140000059,
+  "output": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\test\\Towards-PPO-MV\\seed_2\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty",
+  "source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+  "checkpoint_sha256": "1286a8c3b6006260efddaa4ea401de8bf1a8997db110edf9e49da74b1f4271eb"
+}

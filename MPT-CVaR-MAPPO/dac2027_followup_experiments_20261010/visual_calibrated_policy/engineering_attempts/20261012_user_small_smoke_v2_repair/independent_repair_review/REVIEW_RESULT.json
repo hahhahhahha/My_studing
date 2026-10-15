@@ -1,0 +1,160 @@
+{
+  "schema": "independent-small-smoke-v2-repair-source-review-v1",
+  "status": "FAIL",
+  "review_type": "Type-A",
+  "scope": "One bounded current changed-scope source review: original B1/B2 repair, small visual/reward preservation and authorized GPU1800 resource identity. Not a full integrated-entry review.",
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "reviewer_task": "/root/user_small_smoke_v2_integrity",
+  "requested_model": "gpt-6-astra",
+  "requested_reasoning_effort": "xhigh",
+  "model_routing_note": "Requested configuration; provider-side routing telemetry was not independently inspected.",
+  "complete_report": true,
+  "report_path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\independent_repair_review\\REVIEW_RESPONSE.md",
+  "visual_small_source_verdict": "WARN",
+  "reward_small_source_verdict": "FAIL",
+  "resource_threshold_source_verdict": "PASS",
+  "actual_runtime_readiness": "UNVERIFIED_NOT_EXECUTED",
+  "blockers": [
+    {
+      "id": "B3",
+      "priority": 1,
+      "title": "Actual reward execution process is not bound to the declared isolated interpreter and package versions",
+      "detail": "reward_smoke_small.run launches private workers using caller sys.executable. source_guard checks only spec identity/1800, and worker's witness validates a separate isolated subprocess. runpy then imports/trains in the original caller-derived worker without checking its own interpreter/Python/NumPy/Torch versions. Thus a different caller environment can satisfy source/plan/parent/argument checks and a successful isolated witness yet reach model imports with different packages. Preparation also uses unchecked caller NumPy. This is a static counterexample, not an actual launch.",
+      "evidence": [
+        "D/reward_smoke_small.py:132-152",
+        "D/reward_smoke_small.py:156-179",
+        "D/reward_input_integrity.py:110-112",
+        "D/reward_input_integrity.py:155-164",
+        "S/qla_environment.py:91-107",
+        "P/joint_reward_ablation_worker.py:38-47",
+        "E/mappo_gp_sf_dsr/train.py:1696-1703"
+      ],
+      "required_disposition": "Repair only the additive actual-process identity/version checks before model-bearing imports and enforce the preparation environment; preserve frozen scientific/numerical criteria and old evidence. New review is required for changed sources. Do not launch using this FAIL report.",
+      "actual_counterexample_executed": false,
+      "author_source_repaired_by_reviewer": false
+    }
+  ],
+  "findings": [
+    {
+      "id": "B1_REEVALUATION",
+      "status": "PASS",
+      "classification": "SOURCE_ONLY_RESOLVED_WITH_POINT_IN_TIME_LIMITS",
+      "detail": "Pinned baseline hash matches; exact original consumed sorted-first30 KAIST map, membership and bytes match. Fresh-only local schedule root uses original frozen canonical generator with train1/32, validation10001/8, users30/edges35, guard10 and unchanged distribution/RNG. Registry file set/bytes and per-role content SHA are bound into the plan; guards run before arms and completion; actual output hashes must equal registration. Old shared root argument is replaced after an exact old-value check. No real schedule was generated or validated as an execution artifact. B3 still blocks enforced environment identity.",
+      "evidence": ["D/reward_input_integrity.py:54-75", "D/reward_input_integrity.py:144-182", "D/reward_smoke_small.py:26-46", "D/reward_smoke_small.py:68-82", "D/reward_smoke_small.py:120-124", "E/mappo_gp_sf_dsr/canonical_protocol.py:46-60,120-188", "E/mappo_gp_sf_dsr/train.py:1105-1113,1325-1348"]
+    },
+    {
+      "id": "B2_REEVALUATION",
+      "status": "PASS",
+      "classification": "SOURCE_ONLY_RESOLVED_WITH_TOCTOU_LIMITS",
+      "detail": "Exact 115-file closure equals original independent map and current tree; both package digests, all helper/runner/intervention/test bytes, immutable bindings/design and 25 checkpoint/config references match. Full guards precede runner/command-builder loading and private-worker runpy, repeat on boundaries/completion, and private workers require exact plan/path/SHA/recorded parent/arguments. No source project module or worker was imported/executed by reviewer.",
+      "evidence": ["D/reward_input_integrity.py:65-113", "D/reward_input_integrity.py:133-141", "D/reward_smoke_small.py:60-82", "D/reward_smoke_small.py:132-153", "D/reward_smoke_small.py:170-193"]
+    },
+    {
+      "id": "VISUAL_DELTA",
+      "status": "WARN",
+      "detail": "V1->V2 changes only source_lock additive helper/baseline inclusion and require_review at run/worker entry. SMOKE_SETTINGS is AST-identical: 8 decisions, 30 users, 4 servers, 50ms, full30s drain, unchanged methods/RNG/reward/critic/GAE/optimizer/checkpoint/numerical rules. Detailed retained runtime/evidence limitations remain.",
+      "changed_functions": ["source_lock", "worker", "run"]
+    },
+    {
+      "id": "REWARD_SCIENCE_AND_KEYS",
+      "status": "WARN",
+      "detail": "Original Full versus NoJointDemandReward intervention, seed1/delay8, 30users/35servers, 32train/8validation, critic mask/bootstrap/final nonempty-buffer update retained. 960 samples are below rollout1024, so final flush is the genuine update path. Producer/consumer config/checkpoint/role/evaluation_slots/reward-row/schedule keys match. Bounded reward, PRIMARY finiteness, mass1e-6 and drain/unfinished acceptance unchanged. Limited numerical/checkpoint coverage is not upgraded to visual roundtrip coverage."
+    },
+    {
+      "id": "RESOURCE_AUTHORITY",
+      "status": "PASS",
+      "classification": "THRESHOLD_AND_PROVENANCE_SOURCE_ONLY",
+      "detail": "Human authority records strict <1800 occupied MiB. Source/spec diffs are only declared revision identity and 500->1800 threshold. Original BEFORE bytes match. AST predicate fixtures accept1799, reject1800, unknown/missing/wrong-device. Seeded kernel and versions remain before model allocation on the declared witness path. Actual reward-process enforcement is separately FAIL B3. No live GPU/resource measurement performed."
+    },
+    {
+      "id": "ONE_SHOT_REVIEW_AND_BOUNDARIES",
+      "status": "PASS",
+      "classification": "SOURCE_WORKFLOW_ONLY",
+      "detail": "Exclusive canonical-identity locks, exact new outputs, no retry/append/partial merge and separate process per arm retained. require_review now consumes Type-A PASS/WARN with empty blockers, exact9 source map and MD existence; reward plan binds review hashes. Current FAIL closes both launchers. No old approval, old formal completion, Type-B or integrated-entry adoption is inherited."
+    }
+  ],
+  "warnings": [
+    {"id":"W1","title":"Runtime and numerical outcome unverified","detail":"No actual smoke/GPU/model/optimizer/checkpoint execution; source and mock fixtures are not runtime evidence."},
+    {"id":"W2","title":"Unchanged post-step QLA finiteness check","detail":"Historical QLA optimizer can step before visual wrapper rejects nonfinite returned stats; PPO checks loss/gradient before step. Not silently repaired."},
+    {"id":"W3","title":"Early failures and point-in-time resources","detail":"Pre-try plan/guard/lock/mkdir failures and abrupt crashes need not produce complete local failure snapshots. GPU witness is not reservation. V2 reward now witnesses per arm but separate-process witness does not resolve B3."},
+    {"id":"W4","title":"Old plans retain old scope","detail":"Old16-decision/72-32 plans/reviews remain preserved, not relabeled as current source or runtime approval."},
+    {"id":"W5","title":"Parent evidence audit remains narrower","detail":"Visual parent relies on fixed-source workers for detailed assertions and does not rehash every checkpoint/NPZ. Protected232 map is not universal preservation. ParentPID/locks are workflow controls, not cryptographic liveness/filesystem attestation."},
+    {"id":"W6","title":"TOCTOU and installed-package limits","detail":"Hash/read/load are separate, allowing transient concurrent mutation; filesystem aliases/inodes and installed package/driver bytes are not fully attested. Stable drift is checked. Actual-process identity missing in B3 is a concrete additional gap."},
+    {"id":"W7","title":"Reward acceptance is not weight roundtrip","detail":"Reward validator hashes checkpoint but does not compare pre/post weights, reload outputs, or validate updates.csv finite losses/gradients. Mass error NaN is not independently rejected by abs(value)>1e-6. Four PRIMARY metrics are explicitly finite. Reliability/q/H evidence still needs actual audit."},
+    {"id":"W8","title":"New review prerequisite now enforced but limited","detail":"Prior documentary-only gap is improved with require_review at actual entries. Reward binds report hashes in plan; visual reads current review at run/worker entry. This is not certification authenticity or permanent lifetime review attestation; current FAIL must be honored."},
+    {"id":"W9","title":"Small functional coverage only","detail":"Visual240samples/0.4s generation/30.4s horizon and reward960samples/8validation do not prove performance/tail/convergence/H-active/full feedback-window coverage or integrated/formal readiness."},
+    {"id":"W10","title":"Inherited check parses old visual entry","detail":"Future visual check still parses original visual entry and loader. Independent review parsed current wrapper, but source_entry_check_passed is not an independent full entry audit."}
+  ],
+  "hash_verification": {
+    "frozen_baseline_sha256": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "immutable_baseline_entries": {"count":12,"mismatches":[]},
+    "reward_execution_closure": {"count":115,"equals_original_review_map":true,"membership_mismatches":[],"byte_mismatches":[]},
+    "consumed_KAIST": {"count":30,"equals_original_review_map":true,"sorted_first30_membership_mismatches":[],"byte_mismatches":[]},
+    "package_digests": {"mappo_gp_sf_dsr":"028c265e80d6b2f868a3e62179bb0cfd93c4ee78c581d76e6ef9bfca2872c4d9","repro_risk_averse_edge":"b7df6ba8f49f72711bb9d3879c1fcde3fffb4d785a1d81678ed4a61a8c1a2fe5","both_equal_design":true,"ordering":"Exact Python sorted(Path.glob('*.py'))"},
+    "historical_Full_references": {"count":25,"checkpoint_config_hash_checks":50,"mismatches":[]},
+    "original_visual_small_source_map": {"count":207,"current_differences":["F/scripts/qla_environment.py"],"other206_unchanged":true},
+    "visual_protected_map": {"count":232,"mismatches":[]},
+    "original_primary_map": {"count":50,"current_differences":["F/scripts/qla_environment.py","F/protocol/QLA_ENVIRONMENT_SPEC.json","F/protocol/VISUAL_INTEGRATION_STATE.json"],"mutable_state_not_claimed_unchanged":true},
+    "old_resource_before_bytes_match": true,
+    "new_resource_byte_bindings_match": true,
+    "V2_binding_two_files_match": true,
+    "old_review_JSON_sha256": "287499c7d1d61b189dc871349c389742dd2c2c78938bb731218feb41cf7cf6fb",
+    "old_review_MD_sha256": "91bdbafd5118b6faa50eb7d7b2cfc52a9e1cbcc93bf984c3d1de46debd814549",
+    "old_delivery_completion_sha256": "6cd4c9885dcdda918129bdcb81602483d365c7abfff2b98d1568468c7d3e1986",
+    "user_resource_authority_sha256": "93ef16ed5854e5351d813e6047737c6022d9851df4e3949483dee22471e7b2be",
+    "resource_README_sha256_at_review": "961b07b3db5c293a17ca27a9a4f077c413f58ee97960eaf540f33f55515694c2",
+    "schedule_root_registry_and_reward_plan_present_at_inventory": false,
+    "hash_only_coverage_is_not_all_file_semantic_certification": true
+  },
+  "independent_fixtures": {
+    "status":"PASS_NON_NEURAL_IN_MEMORY_ONLY",
+    "AST_parse_unique_files":209,
+    "raw_unchanged":"accept",
+    "raw_modified":"reject",
+    "raw_earlier_member":"reject",
+    "raw_missing":"reject",
+    "raw_extra_after_first30":"accept_unconsumed_not_a_contract_violation",
+    "schedule_exact":"accept",
+    "schedule_orphan":"reject",
+    "schedule_extra":"reject",
+    "schedule_modified":"reject",
+    "schedule_all_missing":"reject",
+    "review_matching_warn":"accept_mock_only_not_actual_verdict",
+    "review_fail":"reject",
+    "review_with_blocker":"reject",
+    "review_wrong_hash":"reject",
+    "review_missing_md":"reject",
+    "load_frozen_rejects_before_import":true,
+    "resource_1799":true,
+    "resource_1800":false,
+    "resource_unknown":false,
+    "resource_wrong_device":false,
+    "resource_missing_fields":false,
+    "visual_settings_AST_identical":true,
+    "harness_corrections":"Discarded non-equivalent PowerShell package digest ordering; exact Python sorted-Path hashing matched both design digests. Initial BOM AST read corrected to utf-8-sig. Neither issue was an experiment failure.",
+    "real_raw_or_schedule_mutations":0,
+    "actual_schedule_generations":0
+  },
+  "reviewed_sources_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\USER_REQUEST.json": "39fec5ad199f6de855ba3312b518d005512bace9ac1d6ae96fda901a65b862a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\FROZEN_BASELINE.json": "742d529b7f02301734a24f70de42e540a4b4ad5080870179762846174cf1387d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\reward_input_integrity.py": "fd4e73001d24a6406ac70520ea7f311edf9c8a986bbc580842fbbe443e875ef9",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\reward_smoke_small.py": "c7dae50ea53ec36f4045ea35f56591a2789f14557c8b69d711ea4879f402a444",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\visual_model_smoke_small.py": "f2b32631add46e4cdbd692f39a4791585cf4acddaf6c73085e1bc55b13db97bb",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261012_user_small_smoke_v2_repair\\README_SMALL_SMOKE_中文.md": "c2e6e8161c9314dcacebde3bf67b2e1bedb42a01a1a6eecf211e181d00bef77e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\qla_environment.py": "e389c1534e2c9b3c145a40621cb4bc581b17a5ee4fe88aa12bda9d878a6af8d6",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\windows_runtime.py": "279e70e8b78ea62b397da75b20177adeb36849073d17541f6e4bd8b4d43b07a0",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\protocol\\QLA_ENVIRONMENT_SPEC.json": "bd5442151a52e6e2fc9ab1033d3d9104ad744c6308d7d84bb1289475bd0dacb3"
+  },
+  "reviewer_calls": {"check":0,"prepare":0,"run":0,"private_worker":0,"project_entry_imports":0,"numpy_imports":0,"Torch_imports":0,"GPU_probes":0,"model_calls":0,"optimizer_calls":0,"checkpoint_loads":0,"schedule_generations":0,"extra_reviewers":0,"formal_calls":0},
+  "reviewer_mutations": {"author_sources":0,"raw_files":0,"old_artifacts":0,"old_plans_design_bindings":0,"environment_or_packages":0,"automations":0,"only_new_independent_MD_and_JSON_written":true},
+  "quota_interrupted": false,
+  "runtime_authorized": false,
+  "actual_smoke_pass": false,
+  "numerical_success_claimed": false,
+  "full_integrated_entry_certified": false,
+  "pilot_or_formal_launch_authorized": false,
+  "Type_B_certification": false,
+  "decision": "Do not execute either current launcher using this FAIL review. Original B1/B2 source repairs are recognized, but B3 requires a separate additive correction and fresh changed-source review. Actual smoke evidence, independent adoption and downstream integrated/pilot/formal authority remain outstanding."
+}

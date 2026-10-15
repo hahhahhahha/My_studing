@@ -1,0 +1,10 @@
+{
+  "skill": "experiment-audit",
+  "purpose": "dataset-preparation verification",
+  "agent_id": "/root/alibaba2017_schema_integrity",
+  "independence": "fresh reviewer; conclusions derived directly from primary artifacts",
+  "model_family_independence": "not verified; no claim of GPT-5.5 or cross-family execution",
+  "project_dir": "X:/Yi-one/workspace/MPT-CVaR-MAPPO",
+  "trace_location_override": "explicit parent scope restricts writes to schema_review; no outside .aris writes",
+  "policy_evaluation_performed": false
+}

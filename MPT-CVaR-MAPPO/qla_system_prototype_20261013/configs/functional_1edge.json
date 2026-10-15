@@ -1,0 +1,19 @@
+{
+  "schema":"systemlab-local-v1", "seed":1, "users":2, "bind_host":"127.0.0.1",
+  "weight_path":"X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac_visual_calibration_20261009/models/resnet18-f37072fd.pth",
+  "weight_sha256":"f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "control_token":"systemlab-functional-test", "warmup":2, "waiting_capacity":2,
+  "max_jpeg_bytes":12582912, "server_response_timeout_s":10, "client_timeout_s":12,
+  "feedback_start_timeout_s":5, "startup_timeout_s":120, "fixed_drain_s":1,
+  "max_inflight":8, "decision_period_s":0.05, "score_temperature_s":0.05,
+  "controller_url":"http://127.0.0.1:8310",
+  "edges":[{"id":"edge0","port":8311,"url":"http://127.0.0.1:8311","torch_threads":1,"initial_service_s":0.031}],
+  "feature_scales":{"fitted_role":"calibration","status":"functional_fixture_only",
+    "request_scale":7.0,"mean_payload_bytes":200000.0,"reference_service_s":0.031,
+    "queue_reference_s":1.0,"latency_scale_s":1.0,"age_scale_s":0.5,"transfer_seconds_per_server":[0.001]},
+  "feedback":{"mode":"periodic","monitor_period_s":0.05,"period_s":0.1,
+    "budget_bytes_per_s":65536,"burst_bytes":65536,"udp_host":"127.0.0.1",
+    "client_bind_host":"127.0.0.1","udp_port":9310,"health_port":8310,
+    "injected_delay_s":0.0,"injected_loss":0.0,"age_reference_s":0.5,
+    "trigger_threshold":0.05,"alpha":1.0,"beta":0.5,"gamma":0.5}
+}

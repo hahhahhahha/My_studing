@@ -1,0 +1,18 @@
+{
+  "rows": 13200,
+  "scope": "confirmation and reference only",
+  "runtime_paths": [
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\mkl\\_mklinit.cp313-win_amd64.pyd",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\mkl\\_py_mkl_service.cp313-win_amd64.pyd",
+    "X:\\anaconda\\ANACONDA\\Library\\bin\\mkl_core.2.dll",
+    "X:\\anaconda\\ANACONDA\\Library\\bin\\mkl_def.2.dll",
+    "X:\\anaconda\\ANACONDA\\Library\\bin\\mkl_intel_thread.2.dll",
+    "X:\\anaconda\\ANACONDA\\Library\\bin\\mkl_rt.2.dll",
+    "X:\\anaconda\\ANACONDA\\Library\\bin\\mkl_vml_def.2.dll"
+  ],
+  "output_sha256": {
+    "analysis\\v2_service_requests.csv": "346da2405e0df52a05d0e3c211a5940aee6f5d1e8409359ba92ee9b7c460a79e",
+    "figures\\fig_visual_service_v2.png": "552f3c87fbc8a7ce05740f2add0acbda78ae3f0b00f3e57c7b99341dad04cecf",
+    "figures\\fig_visual_service_v2.pdf": "5511312f4a397e2e93eaacc731f62637b54ddf048322e630b1c04591cd1ee093"
+  }
+}

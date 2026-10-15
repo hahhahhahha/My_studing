@@ -1,0 +1,137 @@
+{
+  "at": "2026-10-11T08:45:24.067570+08:00",
+  "passed": true,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch_imported": false
+  },
+  "historical_recurrence_check": {
+    "source_sha256": {
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\models.py": "770d4791b4a1ddc86e89469d49dc1aeb84f69493b5c43b8b327509bc8a528b85",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\config.py": "ecb80a3c7455b2ce72cefbce72336ea02d67dcf17250adce87507bb32a62fbfd",
+      "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_training_repair_pilot_20260930\\source_snapshot\\mappo_gp_sf_dsr\\paper_policy_baselines.py": "08481b36d74964f8118f341f0d665ddec13ba986993c0d45ab5b5e4311fa25e4"
+    },
+    "isolated_original_reward_class_executed": true,
+    "original_module_or_model_imported": false,
+    "synthetic_scalar_calls": 55,
+    "per_call_reward_and_state_match": true,
+    "source_class_only_not_performance_GT": true
+  },
+  "cases": [
+    {
+      "case": "score_softmax",
+      "task_outcomes_accounted_once": 102,
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "mean_variance_scalar_updates": 2400,
+      "empty_or_zero_input_user_calls": 2310,
+      "historical_formula_reward_match": true,
+      "method_range_guards_passed": true,
+      "synthetic_behavior_buffer_GAE_shape": [
+        80,
+        30
+      ],
+      "actual_neural_behavior_or_update": false
+    },
+    {
+      "case": "score_softmax_repeat",
+      "task_outcomes_accounted_once": 102,
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "mean_variance_scalar_updates": 2400,
+      "empty_or_zero_input_user_calls": 2310,
+      "historical_formula_reward_match": true,
+      "method_range_guards_passed": true,
+      "synthetic_behavior_buffer_GAE_shape": [
+        80,
+        30
+      ],
+      "actual_neural_behavior_or_update": false
+    },
+    {
+      "case": "jseq_adapted",
+      "task_outcomes_accounted_once": 102,
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "mean_variance_scalar_updates": 2400,
+      "empty_or_zero_input_user_calls": 2305,
+      "historical_formula_reward_match": true,
+      "method_range_guards_passed": true,
+      "synthetic_behavior_buffer_GAE_shape": [
+        80,
+        30
+      ],
+      "actual_neural_behavior_or_update": false
+    },
+    {
+      "case": "zero_waiting_buffer_drop_fixture",
+      "task_outcomes_accounted_once": 102,
+      "completed": 66,
+      "dropped": 36,
+      "unfinished": 0,
+      "mean_variance_scalar_updates": 2400,
+      "empty_or_zero_input_user_calls": 2309,
+      "historical_formula_reward_match": true,
+      "method_range_guards_passed": true,
+      "synthetic_behavior_buffer_GAE_shape": [
+        80,
+        30
+      ],
+      "actual_neural_behavior_or_update": false
+    },
+    {
+      "case": "short_fixed_drain_unfinished_fixture",
+      "task_outcomes_accounted_once": 102,
+      "completed": 73,
+      "dropped": 0,
+      "unfinished": 29,
+      "mean_variance_scalar_updates": 2400,
+      "empty_or_zero_input_user_calls": 2309,
+      "historical_formula_reward_match": true,
+      "method_range_guards_passed": true,
+      "synthetic_behavior_buffer_GAE_shape": [
+        80,
+        30
+      ],
+      "actual_neural_behavior_or_update": false
+    }
+  ],
+  "read_only_inputs_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\RESULT.json": "0d8b37f4157b90a1d133f0f5e10f90028a19bc1da4e845f937569aed38066c08",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\SHARED_ENGINEERING_SCHEDULE.json": "19d10b656932f2c7ee51f077df978a55273e3f38589d9ae76220ccd0c172ca25",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_repeat_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\jseq_adapted_ENGINEERING_TRACE.json": "e068d47c4b4bab27fcf0c13b7ccbb2e14460bc5e852a6db42c407f25d35e440e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\zero_waiting_buffer_drop_fixture_ENGINEERING_TRACE.json": "446761bbb6407c926faa110f3deb17e0b9011181fff73695b0ffc47c333a049c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\short_fixed_drain_unfinished_fixture_ENGINEERING_TRACE.json": "574421b0b215a9d209d204ef3db93cb960c12ef01b917613e5003fec36078719",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_074310_240972_terminal_gae\\RESULT.json": "f6b3dd387609fa8252d18a9ca9b589da2c2a3ddd9ca8502b550d58867012efe5"
+  },
+  "implementation_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_mv_reward.py": "f0323af9dc856a907ae8bba535e44eb888df66d97e3b275279441041efa13bcd",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_MV_REWARD_中文.md": "89ef48e61d4a46c0de54649612a3fee1f912e9208d3f0009101eb8f00d3c5701",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_mean_variance_reward.py": "ebf61e702110bfb868f2abc961d39eafb2e592d23c60ebf2c9bbc6045bd5bbc7",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_learning_buffer.py": "1192e72c2e7c77986108f3c7c623082b531e7f85bc41e405944630b82dbc259c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_neural_controller.py": "9a5bae58b66665e58cde564aa231587b92963cea41bbc2f1937b223aa6f3ea5e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_terminal_accounting.py": "b4eed88c53966f1b2f887a6e02f3a508093a9e90716834f799907eea43fefc03",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_temporal_gae.py": "53aaf0a77eb55437fef3e408e09c4ff4df7bba7e4ab0acf1daeb7f0208c4e46d"
+  },
+  "candidate_mu_seconds": 1.5,
+  "user_order": "ascending user ID, one shared historical statistic",
+  "past_receipt_input_and_terminal_merge_is_disclosed_visual_adaptation": true,
+  "PPO_MV_reward_buffer_adapter_connected_in_engineering": true,
+  "behavior_buffer_uses_own_artificial_actions_not_source_rule_portfolios": true,
+  "preserved_artificial_log_zero_failure": "visual_calibrated_policy/engineering_attempts/20261011_084211_175874_mv_reward",
+  "actual_model_controller_constructed": false,
+  "actual_actor_or_critic_forward": false,
+  "actual_optimizer_update": false,
+  "full_neural_collector_connected": false,
+  "formal_protocol_frozen": false,
+  "independent_complete_entry_review": false,
+  "policy_training_cells": 0,
+  "formal_policy_test_cells": 0,
+  "scope": "Isolated historical reward arithmetic and existing engineering-receipt adaptation plus explicit synthetic behavior-buffer checks only; no neural policy, performance, formal experiment or independent audit"
+}

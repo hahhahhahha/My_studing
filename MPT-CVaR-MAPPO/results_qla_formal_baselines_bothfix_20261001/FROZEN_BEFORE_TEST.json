@@ -1,0 +1,760 @@
+{
+  "frozen_at": "2026-10-01T15:00:27.209905",
+  "code_lock": {
+    "package_source_sha256": "e09d61759e3d4f90a03342aa293c6dce39e3e24f3efc4a42ac6579f45f1b23f2",
+    "runner_sha256": "3c8bc508f1bc7ab847139194dccf3ea78040c9282cb100e49eb42b2ffd3031d9",
+    "tests_sha256": "78069915991789b9de8d2279a75a45c69d91f74e1d1f17b7f94da782da43ccb8"
+  },
+  "checkpoints": [
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_0\\Towards-PPO-MV_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "3e29eb2fdb237cd96de74203f63e5e8aa1bfee1e69d21477e8855e66070e274f",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_1\\Towards-PPO-MV_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "b4cf3d901ce19bc2ab1697f89c0fe8278077bda0328eb72e430a888fe8596b86",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "8ca28495db9b585e6dc9ead586e076b1959ab674bca450b4bd000f1b1545c69d",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "324c62c4696287ff493305dddad7c6da2082e74319d6fc429112b75d253e1c7d",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 1,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_1\\delay_8\\Towards-PPO-MV_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "6e11b2a06b113e9ee78d41a6285cc5b7764b861345bc84e182ac19348ac30de6",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_0\\Towards-PPO-MV_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "521a168df26c53f87bf37a88d9c43dac6a41ba0e9c9cdd4e587cd12a628bf8e6",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_1\\Towards-PPO-MV_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "7a0ce1ad978f8f2fc8b9eb4811010f38180469331ab30c19c05f3118c941f7de",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "1286a8c3b6006260efddaa4ea401de8bf1a8997db110edf9e49da74b1f4271eb",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "a88a2582cd0fdf8b65529ee513ac0e3ba73d613c5a7d63ac4881c1eaeab0ee3f",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 2,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_2\\delay_8\\Towards-PPO-MV_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "aa608f0ff0114968db7b446c0158e274d930d6ee12e06e266e32d5692848fc94",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_0\\Towards-PPO-MV_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "8619d6ab47f18bd438d2afe397973887bc4e99146b65697114f5e7d8f0bb86b9",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_1\\Towards-PPO-MV_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "84f902c8161c61b0e95d389360dfead95770c2dd04ff37bca3cc269c158a6ffa",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "3a6ae70733a612ea8548d01783665e446ab60f448859039417676c3a1acf82ff",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "5282405409f7ddc17ce8d7dea43a26616caf02d7cdf58c2764e865394b34626c",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 3,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_3\\delay_8\\Towards-PPO-MV_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "89533ca9ad1f2246874e53284c0ed4bc5d73e7f9af7d50b5d7382dc4eba9db92",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_0\\Towards-PPO-MV_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "c236128f9a165f075bf7ea7cd659a9d71bd2daba4254e4a5f68bfb10906f62e6",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_1\\Towards-PPO-MV_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "f25e84e2976c987cc9e0603d23e994218fce552bb1e8e2f1032ccc87cdbf1c34",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "6f9fea2348dc2f0868b9c47e5112fd18bc0d48ec96d4f0362031169eb32ee774",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "869f0d7bdbdf6b2d562e8881803abccf0066f81da7ec8e128e2612056b0bd620",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 4,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_4\\delay_8\\Towards-PPO-MV_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "867d442ba462215adae901cd6870bcb30ec40db10bcbc596a593c8fe60c5bf34",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_0\\Towards-PPO-MV_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "6213292d4b1ecff3197216a6c0efb8463ba11cb9434f7f83a3f93d45ce08ace5",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_1\\Towards-PPO-MV_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "3e90d75422d6a1e01a6713e83f5265d6e7eb8640a31513be658b862dac58939e",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_2\\Towards-PPO-MV_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "34097f1cf8f7d2df86aaca947714cbda0ac1a0e140eb774341537eff43d88aed",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_4\\Towards-PPO-MV_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "5ec3a823f80090e720df8fa626f59ef9d848605808fd26b3e49bb3317876a886",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-MV",
+      "seed": 5,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-MV\\seed_5\\delay_8\\Towards-PPO-MV_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-MV.pt",
+      "checkpoint_sha256": "83166f9b756250d5609c7bded090a71677a4b0d341cc314b59e0e53273e2c265",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_0\\Towards-PPO-DSR_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "75630583695a2ee24bb621f71dabccb52ce3f11784b572af93c1ecca83596ab3",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_1\\Towards-PPO-DSR_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "6f539bbfa83d6ffe9e9954a372bc5186f6292c22f69910ba7e5c34b26254f799",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "9835e69e7cc76974124f3d2c0d0b7a6ecfeacc9f6a90d3b84ece58d1a9b41445",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_4\\Towards-PPO-DSR_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "838ff28da8b0ac0e6eedee3a7a3a6963e0236cce5cdb361d556a4a60a8fbb569",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 1,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_1\\delay_8\\Towards-PPO-DSR_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "fa0c62de15d50b0452949f496bd1980213c89f295a906de1325e2c414cedc292",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_0\\Towards-PPO-DSR_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "04d4b5a3c92bef7c90b5595e7e3dc8f6bdc47a6234c4563453d87117236ffe02",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_1\\Towards-PPO-DSR_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "5363e784c88336c64aad19c42d32dee57f4382de519be2c516882723de1af103",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "ed279434ac0088a876f7f3e31c4e25a34841372046ddd14fcf3c75c3b30da9bb",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_4\\Towards-PPO-DSR_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "e822a7796108bb72422c1134476b587d3197ff7b81c0efc1fd77c1c98271e000",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 2,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_2\\delay_8\\Towards-PPO-DSR_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "d5db873588ec2ff411cd8e10d47a5df28ef8381f4e7bb82d5fb501c530ae29b2",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_0\\Towards-PPO-DSR_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "071ce1d7e055fa852499f7cf816104fc80dd3142936cc3bf58f975f48a7bebba",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_1\\Towards-PPO-DSR_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "67a54128bef6c59855503bfa0afd35fca2105cc5f13250b4abf0f4fc3ac9b112",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "3419e68706dc2b21454cbdee19510b71d98305d27b6e7cb26a9691a965646dd2",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_4\\Towards-PPO-DSR_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "3bc6a30d5100de7ca2af1c4b403bb2ac284f553a299497f2341d27cbce2efa78",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 3,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_3\\delay_8\\Towards-PPO-DSR_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "65eda8c0d5a7fffe42c781adbc40cdfdc2a09eb517c85544019e6e12262ca2bf",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_0\\Towards-PPO-DSR_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "749eb0087c8ebfe9f7a5349fdd5f1f263a0554c3df1495fe4264ce5825848708",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_1\\Towards-PPO-DSR_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "5588ceb66005608d1ad10d56f7a4a724bd621db61f6b87bbe518ca2c2d368270",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "e7ed670ff4c5ad548018081856ad4ce346aa63cefcfe35304115ce98e74ecb9c",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_4\\Towards-PPO-DSR_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "06ff65200ab6a9671dd197504c248b950910d28086efd9300e2d094428b32ebb",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 4,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_4\\delay_8\\Towards-PPO-DSR_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "3c5ae8b9adb5a264a1e56326380f806599138090d25448c0895fcda64377ac47",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_0\\Towards-PPO-DSR_delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "4d0548296b0c7fc210b3d02d2b67f04337223eb6d9246bd856b4230c3d83c37e",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_1\\Towards-PPO-DSR_delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "f41f29061b450277482851da2b8f226b7d73831242bd81be3463d0d803891cab",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_2\\Towards-PPO-DSR_delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "2670027fd6b9c7fefb77add82ffa32b04f6f27af5533a62657b10ee5750e9185",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_4\\Towards-PPO-DSR_delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "39825147f6f738eee8a9ffce4c5a7538f45964f572f83166574790b4fe072fb4",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "Towards-PPO-DSR",
+      "seed": 5,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\Towards-PPO-DSR\\seed_5\\delay_8\\Towards-PPO-DSR_delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_Towards-PPO-DSR.pt",
+      "checkpoint_sha256": "a4b0434c218e6ab94787c97db42043b8dee24796f8ca3530c01140392eace412",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "b920a9d41e2d1688de41feb6d15c512961e9b968b26ba45bace0755f97ec2bd0",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "ed01642f8daf6a800293e9fd51a4fc6d809054fc2648d0ca5b6b07c03afa22b0",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "db8c472b1b3e3c45fab202478f920742ab7e2a2f5426a0f020eef4037bbe923b",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "f713ced037a1f8023763dee71cb4972e355738faab5e7182a1da77a87c3d8716",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 1,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_1\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "abc526daecbae12e972089bae39cd9a613954f9c7d31f94008fd5a27a060e4c9",
+      "train_schedule_sha256": "83a2670ebf21e9830a9a434c68d60a65106074d7aaa0a2dba6d679b104e2f340",
+      "validation_schedule_sha256": "737bd502c88c527192bd4e2518e6726c1f88ad16cc766a7cbed82f03e599df20"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "c3c4065f7f212515c6e28fc3e85bc5c89cab3484cabf70ea94102caa7bd92308",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "ef3cc1d88078b2cf8c578d827e75a3b7d127a10130211a9b0df6f57ba21c52e4",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "134171f5f187748b31459a3f1509527a8e0e4fca7a3ad14a021de3eda4f79900",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "99b8b60c6a70031ea420e4571c157334cdda09374aad43ae91d827b45d568f3b",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 2,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_2\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "eeae7c79a1c8bb1bf0fd82edbfea997b569215421c5511e8248ebc3418e73480",
+      "train_schedule_sha256": "7aeef99c8efb46c805526348a31bc6dbf5efcbe1a0a011944498857f42948406",
+      "validation_schedule_sha256": "f7e62f9d64abb9e3ac538ca13cf8c40512f98fdf8435eef0ff7de53b3597cf67"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "2106b40a4d5d31323e32aa28e2dead7a8a16fce3e8e8e7f52b19d6d68405723a",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "96843f0f42c223d066b810c5fbe42513e4ce5725ca74240b25fa17a66a25d292",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "a576592fcbc02aa46ebad57827b0a63e593e45c510d5d2c653101d996d548467",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "9afb09cce7868fb24f4ca1a73ef1c5437d1f64c4715d99135a038e7cc44f4ce1",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 3,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_3\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "6bcabc864ea40ca3d8717b53f254616358a4d9335742632769f2e0d2f236ac36",
+      "train_schedule_sha256": "0488f5b3721a07be8b924ac41f7412110250b53594f1bcef75942f6c2511c1ce",
+      "validation_schedule_sha256": "7431b84b676830ce0b47728454cc460b49ca73e9f09f3ca03a45acf5e2280c9d"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "8af327b9d1bcaca89c374a81665a67c07c096b6f9864b0035ec9d6f200a1a24a",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "2d798317d603b5fd1adfa0fc4541e3a7567bcfc21ca5a34310485889cbedce88",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "63a8a57983d67643aae69bf637980d9a8927b208e9982251cde8c23c2618f094",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "6b858fd08a6d2cfe9af753a3e266bb42aea0fd07d9266624a31e7b65e65ad9de",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 4,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_4\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "4aa268e80d4ac19b4994711624ecb547017a2b77701ff92212f0531b356b9b05",
+      "train_schedule_sha256": "1c17a7e8bb814a05e6a5e982efb804a9da9e471281727b37f1f599e41bcc283b",
+      "validation_schedule_sha256": "5538ecfda3df922f2aabbc761028c495baf5bacc41843ccca179e37f1691bc08"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 0,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_0",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_0\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "b52d21937466fcede4daaacc12ca329404be7a07feaa48d8685f9afe6ae61351",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 1,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_1",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_1\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "6cf3be26a703aff1497c97d91ad656da468d549d6edbf330bd457dba1b2f4c25",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 2,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_2",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_2\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "d78c9d2c6d89ddcf3da228dbd821b5d373f00737dee5e04a5405204a01242fec",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 4,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_4",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_4\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "b7644b8a89647c7432ffa1b1dc8192885f9e0e0e23b40ba663d969eb3e0e0193",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    },
+    {
+      "method": "MFC-DI-A",
+      "seed": 5,
+      "age": 8,
+      "validation": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_8",
+      "checkpoint": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\results_qla_formal_baselines_bothfix_20261001\\validation\\MFC-DI-A\\seed_5\\delay_8\\KAIST\\30u\\poisson_bursty\\checkpoint_MFC-DI-A.pt",
+      "checkpoint_sha256": "49bd5ee545017f6ba84648b33ea55fbff95794ff7c7c04baca2019b503e22d58",
+      "train_schedule_sha256": "90dcb8e854da2b2da801c5c5cd08d5d51dd53ea70c0fd62635d102b41f1674a5",
+      "validation_schedule_sha256": "0ce4620875ee2fed765f672946beba37e43d5ff222c2f7725b566445c939db34"
+    }
+  ]
+}

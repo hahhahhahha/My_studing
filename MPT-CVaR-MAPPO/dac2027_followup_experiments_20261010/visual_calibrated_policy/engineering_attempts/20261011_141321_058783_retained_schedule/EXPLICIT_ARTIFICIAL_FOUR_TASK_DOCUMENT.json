@@ -1,0 +1,51 @@
+{
+  "schema": "retained-common-requests-v1",
+  "payload": {
+    "role": "test",
+    "load_label": "EXPLICIT_ARTIFICIAL_LOW",
+    "users": 30,
+    "decision_seconds": 0.05,
+    "decisions": 3,
+    "seed": 1,
+    "total_requests_per_second": 2.0,
+    "burst_probability": 0.1,
+    "burst_multiplier": 2.0,
+    "retained_pool_identity_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "requests": [
+      {
+        "task_id": "ARTIFICIAL-0",
+        "user": 0,
+        "arrival_seconds": 0.0,
+        "image_id": "EXPLICIT-ARTIFICIAL-A",
+        "measured_session": 1,
+        "assignment_uniform": 0.0
+      },
+      {
+        "task_id": "ARTIFICIAL-1",
+        "user": 1,
+        "arrival_seconds": 0.05,
+        "image_id": "EXPLICIT-ARTIFICIAL-B",
+        "measured_session": 5,
+        "assignment_uniform": 0.2
+      },
+      {
+        "task_id": "ARTIFICIAL-2",
+        "user": 29,
+        "arrival_seconds": 0.05000000000000001,
+        "image_id": "EXPLICIT-ARTIFICIAL-A",
+        "measured_session": 2,
+        "assignment_uniform": 0.9
+      },
+      {
+        "task_id": "ARTIFICIAL-3",
+        "user": 0,
+        "arrival_seconds": 0.14999999999999997,
+        "image_id": "EXPLICIT-ARTIFICIAL-B",
+        "measured_session": 4,
+        "assignment_uniform": 0.99
+      }
+    ],
+    "arrival_rule": "per_user_interval_poisson_bursty_unconditional_total_rate_no_request_cap_v1"
+  },
+  "semantic_sha256": "d0e471fb1a06ce2f5930f1f2fc8d0e2275d9655f898840a374b06b61ed6a45cb"
+}

@@ -1,0 +1,57 @@
+{
+  "plan": {
+    "status": "engineering_diagnostic_rules_not_formal_protocol",
+    "users": 30,
+    "virtual_profiles": [
+      "CPU-1T",
+      "CPU-1T",
+      "CPU-4T",
+      "CPU-4T"
+    ],
+    "geometry_seed": 123,
+    "candidate_training_mobility_window_seconds": [
+      0.0,
+      500.0
+    ],
+    "decision_seconds": 0.05,
+    "decision_points": 10000,
+    "rho": [
+      0.6,
+      0.75,
+      0.85
+    ],
+    "load_model": "Uniform per-user unconditional rate; JPEG/position independence",
+    "capacity_source": "Calibration mean only; validation JPEG payloads diagnostic only",
+    "default_network_unchanged": {
+      "bandwidth_hz": 2000000.0,
+      "noise_power_w": 1e-10,
+      "antenna_gain": 4.11,
+      "carrier_hz": 915000000.0,
+      "tx_power_w": 0.25,
+      "light_speed_m_s": 300000000.0,
+      "min_distance_m": 1.0
+    },
+    "upload_headroom_diagnostic_target": 0.8,
+    "training_budget_candidate": {
+      "total_decisions": 10000,
+      "episodes": 10,
+      "decisions_per_episode": 1000,
+      "generation_seconds_per_episode": 50.0,
+      "fixed_drain_seconds_per_episode": 30.0,
+      "updates_after_complete_episodes_only": true,
+      "gamma_per_second": 0.99,
+      "lambda_per_second": 0.95,
+      "MV_reset_rule_not_frozen_or_changed": true
+    },
+    "no_policy_performance_or_test_outcomes_for_parameter_selection": true,
+    "no_network_or_rho_modification_in_this_diagnostic": true
+  },
+  "source_sha256_before_analysis": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_feasibility_pilot.py": "3fdb8b93e87bb1eec35f153da41597c25fb68aab0523631496ea9591a427d152",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_FEASIBILITY_中文.md": "96c6b98696f96bb6d1acf70136b831cb2e9de4bfb9044e3de5c7dfffbdb04e36",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_upload_link.py": "4c3f5c41a5d7554cfc4bac8e759eb96b560efdf731dd3bb74d12209d76949534",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_method_features.py": "b74ed6336c6dc44c0041d1427f904a22b022cc4fd6a57dfc086b226aa58bd722",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\physical_mobility.py": "7b187f792cd3306a699a2116e692e388882f7955fe6f46a810b64b9d022a80ab",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\execution_service_catalog.py": "94f353ed9159e52ccc5a85e29fe6acdab8a73ccc45261f6cfd768d77357b9424"
+  }
+}

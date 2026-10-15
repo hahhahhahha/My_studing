@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-10T19:26:49.887286+08:00",
+  "cpu": {
+    "physical_cores": 8,
+    "logical_cores": 16,
+    "max_frequency_mhz": 3800.0,
+    "architecture": "",
+    "processor": "",
+    "current_frequency_mhz": 3800.0
+  },
+  "memory": {
+    "total_gb": 31.1,
+    "available_gb": 7.01,
+    "used_gb": 24.1,
+    "percent_used": 77.5,
+    "swap_total_gb": 44.0,
+    "swap_available_gb": 14.74
+  },
+  "nvidia_probe": [
+    {
+      "index": 0,
+      "name": "NVIDIA GeForce RTX 4060 Ti",
+      "memory_total_mb": 8188.0,
+      "memory_free_mb": 1838.0,
+      "driver_version": "591.86",
+      "compute_capability": "8.9",
+      "type": "NVIDIA",
+      "backend": "CUDA"
+    }
+  ],
+  "gpu_used": false,
+  "disk": {
+    "free_bytes": 213928505344,
+    "total_bytes": 511914799104
+  },
+  "strategy": "Serial fixed CPU profiles; existing unchanged environment; no GPU measurement"
+}

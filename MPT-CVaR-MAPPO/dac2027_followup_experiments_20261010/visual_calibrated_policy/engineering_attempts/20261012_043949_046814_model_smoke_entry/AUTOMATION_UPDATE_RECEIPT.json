@@ -1,0 +1,24 @@
+{
+  "classification": "authorized_existing_heartbeat_prompt_update_receipt",
+  "automation_id": "automation",
+  "mode": "update",
+  "kind": "heartbeat",
+  "name": "DAC 三项补充实验推进与监视",
+  "target_thread_id": "019f311a-4649-7d40-af3d-f02e248fa1c1",
+  "status": "ACTIVE",
+  "cadence_minutes": 30,
+  "before_toml_sha256": "1e42cabc5296292a278a876fc900eac4aa1d9e48eb382a6a58ef547ad065f3fb",
+  "after_toml_sha256": "7545a34544e2c27053cbd7bc8259141a1236273af0a96f76249a1b0dae036745",
+  "persisted_prompt_exactly_matches_submitted": true,
+  "same_id_kind_name_thread_status_and_cadence_preserved": true,
+  "new_automation_created": false,
+  "notification_intent_preserved": "quiet while unchanged/non-actionable; meaningful completion/failure/repair or required input only",
+  "material_update": "Supersede stale source-rereview PENDING with complete scoped WARN/no blockers; register fresh source-only prepared plan and current GPU witness, without granting runtime/full-entry/formal authority. Finite source preparation already packaged; no endless gate manufacture.",
+  "tool_response_texts": [
+    "Updated automation in the app.",
+    "{\"automationId\":\"automation\",\"mode\":\"update\",\"status\":\"ACTIVE\"}"
+  ],
+  "original_service_and_OOD_prefix_preserved": true,
+  "original_scientific_and_resource_gates_preserved": true,
+  "models_or_training_or_tests_started_by_update": false
+}

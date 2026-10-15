@@ -1,0 +1,25 @@
+{
+  "checked_at_approximate": "2026-10-11T04:37:40+08:00",
+  "operation": "Read-only SHA-256 rehash using PowerShell Get-FileHash; no download, extraction, raw rescan, or policy launch",
+  "baseline": "INDEPENDENT_DIAGNOSTIC.json inputs_before",
+  "all_15_input_paths_rehashed": true,
+  "all_hashes_match_baseline": true,
+  "all_sizes_match_baseline": true,
+  "sha256_by_project_relative_path": {
+    "dac2027_followup_experiments_20261010/data_acquisition/original2017_attempt_20261010/alibaba-trace-2017.tar.gz": "02c1fbc412fccc03b748c05ec18fc30fd93c0bc383eea47ac21146c4aa2235df",
+    "dac2027_followup_experiments_20261010/data_acquisition/alibaba-trace-2017.tar.gz.partial": "b7efe9dc9caa75352de41b9ac34b329602cde3414fd7cab87c1d21a9a9871d66",
+    "datasets/external_traces/extracted/alibaba2017/server_usage.csv": "032fa4193f4b426941fb1eecef5add3d8b0632aaf7cbd7663b0051ceb8a4637a",
+    "dac2027_followup_experiments_20261010/data_acquisition/original2017_attempt_20261010/DOWNLOAD_STATE.json": "dd483606be9cafd8968b40ce732d20edbb351e97cf4cf2a5e1286d1b38c56760",
+    "dac2027_followup_experiments_20261010/data_acquisition/original2017_attempt_20261010/SOURCE_PATH_REPAIR.json": "49f022aed4811218a38b5e036d36c923691b635c70acf4b345985c8f9b553c14",
+    "dac2027_followup_experiments_20261010/data_acquisition/DOWNLOAD_STATE.json": "61a06ea32e8343016e99999727bd201f655376e4d65774155b3a177602c43164",
+    "dac2027_followup_experiments_20261010/data_acquisition/original_source_probe_20261010_233159_417364.json": "ef20e32c8fc4952abae566fea5c2a93da8b7e91851253e257deca43e3abe9bd3",
+    "dac2027_followup_experiments_20261010/scripts/acquire_original_alibaba2017.py": "6e93db99b8cafd61af5352dda61d56efc4b8a7958b473552e7868d0e05d9ea74",
+    "dac2027_followup_experiments_20261010/scripts/acquire_alibaba2017.py": "440cc363657c342f910b767e60a3efee71610bf2c4d44b84ed2b75fa5cb56cd3",
+    "dac2027_followup_experiments_20261010/scripts/audit_alibaba2017_schema.py": "6ee2262756dd800a3be3e25ffe37c5e65cbafa3a497b49c3efc8dc18f297c03b",
+    "dac2027_followup_experiments_20261010/protocol/ALIBABA2017_SCHEMA_20261010_234236_101936.json": "79c05c4268618044b96c6a40f289e7a1f17da8c92c1312715d1e5cac9e464e2b",
+    "paper_doc_tools/heldout_external_windows.py": "85a98e1b9cdb9d9a2cf103e6619904d3e76d23a7c67081239367d6313029c5fa",
+    "paper_doc_tools/run_unseen_external_windows.py": "20f829899e3c3732db8a8eba5f1b7591ae9ad5486f63891cdfb6d57cfb5cad8b",
+    "results_qla_unseen_external_windows_20261009/EXPERIMENT_PLAN_中文.md": "401a41ff495551dc17b8f137f4184253dbafae9ecaaf2577852fa33e9804bb73",
+    "results_qla_unseen_external_windows_20261009/DESIGN.json": "1e1b3068b0de8c9dd74c4a961ba725dfa1907b9ec555c0b79ee740d0fb4e75a6"
+  }
+}

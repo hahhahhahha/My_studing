@@ -1,0 +1,25 @@
+{
+  "scope": "Current selected native execution components; not a complete hermetic transitive dependency lock",
+  "actual_sha256": {
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\_C.cp313-win_amd64.pyd": "605dd8b73b28a30eea2517b79a684502377a3a505ef207d3e2ac2160b0294d17",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\lib\\c10.dll": "f5fcd07e9ac8bfa653350ad0d3298619a0bcab62a1ac828acd3d2d42a9301429",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\lib\\torch_cpu.dll": "6ca91441b89ee2618d628263d56303f1d7e9ce68bcf5b9e6b141800a0d1ca44c",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torch\\lib\\libiomp5md.dll": "eb14cf741b10a6ca176acded284bff7b069e421f49927e28fef9685c6f62abf3",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\image.pyd": "be51b236640f98c769995717b26fb1d492ba036a7d0aae285a3b9c406734c08c",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\torchvision\\_C.pyd": "b7e2b1339eceec1a2da789c0169e319db4a2e1ba67fc7ade089a2394906683f2",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_multiarray_tests.cp313-win_amd64.pyd": "13c372595e06c57e1bb30d78a7ba6b2e6ba5045382cad1c50f557eee828fe220",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_multiarray_umath.cp313-win_amd64.pyd": "64b08945fb969e50f56fa2e993f018e3eeaa14c077f24efbf3b4cb0bb0606a6a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_operand_flag_tests.cp313-win_amd64.pyd": "e1cb095ba34c0bbb55eb604b412d548c85ce48613fe0cec72ba12cc460094892",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_rational_tests.cp313-win_amd64.pyd": "dbe635d7df1f9408a5abf671d3fd29a8fc1f6e0062476c645d7481ac9770e801",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_simd.cp313-win_amd64.pyd": "2a487ef92274048093c6d09861b43991f4ef4b87262b5125536f68db3ddce308",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_struct_ufunc_tests.cp313-win_amd64.pyd": "95a286335d2cdec9021e5017060728f1e55d6e8b5a74fd0cae320c421d4f99ee",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\environment\\qla_np226\\Lib\\site-packages\\numpy\\_core\\_umath_tests.cp313-win_amd64.pyd": "2e7fcd525eed9bfa928e2858250f547c20b970f58cee857a88421a4c6e62fb8e",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imaging.cp313-win_amd64.pyd": "dcdcfc4487ae7bb1fe7f51588f10fa63c075d66539edb0e46c9ddf020499f609",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imagingcms.cp313-win_amd64.pyd": "28649683b3ee404502d17fb68f4171d9801cd63648ee1ce56bccbda7d2aae026",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imagingft.cp313-win_amd64.pyd": "2937b346cd91440bf92241b6b335576a6fc4c6884c92ec44a43883cff6ac77fc",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imagingmath.cp313-win_amd64.pyd": "5bac4109266f00a39783486d14b8d51c421f114f744621d26589164db418233a",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imagingmorph.cp313-win_amd64.pyd": "3f477300bde58566b5604ad875f3308da9d6a0b895a206b822e4fd5c3e59575b",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_imagingtk.cp313-win_amd64.pyd": "5782581c8e65930590595021c6c9cf0d4a8d008bf4667900edd1df2563611e27",
+    "X:\\anaconda\\ANACONDA\\Lib\\site-packages\\PIL\\_webp.cp313-win_amd64.pyd": "9a9cb1b818f80f8c8f2fb8e9172c91bc5f82eb0c19e879570a85f093e6632d0e"
+  }
+}

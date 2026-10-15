@@ -1,0 +1,64 @@
+{
+  "schema": "systemlab-three-logic-fixes-author-verification-v1",
+  "scope": "Software repair and proportional functional checks only",
+  "unit": {
+    "errors": 0,
+    "failures": 0,
+    "tests": 18,
+    "passed": true,
+    "sha256": "cad2b3df5cc3c0d471f019fe3d42302f1bd1090f9566299170055396d61aa2e5",
+    "current_source_matches": true,
+    "path": "UNIT_RESULT_attempt_02.json"
+  },
+  "real_functional": {
+    "offered": 4,
+    "frozen_actor": {
+      "actor_executed": true,
+      "after_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+      "before_parameter_sha256": "13daaa5f2d076c188ce2810723a6e653bbe9bc6e8618a5c55b5e6e31630ba491",
+      "parameters_unchanged": true
+    },
+    "forced_termination": false,
+    "directory": "functional_4edge_attempt_02",
+    "source_continuity_pass": true,
+    "known_runtime_processes_still_alive": [],
+    "exit_codes": {
+      "35076": 0,
+      "50400": 0,
+      "66092": 0,
+      "76308": 0,
+      "77904": 0
+    },
+    "protocol_complete": true,
+    "optimizer_calls": 0,
+    "completed": 4,
+    "lingering_shims": [],
+    "status_counts": {
+      "completed": 4
+    }
+  },
+  "source_files_sha256": {
+    "systemlab/edge.py": "4475962034043cbfc6e8811c1d8a04bbb0891a3b4aabdd1744d5ed6e85681171",
+    "systemlab/launcher.py": "9bd05356f9d44939a95631475b7dadc8c1a8ea3997d8f659974490a142113485",
+    "systemlab/admission.py": "5c6bdd3b8086adb464a25e10c61ce4337fc9ff13a3ade64c975b7b0aca4ff96c",
+    "systemlab/client.py": "d0be24dffdfa00a4e4b5f236fe5e030211a29455c1a81ad3feeb9504ab33c584",
+    "systemlab/__main__.py": "10ab8eb03edf6e6164f7568099be3ca5c020f991767b80cb47c1d29ddb87a042",
+    "systemlab/common.py": "2c1fdafd23653afd8938166c3ec9e03c094b789212645758b49af5622f09483c",
+    "tools/register_test.py": "5365246fa130c70e16f930d96faf6d50ab1aa2470a755f9c4cdfa36aa04e3f74",
+    "tools/make_grid.py": "4ab6ca42b436e3664a4f3c45851c44db308db133c4a72d718b23636abd8162aa",
+    "tests/test_core.py": "b843760f1b575d8338a251e29ef077cb70284d497ed905ce0d0adad1fd4f4cda",
+    "tests/test_logic_repairs.py": "fc2e5819a28a8c4ec8b0cd50238f1980f6658e031c9632da5ae556a19af26779",
+    "drive_scripts/run_e1_prep.py": "ab62ea3eea2e9efb9d5e56c315d6678d9770cad25476768f3a55244b6d96ee72",
+    "drive_scripts/run_m2_prep.py": "5404f6afb14f56b5907369d9fc30f3a292603a0984a57634abdc669398d78e8d"
+  },
+  "historical_protocol_review_changes": [],
+  "before_snapshot": "BEFORE/",
+  "independent_review": false,
+  "formal_ready": false,
+  "formal_experiments_started": false,
+  "remaining": [
+    "Fresh current-source three-arm validation",
+    "New frozen protocol and v2 test registry",
+    "Complete independent entry review"
+  ]
+}

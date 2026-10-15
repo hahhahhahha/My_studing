@@ -1,0 +1,16 @@
+{
+  "status": "analysis_complete",
+  "measured_test_rows": 0,
+  "acceptance": true,
+  "ended_at": "2026-10-10T18:30:25.335520+08:00",
+  "validation_report_sha256": "3827883cb3e74020890c54b0324ce667e76085e21e9331c0fbe3d001f077a181",
+  "numerical_result_status": "passed",
+  "independent_review": "complete_record_integrity_pass_overall_warn",
+  "test_not_started": true,
+  "independent_review_completed_at": "2026-10-10T18:40:18.9871852+08:00",
+  "independent_review_report": "analysis/recovery_20261010/reviewer/AUDIT_REPORT.json",
+  "independent_review_sha256": "46d8f31bc753fcfac77961346f4a6761baf88152a0c034c2a0b8fba43cf6f79d",
+  "independent_review_type": "Type-A, not cross-family certification",
+  "frozen_materials_and_raw_records_unchanged": true,
+  "full_experiment_complete": false
+}

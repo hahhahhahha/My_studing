@@ -1,0 +1,20 @@
+{
+  "schema": "visual-network-direction-v1",
+  "recorded_at": "2026-10-13",
+  "timezone": "Asia/Shanghai",
+  "trusted_user_message_reference": "Current conversation, user message dated 2026-10-13",
+  "verbatim_user_message": "你建议怎么处理？可以不浪费时间，请执行并开始正式实验",
+  "network_choice": "retain_2MHz_adverse_evidence_exclude_2MHz_full_grid_register_20MHz_per_user_orthogonal_simulation_for_one_formal_grid",
+  "link_configuration": {
+    "bandwidth_hz": 20000000.0,
+    "noise_power_w": 1e-10,
+    "antenna_gain": 4.11,
+    "carrier_hz": 915000000.0,
+    "tx_power_w": 0.25,
+    "light_speed_m_s": 300000000.0,
+    "min_distance_m": 1.0
+  },
+  "upload_link_sha256": "2870f4b3ef40d37e81dc21fcb65d64c3a3161e4324379c832ab3f0e3b3051d46",
+  "interpretation": "Separate simulated condition with 20 MHz orthogonal bandwidth per user (10x the registered 2 MHz per-user setting); preserve 2 MHz feasibility evidence and do not run a second full grid there. This is a simulation parameter, not measured wireless bandwidth or deployment evidence.",
+  "local_record_alone_is_not_authorization": true
+}

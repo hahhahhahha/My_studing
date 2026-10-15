@@ -1,0 +1,100 @@
+{
+  "at": "2026-10-12T04:44:30+08:00",
+  "classification": "author_evidence_adoption_and_source_preparation_receipt_NOT_independent_runtime_audit",
+  "status": "source_repair_complete_WARN_fresh_prepared_only_waiting_original_GPU_gate",
+  "independent_review": {
+    "task": "/root/visual_smoke_repair_rereview_v2",
+    "model": "gpt-6-astra",
+    "reasoning_effort": "xhigh",
+    "review_type": "Type-A",
+    "scope": "visual_smoke_source_repair_after_preserved_FAIL",
+    "verdict": "WARN",
+    "blockers": [],
+    "source_resolved_findings": [
+      "B1",
+      "B1-R",
+      "B2",
+      "B3"
+    ],
+    "retained_warnings": [
+      "W3",
+      "W4",
+      "W5",
+      "W6",
+      "W7"
+    ],
+    "report_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261011_231349_smoke_input_interface_repair/independent_rereview/REVIEW_RESPONSE.md",
+    "report_sha256": "68fdcd6e6350377c8a76f1bfa50553938c0d0d14848e216598393169ce0eb119",
+    "json_sha256": "16827cbc26dc2f45a9b0c392f5789ea6def3619ca3abfb828eebdedf2e5fc143",
+    "report_and_JSON_verbatim_copy_verified": true,
+    "actual_execution_by_reviewer": false,
+    "runtime_or_full_pilot_or_formal_launch_authorized": false,
+    "Type_B_certification": false
+  },
+  "fresh_lightweight_preparation": {
+    "performed_once": true,
+    "command_class": "visual_model_smoke.py check, not run or _worker",
+    "result_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_043949_046814_model_smoke_entry/RESULT.json",
+    "result_sha256": "9fc61040fca578c2308bb841c59a834bcc81c9d8a58970fd0b2168893ee4d963",
+    "plan_path": "X:/Yi-one/workspace/MPT-CVaR-MAPPO/dac2027_followup_experiments_20261010/visual_calibrated_policy/engineering_attempts/20261012_043949_046814_model_smoke_entry/SMOKE_CANDIDATE_PLAN.json",
+    "plan_sha256": "4871dc429bb7d2bdb96f22aaae2beccbeaa6921325aaaedce302f356c9014baa",
+    "semantic_identity_sha256": "23c692a15b85c75c1132cc5447ed8de98d39142d5467408a955b861bbbd39139",
+    "source_entry_check_passed": true,
+    "source_count": 203,
+    "protected_count": 232,
+    "source_map_identity_sha256": "af6d1401f5b8a4141bbc605d2615516c0030c4819d70574af3248b38768b3926",
+    "protected_map_identity_sha256": "4f726571169fb2251481cfbd30335414bcda066570c0c28d2fedc347bae19a10",
+    "full_dictionary_equality_to_independent_maps": true,
+    "current_byte_rehash_mismatches": [],
+    "actual_cuda_smoke_pass": false,
+    "torch_imported": false,
+    "actual_model_or_optimizer_or_roundtrip_calls": 0,
+    "actual_models_or_checkpoint_load_or_learning_pilot_or_export_or_generation_or_Full_replay_or_training_or_formal_test_calls": 0,
+    "old_170_source_plan_preserved_not_rewritten_or_used": true,
+    "warning_W5_disposition": "A separate current preparation now exists; old plan remains stale and preserved. The independent report is unchanged; absent-runtime portion remains."
+  },
+  "resource": {
+    "probe_once_this_wake": true,
+    "path": "environment/attempts/20261012_043847_456103_witness",
+    "pid": 71892,
+    "at": "2026-10-12T04:38:47.456286+08:00",
+    "memory_used_MiB": 6138,
+    "memory_total_MiB": 8188,
+    "original_gate": "memory.used < 500 MiB",
+    "gate_passed": false,
+    "stopped_before_cuda_allocation_and_kernel": true,
+    "one_native_python_pythonw_snapshot_found_active_experiment": false,
+    "unknown_processes_killed": false,
+    "global_install_or_driver_network_reset": false,
+    "unsafe_OpenMP_override": false,
+    "gate_override_or_CPU_neural_fallback": false
+  },
+  "preservation": {
+    "original_FAIL_report_sha256": "e70537fd0a330631d6ce0f42c2c3fb80115dcec0af91f109ebcf12a5b36ae5ab",
+    "first_complete_rereview_FAIL_report_sha256": "98b319a6e525767e9082e3a5b5a8b334c1c9459d2762732c0f06bc6725281c12",
+    "first_complete_rereview_FAIL_JSON_sha256": "8085ac67bc765e4e3ba4d8ca3673ef73baa2f3a5affc7a13682e80cd3d4c72bc",
+    "second_revision_quota_error_sha256": "d3adbc696cbbc675e058e7ca8878e36ee28a9672ca3d48e7640f5657818fceaf",
+    "mutable_status_before_sha256": {
+      "MONITOR_HANDOFF.md": "541ae19aa87e046a044c0e08f89028fed6cf107e182b5e25a52dfa448881534f",
+      "推进方案与状态_中文.md": "4fb9af9033ab4f99a1e5bdef123d9fa5c43314b0da6fe0c7cfe18af581c30609",
+      "VISUAL_INTEGRATION_STATE.json": "17025ab1be1b7d98f1385e82727f272cc52a368d7cfb6120ca0852887ee30ed6",
+      "local-qla-joint-reward.md": "02ce6ac12c4a6fe2412d1c016b70754c4e3770184cc126a84cabdfa1ed1feb71"
+    },
+    "mutable_status_files_absent_from_plan_source_and_protected_maps": true,
+    "service_raw_statistics_exports_PLAN_models_splits_old_RL_and_paper_not_modified": true
+  },
+  "remaining_gates": [
+    "Actual original GPU resource availability before any CUDA functional smoke.",
+    "Actual one-shot model/update/own-checkpoint/roundtrip evidence, with partial failures preserved.",
+    "Fresh doc-following/integrated entry and real cal/validation pilot before formal experiments.",
+    "Trusted-human original2MHz versus separately registered higher-bandwidth direction, retaining weak-link evidence.",
+    "Trusted-human separately versioned native-five-minute Alibaba protocol direction."
+  ],
+  "claim_boundary": "Source WARN and lightweight preparation are neither actual model results, full scientific protocol freeze, full entry readiness, formal experiment cells, QLA benefit, deployment evidence nor Type-B certification. W3-W7 remain. No concurrent input mutation is attested.",
+  "heartbeat": {
+    "status": "ACTIVE",
+    "minutes": 30,
+    "notify": "meaningful completion/failure/repair or required user input only; quiet while unchanged"
+  },
+  "next_step": "Use current prepared identity only after actual original resource gate passes and within existing human-authorized smoke scope. Do not repeat preparation, spawn duplicate reviews, mutate reviewed source, overwrite old plan, retry partial arms, or manufacture endless additional gate modules."
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "plan_sha256": "bbddc7b6e15e68625deb41992707d64bf32faa184910de8d8c01fbab1a64f282",
+  "scope": "protocol and dry entry only, not final measurement completion",
+  "documented_command": "& 'X:\\anaconda\\ANACONDA\\python.exe' -X utf8 'X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac_visual_calibration_20261010_v2\\scripts\\runner.py' check",
+  "exit_code": 0,
+  "findings": []
+}

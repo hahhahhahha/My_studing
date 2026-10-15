@@ -1,0 +1,180 @@
+{
+  "at": "2026-10-11T07:43:10.597323+08:00",
+  "passed": true,
+  "runtime": {
+    "python": "3.13.5",
+    "numpy": "2.2.6",
+    "torch_imported": false
+  },
+  "synthetic_GAE_fixtures": {
+    "groups": 7,
+    "explicit_synthetic_values": true,
+    "cross_user_isolation": true,
+    "episode_reset_and_truncation": true,
+    "physical_discount_formula": true,
+    "flatten_only_after_gae": true,
+    "invalid_inputs_rejected": true
+  },
+  "cases": [
+    {
+      "case": "score_softmax",
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "tail_completed": 27,
+      "tail_dropped": 0,
+      "all_generated_tasks_credited_once": true,
+      "raw_metrics_and_input_trace_unchanged": true,
+      "all_completed_latency_sum_seconds": 116.09084002522151,
+      "training_surrogate_tail_penalty_mean_seconds": 2.154624992823264,
+      "candidate_closed_last_reward": -0.9703603637728803,
+      "GAE_shape": [
+        80,
+        30
+      ],
+      "values_are_explicit_synthetic_zeros": true
+    },
+    {
+      "case": "score_softmax_repeat",
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "tail_completed": 27,
+      "tail_dropped": 0,
+      "all_generated_tasks_credited_once": true,
+      "raw_metrics_and_input_trace_unchanged": true,
+      "all_completed_latency_sum_seconds": 116.09084002522151,
+      "training_surrogate_tail_penalty_mean_seconds": 2.154624992823264,
+      "candidate_closed_last_reward": -0.9703603637728803,
+      "GAE_shape": [
+        80,
+        30
+      ],
+      "values_are_explicit_synthetic_zeros": true
+    },
+    {
+      "case": "jseq_adapted",
+      "completed": 102,
+      "dropped": 0,
+      "unfinished": 0,
+      "tail_completed": 22,
+      "tail_dropped": 0,
+      "all_generated_tasks_credited_once": true,
+      "raw_metrics_and_input_trace_unchanged": true,
+      "all_completed_latency_sum_seconds": 76.54774060470318,
+      "training_surrogate_tail_penalty_mean_seconds": 1.4769840445891207,
+      "candidate_closed_last_reward": -0.6310846235417968,
+      "GAE_shape": [
+        80,
+        30
+      ],
+      "values_are_explicit_synthetic_zeros": true
+    },
+    {
+      "case": "zero_waiting_buffer_drop_fixture",
+      "completed": 66,
+      "dropped": 36,
+      "unfinished": 0,
+      "tail_completed": 20,
+      "tail_dropped": 8,
+      "all_generated_tasks_credited_once": true,
+      "raw_metrics_and_input_trace_unchanged": true,
+      "all_completed_latency_sum_seconds": 83.47335957796325,
+      "training_surrogate_tail_penalty_mean_seconds": 1.976767237744731,
+      "candidate_closed_last_reward": -0.9046540634505151,
+      "GAE_shape": [
+        80,
+        30
+      ],
+      "values_are_explicit_synthetic_zeros": true
+    },
+    {
+      "case": "short_fixed_drain_unfinished_fixture",
+      "completed": 73,
+      "dropped": 0,
+      "unfinished": 29,
+      "tail_completed": 0,
+      "tail_dropped": 0,
+      "all_generated_tasks_credited_once": true,
+      "raw_metrics_and_input_trace_unchanged": true,
+      "all_completed_latency_sum_seconds": 58.84809646070142,
+      "training_surrogate_tail_penalty_mean_seconds": 1.1879896454786354,
+      "candidate_closed_last_reward": -0.5390979997737702,
+      "GAE_shape": [
+        80,
+        30
+      ],
+      "values_are_explicit_synthetic_zeros": true
+    }
+  ],
+  "read_only_inputs_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\RESULT.json": "0d8b37f4157b90a1d133f0f5e10f90028a19bc1da4e845f937569aed38066c08",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\SHARED_ENGINEERING_SCHEDULE.json": "19d10b656932f2c7ee51f077df978a55273e3f38589d9ae76220ccd0c172ca25",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_repeat_ENGINEERING_TRACE.json": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\jseq_adapted_ENGINEERING_TRACE.json": "e068d47c4b4bab27fcf0c13b7ccbb2e14460bc5e852a6db42c407f25d35e440e",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\zero_waiting_buffer_drop_fixture_ENGINEERING_TRACE.json": "446761bbb6407c926faa110f3deb17e0b9011181fff73695b0ffc47c333a049c",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\short_fixed_drain_unfinished_fixture_ENGINEERING_TRACE.json": "574421b0b215a9d209d204ef3db93cb960c12ef01b917613e5003fec36078719"
+  },
+  "additive_actual_byte_and_original_text_bindings": [
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_ENGINEERING_TRACE.json",
+      "actual_file_bytes_sha256": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+      "original_reported_serialized_LF_text_sha256": "8fc77adbfc7eece452181e5c029e2c8f43baffacc0a6947b23b0a28e8b95fb61",
+      "exact_CRLF_to_LF_only_match": true,
+      "original_export_hash_label_bug_preserved": true
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\score_softmax_repeat_ENGINEERING_TRACE.json",
+      "actual_file_bytes_sha256": "1d9b7395ea71c2d8a4967275955511460c74e419f25aa259304b3734c4a48a6c",
+      "original_reported_serialized_LF_text_sha256": "8fc77adbfc7eece452181e5c029e2c8f43baffacc0a6947b23b0a28e8b95fb61",
+      "exact_CRLF_to_LF_only_match": true,
+      "original_export_hash_label_bug_preserved": true
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\jseq_adapted_ENGINEERING_TRACE.json",
+      "actual_file_bytes_sha256": "e068d47c4b4bab27fcf0c13b7ccbb2e14460bc5e852a6db42c407f25d35e440e",
+      "original_reported_serialized_LF_text_sha256": "ed69b2e49855774fcbf761e84a2255cc0f639970ef48961429735246afd638e4",
+      "exact_CRLF_to_LF_only_match": true,
+      "original_export_hash_label_bug_preserved": true
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\zero_waiting_buffer_drop_fixture_ENGINEERING_TRACE.json",
+      "actual_file_bytes_sha256": "446761bbb6407c926faa110f3deb17e0b9011181fff73695b0ffc47c333a049c",
+      "original_reported_serialized_LF_text_sha256": "50048f458f6e6b665b3ba0a2fd6c8feecc742cba174555c5ae84e997d657ba7c",
+      "exact_CRLF_to_LF_only_match": true,
+      "original_export_hash_label_bug_preserved": true
+    },
+    {
+      "path": "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\visual_calibrated_policy\\engineering_attempts\\20261011_071415_395503_controller_loop\\short_fixed_drain_unfinished_fixture_ENGINEERING_TRACE.json",
+      "actual_file_bytes_sha256": "574421b0b215a9d209d204ef3db93cb960c12ef01b917613e5003fec36078719",
+      "original_reported_serialized_LF_text_sha256": "69de80b575c1f88d5c374260476249bf2070d7e9e29c7f7799df7b6d42b647ba",
+      "exact_CRLF_to_LF_only_match": true,
+      "original_export_hash_label_bug_preserved": true
+    }
+  ],
+  "implementation_sha256": {
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\check_visual_terminal_gae.py": "f34001ab8ef99407881cad03d0f37bbcd274736a2f789ca20a0f8984fae5416a",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\README_VISUAL_TERMINAL_GAE_中文.md": "de47999f4df5d301084ac7ecb7be9b20e0769c967e27e67bc1803fe88c36b476",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_temporal_gae.py": "53aaf0a77eb55437fef3e408e09c4ff4df7bba7e4ab0acf1daeb7f0208c4e46d",
+    "X:\\Yi-one\\workspace\\MPT-CVaR-MAPPO\\dac2027_followup_experiments_20261010\\scripts\\visual_terminal_accounting.py": "b4eed88c53966f1b2f887a6e02f3a508093a9e90716834f799907eea43fefc03"
+  },
+  "candidate_settings": {
+    "gamma_per_second": 0.99,
+    "lambda_per_second": 0.95,
+    "terminal_weight": 1.0,
+    "unfinished_penalty_seconds": 1.0,
+    "drop_penalty_seconds": 1.0,
+    "latency_scale_seconds": 1.0,
+    "v": 0.5,
+    "migration_weight": 0.05
+  },
+  "candidate_closure_prepared": true,
+  "formal_terminal_protocol_frozen": false,
+  "actual_neural_critic_executed": false,
+  "model_factory_executed": false,
+  "independent_complete_entry_review": false,
+  "policy_training_cells": 0,
+  "formal_policy_test_cells": 0,
+  "scope": "Read-only reuse of five engineering traces; candidate terminal ledger and explicit synthetic-value GAE only, not model training, fresh service measurement, formal policy comparison or independent audit"
+}

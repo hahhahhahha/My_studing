@@ -1,0 +1,9 @@
+# 作者字节复核与实际范围
+
+自检后作者再次用PowerShell Get-FileHash逐项核对408份保护文件和3份新增源／说明，零不符，非独立Type-A审计。RESULT.json SHA `49272a215b213a05e553fc778be94f4ef28941a1164bc9eed9e51e6a5edf844f`。四份旧mutable状态在MUTABLE_STATUS_BEFORE保存，原测量／结果／源码证据不覆盖。
+
+仅3组人工计数／质量守恒／时延报告、12组错报拒绝及ART_LOCK目录下人工独占文件保护；没有实际evaluator构造／模型／队列／策略、真实保留日程或test计时CSV。原独立源FAIL及修复复审PENDING不变，完整120网格／模型加载／pilot／独立入口仍待完成，作者检查不标READY或性能成功。
+
+首次144904长人工夹具路径FileNotFoundError及三份源／说明保留；只缩短新人工目录，正式evaluator源／锁逻辑不改，全局Windows长路径设置不改。14:38:32 PID72088单次GPU witness见6167/8188MiB，在原<500MiB门槛处CUDA分配前停止；原生进程快照无python/pythonw，不重复探测或使用CPU神经回退。
+
+现有无请求用户特征仍用默认链路，因此新评估源明确拒绝非默认网络。若后续获准单列高带宽仿真，须先新增公平特征修复及独立审查／pilot；此限制不代表2MHz负载可行性通过，不是权限扩大或允许按测试结果调参。
