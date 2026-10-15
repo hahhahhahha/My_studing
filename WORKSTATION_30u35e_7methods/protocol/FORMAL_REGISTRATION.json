@@ -1,0 +1,1 @@
+{"aggregate_rate_per_s":62,"fixed_drain_s":30,"formal_entry_approved":false,"horizon_s":120,"methods":["qla","ppo_mv","ppo_dsr","mfc_di","qeco","jseq","lyfoto_lc"],"role":"validation-derived-test","schema":"workstation-30u35e-formal-registration-v1","seeds":[1,2,3,4,5],"users":30}
